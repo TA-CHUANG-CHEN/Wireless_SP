@@ -4,7 +4,6 @@
       "extensionName": ".css",
       "savePath": "/css" //此為輸出的路徑，可以自行更改
     }
-    
   ],
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   //generateMap:SASS跟CSS做對應行數
@@ -15,5 +14,7 @@
   "liveSassCompile.settings.autoprefix": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "git.ignoreLimitWarning": true,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
 }
