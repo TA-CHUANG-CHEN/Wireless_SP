@@ -349,27 +349,32 @@ template {
   text-decoration: none;
 }
 
-header {
-  background-image: url("/css/css-img/Banner.jpeg");
-  background-size: 100% 100%;
-  height: 450px;
-  width: auto;
+.banner {
+  position: relative;
+  height: 400px;
 }
 
-header .banner-text {
+.banner img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.banner .banner-text {
   width: 600px;
   height: 400px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px 0 0 30px;
+  position: absolute;
 }
 
-header .banner-text h1 {
+.banner .banner-text h1 {
   font-size: 44px;
   color: #004280;
 }
 
-header .banner-text h3 {
+.banner .banner-text h3 {
   font-size: 18px;
   color: #004280;
   line-height: 5px;
@@ -412,4 +417,119 @@ nav ul li a:hover {
 
 nav ul li:nth-last-child(1) {
   border-style: none;
+}
+
+.overview1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+
+.overview1 .ov1-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 650px;
+  margin: 60px 0 0 70px;
+}
+
+.overview1 .ov1-title .ov1-para1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.overview1 .ov1-title .ov1-para2 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.overview2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.overview2 .ov2-title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 630px;
+}
+
+.overview2 .ov2-title2 .ov2-para1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.overview2 .ov2-title2 .ov2-para2 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.overview2 .ov2-title2 .ov2-para3 {
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.overview2 .ov2-title2 .ov2-para4 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.overview2 .ov2-title2 .ov2-para4 div {
+  margin: 5px 3px 0 3px;
+  color: #008CD6;
+  border: solid 2px #008CD6;
+  padding: 7px 20px 7px 20px;
+  border-radius: 30px;
+}
+
+.overview2 .ov2-title2 .ov-button {
+  font-size: 16px;
+  text-align: center;
+  margin: 40px 0 0 500px;
+  padding: 12px 23px 12px 23px;
+  border: #00427F solid 1px;
+  color: #FFFFFF;
+  background-color: #004280;
+  font-weight: bold;
+}
+
+.overview2 .ov2-title2 .ov-button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.overview2 .ov2-title2 .ov-button:hover {
+  background-color: #004280;
+}
+
+.overview2 .ov2-pic {
+  margin: 0 0 0 35px;
 }
