@@ -585,7 +585,7 @@ main .product1 {
 }
 
 main .product1 .factory1-img {
-  background-image: url("/images/Factory_1.jpg");
+  background-image: url("./css-img/Factory_1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -633,7 +633,7 @@ main .product1 .factory-auto .factory-icon {
 }
 
 main .product1 .factory-auto .factory-icon .factory-1 {
-  background-image: url("/images/Factory_icon_1.jpg");
+  background-image: url("./css-img/Factory_icon_1.jpg");
   background-repeat: no-repeat;
   width: 150px;
   padding: 105px 0 0 10px;
@@ -641,7 +641,7 @@ main .product1 .factory-auto .factory-icon .factory-1 {
 }
 
 main .product1 .factory-auto .factory-icon .factory-2 {
-  background-image: url("/images/Factory_icon_2.jpg");
+  background-image: url("./css-img/Factory_icon_2.jpg");
   background-repeat: no-repeat;
   width: 150px;
   padding: 105px 0 0 10px;
@@ -649,7 +649,7 @@ main .product1 .factory-auto .factory-icon .factory-2 {
 }
 
 main .product1 .factory-auto .factory-icon .factory-3 {
-  background-image: url("/images/Factory_icon_3.jpg");
+  background-image: url("./css-img/Factory_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: left 30px bottom 60px;
   width: 200px;
@@ -673,7 +673,7 @@ main .product2 {
 }
 
 main .product2 .E-E-img {
-  background-image: url("/images/E_E_1.jpg");
+  background-image: url("./css-img/E_E_1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -717,7 +717,7 @@ main .product2 .E-E .E-E-icon {
 }
 
 main .product2 .E-E .E-E-icon .E-E-1 {
-  background-image: url("/images/E_E_icon_1.jpg");
+  background-image: url("./css-img/E_E_icon_1.jpg");
   background-repeat: no-repeat;
   width: 150px;
   padding: 105px 0 0 10px;
@@ -725,7 +725,7 @@ main .product2 .E-E .E-E-icon .E-E-1 {
 }
 
 main .product2 .E-E .E-E-icon .E-E-2 {
-  background-image: url("/images/E_E_icon_2.jpg");
+  background-image: url("./css-img/E_E_icon_2.jpg");
   background-repeat: no-repeat;
   width: 180px;
   padding: 105px 0 0 10px;
@@ -733,7 +733,7 @@ main .product2 .E-E .E-E-icon .E-E-2 {
 }
 
 main .product2 .E-E .E-E-icon .E-E-3 {
-  background-image: url("/images/E_E_icon_3.jpg");
+  background-image: url("./css-img/E_E_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: left 30px bottom 60px;
   width: 200px;
@@ -757,7 +757,7 @@ main .product3 {
 }
 
 main .product3 .transport-img {
-  background-image: url("/images/transportation_1.jpg");
+  background-image: url("./css-img/transportation_1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
@@ -804,7 +804,7 @@ main .product3 .transport .transport-icon {
 }
 
 main .product3 .transport .transport-icon .transport-1 {
-  background-image: url("/images/transportation_icon_1.jpg");
+  background-image: url("./css-img/transportation_icon_1.jpg");
   background-repeat: no-repeat;
   background-position: left 30px bottom 50px;
   width: 220px;
@@ -814,7 +814,7 @@ main .product3 .transport .transport-icon .transport-1 {
 }
 
 main .product3 .transport .transport-icon .transport-2 {
-  background-image: url("/images/transportation_icon_2.jpg");
+  background-image: url("./css-img/transportation_icon_2.jpg");
   background-repeat: no-repeat;
   background-position: right 40px bottom 50px;
   width: 180px;
@@ -823,7 +823,7 @@ main .product3 .transport .transport-icon .transport-2 {
 }
 
 main .product3 .transport .transport-icon .transport-3 {
-  background-image: url("/images/transportation_icon_3.jpg");
+  background-image: url("./css-img/transportation_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: left 30px bottom 50px;
   width: 200px;
