@@ -358,7 +358,6 @@ template {
   height: 100%;
   width: 100%;
   position: absolute;
-  max-width: 100%;
 }
 
 .banner .banner-text {
@@ -564,7 +563,7 @@ main strong {
 }
 
 main .discover-img {
-  background-image: url("/css/css-img/discovery_1.png");
+  background-image: url("./css-img/discovery_1.png");
   background-repeat: no-repeat;
   height: 323px;
   width: 100%;
