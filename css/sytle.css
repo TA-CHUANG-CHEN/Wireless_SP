@@ -352,6 +352,7 @@ template {
 .banner {
   position: relative;
   height: 410px;
+  width: 100%;
 }
 
 .banner img {
@@ -554,6 +555,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #E3F1FF;
+  margin: 0 0 50px 0;
 }
 
 main strong {
@@ -753,7 +755,7 @@ main .product3 {
       -ms-flex-align: center;
           align-items: center;
   height: 295px;
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
 }
 
 main .product3 .transport-img {
