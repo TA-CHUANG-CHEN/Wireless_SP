@@ -1041,7 +1041,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 .product-offer .product-flex .view-buy .view-more .view-more-pic {
-  background: url(/css/css-img/view_more_2.jpg) no-repeat;
+  background: url(./css-img/view_more_2.jpg) no-repeat;
   background-size: contain;
   height: 30px;
   width: 60px;
@@ -1057,7 +1057,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 .product-offer .product-flex .view-buy .buy-now .buy-now-pic {
-  background: url(/css/css-img/shopping_cart_2.jpg) no-repeat center;
+  background: url(./css-img/shopping_cart_2.jpg) no-repeat center;
   background-size: contain;
   height: 30px;
   width: 60px;
@@ -1225,7 +1225,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 .download {
-  background: url(./css/css-img/arrow.png) no-repeat;
+  background: url(./css-img/arrow.png) no-repeat;
   background-size: 30px 25px;
   background-position: left 10px top 8px;
   color: #FFFFFF;
@@ -1275,7 +1275,7 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .footer .footer-flex .footer-contact {
   font-size: 16px;
-  background: url(/css/css-img/email.png) no-repeat;
+  background: url(./css-img/email.png) no-repeat;
   background-size: 40px 25px;
   background-position: left 20px top 3px;
   background-color: #055791;
