@@ -341,10 +341,6 @@ template {
   display: none;
 }
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /*----------------------------------------
   Yoursite Style
 ----------------------------------------*/
@@ -378,10 +374,6 @@ template {
   font-size: 18px;
   color: #004280;
   line-height: 5px;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -421,10 +413,6 @@ nav ul li a:hover {
 
 nav ul li:nth-last-child(1) {
   border-style: none;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .overview1 {
@@ -545,10 +533,6 @@ nav ul li:nth-last-child(1) {
 .overview2 .ov2-pic {
   margin: 0 0 0 35px;
   max-width: 100%;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -964,10 +948,6 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 0 50px 0;
 }
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .product-offer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1092,10 +1072,6 @@ main .product3 .transport .transport-icon .transport-3 {
   text-align: center;
   padding-right: 20px;
   line-height: 35px;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .res-title {
@@ -1269,10 +1245,6 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 50x;
   width: 50px;
   margin: 70px 20px 0 0;
-}
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
