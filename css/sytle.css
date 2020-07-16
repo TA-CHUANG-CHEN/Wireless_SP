@@ -1274,7 +1274,7 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .footer .footer-flex .footer-contact {
   font-size: 16px;
-  background: url(./css/css-img/email.png) no-repeat;
+  background: url(/css/css-img/email.png) no-repeat;
   background-size: 40px 25px;
   background-position: left 20px top 3px;
   background-color: #055791;
