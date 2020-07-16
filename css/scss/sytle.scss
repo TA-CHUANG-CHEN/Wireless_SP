@@ -1,0 +1,6 @@
+@charset 'utf-8';
+@import './abstracts/abstracts-dir'; //fonts, varables..
+@import './base/Base-dir'; // reset.css, font-awesome..
+@import './components/components-dir'; // button..
+@import './layouts/layout-dir'; // main pages, navbar ..
+@import './vendor/vendor-dir.scss'; // normalize ..

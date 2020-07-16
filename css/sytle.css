@@ -349,32 +349,28 @@ template {
   text-decoration: none;
 }
 
-.banner {
-  position: relative;
-  height: 400px;
-}
-
-.banner img {
-  height: 100%;
+.banner-img {
+  max-width: none;
   width: 100%;
-  position: absolute;
+  height: 410px;
+  background-size: cover;
 }
 
-.banner .banner-text {
+.banner-text {
   width: 600px;
   height: 400px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 20px 0 0 30px;
+  padding: 20px 0 0 60px;
   position: absolute;
 }
 
-.banner .banner-text h1 {
+.banner-text h1 {
   font-size: 44px;
   color: #004280;
 }
 
-.banner .banner-text h3 {
+.banner-text h3 {
   font-size: 18px;
   color: #004280;
   line-height: 5px;
@@ -385,7 +381,7 @@ nav {
 }
 
 nav ul {
-  height: 50px;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,7 +396,7 @@ nav ul {
 
 nav ul li {
   font-size: 18px;
-  padding: 16px 25px 16px 25px;
+  padding: 10px 25px 10px 25px;
   border-right: 3px solid #FFFFFF;
   color: #FFFFFF;
 }
@@ -424,6 +420,10 @@ nav ul li:nth-last-child(1) {
   display: -ms-flexbox;
   display: flex;
   margin-top: 70px;
+}
+
+.overview1 img {
+  max-width: 100%;
 }
 
 .overview1 .ov1-title {
@@ -454,7 +454,7 @@ nav ul li:nth-last-child(1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  margin: 10px 0 50px 0;
 }
 
 .overview2 .ov2-title2 {
@@ -532,4 +532,299 @@ nav ul li:nth-last-child(1) {
 
 .overview2 .ov2-pic {
   margin: 0 0 0 35px;
+  max-width: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E3F1FF;
+  margin: 0 0 50px 0;
+}
+
+main strong {
+  font-size: 36px;
+  color: #000000;
+  margin: 50px 0 50px 0;
+}
+
+main .discover-img {
+  background-image: url("./css-img/discovery_1.png");
+  background-repeat: no-repeat;
+  height: 323px;
+  width: 100%;
+}
+
+main .product1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 295px;
+  margin: 50px 0 0 0;
+  border: lightslategray sloid 1px;
+}
+
+main .product1 .factory1-img {
+  background-image: url("./css-img/Factory_1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 352px;
+}
+
+main .product1 .factory-auto {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 800px;
+  height: 100%;
+  font-size: 16px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  line-height: 1.3em;
+}
+
+main .product1 .factory-auto .factory-para1 {
+  margin: 40px 52px 0 52px;
+}
+
+main .product1 .factory-auto .factory-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 210px;
+  width: 100%;
+  font-weight: bold;
+  color: #004280;
+  margin: 20px 0 0 0;
+}
+
+main .product1 .factory-auto .factory-icon .factory-1 {
+  background-image: url("./css-img/Factory_icon_1.jpg");
+  background-repeat: no-repeat;
+  width: 150px;
+  padding: 105px 0 0 10px;
+  margin: 0 0 0 100px;
+}
+
+main .product1 .factory-auto .factory-icon .factory-2 {
+  background-image: url("./css-img/Factory_icon_2.jpg");
+  background-repeat: no-repeat;
+  width: 150px;
+  padding: 105px 0 0 10px;
+  margin: 0 0 0 50px;
+}
+
+main .product1 .factory-auto .factory-icon .factory-3 {
+  background-image: url("./css-img/Factory_icon_3.jpg");
+  background-repeat: no-repeat;
+  background-position: left 30px bottom 60px;
+  width: 200px;
+  padding: 105px 0 0 0;
+  margin: 0 50px 0 30px;
+  text-align: center;
+}
+
+main .product2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 295px;
+  margin: 50px 0 0 0;
+}
+
+main .product2 .E-E-img {
+  background-image: url("./css-img/E_E_1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 352px;
+}
+
+main .product2 .E-E {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 800px;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+main .product2 .E-E .E-E-para1 {
+  margin: 40px 52px 0 50px;
+}
+
+main .product2 .E-E .E-E-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 210px;
+  width: 100%;
+  font-weight: bold;
+  color: #004280;
+  margin: 20px 0 0 0;
+}
+
+main .product2 .E-E .E-E-icon .E-E-1 {
+  background-image: url("./css-img/E_E_icon_1.jpg");
+  background-repeat: no-repeat;
+  width: 150px;
+  padding: 105px 0 0 10px;
+  margin: 0 0 0 100px;
+}
+
+main .product2 .E-E .E-E-icon .E-E-2 {
+  background-image: url("./css-img/E_E_icon_2.jpg");
+  background-repeat: no-repeat;
+  width: 180px;
+  padding: 105px 0 0 10px;
+  margin: 0 0 0 50px;
+}
+
+main .product2 .E-E .E-E-icon .E-E-3 {
+  background-image: url("./css-img/E_E_icon_3.jpg");
+  background-repeat: no-repeat;
+  background-position: left 30px bottom 60px;
+  width: 200px;
+  padding: 105px 0 0 0;
+  margin: 0 50px 0 30px;
+  text-align: center;
+}
+
+main .product3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 295px;
+  margin: 50px 0 50px 0;
+}
+
+main .product3 .transport-img {
+  background-image: url("./css-img/transportation_1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 352px;
+}
+
+main .product3 .transport {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 800px;
+  height: 100%;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+main .product3 .transport .transport-para1 {
+  margin: 40px 52px 0 60px;
+}
+
+main .product3 .transport .transport-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 210px;
+  width: 100%;
+  font-weight: bold;
+  color: #004280;
+  margin: 20px 0 0 0;
+}
+
+main .product3 .transport .transport-icon .transport-1 {
+  background-image: url("./css-img/transportation_icon_1.jpg");
+  background-repeat: no-repeat;
+  background-position: left 30px bottom 50px;
+  width: 220px;
+  padding: 105px 0 0 0;
+  margin: 0 0 0 50px;
+  text-align: center;
+}
+
+main .product3 .transport .transport-icon .transport-2 {
+  background-image: url("./css-img/transportation_icon_2.jpg");
+  background-repeat: no-repeat;
+  background-position: right 40px bottom 50px;
+  width: 180px;
+  padding: 105px 0 0 30px;
+  margin: 0 0 0 10px;
+}
+
+main .product3 .transport .transport-icon .transport-3 {
+  background-image: url("./css-img/transportation_icon_3.jpg");
+  background-repeat: no-repeat;
+  background-position: left 30px bottom 50px;
+  width: 200px;
+  padding: 105px 0 0 0;
+  margin: 0 50px 0 30px;
+  text-align: center;
 }

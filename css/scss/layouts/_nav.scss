@@ -1,0 +1,27 @@
+nav{
+    background-color:$color-blue-unknown; //color need to be confirmed
+    ul{
+      height: 40px; //height need to be confirmed
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      li{
+        font-size:$H3-font;
+        padding: 10px 25px 10px 25px; 
+        border-right: 3px solid $color-dark-bg-white;
+        color: $color-dark-bg-white;
+        a{
+            color: $color-dark-bg-white;   
+            text-decoration: none;
+          }
+        a:hover{
+            text-decoration: none;
+            color: $color-dark-bg-white;
+          }
+      }
+      li:nth-last-child(1){
+        border-style: none;
+      }
+    }
+  }
