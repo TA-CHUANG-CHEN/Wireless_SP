@@ -448,14 +448,14 @@ nav ul li:nth-last-child(1) {
   line-height: 1.3em;
 }
 
-.overview2 {
+#overview2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 10px 0 50px 0;
 }
 
-.overview2 .ov2-title2 {
+#overview2 .ov2-title2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,28 +466,28 @@ nav ul li:nth-last-child(1) {
   width: 100%;
 }
 
-.overview2 .ov2-title2 .ov2-para1 {
+#overview2 .ov2-title2 .ov2-para1 {
   font-size: 36px;
   font-weight: bold;
   line-height: 1.3em;
   width: 100%;
 }
 
-.overview2 .ov2-title2 .ov2-para2 {
+#overview2 .ov2-title2 .ov2-para2 {
   margin: 20px 0 0 0;
   font-size: 16px;
   line-height: 1.3em;
   width: 100%;
 }
 
-.overview2 .ov2-title2 .ov2-para3 {
+#overview2 .ov2-title2 .ov2-para3 {
   margin: 20px 0 5px 0;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.3em;
 }
 
-.overview2 .ov2-title2 .ov2-para4 {
+#overview2 .ov2-title2 .ov2-para4 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
@@ -502,7 +502,7 @@ nav ul li:nth-last-child(1) {
   font-weight: bold;
 }
 
-.overview2 .ov2-title2 .ov2-para4 div {
+#overview2 .ov2-title2 .ov2-para4 div {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
@@ -510,7 +510,7 @@ nav ul li:nth-last-child(1) {
   border-radius: 30px;
 }
 
-.overview2 .ov2-title2 .ov-button {
+#overview2 .ov2-title2 .ov-button {
   font-size: 16px;
   text-align: center;
   margin: 40px 0 0 500px;
@@ -521,16 +521,16 @@ nav ul li:nth-last-child(1) {
   font-weight: bold;
 }
 
-.overview2 .ov2-title2 .ov-button a {
+#overview2 .ov2-title2 .ov-button a {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-.overview2 .ov2-title2 .ov-button:hover {
+#overview2 .ov2-title2 .ov-button:hover {
   background-color: #004280;
 }
 
-.overview2 .ov2-pic {
+#overview2 .ov2-pic {
   margin: 0 0 0 35px;
   max-width: 100%;
   height: auto;
@@ -860,12 +860,12 @@ main .product3 .transport .transport-icon .transport-3 {
   display: flex;
 }
 
-.dmp2 .dmp2-title-logo .dmp2-title {
+.dmp2 .dmp2-title-logo #dmp2-title {
   font-size: 36px;
   font-weight: bold;
 }
 
-.dmp2 .dmp2-title-logo .dmp2-title img {
+.dmp2 .dmp2-title-logo #dmp2-title img {
   max-width: 100%;
   height: auto;
 }
@@ -963,7 +963,7 @@ main .product3 .transport .transport-icon .transport-3 {
   height: auto;
 }
 
-.product-offer {
+#product-offer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -976,13 +976,13 @@ main .product3 .transport .transport-icon .transport-3 {
           align-items: center;
 }
 
-.product-offer .product-title {
+#product-offer .product-title {
   font-size: 36px;
   font-weight: bold;
   margin: 0 0 50px 0;
 }
 
-.product-offer .product-flex {
+#product-offer .product-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -998,7 +998,7 @@ main .product3 .transport .transport-icon .transport-3 {
   font-weight: bold;
 }
 
-.product-offer .product-flex .products-high-flex {
+#product-offer .product-flex .products-high-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1012,17 +1012,17 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 100%;
 }
 
-.product-offer .product-flex .products-high-flex .products-high-font {
+#product-offer .product-flex .products-high-flex .products-high-font {
   font-size: 18px;
   margin: 0 0 10px 0;
 }
 
-.product-offer .product-flex .products-high-flex .products-high-font img {
+#product-offer .product-flex .products-high-flex .products-high-font img {
   max-width: 100%;
   height: auto;
 }
 
-.product-offer .product-flex .products-low-flex {
+#product-offer .product-flex .products-low-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1035,17 +1035,17 @@ main .product3 .transport .transport-icon .transport-3 {
           justify-content: center;
 }
 
-.product-offer .product-flex .products-low-flex .products-low-font {
+#product-offer .product-flex .products-low-flex .products-low-font {
   font-size: 18px;
   margin: 0 0 20px 0;
 }
 
-.product-offer .product-flex .products-low-flex .products-low-font img {
+#product-offer .product-flex .products-low-flex .products-low-font img {
   max-width: 100%;
   height: auto;
 }
 
-.product-offer .product-flex .view-buy {
+#product-offer .product-flex .view-buy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1055,7 +1055,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 20px 0 0 0;
 }
 
-.product-offer .product-flex .view-buy .view-more {
+#product-offer .product-flex .view-buy .view-more {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1064,7 +1064,7 @@ main .product3 .transport .transport-icon .transport-3 {
   background-color: #055791;
 }
 
-.product-offer .product-flex .view-buy .view-more .view-more-pic {
+#product-offer .product-flex .view-buy .view-more .view-more-pic {
   background: url(./css-img/view_more_2.jpg) no-repeat;
   background-size: contain;
   height: 30px;
@@ -1072,7 +1072,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 2px 0 0 10px;
 }
 
-.product-offer .product-flex .view-buy .buy-now {
+#product-offer .product-flex .view-buy .buy-now {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1080,7 +1080,7 @@ main .product3 .transport .transport-icon .transport-3 {
   background-color: #055791;
 }
 
-.product-offer .product-flex .view-buy .buy-now .buy-now-pic {
+#product-offer .product-flex .view-buy .buy-now .buy-now-pic {
   background: url(./css-img/shopping_cart_2.jpg) no-repeat center;
   background-size: contain;
   height: 30px;
@@ -1088,7 +1088,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 2px 0 0 5px;
 }
 
-.product-offer .product-flex .view-buy .view-more-text, .product-offer .product-flex .view-buy .buy-now-text {
+#product-offer .product-flex .view-buy .view-more-text, #product-offer .product-flex .view-buy .buy-now-text {
   position: relative;
   z-index: 1;
   color: #FFFFFF;
@@ -1099,7 +1099,7 @@ main .product3 .transport .transport-icon .transport-3 {
   line-height: 35px;
 }
 
-.res-title {
+#res-title {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
