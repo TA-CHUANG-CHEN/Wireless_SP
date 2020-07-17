@@ -1,27 +1,25 @@
 {
-  "name": "wirelesssp",
+  "name": "hello_world",
   "version": "1.0.0",
+  "description": "saidHItotheWorld",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TA-CHUANG-CHEN/Wireless_SP.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TA-CHUANG-CHEN/Wireless_SP/issues"
-  },
-  "homepage": "https://github.com/TA-CHUANG-CHEN/Wireless_SP#readme",
-  "description": "",
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "firebase-tools": "^8.6.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack-cli": "^3.3.12"
   }
 }

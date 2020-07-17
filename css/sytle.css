@@ -357,7 +357,7 @@ template {
 }
 
 .banner-text {
-  width: 600px;
+  width: 100%;
   height: 400px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -422,10 +422,6 @@ nav ul li:nth-last-child(1) {
   margin-top: 70px;
 }
 
-.overview1 img {
-  max-width: 100%;
-}
-
 .overview1 .ov1-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,18 +430,20 @@ nav ul li:nth-last-child(1) {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 650px;
+  width: 100%;
   margin: 60px 0 0 70px;
 }
 
 .overview1 .ov1-title .ov1-para1 {
   font-size: 36px;
+  width: 100%;
   font-weight: bold;
   line-height: 1.3em;
 }
 
 .overview1 .ov1-title .ov1-para2 {
   margin: 10px 0 0 0;
+  width: 100%;
   font-size: 16px;
   line-height: 1.3em;
 }
@@ -465,19 +463,21 @@ nav ul li:nth-last-child(1) {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 630px;
+  width: 100%;
 }
 
 .overview2 .ov2-title2 .ov2-para1 {
   font-size: 36px;
   font-weight: bold;
   line-height: 1.3em;
+  width: 100%;
 }
 
 .overview2 .ov2-title2 .ov2-para2 {
   margin: 20px 0 0 0;
   font-size: 16px;
   line-height: 1.3em;
+  width: 100%;
 }
 
 .overview2 .ov2-title2 .ov2-para3 {
@@ -533,6 +533,12 @@ nav ul li:nth-last-child(1) {
 .overview2 .ov2-pic {
   margin: 0 0 0 35px;
   max-width: 100%;
+  height: auto;
+}
+
+.overview1 > img {
+  max-width: 100%;
+  height: auto;
 }
 
 main {
@@ -588,6 +594,7 @@ main .product1 .factory1-img {
   background-size: contain;
   height: 100%;
   width: 352px;
+  max-width: 1200px;
 }
 
 main .product1 .factory-auto {
@@ -858,6 +865,11 @@ main .product3 .transport .transport-icon .transport-3 {
   font-weight: bold;
 }
 
+.dmp2 .dmp2-title-logo .dmp2-title img {
+  max-width: 100%;
+  height: auto;
+}
+
 .dmp2 .dmp2-para1 {
   font-size: 18px;
   margin: 5px 0 0 0;
@@ -947,6 +959,8 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .dmp2 figure > img {
   margin: 0 0 50px 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .product-offer {
@@ -1003,6 +1017,11 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 0 10px 0;
 }
 
+.product-offer .product-flex .products-high-flex .products-high-font img {
+  max-width: 100%;
+  height: auto;
+}
+
 .product-offer .product-flex .products-low-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,6 +1038,11 @@ main .product3 .transport .transport-icon .transport-3 {
 .product-offer .product-flex .products-low-flex .products-low-font {
   font-size: 18px;
   margin: 0 0 20px 0;
+}
+
+.product-offer .product-flex .products-low-flex .products-low-font img {
+  max-width: 100%;
+  height: auto;
 }
 
 .product-offer .product-flex .view-buy {
@@ -1175,6 +1199,11 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 0 0 40px;
 }
 
+.res-content .res-item .res-item-1 img {
+  max-width: 100%;
+  height: auto;
+}
+
 .res-content .res-item .res-item-1 .resource-para1 {
   text-align: center;
   margin: 15px 0 0 0;
@@ -1194,6 +1223,11 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 0 0 100px;
+}
+
+.res-content .res-item .res-item-2 img {
+  max-width: 100%;
+  height: auto;
 }
 
 .res-content .res-item .res-item-2 .resource-para2 {
@@ -1217,6 +1251,11 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 0 0 60px;
 }
 
+.res-content .res-item .res-item-3 img {
+  max-width: 100%;
+  height: auto;
+}
+
 .res-content .res-item .res-item-3 .resource-para3 {
   text-align: center;
   margin: 15px 0 0 0;
@@ -1235,7 +1274,7 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  margin: 30px 0 0 480px;
+  margin: 30px 0 0 500px;
 }
 
 .download [type="text"] {
@@ -1246,6 +1285,8 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 50x;
   width: 50px;
   margin: 70px 20px 0 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .footer {
@@ -1253,6 +1294,11 @@ main .product3 .transport .transport-icon .transport-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer .footer-flex {
@@ -1292,4 +1338,9 @@ main .product3 .transport .transport-icon .transport-3 {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
