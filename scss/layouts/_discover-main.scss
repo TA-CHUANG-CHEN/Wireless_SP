@@ -18,6 +18,7 @@ main{
     }
     .product1{
         display: flex;
+        box-sizing: border-box;
         width: 100%;
         justify-content:center;
         align-items: center;
@@ -144,7 +145,7 @@ main{
         justify-content:center;
         align-items: center;
         height: 295px;
-        margin:50px 0 50px 0;
+        margin:60px 0 50px 0;
         .transport-img{
             background-image: url('./css-img/transportation_1.jpg');
             background-repeat: no-repeat;
