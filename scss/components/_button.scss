@@ -1,0 +1,48 @@
+.ov-button{ //Learn more
+    font-size: $H4-font;
+    text-align: center;
+    margin: 40px 0 0 500px;
+    padding: 12px 23px 12px 23px;
+    border: #00427F solid 1px;
+    color:$color-dark-bg-white;
+    background-color:$color-advanblue;
+    font-weight: bold;
+    a{
+        color:$color-dark-bg-white;
+        text-decoration: none;
+    }
+}
+.ov-button:hover{ 
+    background-color: $color-advanblue;
+}
+.download-button{ //resources download
+    background: url(./css-img/arrow.png) no-repeat ;
+    background-size: 30px 25px;
+    background-position: left 10px top 8px;
+    color: $color-dark-bg-white;
+    background-color: $color-offer-icon;
+    font-size: $H4-font;
+    width:180px;
+    height: auto;
+    line-height: 40px;
+    text-align: center ;
+    margin: 0 0 40px 500px;
+    [type="text"]{
+        margin: 0 0 0 30px;
+    }
+}
+.footer-button{//contact via email
+    font-size: $H4-font;
+    background: url(./css-img/email.png) no-repeat;
+    background-size: 40px 25px;
+    background-position: left 20px top 3px ;
+    background-color: $color-offer-icon;
+    color: $color-dark-bg-white;
+    width:250px;
+    line-height: 30px;
+    height: auto;
+    text-align: center;
+    [type="text-contact"]{
+        margin: 0 0 0 30px;
+    }
+}

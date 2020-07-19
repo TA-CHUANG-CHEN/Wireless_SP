@@ -1,5 +1,4 @@
 /node_modules/
-/scss/
 /.Devitem/
 /.vscode/
 webpack.config.js

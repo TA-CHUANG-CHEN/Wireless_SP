@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dmp2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .dmp2-title-logo{
+        display: flex;
+        #dmp2-title{
+            font-size: $H2-PC-font;
+            font-weight:bold;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .dmp2-para1{
+        font-size: $H3-font;
+        margin:5px 0 0 0;
+        line-height: 1.3em;
+    }
+    .dmp2-para2{
+        font-size: $H3-font;
+        margin:30px 100px 50px 80px;
+        line-height: 1.3em;
+        text-align: center;
+    }
+    .fea-advan{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 0 0 50px 0;
+        .fea-flex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 70px 0 10px;
+            .features{
+                color:$color-dmp-color;
+                font-size: $H3-font;
+                font-weight: bold;
+                margin: 0 0 15px 0;
+            }
+            ul{
+                font-size: $H4-font;
+                color:$color-black;
+                padding:20px 0 0 30px;
+                width:370px;
+                border-top: solid 2px $color-pdf-unknown-blue;
+                border-left: solid 6px $color-pdf-unknown-blue;
+                line-height: 1.3em;
+            }
+
+
+        }
+        .advan-flex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 30px 0 0;
+            .advantages{
+                color:$color-dmp-color;
+                font-size: $H3-font;
+                font-weight: bold;
+                margin: 0 0 15px 0;
+            }
+            ul{
+                font-size: $H4-font;
+                color:$color-black;
+                padding:20px 0 0 30px;
+                line-height: 1.3em;
+                border-top: solid 2px $color-pdf-unknown-blue;
+                border-left: solid 6px $color-pdf-unknown-blue;
+                width:370px;
+                height: 160px;
+            }
+
+
+        }
+    }
+    figure>img{
+        margin: 0 0 50px 0;
+        max-width: 100%;
+    }
+}

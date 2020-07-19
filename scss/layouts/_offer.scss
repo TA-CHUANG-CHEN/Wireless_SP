@@ -1,0 +1,80 @@
+#product-offer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .product-title{
+        font-size: $H2-PC-font;
+        font-weight: bold;
+        margin: 0 0 50px 0;
+    }
+    .product-flex{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        height:700px;
+        font-weight: bold;
+        .products-high-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            .products-high-font{
+                font-size: $H3-font;
+                margin:0 0 10px 0; 
+            }
+        }
+        .products-low-flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .products-low-font{
+                font-size: $H3-font;
+                margin:0 0 20px 0;
+            }
+        }
+        .view-buy{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px 0 0 0;
+            .view-more{
+                display: flex;
+                width: 120px;
+                height: 35px;;
+                background-color: $color-offer-icon;
+                .view-more-pic{
+                    background: url(./css-img/view_more_2.jpg) no-repeat;
+                    background-size:contain;
+                    height: 30px;
+                    width: 60px;
+                    margin: 2px 0 0 10px;
+                }
+            }
+            .buy-now{
+                display:flex;
+                width:120px;
+                background-color: $color-offer-icon;
+                .buy-now-pic{
+                    background: url(./css-img/shopping_cart_2.jpg)no-repeat center;
+                    background-size: contain;
+                    height: 30px;
+                    width: 60px;
+                    margin: 2px 0 0 5px;
+                }
+            }
+            .view-more-text, .buy-now-text{
+                position: relative;
+                z-index:1;
+                color: $color-dark-bg-white;
+                height: 30px;
+                width:120px;
+                text-align: center ;
+                padding-right: 20px;
+                line-height: 35px;
+            }
+          
+        }
+    }
+}
