@@ -1,10 +1,10 @@
 .product1{
         .factory-auto.factory-all{
-            margin: 960px 0 0 0;
-            background-color:#dfb9b9;
+            background-color:$color-discovery-bg;
             height: auto;
             z-index: 99;  
             box-sizing: border-box;
+            margin:942px 0 0 0;
             .factory-content-1{
             display: flex;
             margin: 30px 0 30px 30px;
@@ -27,7 +27,7 @@
                     font-size: $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
-                    color:$color-factory-apptext;
+                    color:$color-discovery-apptext;
                 }
                 .factory-button{
                     margin: 5px 0 0 0;
@@ -40,7 +40,7 @@
                         font-size: $H5-font;
                         font-weight: bold;
                         line-height: 18px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         ;
                         height: 50px;
@@ -49,14 +49,14 @@
                         }
                     }
                     .factory-icon-1:hover{
-                        border: 1.5px solid $color-factory-app;
+                        border: 1.5px solid $color-discovery-app;
                         cursor: pointer;
                     }
                     .factory-icon-2{
                         box-sizing: border-box;
                         font-weight: bold;
                         background: url('./css-img/F_a_2_AGV.png') no-repeat;
-                        color:$color-factory-apptext;
+                        color:$color-discovery-apptext;
                         background-size: 60px 50px;
                         background-position: right 145px bottom 1px;;
                         font-size: $H5-font;
@@ -69,7 +69,7 @@
                         }
                     }
                     .factory-icon-2:hover{
-                        border: 2px solid $color-factory-app;
+                        border: 2px solid $color-discovery-app;
                         cursor: pointer;
                     }
                 }
@@ -100,7 +100,7 @@
                     font-size: $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
-                    color:$color-factory-apptext;
+                    color:$color-discovery-apptext;
                 }
                 .factory-button-2{
                     display: flex;
@@ -113,7 +113,7 @@
                         font-size: $H5-font;
                         font-weight: bold;
                         line-height: 18px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         ;
                         box-sizing: border-box;
@@ -123,7 +123,7 @@
                         }
                     }
                     .factory-icon-3:hover{
-                        border: 1.5px solid $color-factory-app;
+                        border: 1.5px solid $color-discovery-app;
                         cursor: pointer;
                     }
                     .factory-icon-4{
@@ -133,7 +133,7 @@
                         font-size: $H5-font;
                         font-weight: bold;
                         line-height: 18px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         height: 50px;
                         box-sizing: border-box;
@@ -143,7 +143,7 @@
                         }
                     }
                     .factory-icon-4:hover{
-                        border: 1.5px solid $color-factory-app;
+                        border: 1.5px solid $color-discovery-app;
                         cursor: pointer;
                     }
                     .factory-icon-5{
@@ -153,7 +153,7 @@
                         font-size: $H5-font;
                         font-weight: bold;
                         line-height: 18px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         ;
                         box-sizing: border-box;
@@ -163,7 +163,7 @@
                         }
                     }
                     .factory-icon-5:hover{
-                        border: 1.5px solid $color-factory-app;
+                        border: 1.5px solid $color-discovery-app;
                         cursor: pointer;
                     }
                     .factory-icon-6{
@@ -173,7 +173,7 @@
                         font-size: $H5-font;
                         font-weight: bold;
                         line-height: 18px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         box-sizing: border-box;
                         height: 50px;
@@ -183,7 +183,7 @@
                         }
                     }
                     .factory-icon-6:hover{
-                        border: 1.5px solid $color-factory-app;
+                        border: 1.5px solid $color-discovery-app;
                         cursor: pointer;
                     }
                 }
@@ -211,7 +211,7 @@
                     font-size: $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
-                    color:$color-factory-apptext;
+                    color:$color-discovery-apptext;
                 }
                 .factory-button-3{
                     display: flex;
@@ -225,7 +225,7 @@
                         background-position: right 145px bottom 1px;
                         font-size: $H5-font;
                         font-weight: bold;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width: 200px;
                         height: 50px;
                         margin: 1px 0 0 5px;
@@ -242,7 +242,7 @@
                         background-position: right 145px bottom 1px;
                         font-size: $H5-font;
                         font-weight: bold;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width: 200px;
                         height: 50px;
                         margin: 1px 0 0 5px;
@@ -262,7 +262,7 @@
                         font-weight: bold;
                         line-height: 18px;
                         margin: 1px 0 0 5px;
-                        color: $color-factory-apptext;
+                        color: $color-discovery-apptext;
                         width:200px;
                         box-sizing: border-box;
                         height: 50px;
@@ -275,7 +275,7 @@
                     }
                 }
                 .factory-button-3:hover{
-                    border: 1.5px solid $color-factory-app;
+                    border: 1.5px solid $color-discovery-app;
                 }
     
             }
