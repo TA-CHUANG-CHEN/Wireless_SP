@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -932,7 +933,7 @@ main .product1 .factory-auto .factory-icon .factory-2 {
 main .product1 .factory-auto .factory-icon .factory-3 {
   background-image: url("./css-img/Factory_icon_3.jpg");
   background-repeat: no-repeat;
-  background-position: left 30px bottom 110px;
+  background-position: left 30px bottom 60px;
   width: 200px;
   padding: 105px 0 0 0;
   margin: 0 50px 0 30px;
@@ -1016,7 +1017,7 @@ main .product2 .E-E .E-E-icon .E-E-2 {
 main .product2 .E-E .E-E-icon .E-E-3 {
   background-image: url("./css-img/E_E_icon_3.jpg");
   background-repeat: no-repeat;
-  background-position: left 30px bottom 110px;
+  background-position: left 30px bottom 60px;
   width: 200px;
   padding: 105px 0 0 0;
   margin: 0 50px 0 30px;
@@ -1087,7 +1088,7 @@ main .product3 .transport .transport-icon {
 main .product3 .transport .transport-icon .transport-1 {
   background-image: url("./css-img/transportation_icon_1.jpg");
   background-repeat: no-repeat;
-  background-position: left 30px bottom 100px;
+  background-position: left 30px bottom 1ㄢ0px;
   width: 220px;
   padding: 105px 0 0 0;
   margin: 0 0 0 50px;
@@ -1097,7 +1098,7 @@ main .product3 .transport .transport-icon .transport-1 {
 main .product3 .transport .transport-icon .transport-2 {
   background-image: url("./css-img/transportation_icon_2.jpg");
   background-repeat: no-repeat;
-  background-position: right 40px bottom 100px;
+  background-position: right 40px bottom 50px;
   width: 180px;
   padding: 105px 0 0 30px;
   margin: 0 0 0 10px;
@@ -1106,7 +1107,7 @@ main .product3 .transport .transport-icon .transport-2 {
 main .product3 .transport .transport-icon .transport-3 {
   background-image: url("./css-img/transportation_icon_3.jpg");
   background-repeat: no-repeat;
-  background-position: left 30px bottom 100px;
+  background-position: left 30px bottom 50px;
   width: 200px;
   padding: 105px 0 0 0;
   margin: 0 50px 0 30px;
