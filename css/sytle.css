@@ -404,7 +404,7 @@ template {
 }
 
 .product2 .E-E.E-E-all {
-  margin: 1935px 0 0 0;
+  margin: 1990px 0 0 0;
   background-color: #f2f2f2;
   height: auto;
   z-index: 99;
@@ -1464,7 +1464,7 @@ template {
   z-index: 99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 942px 0 0 0;
+  margin: 962px 0 0 0;
 }
 
 .product1 .factory-auto.factory-all .factory-content-1 {
@@ -1914,6 +1914,8 @@ main .product1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -2096,7 +2098,7 @@ main .product3 {
       -ms-flex-align: center;
           align-items: center;
   height: 295px;
-  margin: 50px 0 50px 0;
+  margin: 60px 0 50px 0;
 }
 
 main .product3 .transport-img {
@@ -2708,8 +2710,4 @@ button {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-br {
-  display: none;
 }
