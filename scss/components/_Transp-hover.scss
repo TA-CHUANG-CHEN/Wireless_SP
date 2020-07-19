@@ -1,0 +1,284 @@
+.product1{
+    .transport.transport-all{
+        margin: 960px 0 0 0;
+        background-color:$color-discovery-bg;
+        height: auto;
+        z-index: 99;  
+        box-sizing: border-box;
+        .transport-content-1{
+        display: flex;
+        margin: 30px 0 30px 30px;
+        background-color:#f2f2f2;
+        box-sizing: border-box;
+        img{
+            height: 219px;
+        }
+        .transport-mti{
+            margin:0 0 0 30px;
+            .transport-mti-1{
+                font-size: $H2-MB-font; //待確認
+                font-weight: bold;
+            }
+            .transport-mti-2{
+                margin: 15px 0 15px 0;
+                font-size: $H4-font; //待確認
+            }
+            .transport-mti-3{
+                font-size: $H4-font; //待確認
+                font-weight: bold;
+                margin: 40px 0 5px 0;
+                color:$color-discovery-apptext;
+            }
+            .transport-button{
+                margin: 5px 0 0 0;
+                display: flex;
+                .transport-icon-1{
+                    box-sizing: border-box;
+                    background: url('./css-img/F_a_1_Machine Connectivity.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    ;
+                    height: 50px;
+                    .mti-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .transport-icon-1:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+                .transport-icon-2{
+                    box-sizing: border-box;
+                    font-weight: bold;
+                    background: url('./css-img/F_a_2_AGV.png') no-repeat;
+                    color:$color-discovery-apptext;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;;
+                    font-size: $H5-font;
+                    width:200px;
+                    ;
+                    height: 50px;
+                    margin: 0 0 0 20px;
+                    .mti-text-2{
+                        margin: 10px 0 0 55px;
+                    }
+                }
+                .transport-icon-2:hover{
+                    border: 2px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .transport-content-2{
+        display: flex;
+        margin: 20px 40px 20px 40px;
+        background-color:#f2f2f2;
+        border-top: 2px $color-dark-grey solid;
+        border-bottom: 2px $color-dark-grey solid;
+        padding: 40px 0 50px 0 ;
+        box-sizing: border-box;
+        img{
+            height: 219px;
+        }
+        .transport-mti{
+            margin:0 0 0 30px;
+            .transport-mti-1{
+                font-size: $H2-MB-font; //待確認
+                font-weight: bold;
+            }
+            .transport-mti-2{
+                margin: 15px 0 15px 0;
+                font-size: $H4-font; //待確認
+            }
+            .transport-mti-3{
+                font-size: $H4-font; //待確認
+                font-weight: bold;
+                margin: 40px 0 5px 0;
+                color:$color-discovery-apptext;
+            }
+            .transport-button-2{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 5px 0 0 0;
+                .transport-icon-3{
+                    background: url('./css-img/F_b_1_OEE-Intelligent.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    ;
+                    box-sizing: border-box;
+                    height: 50px;
+                    .mti-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .transport-icon-3:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+                .transport-icon-4{
+                    background: url('./css-img/F_b_3_Motor Status.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    height: 50px;
+                    box-sizing: border-box;
+                    margin: 0 0 0 20px;
+                    .mti-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .transport-icon-4:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+                .transport-icon-5{
+                    background: url('./css-img/F_b_2_Wi-Fi Infrastructure.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    ;
+                    box-sizing: border-box;
+                    height: 50px;
+                    .mti-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .transport-icon-5:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+                .transport-icon-6{
+                    background: url('./css-img/F_b_4_Facility Health.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    box-sizing: border-box;
+                    height: 50px;
+                    margin: 0 0 0 20px;
+                    .mti-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .transport-icon-6:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .transport-content-3{
+        box-sizing: border-box;
+        display: flex;
+        margin: 30px 0 30px 30px;
+        background-color:#f2f2f2;
+        img{
+            height: 219px;
+        }
+        .transport-mti{
+            margin:0 0 0 30px;
+            .transport-mti-1{
+                font-size: $H2-MB-font; //待確認
+                font-weight: bold;
+            }
+            .transport-mti-2{
+                margin: 15px 0 15px 0;
+                font-size: $H4-font; //待確認
+            }
+            .transport-mti-3{
+                font-size: $H4-font; //待確認
+                font-weight: bold;
+                margin: 40px 0 5px 0;
+                color:$color-discovery-apptext;
+            }
+            .transport-button-3{
+                display: flex;
+                flex-direction: column;
+                width: 220px;
+                margin: 5px 0 0 0;
+                box-sizing: border-box;
+                .transport-icon-7{
+                    background: url('./css-img/F_c_1_Streamline Material .png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    color: $color-discovery-apptext;
+                    width: 200px;
+                    height: 50px;
+                    margin: 1px 0 0 5px;
+                    .mti-text-7{
+                        margin:5px 0 0 55px;
+                    }
+                }
+                .transport-icon-7:hover{
+                    cursor: pointer;
+                }
+                .transport-icon-8{
+                    background: url('./css-img/F_c_1_Stock control.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    color: $color-discovery-apptext;
+                    width: 200px;
+                    height: 50px;
+                    margin: 1px 0 0 5px;
+                    box-sizing: border-box;
+                    .mti-text-8{
+                        margin:11px 0 0 55px;
+                    }
+                }
+                .transport-icon-8:hover{
+                    cursor: pointer;
+                }
+                .transport-icon-9{
+                    background: url('./css-img/F_c_1_Package Access.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 145px bottom 1px;
+                    font-size: $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    margin: 1px 0 0 5px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    box-sizing: border-box;
+                    height: 50px;
+                    .mti-text-9{
+                        margin:5px 0 0 55px;
+                    }
+                }
+                .transport-icon-9:hover{
+                    cursor: pointer;
+                }
+            }
+            .transport-button-3:hover{
+                border: 1.5px solid $color-discovery-app;
+            }
+
+        }
+    }
+    }
+}   
