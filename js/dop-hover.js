@@ -37,7 +37,7 @@ product_1.addEventListener('mouseenter',(e)=>{
               <div class="factory-mti-3">Applications</div>
               <div class="factory-button-2">
                 <div class="factory-icon-3">
-                  <div  class="mti-text-1">OEE : Intelligent Stack Light</div>
+                  <div  class="mti-text-1">Intelligent Stack Light Sensor</div>
                 </div>
                 <div class="factory-icon-4">
                   <div  class="mti-text-1">Motor Status Monitoring </div>
@@ -64,8 +64,8 @@ product_1.addEventListener('mouseenter',(e)=>{
               <div class="factory-mti-3">Applications</div>
               <div class="factory-button-3">
                 <div class="factory-icon-7" ><div class="mti-text-7">Streamline Material<br> Control</div></div>
-                <div class="factory-icon-8"><div class="mti-text-8">Stock control</div></div>
-                <div class="factory-icon-9"><div class="mti-text-9">Package <br>Access</div></div>
+                <div class="factory-icon-8"><div class="mti-text-8">Stock Control</div></div>
+                <div class="factory-icon-9"><div class="mti-text-9">Package Tracking</div></div>
               </div>
           </div>
           </div>

@@ -1462,13 +1462,28 @@ template {
   cursor: pointer;
 }
 
+.product1 {
+  position: relative;
+}
+
+.product1 .factory1-img {
+  margin: 0 800px 0 0;
+  position: absolute;
+}
+
+.product1 .factory-auto {
+  position: absolute;
+  margin: 0 0 0 350px;
+}
+
 .product1 .factory-auto.factory-all {
   background-color: #f2f2f2;
   height: auto;
   z-index: 99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 962px 0 0 0;
+  position: absolute;
+  margin: 980px 0 0 350px;
 }
 
 .product1 .factory-auto.factory-all .factory-content-1 {
@@ -1712,7 +1727,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0 30px 30px;
+  margin: 30px 0 50px 30px;
   background-color: #f2f2f2;
 }
 
@@ -1802,7 +1817,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 {
   background: url("./css-img/F_c_1_Package Access.png") no-repeat;
   background-size: 60px 50px;
-  background-position: right 145px bottom 1px;
+  background-position: right 144px bottom 1px;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
