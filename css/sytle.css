@@ -1530,6 +1530,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 {
@@ -1553,6 +1554,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2:hover {
   border: 2px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 {
@@ -1623,6 +1625,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 {
@@ -1647,6 +1650,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 {
@@ -1670,6 +1674,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 {
@@ -1694,6 +1699,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 {
@@ -1763,6 +1769,7 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-7:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-8 {
@@ -1785,6 +1792,7 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-8:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 {
@@ -1808,48 +1816,152 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3:hover {
   border: 1.5px solid #91d0e6;
+  position: relative;
 }
 
-nav {
-  background-color: #008CD6;
-}
-
-nav ul {
+/* div { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .drop-down-menu { 
+      display: flex;
+      ul{
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+        min-width: 180px;
+        display: none;
+        ul{
+          z-index: 999;
+          top: 10px;
+          left: 90%;
+        }
+      }
+      li {
+        position: relative;
+        white-space: nowrap;
+      }
+      li:hover{
+        ul{
+          display: block;
+        }
+      }
+      li:last-child {
+        border-right: none;
+      }
+      a{
+        background-color:  #008CD6;
+        border-right: 3px solid white;
+        display: block;
+        padding: 10px 25px 10px 25px; 
+        text-decoration: none;
+        line-height: 40px;
+        color:white;
+        font-size: $H3-font;
+      }
+      a:hover{
+        background-color:  #8ccfe7;
+      }
+    }
+    
+  } */
+/* nav{
+    background-color:$colormap-d; //color need to be confirmed
+    ul{//height need to be confirmed
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      li{
+        font-size:$H3-font;
+        padding: 10px 25px 10px 25px; 
+        border-right: 3px solid $color-dark-bg-white;
+        color: $color-dark-bg-white;
+        a{
+            color: $color-dark-bg-white;   
+            text-decoration: none;
+          }
+        a:hover{
+            text-decoration: none;
+            color: $color-dark-bg-white;
+          }
+      }
+      li:nth-last-child(1){
+        border-style: none;
+      }
+    }
+  }  */
+ul.drop-down-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   list-style-type: none;
+  margin: 20px 0 0 0;
+  background-color: #008CD6;
+  line-height: 20px;
 }
 
-nav ul li {
-  font-size: 18px;
+ul.drop-down-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+ul.drop-down-menu > li:last-child {
+  border-right: none;
+}
+
+ul.drop-down-menu a {
+  background-color: #008CD6;
+  border-right: 3px solid white;
+  display: block;
   padding: 10px 25px 10px 25px;
-  border-right: 3px solid #FFFFFF;
-  color: #FFFFFF;
-}
-
-nav ul li a {
-  color: #FFFFFF;
   text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 
-nav ul li a:hover {
-  text-decoration: none;
-  color: #FFFFFF;
+ul.drop-down-menu a:hover {
+  background-color: #8ccfe7;
 }
 
-nav ul li:nth-last-child(1) {
+ul.drop-down-menu li:hover > a {
+  background-color: #8ccfe7;
+}
+
+ul.drop-down-menu li:nth-last-child(1) a {
   border-style: none;
+}
+
+ul.drop-down-menu ul {
+  border: #ccc 1px solid;
+  position: absolute;
+  z-index: 99;
+  left: -1px;
+  top: 100%;
+}
+
+ul.drop-down-menu ul ul {
+  z-index: 999;
+  top: 10px;
+  left: 90%;
+}
+
+ul.drop-down-menu ul {
+  display: none;
+}
+
+ul.drop-down-menu li:hover > ul {
+  display: block;
 }
 
 /*----------------------------------------
