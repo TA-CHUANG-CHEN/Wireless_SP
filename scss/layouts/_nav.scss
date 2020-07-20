@@ -5,9 +5,16 @@
   margin:20px 0 0 0;
   background-color: $color-nav-bg;
   line-height: 20px;
+  .nav-resources>a{
+    border-style: none;
+  }
+  .nav-products:hover>a{
+    background-color: $color-nav-bg;
+  }
   li{
     position: relative;
     white-space: nowrap;
+    
   }
   li:last-child {
     border-right: none;
@@ -18,23 +25,20 @@
     display: block;
     padding: 10px 25px 10px 25px; 
     text-decoration: none;
-    color:white;
+    color:$color-dark-bg-white;
     font-size: $H3-font;
   }
   a:hover { 
-    background-color: $color-nav-bg-hover;
+    background-color: $color-nav-selec;
   }
   li:hover > a { 
-    background-color:$color-nav-bg-hover;
+    background-color:$color-nav-selec;
   }
   li:hover > ul { 
     display: block;
   }
-  li:nth-last-child(1) a{
-    border-style: none;
-  }
+
   ul {
-    border: white 1px solid;
     position: absolute;
     z-index: 99;
     left: -1px;
@@ -54,13 +58,16 @@
       border-right: none;
     }
     a {
-      background-color: $color-nav-bg;
+      background-color: $color-nav-selec;
       border-right: 3px solid $color-dark-bg-white;
       display: block;
       padding: 10px 25px 10px 25px; 
       text-decoration: none;
-      color:$color-dark-bg-white;
+      color:$color-dark-grey;
       font-size: $H4-font;
+      font-weight: bold;
+      border-top: $color-dark-bg-white 1px solid;
+      border-bottom: $color-dark-bg-white 1px solid;;
     }
     a:hover { 
       background-color:  $color-nav-bg-hover;
@@ -83,19 +90,24 @@
       li{
         position: relative;
         white-space: nowrap;
+        border-style: none;
+        width:auto;
       }
       li:last-child {
         border-right: none;
       }
       a {
-        background-color: $color-nav-bg;
+        background-color: $color-nav-selec;
         border-right: 3px solid white;
         display: block;
+        border-style: none;
         padding: 10px 25px 10px 25px; 
         text-decoration: none;
-        color:white;
+        color:$color-discovery-apptext;
+        border-top: $color-dark-bg-white 1px solid;
+        border-bottom: $color-dark-bg-white 1px solid;;
         font-size: $H4-font;
-        
+
       }
       a:hover { 
         background-color: $color-nav-bg-hover;
@@ -109,6 +121,8 @@
     }
   }
 }
+
+
  /*  ul.drop-down-menu { 
     display: flex;
     justify-content: center;

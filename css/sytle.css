@@ -1837,6 +1837,14 @@ template {
   line-height: 20px;
 }
 
+.drop-down-menu .nav-resources > a {
+  border-style: none;
+}
+
+.drop-down-menu .nav-products:hover > a {
+  background-color: #008CD6;
+}
+
 .drop-down-menu li {
   position: relative;
   white-space: nowrap;
@@ -1852,7 +1860,7 @@ template {
   display: block;
   padding: 10px 25px 10px 25px;
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
@@ -1868,12 +1876,7 @@ template {
   display: block;
 }
 
-.drop-down-menu li:nth-last-child(1) a {
-  border-style: none;
-}
-
 .drop-down-menu ul {
-  border: white 1px solid;
   position: absolute;
   z-index: 99;
   left: -1px;
@@ -1897,21 +1900,24 @@ template {
 }
 
 .drop-down-menu ul a {
-  background-color: #008CD6;
+  background-color: #8ccfe7;
   border-right: 3px solid #FFFFFF;
   display: block;
   padding: 10px 25px 10px 25px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #4D4D4D;
   font-size: 16px;
+  font-weight: bold;
+  border-top: #FFFFFF 1px solid;
+  border-bottom: #FFFFFF 1px solid;
 }
 
 .drop-down-menu ul a:hover {
-  background-color: #8ccfe7;
+  background-color: #c3e4ef;
 }
 
 .drop-down-menu ul li:hover > a {
-  background-color: #8ccfe7;
+  background-color: #c3e4ef;
 }
 
 .drop-down-menu ul li:hover > ul {
@@ -1932,6 +1938,8 @@ template {
 .drop-down-menu ul ul li {
   position: relative;
   white-space: nowrap;
+  border-style: none;
+  width: auto;
 }
 
 .drop-down-menu ul ul li:last-child {
@@ -1939,21 +1947,24 @@ template {
 }
 
 .drop-down-menu ul ul a {
-  background-color: #008CD6;
+  background-color: #8ccfe7;
   border-right: 3px solid white;
   display: block;
+  border-style: none;
   padding: 10px 25px 10px 25px;
   text-decoration: none;
-  color: white;
+  color: #515152;
+  border-top: #FFFFFF 1px solid;
+  border-bottom: #FFFFFF 1px solid;
   font-size: 16px;
 }
 
 .drop-down-menu ul ul a:hover {
-  background-color: #8ccfe7;
+  background-color: #c3e4ef;
 }
 
 .drop-down-menu ul ul li:hover > a {
-  background-color: #8ccfe7;
+  background-color: #c3e4ef;
 }
 
 .drop-down-menu ul ul li:hover > ul {
@@ -2482,6 +2493,14 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #4D4D4D;
   line-height: 1.3em;
   margin: 0 0 30px 0;
+}
+
+.view-more {
+  cursor: pointer;
+}
+
+.buy-now {
+  cursor: pointer;
 }
 
 #product-offer {
