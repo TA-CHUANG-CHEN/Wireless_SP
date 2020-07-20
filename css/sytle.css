@@ -374,6 +374,7 @@ template {
   line-height: 40px;
   text-align: center;
   margin: 0 0 40px 500px;
+  border-style: none;
 }
 
 .download-button [type="text"] {
@@ -1954,8 +1955,8 @@ template {
   padding: 10px 25px 10px 25px;
   text-decoration: none;
   color: #515152;
-  border-top: #FFFFFF 1px solid;
-  border-bottom: #FFFFFF 1px solid;
+  border-top: #FFFFFF 1.5px solid;
+  border-bottom: #FFFFFF 1.5px solid;
   font-size: 16px;
 }
 
@@ -2536,6 +2537,7 @@ main .product3 .transport .transport-icon .transport-3 {
   text-align: center;
   height: 700px;
   font-weight: bold;
+  margin: 50px 0 0 0;
 }
 
 #product-offer .product-flex .products-high-flex {
@@ -2550,11 +2552,44 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+  padding: 20px 30px 10px 30px;
 }
 
 #product-offer .product-flex .products-high-flex .products-high-font {
   font-size: 18px;
-  margin: 0 0 10px 0;
+  margin: 0 0 30px 0;
+}
+
+#product-offer .product-flex .products-high-flex:hover {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-high-flex:hover .products-high-font {
+  color: #FFFFFF;
+}
+
+#product-offer .product-flex .products-high-flex:hover .view-more {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-high-flex:hover .view-more .view-more-pic {
+  background: url(./css-img/view_more_1.jpg) no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 60px;
+  margin: 2px 0 0 10px;
+}
+
+#product-offer .product-flex .products-high-flex:hover .buy-now {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-high-flex:hover .buy-now .buy-now-pic {
+  background: url(./css-img/shopping_cart_1.jpg) no-repeat center;
+  background-size: contain;
+  height: 30px;
+  width: 60px;
+  margin: 2px 0 0 5px;
 }
 
 #product-offer .product-flex .products-low-flex {
@@ -2568,11 +2603,45 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 60px 0 30px 0;
+  padding: 20px 30px 20px 30px;
 }
 
 #product-offer .product-flex .products-low-flex .products-low-font {
   font-size: 18px;
   margin: 0 0 20px 0;
+}
+
+#product-offer .product-flex .products-low-flex:hover {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-low-flex:hover .products-low-font {
+  color: #FFFFFF;
+}
+
+#product-offer .product-flex .products-low-flex:hover .view-more {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-low-flex:hover .view-more .view-more-pic {
+  background: url(./css-img/view_more_1.jpg) no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 60px;
+  margin: 2px 0 0 10px;
+}
+
+#product-offer .product-flex .products-low-flex:hover .buy-now {
+  background: #10c5e9;
+}
+
+#product-offer .product-flex .products-low-flex:hover .buy-now .buy-now-pic {
+  background: url(./css-img/shopping_cart_1.jpg) no-repeat center;
+  background-size: contain;
+  height: 30px;
+  width: 60px;
+  margin: 2px 0 0 5px;
 }
 
 #product-offer .product-flex .view-buy {
@@ -2732,7 +2801,7 @@ main .product3 .transport .transport-icon .transport-3 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  margin: 50px 0 50px 0;
+  margin: 100px 0 50px 0;
 }
 
 .res-over-view {
@@ -2744,11 +2813,21 @@ main .product3 .transport .transport-icon .transport-3 {
           justify-content: flex-start;
   font-size: 18px;
   margin: 0 0 0 30px;
+  cursor: pointer;
 }
 
 .res-over-view .resource-1 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-1:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2757,7 +2836,16 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-2 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-2:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2766,7 +2854,16 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-3 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-3:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2775,10 +2872,19 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-4 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
   color: #FFFFFF;
   width: 155px;
   height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-4:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
+  color: #FFFFFF;
+  width: 155px;
   text-align: center;
   line-height: 35px;
 }
@@ -2805,7 +2911,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 0 0 50px 0;
-  color: #004280;
+  color: #005582;
   font-weight: bold;
 }
 
@@ -2821,6 +2927,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 40px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-1 .resource-para1 {
@@ -2842,6 +2949,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 100px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-2 .resource-para2 {
@@ -2863,6 +2971,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 60px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-3 .resource-para3 {
@@ -2876,6 +2985,7 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 50x;
   width: 50px;
   margin: 110px 20px 0 0;
+  cursor: pointer;
 }
 
 img {
