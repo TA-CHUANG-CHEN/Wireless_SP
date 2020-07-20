@@ -1888,7 +1888,8 @@ template {
   white-space: nowrap;
   border-top: #FFFFFF 1px solid;
   border-bottom: #FFFFFF 1px solid;
-  max-width: 243.11px;
+  width: 243px;
+  text-align: center;
 }
 
 .drop-down-menu ul li:last-child {
@@ -1902,8 +1903,7 @@ template {
   padding: 10px 25px 10px 25px;
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 18px;
-  max-width: 243.11px;
+  font-size: 16px;
 }
 
 .drop-down-menu ul a:hover {
@@ -1945,7 +1945,7 @@ template {
   padding: 10px 25px 10px 25px;
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .drop-down-menu ul ul a:hover {
@@ -1958,10 +1958,6 @@ template {
 
 .drop-down-menu ul ul li:hover > ul {
   display: block;
-}
-
-.drop-down-menu ul ul li:nth-last-child(1) a {
-  border-style: none;
 }
 
 /*  ul.drop-down-menu { 
