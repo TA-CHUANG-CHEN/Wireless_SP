@@ -374,6 +374,7 @@ template {
   line-height: 40px;
   text-align: center;
   margin: 0 0 40px 500px;
+  border-style: none;
 }
 
 .download-button [type="text"] {
@@ -2811,11 +2812,21 @@ main .product3 .transport .transport-icon .transport-3 {
           justify-content: flex-start;
   font-size: 18px;
   margin: 0 0 0 30px;
+  cursor: pointer;
 }
 
 .res-over-view .resource-1 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-1:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2824,7 +2835,16 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-2 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-2:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2833,7 +2853,16 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-3 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
+  color: #FFFFFF;
+  width: 155px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-3:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -2842,10 +2871,19 @@ main .product3 .transport .transport-icon .transport-3 {
 
 .res-over-view .resource-4 {
   margin: 0 10px 0 0;
-  background-color: #293d46;
+  background-color: #bbbdbe;
   color: #FFFFFF;
   width: 155px;
   height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.res-over-view .resource-4:hover {
+  margin: 0 10px 0 0;
+  background-color: #10c5e9;
+  color: #FFFFFF;
+  width: 155px;
   text-align: center;
   line-height: 35px;
 }
@@ -2872,7 +2910,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 0 0 50px 0;
-  color: #004280;
+  color: #005582;
   font-weight: bold;
 }
 
@@ -2888,6 +2926,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 40px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-1 .resource-para1 {
@@ -2909,6 +2948,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 100px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-2 .resource-para2 {
@@ -2930,6 +2970,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 40px 0 0 60px;
+  cursor: pointer;
 }
 
 .res-content .res-item .res-item-3 .resource-para3 {
@@ -2943,6 +2984,7 @@ main .product3 .transport .transport-icon .transport-3 {
   height: 50x;
   width: 50px;
   margin: 110px 20px 0 0;
+  cursor: pointer;
 }
 
 img {
