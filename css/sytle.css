@@ -2889,8 +2889,12 @@ main .product3 .transport .transport-icon .transport-3 {
   line-height: 35px;
 }
 
-.res-content {
+.resource-4 > .res-content:hover {
   border: #00c1db 1px solid;
+}
+
+.res-content {
+  border: #bbbdbe 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

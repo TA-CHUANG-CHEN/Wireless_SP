@@ -75,11 +75,13 @@
         text-align: center;
         line-height: 35px;
     }
-    
 
 }
-.res-content{
+.resource-4>.res-content:hover{
     border:$color-pdf-unknown-blue 1px solid;
+}
+.res-content{
+    border:$color-resources-title 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
