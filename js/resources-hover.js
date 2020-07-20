@@ -80,6 +80,7 @@ res_item.addEventListener('click',(e)=>{
   }
   if(e.target == left_arrow){
     left_arrow.style = `visibility:hidden`
+    right_arrow.style = `visibility:visible`
     res_para1.textContent = `Advanced IndustrialLoRaWAN Wireless I/O Module`
     res_para2.innerHTML =`Wzzard Edge & IIoT<br>Starter Kits Selection Guide`
     res_para3.innerHTML =`OBD Intelligent <br>Cellular Gateway`
