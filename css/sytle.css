@@ -1530,6 +1530,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 {
@@ -1553,6 +1554,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2:hover {
   border: 2px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 {
@@ -1623,6 +1625,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 {
@@ -1647,6 +1650,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 {
@@ -1670,6 +1674,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 {
@@ -1694,6 +1699,7 @@ template {
 .product1 .factory-auto.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 {
@@ -1763,6 +1769,7 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-7:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-8 {
@@ -1785,6 +1792,7 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-8:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 {
@@ -1808,10 +1816,12 @@ template {
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9:hover {
   cursor: pointer;
+  position: relative;
 }
 
 .product1 .factory-auto.factory-all .factory-content-3 .factory-mti .factory-button-3:hover {
   border: 1.5px solid #91d0e6;
+  position: relative;
 }
 
 nav {

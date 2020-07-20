@@ -5,7 +5,7 @@ const product_3 = document.getElementById('products-3')
 product_1.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-1') !== null){
       product_1.innerHTML =`
-      <article class="product1" id="factroy2-1">
+      <article class="product1" id="factroy2-1" style="margin:0 0 0 0">
       <div class="factory1-img"></div>                      
           <div id="factroy2-2" class="factory-auto factory-all">
             <div class="factory-content-1">
@@ -115,7 +115,7 @@ product_1.addEventListener('mouseenter',(e)=>{
 product_2.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-2') !== null){
         product_2.innerHTML =`
-        <article class="product2" id="E-E-2-1">
+        <article class="product2" id="E-E-2-1" style="margin:0 0 0 0">
         <div class="E-E-img"></div>                      
             <div id="E-E-2-2" class="E-E E-E-all">
               <div class="E-E-content-1">
@@ -283,7 +283,7 @@ product_2.addEventListener('mouseenter',(e)=>{
 product_3.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-3') !== null){
       product_3.innerHTML =`
-      <article class="product3" id="transport3-1">
+      <article class="product3" id="transport3-1" style="margin:0 0 0 0">
                   <div class="transport-img"></div>                      
                       <div id="transport3-2" class="transport transport-all">
                         <div class="transport-content-1">
@@ -435,22 +435,9 @@ product_3.addEventListener('mouseenter',(e)=>{
    /*  document.getElementById('E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
         document.getElementById('factroy2-1').removeChild(document.getElementById('factroy2-2')) */
 })
-/* products.addEventListener('mouseleave',(e)=>{
-  if(e.target.closest('#products-1') == null ){
-      document.getElementById('factory2-1').removeChild(document.getElementById('factroy2-2'))
-  }
-  if(e.target.closest('#products-2') == null ){
-      document.querySelector('#E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
-
-  }  
-  if(e.target.closest('#products-3') == null ){
-      document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2'))
-  }
-}) */
-document.addEventListener('mouseout', (e) => {
-   if(e.target.closest('#products-1') == null && document.getElementById('factroy2-1') !==null ){
-        document.getElementById('factroy2-1').innerHTML =`     
-
+document.addEventListener('mouseover', (e) => {
+   if(e.target.closest('#products-1') === null && document.getElementById('factroy2-1') !==null ){
+        document.getElementById('factroy2-1').innerHTML =`    
         <div class="factory1-img"></div>
         <div class="factory-auto">
           <div class="factory-para1">Manual processes and physical labor are gradually being replaced. 
@@ -465,7 +452,7 @@ document.addEventListener('mouseout', (e) => {
           </div>
         </div> `
     }
-    if(e.target.closest('#products-2') == null && document.getElementById('E-E-2-1') !==null ){
+    if(e.target.closest('#products-2') === null && document.getElementById('E-E-2-1') !==null ){
         document.querySelector('#E-E-2-1').innerHTML = `
         <div class="E-E-img"></div>
         <div class="E-E">
@@ -483,7 +470,7 @@ document.addEventListener('mouseout', (e) => {
         </div>
      `
     }  
-    if(e.target.closest('#products-3') == null && document.getElementById('transport3-1') !==null ){
+    if(e.target.closest('#products-3') === null && document.getElementById('transport3-1') !==null ){
         document.getElementById('transport3-1').innerHTML = ` 
                     <div class="transport-img"></div> 
                     <div class="transport">
@@ -500,9 +487,22 @@ document.addEventListener('mouseout', (e) => {
                       </div>
                     </div>
                     `
-    }  /* if(e.target.closest('#products') !== null){
+    }  
+})
+/* if(e.target.closest('#products') !== null){
       product_1.removeChild(document.getElementById('factory2-1'))
       product_2.removeChild(document.getElementById('E-E-2-1'))
       product_3.removeChild(document.getElementById('transport2-1'))
     } */
-})
+/* products.addEventListener('mouseleave',(e)=>{
+  if(e.target.closest('#products-1') == null ){
+      document.getElementById('factory2-1').removeChild(document.getElementById('factroy2-2'))
+  }
+  if(e.target.closest('#products-2') == null ){
+      document.querySelector('#E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
+
+  }  
+  if(e.target.closest('#products-3') == null ){
+      document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2'))
+  }
+}) */
