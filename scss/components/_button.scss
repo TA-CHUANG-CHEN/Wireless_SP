@@ -23,7 +23,8 @@
     background-color: $color-offer-icon;
     font-size: $H4-font;
     width:180px;
-    height: auto;
+    height: 42px;
+    box-sizing: border-box;
     line-height: 40px;
     text-align: center ;
     margin: 0 0 40px 500px;
@@ -36,13 +37,14 @@
     font-size: $H4-font;
     background: url(./css-img/email.png) no-repeat;
     background-size: 40px 25px;
-    background-position: left 20px top 3px ;
+    background-position: left 20px top 8px ;
     background-color: $color-offer-icon;
     color: $color-dark-bg-white;
     width:250px;
-    line-height: 30px;
+    line-height: 40px;
     height: auto;
     text-align: center;
+    border-style: none;
     [type="text-contact"]{
         margin: 0 0 0 30px;
     }

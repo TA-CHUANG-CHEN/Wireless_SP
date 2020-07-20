@@ -370,7 +370,9 @@ template {
   background-color: #055791;
   font-size: 16px;
   width: 180px;
-  height: auto;
+  height: 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 40px;
   text-align: center;
   margin: 0 0 40px 500px;
@@ -385,13 +387,14 @@ template {
   font-size: 16px;
   background: url(./css-img/email.png) no-repeat;
   background-size: 40px 25px;
-  background-position: left 20px top 3px;
+  background-position: left 20px top 8px;
   background-color: #055791;
   color: #FFFFFF;
   width: 250px;
-  line-height: 30px;
+  line-height: 40px;
   height: auto;
   text-align: center;
+  border-style: none;
 }
 
 .footer-button [type="text-contact"] {
@@ -2033,7 +2036,6 @@ template {
 }
 
 .banner-text {
-  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px 0 0 50px;
@@ -2812,7 +2814,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-pack: start;
           justify-content: flex-start;
   font-size: 18px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 0;
   cursor: pointer;
 }
 
@@ -2902,19 +2904,26 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 30px 0 30px;
+  height: 406px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .res-content .res-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 0 50px 0;
+  margin: 40px 0 30px 0;
   color: #005582;
   font-weight: bold;
 }
@@ -2930,8 +2939,10 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 40px 0 0 40px;
   cursor: pointer;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .res-content .res-item .res-item-1 .resource-para1 {
@@ -2952,8 +2963,10 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 40px 0 0 100px;
   cursor: pointer;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .res-content .res-item .res-item-2 .resource-para2 {
@@ -2974,8 +2987,10 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 40px 0 0 60px;
   cursor: pointer;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .res-content .res-item .res-item-3 .resource-para3 {
@@ -2988,8 +3003,21 @@ main .product3 .transport .transport-icon .transport-3 {
 .right-arrow > img {
   height: 50x;
   width: 50px;
-  margin: 110px 20px 0 0;
+  margin: 80px 20px 0 0;
   cursor: pointer;
+}
+
+.left-arrow > img {
+  height: 50x;
+  width: 50px;
+  margin: 80px 0 0 20px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 img {
