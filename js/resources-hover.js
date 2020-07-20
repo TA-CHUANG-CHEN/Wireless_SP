@@ -70,6 +70,7 @@ res_all.addEventListener('click',(e)=>{
 res_item.addEventListener('click',(e)=>{
   if(e.target == right_arrow){
     left_arrow.style = `visibility:visible`
+    right_arrow.style = `visibility:hidden`
     res_para1.innerHTML = `The Wzzard Intelligent <br>Sensing Platform`
     res_para2.innerHTML =`Industrial NB-IoT/LTE-M<br>Wireless I/O Module`
     res_para3.innerHTML =`Industrial LPWAN <br>Wireless I/O Module`
