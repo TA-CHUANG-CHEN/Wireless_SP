@@ -21,12 +21,13 @@
         text-align: center;
         height:700px;
         font-weight: bold;
+        margin: 50px 0 0 0;
         .products-high-flex{
             display: flex;
             flex-direction: column;
             justify-content: center;
             height: 100%;
-            padding: 30px 30px 0 30px;
+            padding: 20px 30px 10px 30px;
             .products-high-font{
                 font-size: $H3-font;
                 margin:0 0 30px 0; 
@@ -66,7 +67,7 @@
             flex-direction: column;
             justify-content: center;
             margin:60px 0 30px 0;
-            padding: 30px 30px 0 30px;
+            padding: 20px 30px 20px 30px;
             .products-low-font{
                 font-size: $H3-font;
                 margin:0 0 20px 0;
