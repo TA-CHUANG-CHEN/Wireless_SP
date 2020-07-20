@@ -73,7 +73,7 @@ product_1.addEventListener('mouseenter',(e)=>{
     </article> 
     `
     }
-    if(e.target.closest('#products-2') == null ){
+/*     if(e.target.closest('#products-2') == null ){
         //document.querySelector('#E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
         product_2.innerHTML =` <article class="product2" id="products-2">
         <div class="E-E-img"></div>
@@ -110,7 +110,7 @@ product_1.addEventListener('mouseenter',(e)=>{
           </div>
         </div>
     </article> `
-    }
+    } */
 })
 product_2.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-2') !== null){
@@ -240,7 +240,7 @@ product_2.addEventListener('mouseenter',(e)=>{
     </article>
       `
       }
-    if(e.target.closest('#products-1') == null ){
+/*     if(e.target.closest('#products-1') == null ){
         //document.getElementById('factroy2-1').removeChild(document.getElementById('factroy2-2'))
         product_1.innerHTML =` <article class="product1" id="product1"  >
         <div class="factory1-img"></div>
@@ -261,7 +261,7 @@ product_2.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-3') == null ){
        /*  document.getElementById('E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
         document.getElementById('factroy2-1').removeChild(document.getElementById('factroy2-2'))
-        document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2')) */
+        document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2')) 
         product_3.innerHTML =` <article class="product3" id="products-3">
         <div class="transport-img"></div> 
         <div class="transport">
@@ -278,7 +278,7 @@ product_2.addEventListener('mouseenter',(e)=>{
           </div>
         </div>
     </article> `
-    }
+    } */
 })
 product_3.addEventListener('mouseenter',(e)=>{
     if(e.target.closest('#products-3') !== null){
@@ -395,7 +395,7 @@ product_3.addEventListener('mouseenter',(e)=>{
               </article> 
     `
     }
-    if(e.target.closest('#products-1') == null ){
+/*     if(e.target.closest('#products-1') == null ){
         product_1.innerHTML =` <article class="product1" id="product1"  >
         <div class="factory1-img"></div>
         <div class="factory-auto">
@@ -431,7 +431,7 @@ product_3.addEventListener('mouseenter',(e)=>{
           </div>
         </div>
     </article>`
-    }  
+    }   */
    /*  document.getElementById('E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
         document.getElementById('factroy2-1').removeChild(document.getElementById('factroy2-2')) */
 })
@@ -447,10 +447,10 @@ product_3.addEventListener('mouseenter',(e)=>{
       document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2'))
   }
 }) */
-/* document.addEventListener('click', (e) => {
-   if(e.target.closest('#products') == null && document.getElementById('factroy2-1') !==null ){
-        document.getElementById('products').removeChild(document.getElementById('products-1'))
-        document.getElementById('products').innerHTML =`  <article class="product1" id="products-1"  >
+document.addEventListener('mouseout', (e) => {
+   if(e.target.closest('#products-1') == null && document.getElementById('factroy2-1') !==null ){
+        document.getElementById('factroy2-1').innerHTML =`     
+
         <div class="factory1-img"></div>
         <div class="factory-auto">
           <div class="factory-para1">Manual processes and physical labor are gradually being replaced. 
@@ -463,44 +463,10 @@ product_3.addEventListener('mouseenter',(e)=>{
             <div class="factory-3">Production Efficiency
                 Enhancement</div>
           </div>
-        </div> 
-        </article>
-        <article class="product2" id="products-2">
-            <div class="E-E-img"></div>
-            <div class="E-E">
-              <div class="E-E-para1">While climate change gradually threatens our living environment,
-                  advanced wireless technologies<br> offer benefits such as long distance transmission, 
-                  high penetration rates, and wide signal coverage <br>to help optimize energy efficiency and promote renewable energy sources, 
-                  as well as monitor<br> climate and geographic changes so we can quickly respond to protect our environment.
-                </div>
-              <div class="E-E-icon">
-                <div class="E-E-1">Energy Saving</div>
-                <div class="E-E-2">Disaster Prevention</div>
-                <div class="E-E-3">Utility Efficiency
-                    Enhancement</div>
-              </div>
-            </div>
-        </article>
-        <article class="product3" id="products-3">
-            <div class="transport-img"></div> 
-            <div class="transport">
-              <div class="transport-para1">Emerging wireless technologies with features like high data rates, 
-                high bandwidth, low latency,<br> and wide signal coverage have helped smart traffic management and in-vehicle solutions evolve <br>to improve 
-                the efficiency of transportation infrastructures, safety, travel time, quality 
-                and<br> experiences to better realize the goals of intelligent transportation.</div>
-              <div class="transport-icon">
-                <div class="transport-1">Transportation Efficiency
-                    Enhancement</div>
-                <div class="transport-2">Safety Improvement</div>
-                <div class="transport-3">Travelling Experience
-                    Optimization</div>
-              </div>
-            </div>
-        </article> `
+        </div> `
     }
     if(e.target.closest('#products-2') == null && document.getElementById('E-E-2-1') !==null ){
-        document.querySelector('#E-E-2-1').removeChild(document.getElementById('E-E-2-2'))
-        document.querySelector('#E-E-2-1').innerHTML = `<article class="product2" id="products-2">
+        document.querySelector('#E-E-2-1').innerHTML = `
         <div class="E-E-img"></div>
         <div class="E-E">
           <div class="E-E-para1">While climate change gradually threatens our living environment,
@@ -515,33 +481,28 @@ product_3.addEventListener('mouseenter',(e)=>{
                 Enhancement</div>
           </div>
         </div>
-    </article>`
+     `
     }  
     if(e.target.closest('#products-3') == null && document.getElementById('transport3-1') !==null ){
-        document.getElementById('transport3-1').removeChild(document.getElementById('transport3-2'))
-        document.getElementById('transport3-1').innerHTML = `   <article class="product3" id="products-3">
-        <div class="transport-img"></div> 
-        <div class="transport">
-          <div class="transport-para1">Emerging wireless technologies with features like high data rates, 
-            high bandwidth, low latency,<br> and wide signal coverage have helped smart traffic management and in-vehicle solutions evolve <br>to improve 
-            the efficiency of transportation infrastructures, safety, travel time, quality 
-            and<br> experiences to better realize the goals of intelligent transportation.</div>
-          <div class="transport-icon">
-            <div class="transport-1">Transportation Efficiency
-                Enhancement</div>
-            <div class="transport-2">Safety Improvement</div>
-            <div class="transport-3">Travelling Experience
-                Optimization</div>
-          </div>
-        </div>
-    </article> `
-    }
-    if(e.target.closest('#products') !== null){
+        document.getElementById('transport3-1').innerHTML = ` 
+                    <div class="transport-img"></div> 
+                    <div class="transport">
+                      <div class="transport-para1">Emerging wireless technologies with features like high data rates, 
+                        high bandwidth, low latency,<br> and wide signal coverage have helped smart traffic management and in-vehicle solutions evolve <br>to improve 
+                        the efficiency of transportation infrastructures, safety, travel time, quality 
+                        and<br> experiences to better realize the goals of intelligent transportation.</div>
+                      <div class="transport-icon">
+                        <div class="transport-1">Transportation Efficiency
+                            Enhancement</div>
+                        <div class="transport-2">Safety Improvement</div>
+                        <div class="transport-3">Travelling Experience
+                            Optimization</div>
+                      </div>
+                    </div>
+                    `
+    }  /* if(e.target.closest('#products') !== null){
       product_1.removeChild(document.getElementById('factory2-1'))
       product_2.removeChild(document.getElementById('E-E-2-1'))
       product_3.removeChild(document.getElementById('transport2-1'))
-    }
-    let body = document.body
-    body.innerHTML += `<div></div>`
-
-}) */
+    } */
+})
