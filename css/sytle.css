@@ -881,6 +881,9 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border: 1.5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .E-E-all .E-E-content-6 .E-E-mti .E-E-button-6 .E-E-border .E-E-icon-8 {
@@ -1508,7 +1511,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
-  margin: 800px 0 0 352px;
+  margin: 815px 0 0 352px;
   background-color: #f2f2f2;
   display: none;
 }
@@ -1763,8 +1766,7 @@ template {
   margin: 0 0 0 30px;
 }
 
-.factory-all .factory-content-3 .factory-mti box
-.factory-mti-1 {
+.factory-all .factory-content-3 .factory-mti .factory-mti-1 {
   font-size: 26px;
   font-weight: bold;
 }
@@ -1788,6 +1790,9 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 5px 0 0 0;
+  border: 1.5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-7 {

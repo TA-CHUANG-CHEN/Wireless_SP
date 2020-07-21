@@ -5,7 +5,7 @@ width:800px;
 z-index: 99;  
 box-sizing: border-box;
 position: absolute;
-margin: 800px 0 0 352px;
+margin: 815px 0 0 352px;
 background-color:#f2f2f2;
 display: none;
 .factory-content-1{
@@ -206,7 +206,6 @@ img{
 }
 .factory-mti{
     margin:0 0 0 30px;
-    box
     .factory-mti-1{
         font-size: $H2-MB-font; //待確認
         font-weight: bold;
@@ -225,6 +224,8 @@ img{
         display: flex;
         flex-wrap: wrap;
         margin: 5px 0 0 0;
+        border: 1.5px solid transparent;
+        box-sizing: border-box;
         .factory-border{   
             .factory-icon-7{
 

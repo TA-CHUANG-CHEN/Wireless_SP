@@ -225,7 +225,6 @@
         }
     }
     .E-E-content-4{
-        
         display: flex;
         margin: 30px 30px 30px 30px;
         background-color:#f2f2f2;
@@ -369,6 +368,8 @@
                 .E-E-border{
                     display: flex;
                     flex-direction: column;
+                    border: 1.5px solid transparent;
+                    box-sizing: border-box;
                     .E-E-icon-8{
                         
                         background: url('./css-img/E_f_1_Pipeline pressure.png') no-repeat;
