@@ -5,6 +5,7 @@ main{
     justify-content: center;
     background-color:$color-pdf-blue;
     margin: 0 0 50px 0;
+    position: relative;
     strong{
         font-size: $H2-PC-font;
         color: $color-black;
@@ -81,6 +82,11 @@ main{
             }
         }
     }
+    .product1:hover{
+        #factory{
+            display: block;
+        }
+    }
     .product2{
         display: flex;
         justify-content:center;
@@ -138,6 +144,11 @@ main{
                     text-align: center;
                 }
             }
+        }
+    }
+    .product2:hover{
+        .E-E-all{
+            display: block;
         }
     }
     .product3{
@@ -200,6 +211,11 @@ main{
                     text-align: center;
                 }
             }
+        }
+    }
+    .product3:hover{
+        .transport-all{
+            display: block;
         }
     }
 }  
