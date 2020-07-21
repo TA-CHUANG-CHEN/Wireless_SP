@@ -3,7 +3,7 @@ const product_1 = document.getElementById('products-1')
 const product_2 = document.getElementById('products-2')
 const product_3 = document.getElementById('products-3')
 product_1.addEventListener('mouseenter',(e)=>{
-  if(e.target.closest('#products-1') !== null){
+  if(!!e.target.closest('#products-1')){
     product_1.innerHTML =`
     <article class="product1" id="factroy2-1" style="margin:0 0 0 0">
     <div class="factory1-img"></div>                      
@@ -113,7 +113,7 @@ product_1.addEventListener('mouseenter',(e)=>{
   } */
 })
 product_2.addEventListener('mouseenter',(e)=>{
-  if(e.target.closest('#products-2') !== null){
+  if(!!e.target.closest('#products-2')){
       product_2.innerHTML =`
       <article class="product2" id="E-E-2-1" style="margin:0 0 0 0">
       <div class="E-E-img"></div>                      
@@ -281,7 +281,7 @@ product_2.addEventListener('mouseenter',(e)=>{
   } */
 })
 product_3.addEventListener('mouseenter',(e)=>{
-  if(e.target.closest('#products-3') !== null){
+  if(!!e.target.closest('#products-3')){
     product_3.innerHTML =`
     <article class="product3" id="transport3-1" style="margin:0 0 0 0">
                 <div class="transport-img"></div>                      

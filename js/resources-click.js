@@ -16,6 +16,7 @@ const resource_tag_1 = document.querySelector('.resource-1')
 const resource_tag_2 = document.querySelector('.resource-2')
 const resource_tag_3 = document.querySelector('.resource-3')
 const resource_tag_4 = document.querySelector('.resource-4')
+const res_button = document.querySelector('.download-button div')
 res_all.addEventListener('mouseover',(e)=>{
    if(e.target.closest('.res-over-view') !==null ){
      res_content.setAttribute('style','border:#10c5e9 1px solid;')
@@ -40,6 +41,7 @@ res_all.addEventListener('click',(e)=>{
     res_item2_img.src = `images/leaflet_2.jpg`
     res_item3_img.src = `images/leaflet_3.jpg`
     right_arrow.style = `visibility:visible`
+    res_button.textContent = `Download Leaflet`
   }
   if(e.target == resource_tag_2 ){
     res_item2.style="display:none"
@@ -47,6 +49,7 @@ res_all.addEventListener('click',(e)=>{
     res_para3.innerHTML =`WebAccess/DMP Generation2`
     res_item1_img.src = `images/brochure_1.jpg`
     res_item3_img.src = `images/brochure_2.jpg`
+    res_button.textContent = `Download Brochure`
   }
   if(e.target == resource_tag_3){
     res_item2.style="display:none"
@@ -56,6 +59,7 @@ res_all.addEventListener('click',(e)=>{
     res_item3_img.src = `images/video_2.jpg`
     res_item1.style = `padding:30px 0 0 0;`
     res_item3.style = `padding:30px 0 0 0;`
+    res_button.textContent = `Download Video/Webinar `
   }
   if(e.target == resource_tag_4){
     res_item2.style="display:none"
@@ -63,6 +67,7 @@ res_all.addEventListener('click',(e)=>{
     res_para1.innerHTML = `Intelligent Connectivity Wireless<br>Success Stories`
     res_item1_img.src = `images/Success Story_1.jpg`
     res_item1.style = `padding:30px 0 0 0;`
+    res_button.innerHTML = `Download<br>Success Story    `
   }
   
 
