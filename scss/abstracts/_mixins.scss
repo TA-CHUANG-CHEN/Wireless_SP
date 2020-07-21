@@ -1,0 +1,150 @@
+@mixin ov-proto {
+     width: 800px;
+     
+}
+@mixin ov-title{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    background: $color-ov-hover-title;
+    font-size: $H3-font;
+    height: 60px;
+    color:white;
+}
+@mixin ov-photo{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-content: space-around;
+    height:180px;
+    background:white;
+    >div{
+        width:150px;
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+    }
+}
+@mixin ov-no{
+    display: flex;
+    background: $color-ov-hover-no;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+        height: 50px;  
+    }
+    >div:nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 0 0 0 10px;
+    }
+}
+@mixin ov-name{
+    display: flex;
+    background:white;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        height:100px;
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    :nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 0 0 0 10px;
+    }
+}
+@mixin ov-function{
+    display: flex;
+    background: $color-ov-hover-function;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        height: 50px;  
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+    }
+    :nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 0 0 0 10px;
+    }
+}
+@mixin ov-features{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    word-break: break-all;
+    background:white;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        display: flex;
+        flex-wrap:wrap;
+        height: 220px;  
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+        padding:10px 0 0 0;
+    }
+    :nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 50px 0 0 10px;
+    }
+}
+@mixin ov-benefit{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background: $color-ov-hover-benefit;
+    height: 300px;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+        padding:10px 0 0 0;
+    }
+    :nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 50px 0 0 10px;
+    }
+}
+@mixin ov-link{
+    display: flex;
+    background:white;
+    >div{
+        width:150px;
+        font-size: $H5-font;
+        border: $color-ov-hover-border solid 0.1px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+        height: 50px;  
+    }
+    >div:nth-child(1){
+        text-align: left;
+        justify-content: flex-start;
+        padding: 0 0 0 10px;
+    }
+}
