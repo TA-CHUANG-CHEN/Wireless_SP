@@ -53,12 +53,72 @@
                 align-content: flex-start;
                 font-size: $H3-font;
                 font-weight: bold;
-                div{
+                position: relative;
+                .proto{
+                    display: none;
+                }
+                .ov2-1{
                     margin: 5px 3px 0 3px;
                     color: $color-pdf-unknown-blue;
                     border: solid 2px $color-pdf-unknown-blue;
                     padding: 7px 20px 7px 20px;
                     border-radius: 30px;
+                   
+                }
+                .ov2-1:hover +.proto,.proto:hover{
+                    display:inline;
+                    position: absolute;
+                    margin: 0 0 0 40px;
+                    z-index: 99;
+                    font-size: 12px;
+                    font-weight: normal;
+                 }
+                .ov2-2{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                    
+                }
+                .ov2-3{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                    
+                }
+                .ov2-4{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                }
+                .ov2-5{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                    
+                }
+                .ov2-6{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                    
+                }
+                .ov2-7{
+                    margin: 5px 3px 0 3px;
+                    color: $color-pdf-unknown-blue;
+                    border: solid 2px $color-pdf-unknown-blue;
+                    padding: 7px 20px 7px 20px;
+                    border-radius: 30px;
+                    
                 }
             }
         }

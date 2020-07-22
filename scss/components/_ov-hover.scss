@@ -1,0 +1,29 @@
+
+.proto{
+    width: 150*5px;
+    border: $color-ov-hover-border solid 0.5px;
+}
+.proto-title{
+  @include ov-title;
+}
+.proto-photo{
+  @include ov-photo;
+}
+.proto-model-no{
+  @include ov-no;
+}
+.proto-model-name{
+  @include ov-name;
+}
+.proto-function{
+  @include ov-function;
+}
+.proto-features{
+  @include ov-features;
+}
+.proto-benefit{
+  @include ov-benefit;
+}
+.proto-link{
+  @include ov-link;
+}
