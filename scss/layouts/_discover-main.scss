@@ -81,11 +81,6 @@ main{
             }
         }
     }
-    .product1:hover{
-        #factory{
-            display: block;
-        }
-    }
     .product2{
         display: flex;
         justify-content:center;
@@ -143,11 +138,6 @@ main{
                     text-align: center;
                 }
             }
-        }
-    }
-    .product2:hover{
-        .E-E-all{
-            display: block;
         }
     }
     .product3{
@@ -210,11 +200,6 @@ main{
                     text-align: center;
                 }
             }
-        }
-    }
-    .product3:hover{
-        .transport-all{
-            display: block;
         }
     }
 }  
