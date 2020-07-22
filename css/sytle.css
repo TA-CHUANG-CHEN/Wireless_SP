@@ -1503,7 +1503,15 @@ template {
   cursor: pointer;
 }
 
-.factory-all {
+#products {
+  position: relative;
+}
+
+#products .product1 {
+  position: relative;
+}
+
+#products .product1 .factory-all {
   background-color: #f2f2f2;
   height: auto;
   width: 800px;
@@ -1516,7 +1524,7 @@ template {
   display: none;
 }
 
-.factory-all .factory-content-1 {
+#products .product1 .factory-all .factory-content-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1525,39 +1533,39 @@ template {
           box-sizing: border-box;
 }
 
-.factory-all .factory-content-1 img {
+#products .product1 .factory-all .factory-content-1 img {
   height: 219px;
 }
 
-.factory-all .factory-content-1 .factory-mti {
+#products .product1 .factory-all .factory-content-1 .factory-mti {
   margin: 0 0 0 30px;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-mti-1 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-mti-1 {
   font-size: 2.167em;
   font-weight: bold;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-mti-2 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-mti-2 {
   margin: 15px 0 15px 0;
   font-size: 1.333em;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-mti-3 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-mti-3 {
   font-size: 1.333em;
   font-weight: bold;
   margin: 40px 0 5px 0;
   color: #515152;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button {
   margin: 5px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url("./css-img/F_a_1_Machine Connectivity.png") no-repeat;
@@ -1571,17 +1579,17 @@ template {
   height: 50px;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1 .mti-text-1 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1 .mti-text-1 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1:hover {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-1:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-weight: bold;
@@ -1595,17 +1603,17 @@ template {
   margin: 0 0 0 20px;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 .mti-text-2 {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2 .mti-text-2 {
   margin: 10px 0 0 55px;
 }
 
-.factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2:hover {
+#products .product1 .factory-all .factory-content-1 .factory-mti .factory-button .factory-icon-2:hover {
   border: 2px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-2 {
+#products .product1 .factory-all .factory-content-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1618,32 +1626,32 @@ template {
           box-sizing: border-box;
 }
 
-.factory-all .factory-content-2 img {
+#products .product1 .factory-all .factory-content-2 img {
   height: 219px;
 }
 
-.factory-all .factory-content-2 .factory-mti {
+#products .product1 .factory-all .factory-content-2 .factory-mti {
   margin: 0 0 0 30px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-mti-1 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-mti-1 {
   font-size: 2.167em;
   font-weight: bold;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-mti-2 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-mti-2 {
   margin: 15px 0 15px 0;
   font-size: 1.333em;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-mti-3 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-mti-3 {
   font-size: 1.333em;
   font-weight: bold;
   margin: 40px 0 5px 0;
   color: #515152;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1652,7 +1660,7 @@ template {
   margin: 5px 0 0 0;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3 {
   background: url("./css-img/F_b_1_OEE-Intelligent.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1666,17 +1674,17 @@ template {
   height: 50px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3 .mti-text-1 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3 .mti-text-1 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3:hover {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-3:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 {
   background: url("./css-img/F_b_3_Motor Status.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1691,17 +1699,17 @@ template {
   margin: 0 0 0 20px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 .mti-text-1 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4 .mti-text-1 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4:hover {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-4:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 {
   background: url("./css-img/F_b_2_Wi-Fi Infrastructure.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1715,17 +1723,17 @@ template {
   height: 50px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 .mti-text-1 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 .mti-text-1 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5:hover {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 {
   background: url("./css-img/F_b_4_Facility Health.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1740,17 +1748,17 @@ template {
   margin: 0 0 0 20px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 .mti-text-1 {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6 .mti-text-1 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6:hover {
+#products .product1 .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-6:hover {
   border: 1.5px solid #91d0e6;
   cursor: pointer;
   position: relative;
 }
 
-.factory-all .factory-content-3 {
+#products .product1 .factory-all .factory-content-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1758,32 +1766,32 @@ template {
   background-color: #f2f2f2;
 }
 
-.factory-all .factory-content-3 img {
+#products .product1 .factory-all .factory-content-3 img {
   height: 219px;
 }
 
-.factory-all .factory-content-3 .factory-mti {
+#products .product1 .factory-all .factory-content-3 .factory-mti {
   margin: 0 0 0 30px;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-mti-1 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-mti-1 {
   font-size: 2.167em;
   font-weight: bold;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-mti-2 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-mti-2 {
   margin: 15px 0 15px 0;
   font-size: 1.333em;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-mti-3 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-mti-3 {
   font-size: 1.333em;
   font-weight: bold;
   margin: 40px 0 5px 0;
   color: #515152;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1795,7 +1803,7 @@ template {
           box-sizing: border-box;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-7 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-7 {
   background: url("./css-img/E_b_1_Slope Stability.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1806,12 +1814,12 @@ template {
   height: 50px;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-7 .mti-text-7 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-7 .mti-text-7 {
   margin: 0 0 0 60px;
   padding: 10px 0 0 0;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-8 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-8 {
   background: url("./css-img/E_b_1_Flood inspector.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1824,11 +1832,11 @@ template {
   margin: 0 0 0 0;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-8 .mti-text-8 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-border .factory-icon-8 .mti-text-8 {
   margin: 0 0 0 60px;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 {
   background: url("./css-img/E_b_2_Tunnel bridge.png") no-repeat;
   background-size: 60px 50px;
   background-position: right 145px bottom 1px;
@@ -1841,11 +1849,11 @@ template {
   height: 50px;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 .mti-text-9 {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3 .factory-icon-9 .mti-text-9 {
   margin: 5px 0 0 60px;
 }
 
-.factory-all .factory-content-3 .factory-mti .factory-button-3:hover {
+#products .product1 .factory-all .factory-content-3 .factory-mti .factory-button-3:hover {
   border: 1.5px solid transparent;
   border: 1.5px solid #91d0e6;
   -webkit-box-sizing: border-box;
@@ -2340,7 +2348,6 @@ main {
           justify-content: center;
   background-color: #E3F1FF;
   margin: 0 0 50px 0;
-  position: relative;
 }
 
 main strong {
@@ -3069,6 +3076,11 @@ main .product3:hover .transport-all {
       align-content: flex-start;
   font-size: 1.5em;
   font-weight: bold;
+  position: relative;
+}
+
+#overview2 .ov2-title2 .ov2-para4 .proto {
+  display: none;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-1 {
@@ -3079,12 +3091,13 @@ main .product3:hover .transport-all {
   border-radius: 30px;
 }
 
-#overview2 .ov2-title2 .ov2-para4 .ov2-1 #proto1 {
-  display: none;
-}
-
-#overview2 .ov2-title2 .ov2-para4 .ov2-1-1:hover #proto1 {
-  display: block;
+#overview2 .ov2-title2 .ov2-para4 .ov2-1:hover + .proto, #overview2 .ov2-title2 .ov2-para4 .proto:hover {
+  display: inline;
+  position: absolute;
+  margin: 0 0 0 40px;
+  z-index: 99;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-2 {
