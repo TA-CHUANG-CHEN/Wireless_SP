@@ -15,6 +15,21 @@
 .ov-button:hover{ 
     background-color: $color-advanblue;
 }
+.dmp-button{
+    font-size: $H4-font;
+    text-align: center;
+    padding: 12px 23px 12px 23px;
+    border: #00427F solid 1px;
+    color:$color-dark-bg-white;
+    height: 40px;
+    background-color:$color-advanblue;
+    font-weight: bold;
+    margin: 0 0 80px 0;
+    a{
+        color:$color-dark-bg-white;
+        text-decoration: none;
+    }
+}
 .download-button{ //resources download
     background: url(./css-img/arrow.png) no-repeat ;
     background-size: 30px 25px;

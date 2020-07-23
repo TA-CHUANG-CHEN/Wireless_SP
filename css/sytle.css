@@ -362,6 +362,23 @@ template {
   background-color: #004280;
 }
 
+.dmp-button {
+  font-size: 1.333em;
+  text-align: center;
+  padding: 12px 23px 12px 23px;
+  border: #00427F solid 1px;
+  color: #FFFFFF;
+  height: 40px;
+  background-color: #004280;
+  font-weight: bold;
+  margin: 0 0 80px 0;
+}
+
+.dmp-button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .download-button {
   background: url(./css-img/arrow.png) no-repeat;
   background-size: 30px 25px;
@@ -3029,6 +3046,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 30px 0 0;
+  white-space: nowrap;
 }
 
 .dmp2 .fea-advan .advan-flex .advantages {
