@@ -1,13 +1,11 @@
+/* scss設定*/
 *{
-    font-size: 14px;
+    font-size: $H5-font*0.75;
 }
 .items{
     width: 200*4px;
     border: $color-discovery-hover-border solid 0.5px;
     z-index: 99;
-    position: absolute;
-    margin: 0 0 1000px 200px;
-    display: none;
 }
 .items-title{
   @include discovery-title;
@@ -36,3 +34,10 @@
 .items-link{
   @include discovery-link;
 }
+/* .items-1-nav{
+  display: none;
+} */
+/* .factory-item-1:hover ~.items-1-nav,.items-1-nav:hover{
+    display: block;
+}
+ */

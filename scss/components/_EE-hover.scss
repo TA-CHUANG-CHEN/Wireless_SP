@@ -4,7 +4,7 @@
         .E-E-all{
         background-color:$color-discovery-bg;
         height: auto;
-        width: 850px;
+        width: 800px;
         z-index: 99;  
         position: absolute;
         display: none;
@@ -393,7 +393,7 @@
                             color: $color-discovery-apptext;
                             width:200px;
                             height: 50px;
-                        
+                            line-height: 50px;
                             margin: 0 0 0 0;
                             .E-E-text-9{
                                 margin:0 0 0 60px;

@@ -1,35 +1,117 @@
 
-.proto{
-    width: 200*5px;
-    border: $color-ov-hover-border solid 0.5px;
-    position: absolute;
-    margin: 10% 10%;
-    z-index:99;
-    .proto-title{
-      @include ov-title;
+.proto-1{
+  @include ov-1;
+  width: 200*5px;
+  .proto-1-title{
+    @include ov-title
+  }
+  .proto-1-flex{
+    display: flex;
+    .proto-1-col-1{
+      @include ov-col-1
     }
-    .proto-photo{
-      @include ov-photo;
+    .proto-1-col-2{
+      @include ov-col-2
     }
-    .proto-model-no{
-      @include ov-no;
+    .proto-1-col-3{
+      @include ov-col-2
     }
-    .proto-model-name{
-      @include ov-name;
+    .proto-1-col-4{
+      @include ov-col-2
     }
-    .proto-function{
-      @include ov-function;
+    .proto-1-col-5{
+      @include ov-col-2
     }
-    .proto-features{
-      @include ov-features;
+    .proto-1-col-6{
+      @include ov-col-2
     }
-    .proto-benefit{
-      @include ov-benefit;
-    }
-    .proto-link{
-      @include ov-link;
-    }
+  }
+}
+.proto-display{
+ display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+//proto-1-scss
+.proto-1{
+  width: 200*5px;
+  border: $color-dark-grey solid 1.5px;
+  position: absolute;
+  margin: 10% 10%;
+  z-index:99;
+  .proto-1-title{
+    @include ov-title;
+  }
+  .proto-1-photo{
+    @include ov-photo;
+  }
+  .proto-1-model-no{
+    @include ov-no;
+  }
+  .proto-1-model-name{
+    @include ov-name;
+  }
+  .proto-1-function{
+    @include ov-function;
+  }
+  .proto-1-features{
+    @include ov-features;
+  }
+  .proto-1-benefit{
+    @include ov-benefit;
+  }
+  .proto-1-link{
+    @include ov-link;
+  }
+}
+//proto-2-scss
+
+.proto-2{
+  width: 150*8px;
+  border:$color-dark-grey 1px solid;
+  margin: 20px 20px;
+  z-index:99;
+  .proto-2-title{
+    @include ov-2-title;
+  }
+  .proto-2-photo{
+    @include ov-2-photo;
+  }
+  .proto-2-model-no{
+    @include ov-2-no;
+  }
+  .proto-2-model-name{
+    @include ov-2-name;
+  }
+  .proto-2-function{
+    @include ov-2-function;
+  }
+  .proto-2-features{
+    @include ov-2-features;
+  }
+  .proto-2-benefit{
+    @include ov-2-benefit;
+  }
+  .proto-2-link{
+    @include ov-2-link;
+  }
+
 }
 .proto-display{
   display: none;
-}
+} */

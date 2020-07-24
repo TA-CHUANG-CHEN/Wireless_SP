@@ -37,7 +37,6 @@
   li:hover > ul { 
     display: block;
   }
-
   ul {
     position: absolute;
     z-index: 99;
@@ -107,7 +106,6 @@
         border-top: $color-dark-bg-white 1.5px solid;
         border-bottom: $color-dark-bg-white 1.5px solid;;
         font-size: $H4-font;
-
       }
       a:hover { 
         background-color: $color-nav-bg-hover;
@@ -118,6 +116,7 @@
       li:hover > ul { 
         display: block;
       }
+
     }
   }
 }
