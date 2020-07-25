@@ -1,7 +1,7 @@
 
 .proto-1{
   @include ov-1;
-  width: 200*5px;
+  width: 200*2px;
   .proto-1-title{
     @include ov-title
   }
@@ -29,7 +29,7 @@
 }
 .proto-2{
   @include ov-1;
-  width: 200*5px;
+  width: 200*8px;
   .proto-2-title{
     @include ov-title
   }
@@ -51,6 +51,108 @@
       @include ov-col-2
     }
     .proto-2-col-6{
+      @include ov-col-2
+    }
+    .proto-2-col-7{
+      @include ov-col-2
+    }
+    .proto-2-col-8{
+      @include ov-col-2
+    }
+  }
+}
+.proto-3{
+  @include ov-1;
+  width: 200*5px;
+  .proto-3-title{
+    @include ov-title
+  }
+  .proto-3-flex{
+    display: flex;
+    .proto-3-col-1{
+      @include ov-col-1
+    }
+    .proto-3-col-2{
+      @include ov-col-2
+    }
+    .proto-3-col-3{
+      @include ov-col-2
+    }
+    .proto-3-col-4{
+      @include ov-col-2
+    }
+    .proto-3-col-5{
+      @include ov-col-2
+    }
+    .proto-3-col-6{
+      @include ov-col-2
+    }
+    .proto-3-col-7{
+      @include ov-col-2
+    }
+    .proto-3-col-8{
+      @include ov-col-2
+    }
+  }
+}
+.proto-4{
+  @include ov-1;
+  width: 200*5px;
+  .proto-4-title{
+    @include ov-title
+  }
+  .proto-4-flex{
+    display: flex;
+    .proto-4-col-1{
+      @include ov-col-1
+    }
+    .proto-4-col-2{
+      @include ov-col-2
+    }
+    .proto-4-col-3{
+      @include ov-col-2
+    }
+    .proto-4-col-4{
+      @include ov-col-2
+    }
+    .proto-4-col-5{
+      @include ov-col-2
+    }
+    .proto-4-col-6{
+      @include ov-col-2
+    }
+    .proto-4-col-7{
+      @include ov-col-2
+    }
+    .proto-4-col-8{
+      @include ov-col-2
+    }
+  }
+}
+.proto-5{
+  @include ov-1;
+  width: 200*5px;
+  .proto-5-title{
+    @include ov-title
+  }
+  .proto-5-flex{
+    display: flex;
+    .proto-5-col-1{
+      @include ov-col-1
+    }
+    .proto-5-col-2{
+      @include ov-col-2
+    }
+    .proto-5-col-3{
+      @include ov-col-2
+    }
+    .proto-5-col-4{
+      @include ov-col-2
+    }
+    .proto-5-col-5{
+      @include ov-col-2
+    }
+    .proto-5-col-6{
       @include ov-col-2
     }
   }
@@ -79,6 +181,34 @@
       @include ov-col-2
     }
     .proto-6-col-6{
+      @include ov-col-2
+    }
+  }
+}
+.proto-7{
+  @include ov-1;
+  width: 200*6px;
+  .proto-7-title{
+    @include ov-title
+  }
+  .proto-7-flex{
+    display: flex;
+    .proto-7-col-1{
+      @include ov-col-1
+    }
+    .proto-7-col-2{
+      @include ov-col-2
+    }
+    .proto-7-col-3{
+      @include ov-col-2
+    }
+    .proto-7-col-4{
+      @include ov-col-2
+    }
+    .proto-7-col-5{
+      @include ov-col-2
+    }
+    .proto-7-col-6{
       @include ov-col-2
     }
   }

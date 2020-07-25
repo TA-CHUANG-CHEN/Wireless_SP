@@ -1,27 +1,33 @@
-.proto-6{
+.proto-3{
     @include ov-1;
     width: 200*5px;
-    .proto-6-title{
+    .proto-3-title{
       @include ov-title
     }
-    .proto-6-flex{
+    .proto-3-flex{
       display: flex;
-      .proto-6-col-1{
+      .proto-3-col-1{
         @include ov-col-1
       }
-      .proto-6-col-2{
+      .proto-3-col-2{
         @include ov-col-2
       }
-      .proto-6-col-3{
+      .proto-3-col-3{
         @include ov-col-2
       }
-      .proto-6-col-4{
+      .proto-3-col-4{
         @include ov-col-2
       }
-      .proto-6-col-5{
+      .proto-3-col-5{
         @include ov-col-2
       }
-      .proto-6-col-6{
+      .proto-3-col-6{
+        @include ov-col-2
+      }
+      .proto-3-col-7{
+        @include ov-col-2
+      }
+      .proto-3-col-8{
         @include ov-col-2
       }
     }
