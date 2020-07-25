@@ -1,150 +1,28 @@
-@mixin ov-2-proto {
-    width: 800px;
-}
-@mixin ov-2-title{
-   display: flex;
-   flex-wrap:wrap;
-   justify-content: center;
-   align-content: center;
-   background: $color-ov-hover-title;
-   font-size: $H3-font;
-   height: 60px;
-   color:white;
-}
-@mixin ov-2-photo{
-    display: flex;
-    flex-wrap:wrap;
-    height:200px;
-    background:white;
-    overflow-y:hidden;
-    overflow-x:scroll;
-    >div{
-        width:150px;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        height: 200px;
+.proto-6{
+    @include ov-1;
+    width: 200*5px;
+    .proto-6-title{
+      @include ov-title
     }
-}
-@mixin ov-2-no{
-   display: flex;
-   background: $color-ov-hover-no;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex;
-       flex-wrap:wrap;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin ov-2-name{
-   display: flex;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       height:100px;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin ov-2-function{
-   display: flex;
-   background: $color-ov-hover-function;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       display: flex;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin ov-2-features{
-   display: flex;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   word-break: keep-all;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       display: flex;
-       flex-wrap:wrap;
-       height: 300px;  
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       padding:10px 0 0 10px;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 50px 0 0 10px;
-   }
-}
-@mixin ov-2-benefit{
-   display: flex;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   background: $color-ov-hover-benefit;
-   height: 350px;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       padding:10px 0 0 10px;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 50px 0 0 10px;
-   }
-}
-@mixin ov-2-link{
-   display: flex;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex;
-       flex-wrap:wrap;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
+    .proto-6-flex{
+      display: flex;
+      .proto-6-col-1{
+        @include ov-col-1
+      }
+      .proto-6-col-2{
+        @include ov-col-2
+      }
+      .proto-6-col-3{
+        @include ov-col-2
+      }
+      .proto-6-col-4{
+        @include ov-col-2
+      }
+      .proto-6-col-5{
+        @include ov-col-2
+      }
+      .proto-6-col-6{
+        @include ov-col-2
+      }
+    }
+  }

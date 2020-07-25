@@ -1,5 +1,5 @@
 
-// over-view-click-table-1
+// over-view-click-table-1- column
 @mixin ov-1{
     border: $color-dark-grey solid 1.5px;
     position: absolute;
@@ -90,6 +90,7 @@
 }
 div:nth-child(1){
     height: 200px;
+    
 }
 div:nth-child(2){
     background: $color-ov-hover-no;
@@ -141,6 +142,23 @@ div:nth-child(6){
     }
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// over-view-click-table-1- row
 
 @mixin ov-photo{
     display: flex; flex-direction:column;
@@ -277,7 +295,7 @@ div:nth-child(6){
         padding: 0 0 0 10px;
     }
 }
-// over-view-click-table-2
+// over-view-click-table-2-row
 
 @mixin ov-2-proto {
     border:$color-dark-grey 2px solid;
