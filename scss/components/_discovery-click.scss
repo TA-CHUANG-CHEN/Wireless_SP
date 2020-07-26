@@ -1,6 +1,6 @@
 .item-1-1{
     @include discovery-1;
-    width: 200*4px;
+    width: 210*4px;
     .item-1-1-title{
       @include discovery-title
     }
@@ -34,7 +34,7 @@
   }
 .item-1-2{
 @include discovery-1;
-width: 200*3px;
+width: 210*3px;
 .item-1-2-title{
     @include discovery-title
 }
@@ -68,7 +68,7 @@ width: 200*3px;
 }
 .item-2-1{
     @include discovery-1;
-    width: 200*3px;
+    width: 210*3px;
     .item-2-1-title{
         @include discovery-title
     }
@@ -102,7 +102,7 @@ width: 200*3px;
     }
 .item-2-2{
     @include discovery-1;
-    width: 200*5px;
+    width: 210*5px;
     .item-2-2-title{
         @include discovery-title
     }
@@ -136,7 +136,7 @@ width: 200*3px;
     }
 .item-2-3{
     @include discovery-1;
-    width: 200*5px;
+    width: 210*5px;
     .item-2-3-title{
         @include discovery-title
     }
@@ -170,7 +170,7 @@ width: 200*3px;
     }
 .item-2-4{
     @include discovery-1;
-    width: 200*4px;
+    width: 210*4px;
     .item-2-4-title{
         @include discovery-title
     }
@@ -204,7 +204,7 @@ width: 200*3px;
     }
 .item-3-1{
     @include discovery-1;
-    width: 200*3px;
+    width: 210*3px;
     .item-3-1-title{
         @include discovery-title
     }
@@ -238,7 +238,7 @@ width: 200*3px;
     }
 .item-4-1{
     @include discovery-1;
-    width: 200*5px;
+    width: 210*5px;
     .item-4-1-title{
         @include discovery-title
     }
@@ -272,7 +272,7 @@ width: 200*3px;
     }
 .item-4-2{
     @include discovery-1;
-    width: 200*5px;
+    width: 210*5px;
     .item-4-2-title{
         @include discovery-title
     }
@@ -306,7 +306,7 @@ width: 200*3px;
     }
 .item-4-3{
     @include discovery-1;
-    width: 200*4px;
+    width: 210*4px;
     .item-4-3-title{
         @include discovery-title
     }
@@ -340,7 +340,7 @@ width: 200*3px;
     }
 .item-5-1{
 @include discovery-1;
-width: 200*5px;
+width: 210*5px;
 .item-5-1-title{
 @include discovery-title
 }
@@ -374,7 +374,7 @@ display: flex;
 }
 .item-6-1{
 @include discovery-1;
-width: 200*3px;
+width: 210*3px;
 .item-6-1-title{
     @include discovery-title
 }
@@ -408,7 +408,7 @@ width: 200*3px;
 }
 .item-7-1{
     @include discovery-1;
-    width: 200*5px;
+    width: 210*5px;
     .item-7-1-title{
         @include discovery-title
     }
@@ -440,6 +440,139 @@ width: 200*3px;
         }
     }
     }
-.items-display{
- // display: none;
+.item-8-1{
+    @include discovery-1;
+    width: 210*5px;
+    .item-8-1-title{
+        @include discovery-title
+    }
+    .item-8-1-flex{
+        display: flex;
+        .item-8-1-col-1{
+        @include discovery-col-1
+        }
+        .item-8-1-col-2{
+        @include discovery-col-2
+        }
+        .item-8-1-col-3{
+        @include discovery-col-2
+        }
+        .item-8-1-col-4{
+        @include discovery-col-2
+        }
+        .item-8-1-col-5{
+        @include discovery-col-2
+        }
+        .item-8-1-col-6{
+        @include discovery-col-2
+        }
+        .item-8-1-col-7{
+        @include discovery-col-2
+        }
+        .item-8-1-col-8{
+        @include discovery-col-2
+        }
+    }
+    }
+.item-8-2{
+    @include discovery-1;
+    width: 210*7px;
+    .item-8-2-title{
+        @include discovery-title
+    }
+    .item-8-2-flex{
+        display: flex;
+        .item-8-2-col-1{
+        @include discovery-col-1
+        }
+        .item-8-2-col-2{
+        @include discovery-col-2
+        }
+        .item-8-2-col-3{
+        @include discovery-col-2
+        }
+        .item-8-2-col-4{
+        @include discovery-col-2
+        }
+        .item-8-2-col-5{
+        @include discovery-col-2
+        }
+        .item-8-2-col-6{
+        @include discovery-col-2
+        }
+        .item-8-2-col-7{
+        @include discovery-col-2
+        }
+        .item-8-2-col-8{
+        @include discovery-col-2
+        }
+    }
 }
+.item-9-1{
+    @include discovery-1;
+    width: 210*4px;
+    .item-9-1-title{
+        @include discovery-title
+    }
+    .item-9-1-flex{
+        display: flex;
+        .item-9-1-col-1{
+        @include discovery-col-1
+        }
+        .item-9-1-col-2{
+        @include discovery-col-2
+        }
+        .item-9-1-col-3{
+        @include discovery-col-2
+        }
+        .item-9-1-col-4{
+        @include discovery-col-2
+        }
+        .item-9-1-col-5{
+        @include discovery-col-2
+        }
+        .item-9-1-col-6{
+        @include discovery-col-2
+        }
+        .item-9-1-col-7{
+        @include discovery-col-2
+        }
+        .item-9-1-col-8{
+        @include discovery-col-2
+        }
+    }
+    }
+    .item-9-2{
+        @include discovery-1;
+        width: 210*3px;
+        .item-9-2-title{
+            @include discovery-title
+        }
+        .item-9-2-flex{
+            display: flex;
+            .item-9-2-col-1{
+            @include discovery-col-1
+            }
+            .item-9-2-col-2{
+            @include discovery-col-2
+            }
+            .item-9-2-col-3{
+            @include discovery-col-2
+            }
+            .item-9-2-col-4{
+            @include discovery-col-2
+            }
+            .item-9-2-col-5{
+            @include discovery-col-2
+            }
+            .item-9-2-col-6{
+            @include discovery-col-2
+            }
+            .item-9-2-col-7{
+            @include discovery-col-2
+            }
+            .item-9-2-col-8{
+            @include discovery-col-2
+            }
+        }
+        }
