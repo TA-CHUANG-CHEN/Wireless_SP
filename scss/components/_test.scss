@@ -1,33 +1,33 @@
-.item-11-1{
+.item-11-2{
     @include discovery-1;
     width: 200*3px;
-    .item-11-1-title{
+    .item-11-2-title{
         @include discovery-title
     }
-    .item-11-1-flex{
+    .item-11-2-flex{
         display: flex;
-        .item-11-1-col-1{
+        .item-11-2-col-1{
         @include discovery-col-1
         }
-        .item-11-1-col-2{
+        .item-11-2-col-2{
         @include discovery-col-2
         }
-        .item-11-1-col-3{
+        .item-11-2-col-3{
         @include discovery-col-2
         }
-        .item-11-1-col-4{
+        .item-11-2-col-4{
         @include discovery-col-2
         }
-        .item-11-1-col-5{
+        .item-11-2-col-5{
         @include discovery-col-2
         }
-        .item-11-1-col-6{
+        .item-11-2-col-6{
         @include discovery-col-2
         }
-        .item-11-1-col-7{
+        .item-11-2-col-7{
         @include discovery-col-2
         }
-        .item-11-1-col-8{
+        .item-11-2-col-8{
         @include discovery-col-2
         }
     }
