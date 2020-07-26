@@ -169,7 +169,7 @@ div:nth-child(6){
         flex-direction: column;
         flex-wrap:wrap;
         background: white;
-        font-size: $H5-font;
+        font-size: $H5-font*0.75;
         justify-content: center;
         align-items: center;
         width:200px;
@@ -230,7 +230,6 @@ div:nth-child(6){
     box-sizing: border-box;
     justify-content: flex-start;
     border-right: $color-discovery-hover-border solid 0.1px;
-
 }
 div:nth-child(1){
     height: 200px;
@@ -277,6 +276,16 @@ div:nth-child(6){
 }
 div:nth-child(8){
     background: $color-discovery-hover-link;
+    display: flex;
+}
+.item-image>div{
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    margin: 5px 0 0 0;
 }
 }
 
