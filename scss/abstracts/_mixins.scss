@@ -143,6 +143,142 @@ div:nth-child(6){
 }
 }
 
+// discover our products
+
+@mixin discovery-1{
+    border: $color-dark-grey solid 1.5px;
+    z-index:99;
+}
+@mixin discovery-title {
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    background: $color-discovery-hover-title;
+    font-size: $H2-PC-font *0.75;
+    font-weight: bold;
+    height: 60px;
+    color:white;
+    box-sizing: border-box;
+}
+@mixin discovery-flex-1 {
+    display: flex;
+}
+@mixin discovery-col-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        background: white;
+        font-size: $H5-font;
+        justify-content: center;
+        align-items: center;
+        width:200px;
+        box-sizing: border-box;
+    >div{
+        box-sizing: border-box;
+        height: 60px;
+        width:200px;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: left;
+        padding: 0 0 0 10px;
+        font-size: $H5-font;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: flex-start;
+        border-right: $color-discovery-hover-border solid 0.1px;
+    }
+    :nth-child(1){
+        height: 200px;
+    }
+    :nth-child(2){
+        background:$color-discovery-hover-no;
+        display: flex;
+    }
+    :nth-child(4){
+        background:$color-discovery-hover-function;
+    }
+    :nth-child(5){
+        height: 250px;
+    }
+    :nth-child(6){
+        background: $color-discovery-hover-wifi;    
+
+    }
+    :nth-child(8){
+        background: $color-discovery-hover-link;
+    }
+}
+@mixin discovery-col-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background: white;
+    font-size: $H5-font*0.75;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    box-sizing: border-box;
+>div{
+    box-sizing: border-box;
+    height: 60px;
+    width:200px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: left;
+    font-size: $H5-font;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    border-right: $color-discovery-hover-border solid 0.1px;
+
+}
+div:nth-child(1){
+    height: 200px;
+}
+div:nth-child(2){
+    background: $color-discovery-hover-no;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div:nth-child(4){
+    background: $color-discovery-hover-function;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div:nth-child(5){
+    height: 250px;
+    ul {
+        list-style-type: none;
+        font-size: $H5-font*0.75;
+        word-break: break-all;
+        padding: 10px 10px 0 25px;
+    }
+    ul li:before {
+        content: '-';
+        position: absolute;
+        margin-left: -15px;
+    }
+}
+div:nth-child(6){
+    background: $color-discovery-hover-wifi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div:nth-child(8){
+    background: $color-discovery-hover-link;
+}
+}
 
 
 
