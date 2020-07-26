@@ -1,33 +1,33 @@
-.item-3-1{
+.item-7-1{
     @include discovery-1;
-    width: 200*4px;
-    .item-3-1-title{
+    width: 200*3px;
+    .item-7-1-title{
         @include discovery-title
     }
-    .item-3-1-flex{
+    .item-7-1-flex{
         display: flex;
-        .item-3-1-col-1{
+        .item-7-1-col-1{
         @include discovery-col-1
         }
-        .item-3-1-col-2{
+        .item-7-1-col-2{
         @include discovery-col-2
         }
-        .item-3-1-col-3{
+        .item-7-1-col-3{
         @include discovery-col-2
         }
-        .item-3-1-col-4{
+        .item-7-1-col-4{
         @include discovery-col-2
         }
-        .item-3-1-col-5{
+        .item-7-1-col-5{
         @include discovery-col-2
         }
-        .item-3-1-col-6{
+        .item-7-1-col-6{
         @include discovery-col-2
         }
-        .item-3-1-col-7{
+        .item-7-1-col-7{
         @include discovery-col-2
         }
-        .item-3-1-col-8{
+        .item-7-1-col-8{
         @include discovery-col-2
         }
     }
