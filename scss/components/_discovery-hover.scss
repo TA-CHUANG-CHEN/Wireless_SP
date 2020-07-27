@@ -711,7 +711,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-11-1{
     @include discovery-1;
     width: 210*3px;
@@ -745,7 +745,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-11-2{
 @include discovery-1;
 width: 210*4px;
@@ -847,4 +847,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
+.items-display{
+    display: none;
+}
