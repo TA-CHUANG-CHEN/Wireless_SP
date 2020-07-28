@@ -157,6 +157,7 @@ div:nth-child(6){
     border: $color-dark-grey solid 1.5px;
     z-index:99;
     top:50%;
+    position: fixed;
 }
 @mixin discovery-title {
     display: flex; 

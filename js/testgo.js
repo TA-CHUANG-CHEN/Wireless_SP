@@ -1,0 +1,7 @@
+const item_1_1 = document.querySelector('.item-1-1')
+const item_1_2 = document.querySelector('.item-1-2')
+const item_2_1 = document.querySelector('.item-2-1')
+const item_2_2 = document.querySelector('.item-2-2')
+const item_2_3 = document.querySelector('.item-2-3')
+const item_2_4 = document.querySelector('.item-2-4')
+const item_3_1 = document.querySelector('.item-3-1')

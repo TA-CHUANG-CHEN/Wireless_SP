@@ -8219,6 +8219,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -9319,6 +9320,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -10419,6 +10421,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -11519,6 +11522,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -12619,6 +12623,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -13719,6 +13724,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -14819,6 +14825,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -15919,6 +15926,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -17019,6 +17027,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -18119,6 +18128,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -19219,6 +19229,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -20319,6 +20330,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -21419,6 +21431,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -22519,6 +22532,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1050px;
 }
 
@@ -23619,6 +23633,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 1470px;
 }
 
@@ -24719,6 +24734,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -25819,6 +25835,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -26919,6 +26936,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -28019,6 +28037,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 420px;
 }
 
@@ -29119,6 +29138,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -30219,6 +30239,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -31319,6 +31340,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -32419,6 +32441,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 840px;
 }
 
@@ -33519,6 +33542,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 630px;
 }
 
@@ -34619,6 +34643,7 @@ template {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
   top: 50%;
+  position: fixed;
   width: 420px;
 }
 
@@ -35713,6 +35738,10 @@ template {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin: 5px 0 0 0;
+}
+
+.items-display {
+  display: none;
 }
 
 .drop-down-menu {
