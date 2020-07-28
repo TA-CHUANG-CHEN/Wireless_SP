@@ -200,13 +200,13 @@
   }
   .proto-7-flex{
     display: flex;
-    overflow: scroll;
+    
     .proto-7-col-1{
       @include ov-col-1
     }
     .proto-7-scroll{
       display: flex;
-      overflow: scroll;
+      overflow: scroll;  
     }
     .proto-7-col-2{
       @include ov-col-2
@@ -226,5 +226,16 @@
   }
 }
 .proto-display{
+  display: none;
+}
+#dark-bg{
+  opacity: 60%;
+  position: absolute;
+  background:$color-dark-grey;
+  z-index:50;
+  pointer-events:none;
+  display: none;
+}
+.dark-display{
   display: none;
 }

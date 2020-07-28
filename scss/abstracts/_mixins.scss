@@ -7,8 +7,8 @@
     top: 1%;
     left:1%;
     height: 700px;
-    overflow: scroll;
-    box-sizing:border-box;
+    overflow-y: scroll;
+    
 }
 @mixin ov-title {
     display: flex; 
@@ -24,17 +24,19 @@
 }
 @mixin ov-flex-1 {
     display: flex;
+    
 }
 @mixin ov-col-1{
         display: flex;
         flex-direction: column;
         flex-wrap:wrap;
         background: white;
-        font-size: $H5-font*0.75;
+        font-size: $H5-font;
         justify-content: center;
         align-items: center;
         width:210px;
         box-sizing: border-box;
+        
     >div{
         box-sizing: border-box;
         height: 60px;
@@ -106,6 +108,7 @@ div:nth-child(3){
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding:0 5px 0 5px;
 }
 div:nth-child(4){
     background: $color-ov-hover-no;
@@ -133,6 +136,7 @@ div:nth-child(5){
 div:nth-child(6){
     background: $color-ov-hover-no;
     height: 300px;
+    position: relative;
     ul {
         list-style-type: none;
         word-break: keep-all;
@@ -309,7 +313,7 @@ div:nth-child(8){
 
 
 
-
+/* 
 
 
 
@@ -774,7 +778,7 @@ div:nth-child(8){
        padding: 0 0 0 10px;
    }
 }
-
+ */
 // over-view-click
 @mixin ov2-para4-css{
     margin: 5px 3px 0 3px;
