@@ -8,7 +8,6 @@
     left:1%;
     height: 700px;
     overflow-y: scroll;
-    
 }
 @mixin ov-title {
     display: flex; 
@@ -16,7 +15,7 @@
     justify-content: center;
     align-content: center;
     background: $color-ov-hover-title;
-    font-size: $H2-PC-font *0.75;
+    font-size: $H2-PC-font ;
     font-weight: bold;
     height: 60px;
     color:white;
@@ -24,7 +23,6 @@
 }
 @mixin ov-flex-1 {
     display: flex;
-    
 }
 @mixin ov-col-1{
         display: flex;
@@ -156,8 +154,11 @@ div:nth-child(6){
 @mixin discovery-1{
     border: $color-dark-grey solid 1.5px;
     z-index:99;
-    top:50%;
     position: fixed;
+    top: 1%;
+    left:1%;
+    height: 700px;
+    overflow-y: scroll;
 }
 @mixin discovery-title {
     display: flex; 

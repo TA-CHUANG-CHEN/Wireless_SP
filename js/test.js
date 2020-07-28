@@ -100,13 +100,13 @@ const pro_ee = function (){
   const item_5_1_1 = document.getElementById('item-5-1-1')
   const item_5_1_2 = document.getElementById('item-5-1-2')
   const item_6_1_1 = document.getElementById('item-6-1-1')
-  const item_7_1_2 = document.getElementById('item-6-1-2')
+  const item_6_1_2 = document.getElementById('item-6-1-2')
   const item_7_1_1 = document.getElementById('item-7-1-1')
   const item_7_1_2 = document.getElementById('item-7-1-2')
   const item_8_1_1 = document.getElementById('item-8-1-1')
   const item_8_1_2 = document.getElementById('item-8-1-2')
   const item_8_1_3 = document.getElementById('item-8-1-3')
-  const item_8_1_3 = document.getElementById('item-8-1-4')
+  const item_8_1_4 = document.getElementById('item-8-1-4')
   const item_8_2_1 = document.getElementById('item-8-2-1')
   const item_8_2_2 = document.getElementById('item-8-2-2')
   const item_4_1 = document.querySelector('.item-4-1')
@@ -117,9 +117,139 @@ const pro_ee = function (){
   const item_7_1 = document.querySelector('.item-7-1')
   const item_8_1 = document.querySelector('.item-8-1')
   const item_8_2 = document.querySelector('.item-8-2')
-  document.addEventListener('click')
+  document.addEventListener('click',(e)=>{
+    if(e.target == item_4_1_1 || e.target == item_4_1_2 || e.target == item_4_1_3 || e.target == item_4_1_4){
+      item_4_1.style =`display:block`
+    }else{
+      item_4_1.style =`display:none`
+    }
+    if(e.target == item_4_2_1 || e.target == item_4_2_2 || e.target == item_4_2_3 ){
+    item_4_2.style =`display:block`
+    }else{
+    item_4_2.style =`display:none`
+    }  
+    if(e.target == item_4_3_1 || e.target == item_4_3_2){
+    item_4_3.style =`display:block`
+    }else{
+    item_4_3.style =`display:none`
+    }
+    if(e.target == item_5_1_1 || e.target == item_5_1_2){
+    item_5_1.style =`display:block`
+    }else{
+    item_5_1.style =`display:none`
+    }
+    if(e.target == item_6_1_1 || e.target == item_6_1_2){
+    item_6_1.style =`display:block`
+    }else{
+    item_6_1.style =`display:none`
+    }
+    if(e.target == item_7_1_1 || e.target == item_7_1_2){
+    item_7_1.style =`display:block`
+    }else{
+    item_7_1.style =`display:none`
+    }
+    if(e.target == item_8_1_1 || e.target == item_8_1_2 || e.target == item_8_1_3 || e.target == item_8_1_4){
+    item_8_1.style =`display:block`
+    }else{
+    item_8_1.style =`display:none`
+    }
+    if(e.target == item_8_2_1 || e.target == item_8_2_2){
+    item_8_2.style =`display:block`
+    }else{
+    item_8_2.style =`display:none`
+    }
+  })
 }()
 const pro_trans = function (){
-  const trans = document.querySelector(`transport-icon-${t}`)
-}
+  const item_9_1_1 = document.getElementById('item-9-1-1')
+  const item_9_1_2 = document.getElementById('item-9-1-2')
+  const item_9_2_1 = document.getElementById('item-9-2-1')
+  const item_9_2_2 = document.getElementById('item-9-2-2')
+  const item_9_3_1 = document.getElementById('item-9-3-1')
+  const item_9_3_2 = document.getElementById('item-9-3-2')
+  const item_10_1_1 = document.getElementById('item-10-1-1')
+  const item_10_1_2 = document.getElementById('item-10-1-2')
+  const item_10_2_1 = document.getElementById('item-10-2-1')
+  const item_10_2_2 = document.getElementById('item-10-2-2')
+  const item_10_3_1 = document.getElementById('item-10-3-1')
+  const item_10_3_2 = document.getElementById('item-10-3-2')
+  const item_10_3_3 = document.getElementById('item-10-3-3')
+  const item_10_3_4 = document.getElementById('item-10-3-4')
+  const item_10_3_5 = document.getElementById('item-10-3-5')
+  const item_10_3_6 = document.getElementById('item-10-3-6')
+  const item_11_1_1 = document.getElementById('item-11-1-1')
+  const item_11_1_2 = document.getElementById('item-11-1-2')
+  const item_11_2_1 = document.getElementById('item-11-2-1')
+  const item_11_2_2 = document.getElementById('item-11-2-2')
+  const item_11_2_3 = document.getElementById('item-11-2-3')
+  const item_11_3_1 = document.getElementById('item-11-3-1')
+  const item_11_3_2 = document.getElementById('item-11-3-2')
+  const item_12_1_1 = document.getElementById('item-12-1-1')
+  const item_12_1_2 = document.getElementById('item-12-1-2')
+  const item_12_1_3 = document.getElementById('item-12-1-3')
+  const item_12_1_4 = document.getElementById('item-12-1-4')
+  const item_9_1 = document.querySelector('.item-9-1')
+  const item_9_2 = document.querySelector('.item-9-2')
+  const item_9_3 = document.querySelector('.item-9-3')
+  const item_10_1 = document.querySelector('.item-10-1')
+  const item_10_2 = document.querySelector('.item-10-2')
+  const item_10_3 = document.querySelector('.item-10-3')
+  const item_11_1 = document.querySelector('.item-11-1')
+  const item_11_2 = document.querySelector('.item-11-2')
+  const item_11_3 = document.querySelector('.item-11-3')
+  const item_12_1 = document.querySelector('.item-12-1')
+  document.addEventListener('click',(e)=>{
+    if(e.target == item_9_1_1 || e.target == item_9_1_2 ){
+      item_9_1.style =`display:block`
+    }else{
+      item_9_1.style =`display:none`
+    }
+    if(e.target == item_9_2_1 || e.target == item_9_2_2 ){
+      item_9_2.style =`display:block`
+    }else{
+      item_9_2.style =`display:none`
+    }
+    if(e.target == item_9_3_1 || e.target == item_9_3_2 ){
+      item_9_3.style =`display:block`
+    }else{
+      item_9_3.style =`display:none`
+    }
+    if(e.target == item_10_1_1 || e.target == item_10_1_2 ){
+      item_10_1.style =`display:block`
+    }else{
+      item_10_1.style =`display:none`
+    }
+    if(e.target == item_10_2_1 || e.target == item_10_2_2 ){
+      item_10_2.style =`display:block`
+    }else{
+      item_10_2.style =`display:none`
+    }
+    if(e.target == item_10_3_1 || e.target == item_10_3_2 || e.target == item_10_3_3 || e.target == item_10_3_4 || e.target == item_10_3_5 || e.target == item_10_3_6 ){
+      item_10_3.style =`display:block`
+    }else{
+      item_10_3.style =`display:none`
+    }
+    if(e.target == item_11_1_1 || e.target == item_11_1_2 ){
+      item_11_1.style =`display:block`
+    }else{
+      item_11_1.style =`display:none`
+    }
+    if(e.target == item_11_2_1 || e.target == item_11_2_2 || e.target == item_11_2_3 ){
+      item_11_2.style =`display:block`
+    }else{
+      item_11_2.style =`display:none`
+    }
+    if(e.target == item_11_3_1 || e.target == item_11_3_2 ){
+      item_11_3.style =`display:block`
+    }else{
+      item_11_3.style =`display:none`
+    }
+    if(e.target == item_12_1_1 || e.target == item_12_1_2   || e.target == item_12_1_3  || e.target == item_12_1_4){
+      item_12_1.style =`display:block`
+    }else{
+      item_12_1.style =`display:none`
+    }
+  })
+}()
+
  

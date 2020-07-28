@@ -2373,7 +2373,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -3100,7 +3100,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -4083,7 +4083,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -5058,7 +5058,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -6033,7 +6033,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -6760,7 +6760,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -7487,7 +7487,7 @@ template {
   -ms-flex-line-pack: center;
       align-content: center;
   background: #94c6ad;
-  font-size: 2.25em;
+  font-size: 3em;
   font-weight: bold;
   height: 60px;
   color: white;
@@ -8218,8 +8218,11 @@ template {
 .item-1-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -9319,8 +9322,11 @@ template {
 .item-1-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -10420,8 +10426,11 @@ template {
 .item-2-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -11521,8 +11530,11 @@ template {
 .item-2-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -12622,8 +12634,11 @@ template {
 .item-2-3 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -13723,8 +13738,11 @@ template {
 .item-2-4 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -14824,8 +14842,11 @@ template {
 .item-3-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -15925,8 +15946,11 @@ template {
 .item-4-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -17026,8 +17050,11 @@ template {
 .item-4-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -18127,8 +18154,11 @@ template {
 .item-4-3 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -19228,8 +19258,11 @@ template {
 .item-5-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -20329,8 +20362,11 @@ template {
 .item-6-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -21430,8 +21466,11 @@ template {
 .item-7-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -22531,8 +22570,11 @@ template {
 .item-8-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1050px;
 }
 
@@ -23632,8 +23674,11 @@ template {
 .item-8-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 1470px;
 }
 
@@ -24733,8 +24778,11 @@ template {
 .item-9-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -25834,8 +25882,11 @@ template {
 .item-9-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -26935,8 +26986,11 @@ template {
 .item-9-3 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -28036,8 +28090,11 @@ template {
 .item-10-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 420px;
 }
 
@@ -29137,8 +29194,11 @@ template {
 .item-10-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -30238,8 +30298,11 @@ template {
 .item-10-3 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -31339,8 +31402,11 @@ template {
 .item-11-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -32440,8 +32506,11 @@ template {
 .item-11-2 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 840px;
 }
 
@@ -33541,8 +33610,11 @@ template {
 .item-11-3 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 630px;
 }
 
@@ -34642,8 +34714,11 @@ template {
 .item-12-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
-  top: 50%;
   position: fixed;
+  top: 1%;
+  left: 1%;
+  height: 700px;
+  overflow-y: scroll;
   width: 420px;
 }
 
