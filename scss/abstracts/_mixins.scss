@@ -6,6 +6,9 @@
     position: fixed;
     top: 1%;
     left:1%;
+    height: 700px;
+    overflow: scroll;
+    box-sizing:border-box;
 }
 @mixin ov-title {
     display: flex; 
@@ -87,7 +90,6 @@
     box-sizing: border-box;
     justify-content: flex-start;
     border-right: $color-ov-hover-border solid 0.1px;
-
 }
 div:nth-child(1){
     height: 200px;
@@ -114,6 +116,7 @@ div:nth-child(4){
 
 }
 div:nth-child(5){
+    position: relative;
     height: 250px;
     ul {
         list-style-type: none;
@@ -125,8 +128,6 @@ div:nth-child(5){
         content: '-';
         position: absolute;
         margin-left: -15px;
-        overflow-x: scroll;
-        overflow-y: hidden;
     }
 }
 div:nth-child(6){
@@ -469,8 +470,6 @@ div:nth-child(8){
     flex-wrap:wrap;
     height:200px;
     background:white;
-    overflow-y:hidden;
-    overflow-x:scroll;
     >div{
         width:150px;
         border: $color-ov-hover-border solid 0.1px;

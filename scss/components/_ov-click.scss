@@ -200,6 +200,7 @@
   }
   .proto-7-flex{
     display: flex;
+    overflow: scroll;
     .proto-7-col-1{
       @include ov-col-1
     }
