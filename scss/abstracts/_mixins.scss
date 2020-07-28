@@ -1,10 +1,11 @@
 
 // over-view-click-table-1- column
 @mixin ov-1{
-    border: $color-dark-grey solid 1.5px;
-    position: absolute;
-    margin: 10% 10%;
+    border: $color-ov-hover-border solid 1.5px;
     z-index:99;
+    position: fixed;
+    top: 1%;
+    left:1%;
 }
 @mixin ov-title {
     display: flex; 
@@ -26,15 +27,15 @@
         flex-direction: column;
         flex-wrap:wrap;
         background: white;
-        font-size: $H5-font;
+        font-size: $H5-font*0.75;
         justify-content: center;
         align-items: center;
-        width:200px;
+        width:210px;
         box-sizing: border-box;
     >div{
         box-sizing: border-box;
         height: 60px;
-        width:200px;
+        width:210px;
         display: flex;
         flex-wrap:wrap;
         text-align: left;
@@ -73,12 +74,12 @@
     font-size: $H5-font;
     justify-content: center;
     align-items: center;
-    width:200px;
+    width:210px;
     box-sizing: border-box;
 >div{
     box-sizing: border-box;
     height: 60px;
-    width:200px;
+    width:210px;
     display: flex;
     flex-wrap:wrap;
     text-align: left;
@@ -124,6 +125,8 @@ div:nth-child(5){
         content: '-';
         position: absolute;
         margin-left: -15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
     }
 }
 div:nth-child(6){

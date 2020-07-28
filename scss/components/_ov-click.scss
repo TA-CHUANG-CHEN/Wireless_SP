@@ -1,7 +1,8 @@
 
+// over-view seven items clicks
 .proto-1{
   @include ov-1;
-  width: 200*2px;
+  width: 210*2px;
   .proto-1-title{
     @include ov-title
   }
@@ -29,7 +30,7 @@
 }
 .proto-2{
   @include ov-1;
-  width: 200*8px;
+  width: 210*5px;
   .proto-2-title{
     @include ov-title
   }
@@ -38,8 +39,14 @@
     .proto-2-col-1{
       @include ov-col-1
     }
+    .proto-2-scroll{
+      display: flex;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
     .proto-2-col-2{
       @include ov-col-2
+      
     }
     .proto-2-col-3{
       @include ov-col-2
@@ -63,7 +70,7 @@
 }
 .proto-3{
   @include ov-1;
-  width: 200*5px;
+  width: 210*5px;
   .proto-3-title{
     @include ov-title
   }
@@ -97,7 +104,7 @@
 }
 .proto-4{
   @include ov-1;
-  width: 200*5px;
+  width: 210*5px;
   .proto-4-title{
     @include ov-title
   }
@@ -131,7 +138,7 @@
 }
 .proto-5{
   @include ov-1;
-  width: 200*5px;
+  width: 210*5px;
   .proto-5-title{
     @include ov-title
   }
@@ -159,7 +166,7 @@
 }
 .proto-6{
   @include ov-1;
-  width: 200*5px;
+  width: 210*5px;
   .proto-6-title{
     @include ov-title
   }
@@ -187,7 +194,7 @@
 }
 .proto-7{
   @include ov-1;
-  width: 200*6px;
+  width: 210*5px;
   .proto-7-title{
     @include ov-title
   }
@@ -195,6 +202,10 @@
     display: flex;
     .proto-7-col-1{
       @include ov-col-1
+    }
+    .proto-7-scroll{
+      display: flex;
+      overflow: scroll;
     }
     .proto-7-col-2{
       @include ov-col-2
@@ -216,89 +227,3 @@
 .proto-display{
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-//proto-1-scss
-.proto-1{
-  width: 200*5px;
-  border: $color-dark-grey solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
-  z-index:99;
-  .proto-1-title{
-    @include ov-title;
-  }
-  .proto-1-photo{
-    @include ov-photo;
-  }
-  .proto-1-model-no{
-    @include ov-no;
-  }
-  .proto-1-model-name{
-    @include ov-name;
-  }
-  .proto-1-function{
-    @include ov-function;
-  }
-  .proto-1-features{
-    @include ov-features;
-  }
-  .proto-1-benefit{
-    @include ov-benefit;
-  }
-  .proto-1-link{
-    @include ov-link;
-  }
-}
-//proto-2-scss
-
-.proto-2{
-  width: 150*8px;
-  border:$color-dark-grey 1px solid;
-  margin: 20px 20px;
-  z-index:99;
-  .proto-2-title{
-    @include ov-2-title;
-  }
-  .proto-2-photo{
-    @include ov-2-photo;
-  }
-  .proto-2-model-no{
-    @include ov-2-no;
-  }
-  .proto-2-model-name{
-    @include ov-2-name;
-  }
-  .proto-2-function{
-    @include ov-2-function;
-  }
-  .proto-2-features{
-    @include ov-2-features;
-  }
-  .proto-2-benefit{
-    @include ov-2-benefit;
-  }
-  .proto-2-link{
-    @include ov-2-link;
-  }
-
-}
-.proto-display{
-  display: none;
-} */

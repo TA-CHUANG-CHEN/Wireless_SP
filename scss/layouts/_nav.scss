@@ -22,6 +22,7 @@
   a {
     background-color: $color-nav-bg;
     border-right: 3px solid white;
+    cursor: pointer;
     display: block;
     padding: 10px 25px 10px 25px; 
     text-decoration: none;
@@ -38,6 +39,7 @@
     display: block;
   }
   ul {
+    cursor: pointer;
     position: absolute;
     z-index: 99;
     left: -1px;
@@ -52,6 +54,7 @@
       border-bottom: $color-dark-bg-white 1px solid;;
       width: 243px;
       text-align: center;
+      cursor: pointer;
     }
     li:last-child {
       border-right: none;
@@ -79,6 +82,7 @@
     }
     ul { 
       z-index: 999;
+      cursor: pointer;
       top: 0;
       left: 100%; 
       border: white 1px solid;

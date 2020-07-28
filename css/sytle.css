@@ -1885,11 +1885,12 @@ template {
 }
 
 .proto-1 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 400px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 420px;
 }
 
 .proto-1 .proto-1-title {
@@ -1929,14 +1930,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1945,7 +1946,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2006,7 +2007,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2015,7 +2016,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2089,6 +2090,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-2 div:nth-child(6) {
@@ -2127,7 +2130,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2136,7 +2139,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2210,6 +2213,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-3 div:nth-child(6) {
@@ -2248,7 +2253,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2257,7 +2262,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2331,6 +2336,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-4 div:nth-child(6) {
@@ -2369,7 +2376,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2378,7 +2385,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2452,6 +2459,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-5 div:nth-child(6) {
@@ -2490,7 +2499,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2499,7 +2508,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2573,6 +2582,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-6 div:nth-child(6) {
@@ -2594,11 +2605,12 @@ template {
 }
 
 .proto-2 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1600px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-2 .proto-2-title {
@@ -2638,14 +2650,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2654,7 +2666,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2697,6 +2709,14 @@ template {
   height: 300px;
 }
 
+.proto-2 .proto-2-flex .proto-2-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 .proto-2 .proto-2-flex .proto-2-col-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2715,7 +2735,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2724,7 +2744,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2798,6 +2818,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-2 div:nth-child(6) {
@@ -2836,7 +2858,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2845,7 +2867,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2919,6 +2941,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-3 div:nth-child(6) {
@@ -2957,7 +2981,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -2966,7 +2990,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3040,6 +3064,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-4 div:nth-child(6) {
@@ -3078,7 +3104,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3087,7 +3113,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3161,6 +3187,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-5 div:nth-child(6) {
@@ -3199,7 +3227,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3208,7 +3236,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3282,6 +3310,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-6 div:nth-child(6) {
@@ -3320,7 +3350,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3329,7 +3359,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3403,6 +3433,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-7 div:nth-child(6) {
@@ -3441,7 +3473,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3450,7 +3482,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3524,6 +3556,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-8 div:nth-child(6) {
@@ -3545,11 +3579,12 @@ template {
 }
 
 .proto-3 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1000px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-3 .proto-3-title {
@@ -3589,14 +3624,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3605,7 +3640,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3666,7 +3701,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3675,7 +3710,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3749,6 +3784,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-2 div:nth-child(6) {
@@ -3787,7 +3824,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3796,7 +3833,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3870,6 +3907,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-3 div:nth-child(6) {
@@ -3908,7 +3947,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3917,7 +3956,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3991,6 +4030,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-4 div:nth-child(6) {
@@ -4029,7 +4070,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4038,7 +4079,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4112,6 +4153,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-5 div:nth-child(6) {
@@ -4150,7 +4193,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4159,7 +4202,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4233,6 +4276,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-6 div:nth-child(6) {
@@ -4271,7 +4316,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4280,7 +4325,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4354,6 +4399,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-7 div:nth-child(6) {
@@ -4392,7 +4439,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4401,7 +4448,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4475,6 +4522,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-8 div:nth-child(6) {
@@ -4496,11 +4545,12 @@ template {
 }
 
 .proto-4 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1000px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-4 .proto-4-title {
@@ -4540,14 +4590,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4556,7 +4606,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4617,7 +4667,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4626,7 +4676,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4700,6 +4750,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-2 div:nth-child(6) {
@@ -4738,7 +4790,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4747,7 +4799,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4821,6 +4873,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-3 div:nth-child(6) {
@@ -4859,7 +4913,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4868,7 +4922,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4942,6 +4996,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-4 div:nth-child(6) {
@@ -4980,7 +5036,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4989,7 +5045,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5063,6 +5119,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-5 div:nth-child(6) {
@@ -5101,7 +5159,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5110,7 +5168,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5184,6 +5242,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-6 div:nth-child(6) {
@@ -5222,7 +5282,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5231,7 +5291,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5305,6 +5365,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-7 div:nth-child(6) {
@@ -5343,7 +5405,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5352,7 +5414,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5426,6 +5488,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-8 div:nth-child(6) {
@@ -5447,11 +5511,12 @@ template {
 }
 
 .proto-5 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1000px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-5 .proto-5-title {
@@ -5491,14 +5556,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5507,7 +5572,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5568,7 +5633,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5577,7 +5642,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5651,6 +5716,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-2 div:nth-child(6) {
@@ -5689,7 +5756,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5698,7 +5765,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5772,6 +5839,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-3 div:nth-child(6) {
@@ -5810,7 +5879,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5819,7 +5888,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5893,6 +5962,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-4 div:nth-child(6) {
@@ -5931,7 +6002,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5940,7 +6011,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6014,6 +6085,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-5 div:nth-child(6) {
@@ -6052,7 +6125,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6061,7 +6134,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6135,6 +6208,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-6 div:nth-child(6) {
@@ -6156,11 +6231,12 @@ template {
 }
 
 .proto-6 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1000px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-6 .proto-6-title {
@@ -6200,14 +6276,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6216,7 +6292,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6277,7 +6353,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6286,7 +6362,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6360,6 +6436,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-2 div:nth-child(6) {
@@ -6398,7 +6476,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6407,7 +6485,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6481,6 +6559,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-3 div:nth-child(6) {
@@ -6519,7 +6599,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6528,7 +6608,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6602,6 +6682,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-4 div:nth-child(6) {
@@ -6640,7 +6722,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6649,7 +6731,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6723,6 +6805,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-5 div:nth-child(6) {
@@ -6761,7 +6845,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6770,7 +6854,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6844,6 +6928,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-6 div:nth-child(6) {
@@ -6865,11 +6951,12 @@ template {
 }
 
 .proto-7 {
-  border: #4D4D4D solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
+  border: #90c6ad solid 1.5px;
   z-index: 99;
-  width: 1200px;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 1050px;
 }
 
 .proto-7 .proto-7-title {
@@ -6909,14 +6996,14 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 1.16667em;
+  font-size: 0.875em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6925,7 +7012,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6968,6 +7055,13 @@ template {
   height: 300px;
 }
 
+.proto-7 .proto-7-flex .proto-7-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+}
+
 .proto-7 .proto-7-flex .proto-7-col-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6986,7 +7080,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6995,7 +7089,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7069,6 +7163,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-2 div:nth-child(6) {
@@ -7107,7 +7203,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7116,7 +7212,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7190,6 +7286,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-3 div:nth-child(6) {
@@ -7228,7 +7326,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7237,7 +7335,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7311,6 +7409,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-4 div:nth-child(6) {
@@ -7349,7 +7449,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7358,7 +7458,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7432,6 +7532,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-5 div:nth-child(6) {
@@ -7470,7 +7572,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 200px;
+  width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7479,7 +7581,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 60px;
-  width: 200px;
+  width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7553,6 +7655,8 @@ template {
   content: '-';
   position: absolute;
   margin-left: -15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-6 div:nth-child(6) {
@@ -7577,75 +7681,6 @@ template {
   display: none;
 }
 
-/* 
-//proto-1-scss
-.proto-1{
-  width: 200*5px;
-  border: $color-dark-grey solid 1.5px;
-  position: absolute;
-  margin: 10% 10%;
-  z-index:99;
-  .proto-1-title{
-    @include ov-title;
-  }
-  .proto-1-photo{
-    @include ov-photo;
-  }
-  .proto-1-model-no{
-    @include ov-no;
-  }
-  .proto-1-model-name{
-    @include ov-name;
-  }
-  .proto-1-function{
-    @include ov-function;
-  }
-  .proto-1-features{
-    @include ov-features;
-  }
-  .proto-1-benefit{
-    @include ov-benefit;
-  }
-  .proto-1-link{
-    @include ov-link;
-  }
-}
-//proto-2-scss
-
-.proto-2{
-  width: 150*8px;
-  border:$color-dark-grey 1px solid;
-  margin: 20px 20px;
-  z-index:99;
-  .proto-2-title{
-    @include ov-2-title;
-  }
-  .proto-2-photo{
-    @include ov-2-photo;
-  }
-  .proto-2-model-no{
-    @include ov-2-no;
-  }
-  .proto-2-model-name{
-    @include ov-2-name;
-  }
-  .proto-2-function{
-    @include ov-2-function;
-  }
-  .proto-2-features{
-    @include ov-2-features;
-  }
-  .proto-2-benefit{
-    @include ov-2-benefit;
-  }
-  .proto-2-link{
-    @include ov-2-link;
-  }
-
-}
-.proto-display{
-  display: none;
-} */
 .item-1-1 {
   border: #4D4D4D solid 1.5px;
   z-index: 99;
@@ -35146,10 +35181,6 @@ template {
   margin: 5px 0 0 0;
 }
 
-.items-display {
-  display: none;
-}
-
 .drop-down-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35183,6 +35214,7 @@ template {
 .drop-down-menu a {
   background-color: #008CD6;
   border-right: 3px solid white;
+  cursor: pointer;
   display: block;
   padding: 10px 25px 10px 25px;
   text-decoration: none;
@@ -35203,6 +35235,7 @@ template {
 }
 
 .drop-down-menu ul {
+  cursor: pointer;
   position: absolute;
   z-index: 99;
   left: -1px;
@@ -35219,6 +35252,7 @@ template {
   border-bottom: #FFFFFF 1px solid;
   width: 243px;
   text-align: center;
+  cursor: pointer;
 }
 
 .drop-down-menu ul li:last-child {
@@ -35252,6 +35286,7 @@ template {
 
 .drop-down-menu ul ul {
   z-index: 999;
+  cursor: pointer;
   top: 0;
   left: 100%;
   border: white 1px solid;

@@ -13,11 +13,3 @@ const ov_all = function (){
     }
   })
 }()
-const products_all = function(){
-  const product_1 = document.getElementById('products-1')
-  const product_2 = document.getElementById('products-2')
-  const product_3 = document.getElementById('products-3')
-  document.addEventListener('click',(e)=>{
-  })
-
-}()
