@@ -156,12 +156,12 @@ div:nth-child(6){
     border:$color-discovery-hover-border solid 1.5px;
     background-color: $color-discovery-hover-title;
     z-index:99;
-    position: fixed;
-    top:10%;
-    left:50%; 
-    margin-left: -420px;
-    height: 700px;
-    overflow: scroll;
+    //position: fixed;
+    //top:10%;
+    //left:50%; 
+    //margin-left: -420px;
+    //height: 700px;
+   // overflow: scroll;
 }
 @mixin discovery-title {
     display: flex; 
@@ -308,27 +308,7 @@ div:nth-child(8){
     display: flex;
     align-items: flex-start;
     justify-content:flex-start;
-    margin: 5px 0 0 0;
 }
-.item-image .story #text{
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* 定位 */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-}
-.item-image>div:hover .story{
-    visibility: visible;
 }
 
 
