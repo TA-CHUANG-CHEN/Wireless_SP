@@ -39295,7 +39295,7 @@ template {
   line-height: 5px;
 }
 
-.bg-cover {
+#bg-cover {
   position: absolute;
   background: #4cb5d5;
   background-size: 410px 410px;

@@ -31,40 +31,40 @@ const pro_fac = function (){
    if(e.target == item_1_1_1 || e.target == item_1_1_2){
       item_1_1.style =`display:block`;
       dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
       item_1_1.style =`display:none`;dark_bg_2.style.display =`none`
       
    }
    if(e.target == item_1_2_1 || e.target == item_1_2_2){
     item_1_2.style =`display:block`;dark_bg_2.style.display =`block`
     
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_1_2.style =`display:none`;dark_bg_2.style.display =`none`
     
    }
    if(e.target == item_2_1_1 || e.target == item_2_1_2){
     item_2_1.style =`display:block`;dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_2_1.style =`display:none`;dark_bg_2.style.display =`none`
    }
    if(e.target == item_2_2_1 || e.target == item_2_2_2){
     item_2_2.style =`display:block`;dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_2_2.style =`display:none`;dark_bg_2.style.display =`none`
    }
    if(e.target == item_2_3_1 || e.target == item_2_3_2){
     item_2_3.style =`display:block`;dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_2_3.style =`display:none`;dark_bg_2.style.display =`none`
    }
    if(e.target == item_3_1_1 || e.target == item_3_1_2 || e.target == item_3_1_3 || e.target == item_3_1_4 || e.target == item_3_1_5 || e.target == item_3_1_6){
     item_2_4.style =`display:block`;dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_2_4.style =`display:none`;dark_bg_2.style.display =`none`
    }
    if(e.target == item_2_4_1 || e.target == item_2_4_2){
     item_3_1.style =`display:block`;dark_bg_2.style.display =`block`
-   }else{
+   } if(e.target == dark_bg_2 ){
     item_3_1.style =`display:none`;dark_bg_2.style.display =`none`
    }
 
@@ -106,42 +106,42 @@ const pro_ee = function (){
   dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
     if(e.target == item_4_1_1 || e.target == item_4_1_2 || e.target == item_4_1_3 || e.target == item_4_1_4){
       item_4_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_4_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_4_2_1 || e.target == item_4_2_2 || e.target == item_4_2_3 ){
     item_4_2.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_4_2.style =`display:none`;dark_bg_2.style.display =`none`
     }  
     if(e.target == item_4_3_1 || e.target == item_4_3_2){
     item_4_3.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_4_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_5_1_1 || e.target == item_5_1_2){
     item_5_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_5_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_6_1_1 || e.target == item_6_1_2){
     item_6_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_6_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_7_1_1 || e.target == item_7_1_2){
     item_7_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_7_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_8_1_1 || e.target == item_8_1_2 || e.target == item_8_1_3 || e.target == item_8_1_4){
     item_8_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_8_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_8_2_1 || e.target == item_8_2_2){
     item_8_2.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
     item_8_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
   })
@@ -190,52 +190,52 @@ const pro_trans = function (){
     dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
     if(e.target == item_9_1_1 || e.target == item_9_1_2 ){
       item_9_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_9_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_9_2_1 || e.target == item_9_2_2 ){
       item_9_2.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_9_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_9_3_1 || e.target == item_9_3_2 ){
       item_9_3.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_9_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_10_1_1 || e.target == item_10_1_2 ){
       item_10_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_10_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_10_2_1 || e.target == item_10_2_2 ){
       item_10_2.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_10_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_10_3_1 || e.target == item_10_3_2 || e.target == item_10_3_3 || e.target == item_10_3_4 || e.target == item_10_3_5 || e.target == item_10_3_6 ){
       item_10_3.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_10_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_11_1_1 || e.target == item_11_1_2 ){
       item_11_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_11_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_11_2_1 || e.target == item_11_2_2 || e.target == item_11_2_3 ){
       item_11_2.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_11_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_11_3_1 || e.target == item_11_3_2 ){
       item_11_3.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_11_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_12_1_1 || e.target == item_12_1_2   || e.target == item_12_1_3  || e.target == item_12_1_4){
       item_12_1.style =`display:block`;dark_bg_2.style.display =`block`
-    }else{
+    } if(e.target == dark_bg_2 ){
       item_12_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
   })
