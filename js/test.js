@@ -8,11 +8,9 @@ const ov_all = function (){
     dark_bg.style.width = document.documentElement.scrollWidth+`px`;
     if(e.target == ov_all){
         proto_all.classList.remove('proto-display')
-        dark_bg.style.display =`block`
     }
     if(e.target !== ov_all){
         proto_all.classList.add('proto-display')
-      
     }
     }
   })

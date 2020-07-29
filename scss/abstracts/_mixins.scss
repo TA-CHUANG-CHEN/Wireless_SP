@@ -152,9 +152,9 @@ div:nth-child(6){
 // discover our products
 
 @mixin discovery-1{
-    border: $color-dark-grey solid 1.5px;
+    border:$color-discovery-hover-border solid 1.5px;
+    background-color: $color-discovery-hover-title;
     z-index:99;
-    position: fixed;
     top: 1%;
     left:1%;
     height: 700px;
@@ -171,7 +171,7 @@ div:nth-child(6){
     font-weight: bold;
     height: 60px;
     color:white;
-    box-sizing: border-box;
+    
 }
 @mixin discovery-flex-1 {
     display: flex;
@@ -181,7 +181,7 @@ div:nth-child(6){
         flex-direction: column;
         flex-wrap:wrap;
         background: white;
-        font-size: $H5-font*0.75;
+        font-size: $H5-font;
         justify-content: center;
         align-items: center;
         width:210px;
@@ -229,7 +229,7 @@ div:nth-child(6){
     flex-direction: column;
     flex-wrap:wrap;
     background: white;
-    font-size: $H5-font*0.75;
+    font-size: $H5-font;
     justify-content: center;
     align-items: center;
     width:210px;
@@ -271,6 +271,7 @@ div:nth-child(4){
 }
 div:nth-child(5){
     height: 250px;
+    position: relative;
     ul {
         list-style-type: none;
         font-size: $H5-font*0.75;

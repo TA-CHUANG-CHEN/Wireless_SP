@@ -476,12 +476,17 @@ width: 210*3px;
     }
 .item-8-2{
     @include discovery-1;
-    width: 210*7px;
+    width: 210*5px;
     .item-8-2-title{
         @include discovery-title
     }
     .item-8-2-flex{
         display: flex;
+        .proto-2-scroll{
+            display: flex;
+            overflow-x: scroll;
+            overflow-y: hidden;
+          }
         .item-8-2-col-1{
         @include discovery-col-1
         }
@@ -848,6 +853,6 @@ width: 210*3px;
         }
     }
 }
-.items-display{
+/* .items-display{
     display: none;
-}
+} */

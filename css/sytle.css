@@ -8216,9 +8216,9 @@ template {
 }
 
 .item-1-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -8243,8 +8243,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-1-1 .item-1-1-flex {
@@ -8264,7 +8262,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8343,7 +8341,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8421,6 +8419,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-2 div:nth-child(5) ul {
@@ -8484,7 +8483,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8562,6 +8561,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-3 div:nth-child(5) ul {
@@ -8625,7 +8625,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8703,6 +8703,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-4 div:nth-child(5) ul {
@@ -8766,7 +8767,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8844,6 +8845,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-5 div:nth-child(5) ul {
@@ -8907,7 +8909,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8985,6 +8987,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-6 div:nth-child(5) ul {
@@ -9048,7 +9051,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9126,6 +9129,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-7 div:nth-child(5) ul {
@@ -9189,7 +9193,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9267,6 +9271,7 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-1 .item-1-1-flex .item-1-1-col-8 div:nth-child(5) ul {
@@ -9320,9 +9325,9 @@ template {
 }
 
 .item-1-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -9347,8 +9352,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-1-2 .item-1-2-flex {
@@ -9368,7 +9371,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9447,7 +9450,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9525,6 +9528,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-2 div:nth-child(5) ul {
@@ -9588,7 +9592,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9666,6 +9670,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-3 div:nth-child(5) ul {
@@ -9729,7 +9734,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9807,6 +9812,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-4 div:nth-child(5) ul {
@@ -9870,7 +9876,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -9948,6 +9954,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-5 div:nth-child(5) ul {
@@ -10011,7 +10018,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10089,6 +10096,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-6 div:nth-child(5) ul {
@@ -10152,7 +10160,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10230,6 +10238,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-7 div:nth-child(5) ul {
@@ -10293,7 +10302,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10371,6 +10380,7 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-1-2 .item-1-2-flex .item-1-2-col-8 div:nth-child(5) ul {
@@ -10424,9 +10434,9 @@ template {
 }
 
 .item-2-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -10451,8 +10461,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-2-1 .item-2-1-flex {
@@ -10472,7 +10480,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10551,7 +10559,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10629,6 +10637,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-2 div:nth-child(5) ul {
@@ -10692,7 +10701,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10770,6 +10779,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-3 div:nth-child(5) ul {
@@ -10833,7 +10843,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -10911,6 +10921,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-4 div:nth-child(5) ul {
@@ -10974,7 +10985,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11052,6 +11063,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-5 div:nth-child(5) ul {
@@ -11115,7 +11127,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11193,6 +11205,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-6 div:nth-child(5) ul {
@@ -11256,7 +11269,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11334,6 +11347,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-7 div:nth-child(5) ul {
@@ -11397,7 +11411,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11475,6 +11489,7 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-1 .item-2-1-flex .item-2-1-col-8 div:nth-child(5) ul {
@@ -11528,9 +11543,9 @@ template {
 }
 
 .item-2-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -11555,8 +11570,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-2-2 .item-2-2-flex {
@@ -11576,7 +11589,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11655,7 +11668,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11733,6 +11746,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-2 div:nth-child(5) ul {
@@ -11796,7 +11810,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -11874,6 +11888,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-3 div:nth-child(5) ul {
@@ -11937,7 +11952,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12015,6 +12030,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(5) ul {
@@ -12078,7 +12094,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12156,6 +12172,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-5 div:nth-child(5) ul {
@@ -12219,7 +12236,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12297,6 +12314,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-6 div:nth-child(5) ul {
@@ -12360,7 +12378,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12438,6 +12456,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-7 div:nth-child(5) ul {
@@ -12501,7 +12520,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12579,6 +12598,7 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-8 div:nth-child(5) ul {
@@ -12632,9 +12652,9 @@ template {
 }
 
 .item-2-3 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -12659,8 +12679,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-2-3 .item-2-3-flex {
@@ -12680,7 +12698,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12759,7 +12777,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12837,6 +12855,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-2 div:nth-child(5) ul {
@@ -12900,7 +12919,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12978,6 +12997,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-3 div:nth-child(5) ul {
@@ -13041,7 +13061,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13119,6 +13139,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-4 div:nth-child(5) ul {
@@ -13182,7 +13203,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13260,6 +13281,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-5 div:nth-child(5) ul {
@@ -13323,7 +13345,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13401,6 +13423,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-6 div:nth-child(5) ul {
@@ -13464,7 +13487,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13542,6 +13565,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-7 div:nth-child(5) ul {
@@ -13605,7 +13629,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13683,6 +13707,7 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-3 .item-2-3-flex .item-2-3-col-8 div:nth-child(5) ul {
@@ -13736,9 +13761,9 @@ template {
 }
 
 .item-2-4 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -13763,8 +13788,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-2-4 .item-2-4-flex {
@@ -13784,7 +13807,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13863,7 +13886,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13941,6 +13964,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-2 div:nth-child(5) ul {
@@ -14004,7 +14028,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14082,6 +14106,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-3 div:nth-child(5) ul {
@@ -14145,7 +14170,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14223,6 +14248,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-4 div:nth-child(5) ul {
@@ -14286,7 +14312,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14364,6 +14390,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-5 div:nth-child(5) ul {
@@ -14427,7 +14454,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14505,6 +14532,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-6 div:nth-child(5) ul {
@@ -14568,7 +14596,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14646,6 +14674,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-7 div:nth-child(5) ul {
@@ -14709,7 +14738,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14787,6 +14816,7 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-2-4 .item-2-4-flex .item-2-4-col-8 div:nth-child(5) ul {
@@ -14840,9 +14870,9 @@ template {
 }
 
 .item-3-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -14867,8 +14897,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-3-1 .item-3-1-flex {
@@ -14888,7 +14916,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -14967,7 +14995,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15045,6 +15073,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-2 div:nth-child(5) ul {
@@ -15108,7 +15137,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15186,6 +15215,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-3 div:nth-child(5) ul {
@@ -15249,7 +15279,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15327,6 +15357,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-4 div:nth-child(5) ul {
@@ -15390,7 +15421,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15468,6 +15499,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-5 div:nth-child(5) ul {
@@ -15531,7 +15563,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15609,6 +15641,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-6 div:nth-child(5) ul {
@@ -15672,7 +15705,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15750,6 +15783,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-7 div:nth-child(5) ul {
@@ -15813,7 +15847,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15891,6 +15925,7 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-3-1 .item-3-1-flex .item-3-1-col-8 div:nth-child(5) ul {
@@ -15944,9 +15979,9 @@ template {
 }
 
 .item-4-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -15971,8 +16006,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-4-1 .item-4-1-flex {
@@ -15992,7 +16025,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16071,7 +16104,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16149,6 +16182,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-2 div:nth-child(5) ul {
@@ -16212,7 +16246,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16290,6 +16324,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-3 div:nth-child(5) ul {
@@ -16353,7 +16388,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16431,6 +16466,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-4 div:nth-child(5) ul {
@@ -16494,7 +16530,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16572,6 +16608,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-5 div:nth-child(5) ul {
@@ -16635,7 +16672,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16713,6 +16750,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-6 div:nth-child(5) ul {
@@ -16776,7 +16814,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16854,6 +16892,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-7 div:nth-child(5) ul {
@@ -16917,7 +16956,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16995,6 +17034,7 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-1 .item-4-1-flex .item-4-1-col-8 div:nth-child(5) ul {
@@ -17048,9 +17088,9 @@ template {
 }
 
 .item-4-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -17075,8 +17115,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-4-2 .item-4-2-flex {
@@ -17096,7 +17134,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17175,7 +17213,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17253,6 +17291,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-2 div:nth-child(5) ul {
@@ -17316,7 +17355,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17394,6 +17433,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-3 div:nth-child(5) ul {
@@ -17457,7 +17497,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17535,6 +17575,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-4 div:nth-child(5) ul {
@@ -17598,7 +17639,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17676,6 +17717,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-5 div:nth-child(5) ul {
@@ -17739,7 +17781,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17817,6 +17859,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-6 div:nth-child(5) ul {
@@ -17880,7 +17923,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17958,6 +18001,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-7 div:nth-child(5) ul {
@@ -18021,7 +18065,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18099,6 +18143,7 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-2 .item-4-2-flex .item-4-2-col-8 div:nth-child(5) ul {
@@ -18152,9 +18197,9 @@ template {
 }
 
 .item-4-3 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -18179,8 +18224,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-4-3 .item-4-3-flex {
@@ -18200,7 +18243,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18279,7 +18322,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18357,6 +18400,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-2 div:nth-child(5) ul {
@@ -18420,7 +18464,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18498,6 +18542,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-3 div:nth-child(5) ul {
@@ -18561,7 +18606,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18639,6 +18684,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-4 div:nth-child(5) ul {
@@ -18702,7 +18748,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18780,6 +18826,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-5 div:nth-child(5) ul {
@@ -18843,7 +18890,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -18921,6 +18968,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-6 div:nth-child(5) ul {
@@ -18984,7 +19032,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19062,6 +19110,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-7 div:nth-child(5) ul {
@@ -19125,7 +19174,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19203,6 +19252,7 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-4-3 .item-4-3-flex .item-4-3-col-8 div:nth-child(5) ul {
@@ -19256,9 +19306,9 @@ template {
 }
 
 .item-5-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -19283,8 +19333,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-5-1 .item-5-1-flex {
@@ -19304,7 +19352,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19383,7 +19431,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19461,6 +19509,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-2 div:nth-child(5) ul {
@@ -19524,7 +19573,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19602,6 +19651,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-3 div:nth-child(5) ul {
@@ -19665,7 +19715,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19743,6 +19793,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-4 div:nth-child(5) ul {
@@ -19806,7 +19857,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -19884,6 +19935,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-5 div:nth-child(5) ul {
@@ -19947,7 +19999,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20025,6 +20077,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-6 div:nth-child(5) ul {
@@ -20088,7 +20141,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20166,6 +20219,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-7 div:nth-child(5) ul {
@@ -20229,7 +20283,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20307,6 +20361,7 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-5-1 .item-5-1-flex .item-5-1-col-8 div:nth-child(5) ul {
@@ -20360,9 +20415,9 @@ template {
 }
 
 .item-6-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -20387,8 +20442,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-6-1 .item-6-1-flex {
@@ -20408,7 +20461,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20487,7 +20540,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20565,6 +20618,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-2 div:nth-child(5) ul {
@@ -20628,7 +20682,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20706,6 +20760,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-3 div:nth-child(5) ul {
@@ -20769,7 +20824,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20847,6 +20902,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-4 div:nth-child(5) ul {
@@ -20910,7 +20966,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20988,6 +21044,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-5 div:nth-child(5) ul {
@@ -21051,7 +21108,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21129,6 +21186,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-6 div:nth-child(5) ul {
@@ -21192,7 +21250,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21270,6 +21328,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-7 div:nth-child(5) ul {
@@ -21333,7 +21392,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21411,6 +21470,7 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-6-1 .item-6-1-flex .item-6-1-col-8 div:nth-child(5) ul {
@@ -21464,9 +21524,9 @@ template {
 }
 
 .item-7-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -21491,8 +21551,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-7-1 .item-7-1-flex {
@@ -21512,7 +21570,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21591,7 +21649,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21669,6 +21727,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-2 div:nth-child(5) ul {
@@ -21732,7 +21791,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21810,6 +21869,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-3 div:nth-child(5) ul {
@@ -21873,7 +21933,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -21951,6 +22011,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-4 div:nth-child(5) ul {
@@ -22014,7 +22075,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22092,6 +22153,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-5 div:nth-child(5) ul {
@@ -22155,7 +22217,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22233,6 +22295,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-6 div:nth-child(5) ul {
@@ -22296,7 +22359,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22374,6 +22437,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-7 div:nth-child(5) ul {
@@ -22437,7 +22501,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22515,6 +22579,7 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-7-1 .item-7-1-flex .item-7-1-col-8 div:nth-child(5) ul {
@@ -22568,9 +22633,9 @@ template {
 }
 
 .item-8-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -22595,8 +22660,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-8-1 .item-8-1-flex {
@@ -22616,7 +22679,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22695,7 +22758,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22773,6 +22836,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-2 div:nth-child(5) ul {
@@ -22836,7 +22900,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -22914,6 +22978,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-3 div:nth-child(5) ul {
@@ -22977,7 +23042,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23055,6 +23120,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-4 div:nth-child(5) ul {
@@ -23118,7 +23184,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23196,6 +23262,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-5 div:nth-child(5) ul {
@@ -23259,7 +23326,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23337,6 +23404,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-6 div:nth-child(5) ul {
@@ -23400,7 +23468,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23478,6 +23546,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-7 div:nth-child(5) ul {
@@ -23541,7 +23610,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23619,6 +23688,7 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-1 .item-8-1-flex .item-8-1-col-8 div:nth-child(5) ul {
@@ -23672,14 +23742,14 @@ template {
 }
 
 .item-8-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
   overflow-y: scroll;
-  width: 1470px;
+  width: 1050px;
 }
 
 .item-8-2 .item-8-2-title {
@@ -23699,14 +23769,20 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-8-2 .item-8-2-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.item-8-2 .item-8-2-flex .proto-2-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-1 {
@@ -23720,7 +23796,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23799,7 +23875,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -23877,6 +23953,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-2 div:nth-child(5) ul {
@@ -23940,7 +24017,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24018,6 +24095,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-3 div:nth-child(5) ul {
@@ -24081,7 +24159,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24159,6 +24237,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-4 div:nth-child(5) ul {
@@ -24222,7 +24301,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24300,6 +24379,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-5 div:nth-child(5) ul {
@@ -24363,7 +24443,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24441,6 +24521,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-6 div:nth-child(5) ul {
@@ -24504,7 +24585,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24582,6 +24663,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-7 div:nth-child(5) ul {
@@ -24645,7 +24727,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24723,6 +24805,7 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-8 div:nth-child(5) ul {
@@ -24776,9 +24859,9 @@ template {
 }
 
 .item-9-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -24803,8 +24886,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-9-1 .item-9-1-flex {
@@ -24824,7 +24905,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24903,7 +24984,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24981,6 +25062,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-2 div:nth-child(5) ul {
@@ -25044,7 +25126,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25122,6 +25204,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-3 div:nth-child(5) ul {
@@ -25185,7 +25268,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25263,6 +25346,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-4 div:nth-child(5) ul {
@@ -25326,7 +25410,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25404,6 +25488,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-5 div:nth-child(5) ul {
@@ -25467,7 +25552,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25545,6 +25630,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-6 div:nth-child(5) ul {
@@ -25608,7 +25694,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25686,6 +25772,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-7 div:nth-child(5) ul {
@@ -25749,7 +25836,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -25827,6 +25914,7 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-1 .item-9-1-flex .item-9-1-col-8 div:nth-child(5) ul {
@@ -25880,9 +25968,9 @@ template {
 }
 
 .item-9-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -25907,8 +25995,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-9-2 .item-9-2-flex {
@@ -25928,7 +26014,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26007,7 +26093,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26085,6 +26171,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-2 div:nth-child(5) ul {
@@ -26148,7 +26235,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26226,6 +26313,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-3 div:nth-child(5) ul {
@@ -26289,7 +26377,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26367,6 +26455,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-4 div:nth-child(5) ul {
@@ -26430,7 +26519,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26508,6 +26597,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-5 div:nth-child(5) ul {
@@ -26571,7 +26661,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26649,6 +26739,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-6 div:nth-child(5) ul {
@@ -26712,7 +26803,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26790,6 +26881,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-7 div:nth-child(5) ul {
@@ -26853,7 +26945,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26931,6 +27023,7 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-2 .item-9-2-flex .item-9-2-col-8 div:nth-child(5) ul {
@@ -26984,9 +27077,9 @@ template {
 }
 
 .item-9-3 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -27011,8 +27104,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-9-3 .item-9-3-flex {
@@ -27032,7 +27123,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27111,7 +27202,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27189,6 +27280,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-2 div:nth-child(5) ul {
@@ -27252,7 +27344,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27330,6 +27422,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-3 div:nth-child(5) ul {
@@ -27393,7 +27486,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27471,6 +27564,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-4 div:nth-child(5) ul {
@@ -27534,7 +27628,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27612,6 +27706,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-5 div:nth-child(5) ul {
@@ -27675,7 +27770,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27753,6 +27848,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-6 div:nth-child(5) ul {
@@ -27816,7 +27912,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -27894,6 +27990,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-7 div:nth-child(5) ul {
@@ -27957,7 +28054,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28035,6 +28132,7 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-9-3 .item-9-3-flex .item-9-3-col-8 div:nth-child(5) ul {
@@ -28088,9 +28186,9 @@ template {
 }
 
 .item-10-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -28115,8 +28213,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-10-1 .item-10-1-flex {
@@ -28136,7 +28232,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28215,7 +28311,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28293,6 +28389,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-2 div:nth-child(5) ul {
@@ -28356,7 +28453,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28434,6 +28531,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-3 div:nth-child(5) ul {
@@ -28497,7 +28595,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28575,6 +28673,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-4 div:nth-child(5) ul {
@@ -28638,7 +28737,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28716,6 +28815,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-5 div:nth-child(5) ul {
@@ -28779,7 +28879,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28857,6 +28957,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-6 div:nth-child(5) ul {
@@ -28920,7 +29021,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28998,6 +29099,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-7 div:nth-child(5) ul {
@@ -29061,7 +29163,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29139,6 +29241,7 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-1 .item-10-1-flex .item-10-1-col-8 div:nth-child(5) ul {
@@ -29192,9 +29295,9 @@ template {
 }
 
 .item-10-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -29219,8 +29322,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-10-2 .item-10-2-flex {
@@ -29240,7 +29341,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29319,7 +29420,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29397,6 +29498,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-2 div:nth-child(5) ul {
@@ -29460,7 +29562,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29538,6 +29640,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-3 div:nth-child(5) ul {
@@ -29601,7 +29704,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29679,6 +29782,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-4 div:nth-child(5) ul {
@@ -29742,7 +29846,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29820,6 +29924,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-5 div:nth-child(5) ul {
@@ -29883,7 +29988,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -29961,6 +30066,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-6 div:nth-child(5) ul {
@@ -30024,7 +30130,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30102,6 +30208,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-7 div:nth-child(5) ul {
@@ -30165,7 +30272,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30243,6 +30350,7 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-2 .item-10-2-flex .item-10-2-col-8 div:nth-child(5) ul {
@@ -30296,9 +30404,9 @@ template {
 }
 
 .item-10-3 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -30323,8 +30431,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-10-3 .item-10-3-flex {
@@ -30344,7 +30450,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30423,7 +30529,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30501,6 +30607,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-2 div:nth-child(5) ul {
@@ -30564,7 +30671,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30642,6 +30749,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-3 div:nth-child(5) ul {
@@ -30705,7 +30813,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30783,6 +30891,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-4 div:nth-child(5) ul {
@@ -30846,7 +30955,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30924,6 +31033,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-5 div:nth-child(5) ul {
@@ -30987,7 +31097,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31065,6 +31175,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-6 div:nth-child(5) ul {
@@ -31128,7 +31239,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31206,6 +31317,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-7 div:nth-child(5) ul {
@@ -31269,7 +31381,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31347,6 +31459,7 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-10-3 .item-10-3-flex .item-10-3-col-8 div:nth-child(5) ul {
@@ -31400,9 +31513,9 @@ template {
 }
 
 .item-11-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -31427,8 +31540,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-11-1 .item-11-1-flex {
@@ -31448,7 +31559,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31527,7 +31638,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31605,6 +31716,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-2 div:nth-child(5) ul {
@@ -31668,7 +31780,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31746,6 +31858,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-3 div:nth-child(5) ul {
@@ -31809,7 +31922,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -31887,6 +32000,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-4 div:nth-child(5) ul {
@@ -31950,7 +32064,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32028,6 +32142,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-5 div:nth-child(5) ul {
@@ -32091,7 +32206,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32169,6 +32284,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-6 div:nth-child(5) ul {
@@ -32232,7 +32348,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32310,6 +32426,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-7 div:nth-child(5) ul {
@@ -32373,7 +32490,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32451,6 +32568,7 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-1 .item-11-1-flex .item-11-1-col-8 div:nth-child(5) ul {
@@ -32504,9 +32622,9 @@ template {
 }
 
 .item-11-2 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -32531,8 +32649,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-11-2 .item-11-2-flex {
@@ -32552,7 +32668,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32631,7 +32747,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32709,6 +32825,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-2 div:nth-child(5) ul {
@@ -32772,7 +32889,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32850,6 +32967,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-3 div:nth-child(5) ul {
@@ -32913,7 +33031,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -32991,6 +33109,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-4 div:nth-child(5) ul {
@@ -33054,7 +33173,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33132,6 +33251,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-5 div:nth-child(5) ul {
@@ -33195,7 +33315,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33273,6 +33393,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-6 div:nth-child(5) ul {
@@ -33336,7 +33457,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33414,6 +33535,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-7 div:nth-child(5) ul {
@@ -33477,7 +33599,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33555,6 +33677,7 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-2 .item-11-2-flex .item-11-2-col-8 div:nth-child(5) ul {
@@ -33608,9 +33731,9 @@ template {
 }
 
 .item-11-3 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -33635,8 +33758,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-11-3 .item-11-3-flex {
@@ -33656,7 +33777,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33735,7 +33856,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33813,6 +33934,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-2 div:nth-child(5) ul {
@@ -33876,7 +33998,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -33954,6 +34076,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-3 div:nth-child(5) ul {
@@ -34017,7 +34140,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34095,6 +34218,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-4 div:nth-child(5) ul {
@@ -34158,7 +34282,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34236,6 +34360,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-5 div:nth-child(5) ul {
@@ -34299,7 +34424,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34377,6 +34502,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-6 div:nth-child(5) ul {
@@ -34440,7 +34566,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34518,6 +34644,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-7 div:nth-child(5) ul {
@@ -34581,7 +34708,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34659,6 +34786,7 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-11-3 .item-11-3-flex .item-11-3-col-8 div:nth-child(5) ul {
@@ -34712,9 +34840,9 @@ template {
 }
 
 .item-12-1 {
-  border: #4D4D4D solid 1.5px;
+  border: #cce5e8 solid 1.5px;
+  background-color: #90c6cf;
   z-index: 99;
-  position: fixed;
   top: 1%;
   left: 1%;
   height: 700px;
@@ -34739,8 +34867,6 @@ template {
   font-weight: bold;
   height: 60px;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-12-1 .item-12-1-flex {
@@ -34760,7 +34886,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34839,7 +34965,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34917,6 +35043,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-2 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-2 div:nth-child(5) ul {
@@ -34980,7 +35107,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35058,6 +35185,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-3 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-3 div:nth-child(5) ul {
@@ -35121,7 +35249,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35199,6 +35327,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-4 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-4 div:nth-child(5) ul {
@@ -35262,7 +35391,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35340,6 +35469,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-5 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-5 div:nth-child(5) ul {
@@ -35403,7 +35533,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35481,6 +35611,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-6 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-6 div:nth-child(5) ul {
@@ -35544,7 +35675,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35622,6 +35753,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-7 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-7 div:nth-child(5) ul {
@@ -35685,7 +35817,7 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: white;
-  font-size: 0.875em;
+  font-size: 1.16667em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35763,6 +35895,7 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-8 div:nth-child(5) {
   height: 250px;
+  position: relative;
 }
 
 .item-12-1 .item-12-1-flex .item-12-1-col-8 div:nth-child(5) ul {
@@ -35815,10 +35948,9 @@ template {
   margin: 5px 0 0 0;
 }
 
-.items-display {
-  display: none;
-}
-
+/* .items-display{
+    display: none;
+} */
 .drop-down-menu {
   display: -webkit-box;
   display: -ms-flexbox;
