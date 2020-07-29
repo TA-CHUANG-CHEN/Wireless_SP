@@ -296,6 +296,9 @@ div:nth-child(8){
     background: $color-discovery-hover-link;
     display: flex;
 }
+.item-image{
+    position: relative;
+}
 .item-image>div{
     width: 50px;
     height: 50px;
@@ -305,6 +308,25 @@ div:nth-child(8){
     justify-content:flex-start;
     margin: 5px 0 0 0;
 }
+.item-image .story #text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+}
+.item-image>div:hover .story{
+    visibility: visible;
 }
 
 

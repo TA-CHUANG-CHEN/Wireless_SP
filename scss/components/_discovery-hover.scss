@@ -853,6 +853,17 @@ width: 210*3px;
         }
     }
 }
-/* .items-display{
+.items-display{
     display: none;
-} */
+}
+
+#ov-bg{
+    opacity: 60%;
+    position: absolute;
+    background:$color-dark-grey;
+    z-index:50;
+    pointer-events:none;
+  }
+  .ov-bg-display{
+    display: none;
+  }

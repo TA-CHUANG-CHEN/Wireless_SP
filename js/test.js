@@ -1,4 +1,4 @@
-const ov_all = function (){
+const over_view = function (){
   document.addEventListener('click',(e)=>{
     for(let i =1 ; i<8 ;i++){
     let proto_all =document.querySelector(`.proto-${i}`)
@@ -8,9 +8,12 @@ const ov_all = function (){
     dark_bg.style.width = document.documentElement.scrollWidth+`px`;
     if(e.target == ov_all){
         proto_all.classList.remove('proto-display')
+        dark_bg.classList.remove('dark-bg-display');
+        break;
     }
     if(e.target !== ov_all){
         proto_all.classList.add('proto-display')
+        dark_bg.classList.add('dark-bg-display');
     }
     }
   })
@@ -42,42 +45,49 @@ const pro_fac = function (){
   const item_2_3 = document.querySelector('.item-2-3')
   const item_2_4 = document.querySelector('.item-2-4')
   const item_3_1 = document.querySelector('.item-3-1')
-  const fac_button =document.querySelector('.factory-button')
+  const ov_bg = document.getElementById('ov-bg')
+  const ov_bg_display = document.querySelector('.ov-bg-display')
+  ov_bg.style.height = document.documentElement.scrollHeight+`px`
+  ov_bg.style.width = document.documentElement.scrollWidth+`px`;
   document.addEventListener('click',(e)=>{
    if(e.target == item_1_1_1 || e.target == item_1_1_2){
-      item_1_1.style =`display:block`
+      item_1_1.style =`display:block`;
+      ov_bg_display.style.display = `block`
    }else{
-      item_1_1.style =`display:none`
+      item_1_1.style =`display:none`;
+      ov_bg_display.style.display = `none`
    }
    if(e.target == item_1_2_1 || e.target == item_1_2_2){
-    item_1_2.style =`display:block`
+    item_1_2.style =`display:block`;
+    ov_bg_display.style.display = `block`
    }else{
-    item_1_2.style =`display:none`
+    item_1_2.style =`display:none`;
+    ov_bg_display.style.display = `none`
    }
    if(e.target == item_2_1_1 || e.target == item_2_1_2){
-    item_2_1.style =`display:block`
+    item_2_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
    }else{
-    item_2_1.style =`display:none`
+    item_2_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
    }
    if(e.target == item_2_2_1 || e.target == item_2_2_2){
-    item_2_2.style =`display:block`
+    item_2_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
    }else{
-    item_2_2.style =`display:none`
+    item_2_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
    }
    if(e.target == item_2_3_1 || e.target == item_2_3_2){
-    item_2_3.style =`display:block`
+    item_2_3.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
    }else{
-    item_2_3.style =`display:none`
+    item_2_3.style =`display:none`;ov_bg.classList.add('ov-bg-display');
    }
    if(e.target == item_3_1_1 || e.target == item_3_1_2 || e.target == item_3_1_3 || e.target == item_3_1_4 || e.target == item_3_1_5 || e.target == item_3_1_6){
-    item_2_4.style =`display:block`
+    item_2_4.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
    }else{
-    item_2_4.style =`display:none`
+    item_2_4.style =`display:none`;ov_bg.classList.add('ov-bg-display');
    }
    if(e.target == item_2_4_1 || e.target == item_2_4_2){
-    item_3_1.style =`display:block`
+    item_3_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
    }else{
-    item_3_1.style =`display:none`
+    item_3_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
    }
 
   })
@@ -115,46 +125,52 @@ const pro_ee = function (){
   const item_7_1 = document.querySelector('.item-7-1')
   const item_8_1 = document.querySelector('.item-8-1')
   const item_8_2 = document.querySelector('.item-8-2')
+  const ov_bg = document.getElementById('ov-bg')
+  const ov_bg_display = document.querySelector('.ov-bg-display')
+  ov_bg.style.height = document.documentElement.scrollHeight+`px`
+  ov_bg.style.width = document.documentElement.scrollWidth+`px`;
   document.addEventListener('click',(e)=>{
     if(e.target == item_4_1_1 || e.target == item_4_1_2 || e.target == item_4_1_3 || e.target == item_4_1_4){
-      item_4_1.style =`display:block`
+      item_4_1.style =`display:block`;
+      ov_bg_display.style.display = `block`
     }else{
-      item_4_1.style =`display:none`
+      item_4_1.style =`display:none`;
+      ov_bg_display.style.display = `none;`
     }
     if(e.target == item_4_2_1 || e.target == item_4_2_2 || e.target == item_4_2_3 ){
-    item_4_2.style =`display:block`
+    item_4_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_4_2.style =`display:none`
+    item_4_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }  
     if(e.target == item_4_3_1 || e.target == item_4_3_2){
-    item_4_3.style =`display:block`
+    item_4_3.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_4_3.style =`display:none`
+    item_4_3.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_5_1_1 || e.target == item_5_1_2){
-    item_5_1.style =`display:block`
+    item_5_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_5_1.style =`display:none`
+    item_5_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_6_1_1 || e.target == item_6_1_2){
-    item_6_1.style =`display:block`
+    item_6_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_6_1.style =`display:none`
+    item_6_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_7_1_1 || e.target == item_7_1_2){
-    item_7_1.style =`display:block`
+    item_7_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_7_1.style =`display:none`
+    item_7_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_8_1_1 || e.target == item_8_1_2 || e.target == item_8_1_3 || e.target == item_8_1_4){
-    item_8_1.style =`display:block`
+    item_8_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_8_1.style =`display:none`
+    item_8_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_8_2_1 || e.target == item_8_2_2){
-    item_8_2.style =`display:block`
+    item_8_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-    item_8_2.style =`display:none`
+    item_8_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
   })
 }()
@@ -196,58 +212,60 @@ const pro_trans = function (){
   const item_11_2 = document.querySelector('.item-11-2')
   const item_11_3 = document.querySelector('.item-11-3')
   const item_12_1 = document.querySelector('.item-12-1')
+  const ov_bg = document.getElementById('ov-bg')
+  ov_bg.style.height = document.documentElement.scrollHeight+`px`
+  ov_bg.style.width = document.documentElement.scrollWidth+`px`;
   document.addEventListener('click',(e)=>{
     if(e.target == item_9_1_1 || e.target == item_9_1_2 ){
-      item_9_1.style =`display:block`
+      item_9_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_9_1.style =`display:none`
+      item_9_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_9_2_1 || e.target == item_9_2_2 ){
-      item_9_2.style =`display:block`
+      item_9_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_9_2.style =`display:none`
+      item_9_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_9_3_1 || e.target == item_9_3_2 ){
-      item_9_3.style =`display:block`
+      item_9_3.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_9_3.style =`display:none`
+      item_9_3.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_10_1_1 || e.target == item_10_1_2 ){
-      item_10_1.style =`display:block`
+      item_10_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_10_1.style =`display:none`
+      item_10_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_10_2_1 || e.target == item_10_2_2 ){
-      item_10_2.style =`display:block`
+      item_10_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_10_2.style =`display:none`
+      item_10_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_10_3_1 || e.target == item_10_3_2 || e.target == item_10_3_3 || e.target == item_10_3_4 || e.target == item_10_3_5 || e.target == item_10_3_6 ){
-      item_10_3.style =`display:block`
+      item_10_3.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_10_3.style =`display:none`
+      item_10_3.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_11_1_1 || e.target == item_11_1_2 ){
-      item_11_1.style =`display:block`
+      item_11_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_11_1.style =`display:none`
+      item_11_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_11_2_1 || e.target == item_11_2_2 || e.target == item_11_2_3 ){
-      item_11_2.style =`display:block`
+      item_11_2.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_11_2.style =`display:none`
+      item_11_2.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_11_3_1 || e.target == item_11_3_2 ){
-      item_11_3.style =`display:block`
+      item_11_3.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_11_3.style =`display:none`
+      item_11_3.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
     if(e.target == item_12_1_1 || e.target == item_12_1_2   || e.target == item_12_1_3  || e.target == item_12_1_4){
-      item_12_1.style =`display:block`
+      item_12_1.style =`display:block`;ov_bg.classList.remove('ov-bg-display');
     }else{
-      item_12_1.style =`display:none`
+      item_12_1.style =`display:none`;ov_bg.classList.add('ov-bg-display');
     }
   })
 }()
-
  
