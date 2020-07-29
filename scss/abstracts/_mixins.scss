@@ -156,12 +156,12 @@ div:nth-child(6){
     border:$color-discovery-hover-border solid 1.5px;
     background-color: $color-discovery-hover-title;
     z-index:99;
-    //position: fixed;
-    //top:10%;
-    //left:50%; 
-    //margin-left: -420px;
-    //height: 700px;
-   // overflow: scroll;
+    position: fixed;
+    top:10%;
+    left:50%; 
+    margin-left: -420px;
+    height: 700px;
+    overflow: scroll;
 }
 @mixin discovery-title {
     display: flex; 
