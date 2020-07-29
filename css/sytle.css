@@ -36243,9 +36243,10 @@ template {
   margin-top: 5px;
 }
 
-/* .items-display{
-    display: none;
-} */
+.items-display {
+  display: none;
+}
+
 .story {
   position: relative;
   display: inline-block;
