@@ -3,472 +3,6 @@
   visibility: visible;
 }
 
-/* 
-
-
-
-// over-view-click-table-1- row
-
-@mixin ov-photo{
-    display: flex; flex-direction:column;
-    flex-wrap:wrap;
-    height:200px;
-    background:white;
-    >div{
-        width:210px;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        height: 200px;
-    }
-}
-@mixin ov-no{
-    display: flex; flex-direction:column;
-    background: $color-ov-hover-no;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        display: flex; flex-direction:column;
-        flex-wrap:wrap;
-        justify-content: center;
-        align-content: center;
-        height: 50px;  
-    }
-    >div:nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 0 0 0 10px;
-    }
-}
-@mixin ov-name{
-    display: flex; flex-direction:column;
-    background:white;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        height:100px;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        display: flex; flex-direction:column;
-        flex-wrap:wrap;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-    }
-    :nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 0 0 0 10px;
-    }
-}
-@mixin ov-function{
-    display: flex; flex-direction:column;
-    background: $color-ov-hover-function;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        display: flex; flex-direction:column;
-        flex-wrap:wrap;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        height: 50px;  
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-    }
-    :nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 0 0 0 10px;
-    }
-}
-@mixin ov-features{
-    display: flex; flex-direction:column;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    word-break: keep-all;
-    background:white;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        display: flex; flex-direction:column;
-        flex-wrap:wrap;
-        height: 300px;  
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        padding:10px 0 0 10px;
-    }
-    :nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 50px 0 0 10px;
-    }
-}
-@mixin ov-benefit{
-    display: flex; flex-direction:column;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    background: $color-ov-hover-benefit;
-    height: 350px;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        padding:10px 0 0 10px;
-    }
-    :nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 50px 0 0 10px;
-    }
-}
-@mixin ov-link{
-    display: flex; flex-direction:column;
-    background:white;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        display: flex; flex-direction:column;
-        flex-wrap:wrap;
-        justify-content: center;
-        align-content: center;
-        height: 50px;  
-    }
-    >div:nth-child(1){
-        text-align: left;
-        justify-content: flex-start;
-        padding: 0 0 0 10px;
-    }
-}
-// over-view-click-table-2-row
-
-@mixin ov-2-proto {
-    border:$color-dark-grey 2px solid;
-}
-@mixin ov-2-title{
-   display: flex; 
-   flex-wrap:wrap;
-   justify-content: center;
-   align-content: center;
-   background: $color-ov-hover-title;
-   font-size: $H3-font;
-   height: 60px;
-   color:white;
-}
-@mixin ov-2-photo{
-    display: flex; flex-direction:column;
-    flex-wrap:wrap;
-    height:200px;
-    background:white;
-    >div{
-        width:150px;
-        border: $color-ov-hover-border solid 0.1px;
-        box-sizing: border-box;
-        height: 200px;
-    }
-}
-@mixin ov-2-no{
-   display: flex; flex-direction:column;
-   background: $color-ov-hover-no;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-       font-size: $H5-font;
-   }
-}
-@mixin ov-2-name{
-   display: flex; flex-direction:column;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       height:100px;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin ov-2-function{
-   display: flex; flex-direction:column;
-   background: $color-ov-hover-function;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin ov-2-features{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   word-break: keep-all;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       height: 300px;  
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       padding:10px 0 0 10px;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 50px 0 0 10px;
-   }
-}
-@mixin ov-2-benefit{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   background: $color-ov-hover-benefit;
-   height: 300px;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       padding:10px 0 0 10px;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 50px 0 0 10px;
-   }
-}
-@mixin ov-2-link{
-   display: flex; flex-direction:column;
-   background:white;
-   >div{
-       width:150px;
-       font-size: $H5-font;
-       border: $color-ov-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-// discovery-scss-proto-1
-@mixin discovery-proto {
-    width: 800px;
-}
-@mixin discovery-title{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: center;
-   align-content: center;
-   background: $color-discovery-hover-title;
-   font-size: $H3-font;
-   height: 60px;
-   color:white;
-}
-@mixin discovery-photo{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   height:180px;
-   background:white;
-   >div{
-       width:210px;
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       height: 180px;
-       display: flex; flex-direction:column;
-       justify-content: center;
-       align-content: center;
-   }
-}
-@mixin discovery-no{
-   display: flex; flex-direction:column;
-   background: $color-discovery-hover-no;
-   >div{
-       width:210px;
-       font-size: $H5-font;
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin discovery-name{
-   display: flex; flex-direction:column;
-   background:white;
-   >div{
-       width:210px;
-       font-size: $H5-font;
-       height:100px;
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin discovery-function{
-   display: flex; flex-direction:column;
-   background: $color-discovery-hover-function;
-   >div{
-       width:210px;
-       font-size: $H5-font;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       text-align: center;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
-@mixin discovery-features{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   word-break: keep-all;
-   background:white;
-   >div{
-       width:210px;
-       font-size: $H5-font;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       height: 150px;  
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       padding:10px 0 0 10px;
-   }
-   :nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 50px 0 0 10px;
-   }
-}
-@mixin discovery-benefit{
-   display: flex; flex-direction:column;
-   flex-wrap:wrap;
-   justify-content: space-around;
-   background: $color-discovery-hover-benefit;
-   height: 70px;
-   >div{
-       width:210px;
-       font-size: $H5-font;
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       justify-content: center;
-       align-items: center;
-   }
-   :nth-child(1){
-    justify-content: flex-start;
-    padding: 0 0 0 10px;
-   }
-}
-@mixin discovery-resources{
-    display: flex; flex-direction:column;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    background: white;
-    height: 70px;
-    >div{
-        width:210px;
-        font-size: $H5-font;
-        border: $color-discovery-hover-border solid 0.1px;
-        box-sizing: border-box;
-    }
-    :nth-child(1){
-        text-align: left;
-        line-height: 70px;
-        padding:0 0 0 10px;
-    }
- }
-@mixin discovery-link{
-   display: flex; flex-direction:column;
-   background:$color-discovery-hover-link;
-
-   >div{
-       width:210px;
-       border: $color-discovery-hover-border solid 0.1px;
-       box-sizing: border-box;
-       display: flex; flex-direction:column;
-       flex-wrap:wrap;
-       justify-content: center;
-       align-content: center;
-       height: 50px;  
-   }
-   >div:nth-child(1){
-       text-align: left;
-       justify-content: flex-start;
-       padding: 0 0 0 10px;
-   }
-}
- */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -2357,12 +1891,13 @@ template {
 
 .proto-1 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 420px;
 }
 
@@ -3084,12 +2619,13 @@ template {
 
 .proto-2 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -4067,12 +3603,13 @@ template {
 
 .proto-3 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -5042,12 +4579,13 @@ template {
 
 .proto-4 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -6017,12 +5555,13 @@ template {
 
 .proto-5 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -6744,12 +6283,13 @@ template {
 
 .proto-6 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -7471,12 +7011,13 @@ template {
 
 .proto-7 {
   border: #90c6ad solid 1.5px;
-  z-index: 99;
+  z-index: 1000;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -520px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -8212,22 +7753,30 @@ template {
   position: absolute;
   background: #4D4D4D;
   z-index: 50;
-  pointer-events: none;
-}
-
-.dark-bg-display {
   display: none;
 }
 
+#dark-bg-2 {
+  opacity: 60%;
+  position: absolute;
+  background: #4D4D4D;
+  z-index: 50;
+  display: none;
+}
+
+/* .dark-bg-display{
+  display: none;
+} */
 .item-1-1 {
   border: #cce5e8 solid 1.5px;
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -9474,10 +9023,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -10724,10 +10274,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -11974,10 +11525,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -13224,10 +12776,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -14474,10 +14027,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -15724,10 +15278,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -16974,10 +16529,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -18224,10 +17780,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -19474,10 +19031,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -20724,10 +20282,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -21974,10 +21533,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -23224,10 +22784,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -24474,10 +24035,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -25724,10 +25286,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 1050px;
 }
 
@@ -26982,10 +26545,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -28232,10 +27796,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -29482,10 +29047,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -30732,10 +30298,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 420px;
 }
 
@@ -31982,10 +31549,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -33232,10 +32800,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -34482,10 +34051,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -35732,10 +35302,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 840px;
 }
 
@@ -36982,10 +36553,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 630px;
 }
 
@@ -38232,10 +37804,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 1%;
-  left: 1%;
+  top: 10%;
+  left: 50%;
+  margin-left: -420px;
   height: 700px;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 420px;
 }
 
@@ -39722,6 +39295,15 @@ template {
   line-height: 5px;
 }
 
+.bg-cover {
+  position: absolute;
+  background: #4cb5d5;
+  background-size: 410px 410px;
+  height: 450px;
+  width: 100%;
+  z-index: -1;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40821,4 +40403,8 @@ button {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
