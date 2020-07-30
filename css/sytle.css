@@ -1541,7 +1541,6 @@ template {
           box-sizing: border-box;
   position: absolute;
   background-color: #f2f2f2;
-  display: none;
 }
 
 #products .product1 .factory-auto .factory-all .factory-content-1 {
@@ -1732,7 +1731,7 @@ template {
 #products .product1 .factory-auto .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 {
   background: url("./css-img/F_b_2_Wi-Fi Infrastructure.png") no-repeat;
   background-size: 60px 50px;
-  background-position: right 145px bottom 30px;
+  background-position: right 145px bottom 1px;
   font-size: 0.81667em;
   font-weight: bold;
   line-height: 18px;
@@ -1740,7 +1739,6 @@ template {
   width: 200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 80px;
 }
 
 #products .product1 .factory-auto .factory-all .factory-content-2 .factory-mti .factory-button-2 .factory-icon-5 .mti-text-1 {

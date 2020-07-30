@@ -10,7 +10,7 @@
             box-sizing: border-box;
             position: absolute;
             background-color:#f2f2f2;
-            display: none;
+            //display: none;
             .factory-content-1{
             display: flex;
             margin: 30px 0 30px 30px;
@@ -157,14 +157,13 @@
                     .factory-icon-5{
                         background: url('./css-img/F_b_2_Wi-Fi Infrastructure.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 30px;
+                        background-position: right 145px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
                         box-sizing: border-box;
-                        height:80px;
                         .mti-text-1{
                             margin:5px 0 0 60px;
                         }
