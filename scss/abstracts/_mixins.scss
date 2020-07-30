@@ -35,6 +35,7 @@
         width:210px;
         box-sizing: border-box;
         border-left: $color-ov-hover-border solid 1.5px;
+        z-index: 99;
     >div{
         box-sizing: border-box;
         height: 60px;
@@ -47,7 +48,7 @@
         box-sizing: border-box;
         align-items: center;
         justify-content: flex-start;
-        border-right: $color-ov-hover-border solid 1.5px;
+        border-right: $color-ov-hover-border solid 1px;
     }
     :nth-child(1){
         height: 200px;
@@ -156,11 +157,11 @@ div:nth-child(6){
     background-color: $color-discovery-hover-title;
     z-index:99;
     position: fixed;
-    top:10%;
+    top:5%;
     left:50%; 
     margin-left: -420px;
     overflow: scroll;
-    height: 800px;
+    height: 700px;
     box-sizing: border-box;
 }
 @mixin discovery-title {
@@ -174,6 +175,7 @@ div:nth-child(6){
     font-weight: bold;
     height: 60px;
     color:white;
+
 }
 @mixin discovery-flex-1 {
     display: flex;

@@ -1943,6 +1943,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-1 > div {
@@ -1965,7 +1966,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-1 :nth-child(1) {
@@ -2671,6 +2672,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
   height: 990px;
 }
 
@@ -2694,7 +2696,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-1 :nth-child(1) {
@@ -3665,6 +3667,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-1 > div {
@@ -3687,7 +3690,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-1 :nth-child(1) {
@@ -4641,6 +4644,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-1 > div {
@@ -4663,7 +4667,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-1 :nth-child(1) {
@@ -5617,6 +5621,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-1 > div {
@@ -5639,7 +5644,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-1 :nth-child(1) {
@@ -6345,6 +6350,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-1 > div {
@@ -6367,7 +6373,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-1 :nth-child(1) {
@@ -7073,6 +7079,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
+  z-index: 99;
   height: 990px;
 }
 
@@ -7096,7 +7103,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 1.5px;
+  border-right: #90c6ad solid 1px;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-1 :nth-child(1) {
@@ -7780,11 +7787,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -8929,11 +8936,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -10078,11 +10085,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -11227,11 +11234,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12479,11 +12486,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -13628,11 +13635,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -14777,11 +14784,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -15926,11 +15933,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -17075,11 +17082,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -18224,11 +18231,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -19373,11 +19380,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -20522,11 +20529,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -21671,11 +21678,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -22820,11 +22827,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24072,11 +24079,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
@@ -25227,11 +25234,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -26376,11 +26383,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -27525,11 +27532,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -28674,11 +28681,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 420px;
@@ -29823,11 +29830,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -30972,11 +30979,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -32121,11 +32128,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -33270,11 +33277,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 840px;
@@ -34419,11 +34426,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
@@ -35568,11 +35575,11 @@ template {
   background-color: #90c6cf;
   z-index: 99;
   position: fixed;
-  top: 10%;
+  top: 5%;
   left: 50%;
   margin-left: -420px;
   overflow: scroll;
-  height: 800px;
+  height: 700px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 420px;
