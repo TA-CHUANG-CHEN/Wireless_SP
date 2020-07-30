@@ -3,6 +3,7 @@
 .proto-1{
   @include ov-1;
   width: 210*2px;
+  margin-left: -200px;
   .proto-1-title{
     @include ov-title
   }

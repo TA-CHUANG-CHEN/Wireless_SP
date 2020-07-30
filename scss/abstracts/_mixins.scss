@@ -157,11 +157,9 @@ div:nth-child(6){
     background-color: $color-discovery-hover-title;
     z-index:99;
     position: fixed;
-    top:5%;
+    top:1%;
     left:50%; 
     margin-left: -420px;
-    overflow: scroll;
-    height: 700px;
     box-sizing: border-box;
 }
 @mixin discovery-title {
