@@ -37694,6 +37694,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-high-flex:hover .view-more {
+  text-decoration: none;
   background: #10c5e9;
 }
 
@@ -37746,6 +37747,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-low-flex:hover .view-more {
+  text-decoration: none;
   background: #10c5e9;
 }
 
