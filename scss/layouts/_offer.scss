@@ -1,8 +1,13 @@
 .view-more{
     cursor: pointer;
+    font-size: 1.333em;
+    white-space:nowrap;
 }
 .buy-now{
     cursor: pointer;
+    font-size: 1.333em;
+    white-space:nowrap;
+    font-weight: normal;
 }
 #product-offer{  
     display: flex;
@@ -40,6 +45,8 @@
             background: $color-offer-hover;
             .view-more{
                 text-decoration:none;
+                font-weight: bold;
+                
                 background: $color-offer-hover;
                 .view-more-pic{
                     background: url(./css-img/view_more_1.jpg) no-repeat;
@@ -57,7 +64,6 @@
                     height: 30px;
                     width: 60px;
                     margin: 2px 0 0 5px;
-    
                 }
             }
 
@@ -110,9 +116,10 @@
             margin: 20px 0 0 0;
             .view-more{
                 display: flex;
-                width: 120px;
+                width: 140px;
                 height: 35px;;
                 background-color: $color-offer-icon;
+                margin: 0 10px 0 0;
                 .view-more-pic{
                     background: url(./css-img/view_more_2.jpg) no-repeat;
                     background-size:contain;
@@ -123,7 +130,7 @@
             }
             .buy-now{
                 display:flex;
-                width:120px;
+                width:140px;
                 background-color: $color-offer-icon;
                 .buy-now-pic{
                     background: url(./css-img/shopping_cart_2.jpg)no-repeat center;
