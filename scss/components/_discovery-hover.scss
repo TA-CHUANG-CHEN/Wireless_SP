@@ -1,3 +1,7 @@
+//     margin-left: -300px !important;  *2
+//       margin-left: -550px !important;     margin-left: -520px !important;  *4
+//          margin-left: -420px !important;  *3
+
 .item-1-1{
     @include discovery-1;
     width: 210*4px;
@@ -33,6 +37,7 @@
     }
   }
 .item-1-2{
+    margin-left: -300px !important; 
 @include discovery-1;
 width: 210*3px;
 .item-1-2-title{
@@ -68,6 +73,7 @@ width: 210*3px;
 }
 .item-2-1{
     @include discovery-1;
+    margin-left: -300px !important; 
     width: 210*3px;
     .item-2-1-title{
         @include discovery-title
@@ -102,6 +108,7 @@ width: 210*3px;
     }
 .item-2-2{
     @include discovery-1;
+    margin-left: -550px !important; 
     //width: 210*5px;
     .item-2-2-title{
         @include discovery-title
@@ -202,6 +209,7 @@ width: 210*3px;
     }
 .item-2-3{
     @include discovery-1;
+    margin-left: -540px !important; 
     width: 210*5px;
     .item-2-3-title{
         @include discovery-title
@@ -270,6 +278,7 @@ width: 210*3px;
     }
 .item-3-1{
     @include discovery-1;
+    margin-left: -300px !important; 
     width: 210*3px;
     .item-3-1-title{
         @include discovery-title
@@ -304,6 +313,7 @@ width: 210*3px;
     }
 .item-4-1{
     @include discovery-1;
+    margin-left: -520px !important;
     width: 210*5px;
     .item-4-1-title{
         @include discovery-title
@@ -338,6 +348,7 @@ width: 210*3px;
     }
 .item-4-2{
     @include discovery-1;
+    margin-left: -520px !important;
     width: 210*5px;
     .item-4-2-title{
         @include discovery-title
@@ -372,6 +383,7 @@ width: 210*3px;
     }
 .item-4-3{
     @include discovery-1;
+    margin-left: -420px !important;
     width: 210*4px;
     .item-4-3-title{
         @include discovery-title
@@ -407,6 +419,7 @@ width: 210*3px;
 .item-5-1{
 @include discovery-1;
 width: 210*5px;
+margin-left: -520px !important;
 .item-5-1-title{
 @include discovery-title
 }
@@ -440,6 +453,7 @@ display: flex;
 }
 .item-6-1{
 @include discovery-1;
+margin-left: -300px ;
 width: 210*3px;
 .item-6-1-title{
     @include discovery-title
@@ -474,6 +488,7 @@ width: 210*3px;
 }
 .item-7-1{
     @include discovery-1;
+    margin-left: -520px !important;
     width: 210*5px;
     .item-7-1-title{
         @include discovery-title
@@ -508,6 +523,7 @@ width: 210*3px;
     }
 .item-8-1{
     @include discovery-1;
+    margin-left: -580px !important;  
     .item-8-1-title{
         @include discovery-title
     }
@@ -615,8 +631,12 @@ width: 210*3px;
         display: flex;
         .proto-2-scroll{
             display: flex;
+            overflow-y: hidden;
+            overflow-x:hidden;
+            height: auto;
           }
         .item-8-2-col-1{
+            height: 810px;
         @include discovery-col-1
         }
         .item-8-2-col-2{
@@ -640,10 +660,17 @@ width: 210*3px;
         .item-8-2-col-8{
         @include discovery-col-2
         }
+        .proto-overlay{
+            display: flex;
+            width:210*7px;
+            overflow-x: scroll;
+            
+          }
     }
 }
 .item-9-1{
     @include discovery-1;
+    margin-left: -420px !important;
     width: 210*4px;
     .item-9-1-title{
         @include discovery-title
@@ -678,6 +705,7 @@ width: 210*3px;
 }
 .item-9-2{
     @include discovery-1;
+    margin-left: -300px !important; 
     width: 210*3px;
     .item-9-2-title{
         @include discovery-title
@@ -712,6 +740,7 @@ width: 210*3px;
 }
 .item-9-3{
     @include discovery-1;
+    margin-left: -300px !important; 
     width: 210*3px;
     .item-9-3-title{
         @include discovery-title
@@ -746,6 +775,7 @@ width: 210*3px;
 }
 .item-10-1{
     @include discovery-1;
+    margin-left: -200px !important; 
     width: 210*2px;
     .item-10-1-title{
         @include discovery-title
@@ -780,6 +810,7 @@ width: 210*3px;
 }
 .item-10-2{
 @include discovery-1;
+margin-left: -300px !important; 
 width: 210*3px;
 .item-10-2-title{
     @include discovery-title
@@ -848,6 +879,7 @@ width: 210*3px;
 }
 .item-11-1{
     @include discovery-1;
+    margin-left: -300px !important;
     width: 210*3px;
     .item-11-1-title{
         @include discovery-title
@@ -950,6 +982,7 @@ width: 210*3px;
 }
 .item-12-1{
     @include discovery-1;
+    margin-left: -200px !important;
     width: 210*2px;
     .item-12-1-title{
         @include discovery-title

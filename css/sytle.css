@@ -1541,6 +1541,7 @@ template {
           box-sizing: border-box;
   position: absolute;
   background-color: #f2f2f2;
+  display: none;
 }
 
 #products .product1 .factory-auto .factory-all .factory-content-1 {
@@ -1892,7 +1893,6 @@ template {
   margin-left: -520px;
   overflow-x: hidden;
   width: 420px;
-  margin-left: -200px;
 }
 
 .proto-1 .proto-1-title {
@@ -2728,7 +2728,7 @@ template {
   display: -ms-flexbox;
   display: flex;
   overflow-y: hidden;
-  overflow-x: hidden;
+  overflow-x: scroll;
   height: auto;
 }
 
@@ -7783,8 +7783,6 @@ template {
   display: none;
 } */
 .item-1-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -8930,8 +8928,7 @@ template {
 }
 
 .item-1-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
+  margin-left: -300px !important;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -10077,8 +10074,6 @@ template {
 }
 
 .item-2-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -10086,6 +10081,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -11224,8 +11220,6 @@ template {
 }
 
 .item-2-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -11233,6 +11227,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -550px !important;
 }
 
 .item-2-2 .item-2-2-title {
@@ -12474,8 +12469,6 @@ template {
 }
 
 .item-2-3 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -12483,6 +12476,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -540px !important;
   width: 1050px;
 }
 
@@ -13621,8 +13615,6 @@ template {
 }
 
 .item-2-4 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -14768,8 +14760,6 @@ template {
 }
 
 .item-3-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -14777,6 +14767,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -15915,8 +15906,6 @@ template {
 }
 
 .item-4-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -15924,6 +15913,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -520px !important;
   width: 1050px;
 }
 
@@ -17062,8 +17052,6 @@ template {
 }
 
 .item-4-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -17071,6 +17059,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -520px !important;
   width: 1050px;
 }
 
@@ -18209,8 +18198,6 @@ template {
 }
 
 .item-4-3 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -18218,6 +18205,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -420px !important;
   width: 840px;
 }
 
@@ -19356,8 +19344,6 @@ template {
 }
 
 .item-5-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -19366,6 +19352,7 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 1050px;
+  margin-left: -520px !important;
 }
 
 .item-5-1 .item-5-1-title {
@@ -20503,8 +20490,6 @@ template {
 }
 
 .item-6-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -20512,6 +20497,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px;
   width: 630px;
 }
 
@@ -21650,8 +21636,6 @@ template {
 }
 
 .item-7-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -21659,6 +21643,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -520px !important;
   width: 1050px;
 }
 
@@ -22797,8 +22782,6 @@ template {
 }
 
 .item-8-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -22806,6 +22789,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -580px !important;
 }
 
 .item-8-1 .item-8-1-title {
@@ -24047,8 +24031,6 @@ template {
 }
 
 .item-8-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -24088,9 +24070,13 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: auto;
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-1 {
+  height: 810px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25199,9 +25185,15 @@ template {
   margin-top: 5px;
 }
 
+.item-8-2 .item-8-2-flex .proto-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1470px;
+  overflow-x: scroll;
+}
+
 .item-9-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -25209,6 +25201,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -420px !important;
   width: 840px;
 }
 
@@ -26347,8 +26340,6 @@ template {
 }
 
 .item-9-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -26356,6 +26347,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -27494,8 +27486,6 @@ template {
 }
 
 .item-9-3 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -27503,6 +27493,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -28641,8 +28632,6 @@ template {
 }
 
 .item-10-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -28650,6 +28639,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -200px !important;
   width: 420px;
 }
 
@@ -29788,8 +29778,6 @@ template {
 }
 
 .item-10-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -29797,6 +29785,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -30935,8 +30924,6 @@ template {
 }
 
 .item-10-3 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -32082,8 +32069,6 @@ template {
 }
 
 .item-11-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -32091,6 +32076,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -33229,8 +33215,6 @@ template {
 }
 
 .item-11-2 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -34376,8 +34360,6 @@ template {
 }
 
 .item-11-3 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -35523,8 +35505,6 @@ template {
 }
 
 .item-12-1 {
-  border: #cce5e8 solid 1.5px;
-  background-color: #90c6cf;
   z-index: 99;
   position: fixed;
   top: 1%;
@@ -35532,6 +35512,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -200px !important;
   width: 420px;
 }
 

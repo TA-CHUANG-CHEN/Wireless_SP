@@ -3,7 +3,6 @@
 .proto-1{
   @include ov-1;
   width: 210*2px;
-  margin-left: -200px;
   .proto-1-title{
     @include ov-title
   }
@@ -44,7 +43,7 @@
     .proto-2-scroll{
       display: flex;
       overflow-y: hidden;
-      overflow-x: hidden;
+      overflow-x: scroll;
       height: auto;
     }
     .proto-2-col-2{

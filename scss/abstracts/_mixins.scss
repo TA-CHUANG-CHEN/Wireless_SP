@@ -153,8 +153,6 @@ div:nth-child(6){
 // discover our products
 
 @mixin discovery-1{
-    border:$color-discovery-hover-border solid 1.5px;
-    background-color: $color-discovery-hover-title;
     z-index:99;
     position: fixed;
     top:1%;
