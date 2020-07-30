@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "UTF-8";
 @import './abstracts/abstracts-dir'; //fonts, varables..
 @import './base/Base-dir'; // reset.css, font-awesome..
 @import './components/components-dir'; // button..
@@ -11,6 +11,7 @@ img{
 button{
     cursor: pointer;
 }
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
