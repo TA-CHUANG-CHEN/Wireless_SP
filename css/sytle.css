@@ -348,8 +348,9 @@ template {
   padding: 12px 23px 12px 23px;
   border: #00427F solid 1px;
   color: #FFFFFF;
-  background-color: #004280;
+  background-color: #055791;
   font-weight: bold;
+  height: 42px;
 }
 
 .ov-button a {
@@ -367,8 +368,8 @@ template {
   padding: 12px 23px 12px 23px;
   border: #00427F solid 1px;
   color: #FFFFFF;
-  height: 40px;
-  background-color: #004280;
+  height: 42px;
+  background-color: #055791;
   font-weight: bold;
   margin: 0 0 80px 0;
 }
@@ -38302,6 +38303,7 @@ button {
 
 ::-webkit-scrollbar-track {
   -webkit-border-radius: 5px;
+  background-color: #4D4D4D;
   height: 5px;
   border-radius: 10px;
   margin: 80px 0 5px 0;
@@ -38310,8 +38312,4 @@ button {
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background: #dbdbdb;
-}
-
-::-webkit-scrollbar-corner {
-  background-color: transparent;
 }
