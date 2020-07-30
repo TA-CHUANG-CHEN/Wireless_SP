@@ -2087,7 +2087,7 @@ template {
 .proto-1 .proto-1-flex .proto-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2211,7 +2211,7 @@ template {
 .proto-1 .proto-1-flex .proto-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2335,7 +2335,7 @@ template {
 .proto-1 .proto-1-flex .proto-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2459,7 +2459,7 @@ template {
 .proto-1 .proto-1-flex .proto-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2583,7 +2583,7 @@ template {
 .proto-1 .proto-1-flex .proto-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2823,7 +2823,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -2947,7 +2947,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3071,7 +3071,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3195,7 +3195,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3319,7 +3319,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3443,7 +3443,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3567,7 +3567,7 @@ template {
 .proto-2 .proto-2-flex .proto-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3799,7 +3799,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -3923,7 +3923,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4047,7 +4047,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4171,7 +4171,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4295,7 +4295,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4419,7 +4419,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4543,7 +4543,7 @@ template {
 .proto-3 .proto-3-flex .proto-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4775,7 +4775,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -4899,7 +4899,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5023,7 +5023,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5147,7 +5147,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5271,7 +5271,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5395,7 +5395,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5519,7 +5519,7 @@ template {
 .proto-4 .proto-4-flex .proto-4-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5751,7 +5751,7 @@ template {
 .proto-5 .proto-5-flex .proto-5-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5875,7 +5875,7 @@ template {
 .proto-5 .proto-5-flex .proto-5-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -5999,7 +5999,7 @@ template {
 .proto-5 .proto-5-flex .proto-5-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6123,7 +6123,7 @@ template {
 .proto-5 .proto-5-flex .proto-5-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6247,7 +6247,7 @@ template {
 .proto-5 .proto-5-flex .proto-5-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6479,7 +6479,7 @@ template {
 .proto-6 .proto-6-flex .proto-6-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6603,7 +6603,7 @@ template {
 .proto-6 .proto-6-flex .proto-6-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6727,7 +6727,7 @@ template {
 .proto-6 .proto-6-flex .proto-6-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6851,7 +6851,7 @@ template {
 .proto-6 .proto-6-flex .proto-6-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -6975,7 +6975,7 @@ template {
 .proto-6 .proto-6-flex .proto-6-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7214,7 +7214,7 @@ template {
 .proto-7 .proto-7-flex .proto-7-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7338,7 +7338,7 @@ template {
 .proto-7 .proto-7-flex .proto-7-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7462,7 +7462,7 @@ template {
 .proto-7 .proto-7-flex .proto-7-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7586,7 +7586,7 @@ template {
 .proto-7 .proto-7-flex .proto-7-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7710,7 +7710,7 @@ template {
 .proto-7 .proto-7-flex .proto-7-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -7974,7 +7974,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8120,7 +8120,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8266,7 +8266,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8412,7 +8412,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8558,7 +8558,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8704,7 +8704,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -8850,7 +8850,7 @@ template {
 .item-1-1 .item-1-1-flex .item-1-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9113,7 +9113,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9259,7 +9259,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9405,7 +9405,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9551,7 +9551,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9697,7 +9697,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9843,7 +9843,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -9989,7 +9989,7 @@ template {
 .item-1-2 .item-1-2-flex .item-1-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10252,7 +10252,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10398,7 +10398,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10544,7 +10544,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10690,7 +10690,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10836,7 +10836,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -10982,7 +10982,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11128,7 +11128,7 @@ template {
 .item-2-1 .item-2-1-flex .item-2-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11391,7 +11391,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11537,7 +11537,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11683,7 +11683,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11829,7 +11829,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -11975,7 +11975,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12121,7 +12121,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12267,7 +12267,7 @@ template {
 .item-2-2 .item-2-2-flex .item-2-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12530,7 +12530,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12676,7 +12676,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12822,7 +12822,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -12968,7 +12968,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13114,7 +13114,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13260,7 +13260,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13406,7 +13406,7 @@ template {
 .item-2-3 .item-2-3-flex .item-2-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13669,7 +13669,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13815,7 +13815,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -13961,7 +13961,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14107,7 +14107,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14253,7 +14253,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14399,7 +14399,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14545,7 +14545,7 @@ template {
 .item-2-4 .item-2-4-flex .item-2-4-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14808,7 +14808,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -14954,7 +14954,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15100,7 +15100,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15246,7 +15246,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15392,7 +15392,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15538,7 +15538,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15684,7 +15684,7 @@ template {
 .item-3-1 .item-3-1-flex .item-3-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -15947,7 +15947,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16093,7 +16093,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16239,7 +16239,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16385,7 +16385,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16531,7 +16531,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16677,7 +16677,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -16823,7 +16823,7 @@ template {
 .item-4-1 .item-4-1-flex .item-4-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17086,7 +17086,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17232,7 +17232,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17378,7 +17378,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17524,7 +17524,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17670,7 +17670,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17816,7 +17816,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -17962,7 +17962,7 @@ template {
 .item-4-2 .item-4-2-flex .item-4-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18225,7 +18225,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18371,7 +18371,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18517,7 +18517,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18663,7 +18663,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18809,7 +18809,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -18955,7 +18955,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19101,7 +19101,7 @@ template {
 .item-4-3 .item-4-3-flex .item-4-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19364,7 +19364,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19510,7 +19510,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19656,7 +19656,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19802,7 +19802,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -19948,7 +19948,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20094,7 +20094,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20240,7 +20240,7 @@ template {
 .item-5-1 .item-5-1-flex .item-5-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20503,7 +20503,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20649,7 +20649,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20795,7 +20795,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -20941,7 +20941,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21087,7 +21087,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21233,7 +21233,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21379,7 +21379,7 @@ template {
 .item-6-1 .item-6-1-flex .item-6-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21642,7 +21642,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21788,7 +21788,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -21934,7 +21934,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22080,7 +22080,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22226,7 +22226,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22372,7 +22372,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22518,7 +22518,7 @@ template {
 .item-7-1 .item-7-1-flex .item-7-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22781,7 +22781,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -22927,7 +22927,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23073,7 +23073,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23219,7 +23219,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23365,7 +23365,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23511,7 +23511,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23657,7 +23657,7 @@ template {
 .item-8-1 .item-8-1-flex .item-8-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -23926,7 +23926,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24072,7 +24072,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24218,7 +24218,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24364,7 +24364,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24510,7 +24510,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24656,7 +24656,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -24802,7 +24802,7 @@ template {
 .item-8-2 .item-8-2-flex .item-8-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25065,7 +25065,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25211,7 +25211,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25357,7 +25357,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25503,7 +25503,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25649,7 +25649,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25795,7 +25795,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -25941,7 +25941,7 @@ template {
 .item-9-1 .item-9-1-flex .item-9-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26204,7 +26204,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26350,7 +26350,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26496,7 +26496,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26642,7 +26642,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26788,7 +26788,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -26934,7 +26934,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27080,7 +27080,7 @@ template {
 .item-9-2 .item-9-2-flex .item-9-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27343,7 +27343,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27489,7 +27489,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27635,7 +27635,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27781,7 +27781,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -27927,7 +27927,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28073,7 +28073,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28219,7 +28219,7 @@ template {
 .item-9-3 .item-9-3-flex .item-9-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28482,7 +28482,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28628,7 +28628,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28774,7 +28774,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -28920,7 +28920,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29066,7 +29066,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29212,7 +29212,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29358,7 +29358,7 @@ template {
 .item-10-1 .item-10-1-flex .item-10-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29621,7 +29621,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29767,7 +29767,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -29913,7 +29913,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30059,7 +30059,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30205,7 +30205,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30351,7 +30351,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30497,7 +30497,7 @@ template {
 .item-10-2 .item-10-2-flex .item-10-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30760,7 +30760,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -30906,7 +30906,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31052,7 +31052,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31198,7 +31198,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31344,7 +31344,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31490,7 +31490,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31636,7 +31636,7 @@ template {
 .item-10-3 .item-10-3-flex .item-10-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -31899,7 +31899,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32045,7 +32045,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32191,7 +32191,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32337,7 +32337,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32483,7 +32483,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32629,7 +32629,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -32775,7 +32775,7 @@ template {
 .item-11-1 .item-11-1-flex .item-11-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33038,7 +33038,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33184,7 +33184,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33330,7 +33330,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33476,7 +33476,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33622,7 +33622,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33768,7 +33768,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -33914,7 +33914,7 @@ template {
 .item-11-2 .item-11-2-flex .item-11-2-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34177,7 +34177,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34323,7 +34323,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34469,7 +34469,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34615,7 +34615,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34761,7 +34761,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -34907,7 +34907,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35053,7 +35053,7 @@ template {
 .item-11-3 .item-11-3-flex .item-11-3-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35316,7 +35316,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-2 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35462,7 +35462,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-3 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35608,7 +35608,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-4 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35754,7 +35754,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-5 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -35900,7 +35900,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-6 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -36046,7 +36046,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-7 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
@@ -36192,7 +36192,7 @@ template {
 .item-12-1 .item-12-1-flex .item-12-1-col-8 div:nth-child(5) ul {
   list-style-type: none;
   font-size: 0.875em;
-  word-break: break-all;
+  word-break: keep-all;
   padding: 10px 10px 0 25px;
 }
 
