@@ -1,7 +1,7 @@
 
 // over-view-click-table-1- column
 @mixin ov-1{
-    border: $color-ov-hover-border solid 1.5px;
+    border-top: $color-ov-hover-border solid 1.5px;
     z-index:1000;
     position: absolute;
     top:10%;
@@ -34,7 +34,7 @@
         align-items: center;
         width:210px;
         box-sizing: border-box;
-        
+        border-left: $color-ov-hover-border solid 1.5px;
     >div{
         box-sizing: border-box;
         height: 60px;
@@ -47,7 +47,7 @@
         box-sizing: border-box;
         align-items: center;
         justify-content: flex-start;
-        border-right: $color-ov-hover-border solid 0.1px;
+        border-right: $color-ov-hover-border solid 1.5px;
     }
     :nth-child(1){
         height: 200px;
@@ -159,6 +159,9 @@ div:nth-child(6){
     top:10%;
     left:50%; 
     margin-left: -420px;
+    overflow: scroll;
+    height: 800px;
+    box-sizing: border-box;
 }
 @mixin discovery-title {
     display: flex; 
@@ -171,7 +174,6 @@ div:nth-child(6){
     font-weight: bold;
     height: 60px;
     color:white;
-    
 }
 @mixin discovery-flex-1 {
     display: flex;

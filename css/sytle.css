@@ -1885,7 +1885,7 @@ template {
 }
 
 .proto-1 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -1942,6 +1942,7 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-1 > div {
@@ -1964,7 +1965,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-1 :nth-child(1) {
@@ -2612,7 +2613,7 @@ template {
 }
 
 .proto-2 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -2669,6 +2670,8 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
+  height: 990px;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-1 > div {
@@ -2691,7 +2694,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-1 :nth-child(1) {
@@ -2722,9 +2725,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-x: scroll;
-  overflow-x: overlay;
   overflow-y: hidden;
+  overflow-x: hidden;
+  height: auto;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-2 {
@@ -3595,8 +3598,16 @@ template {
   margin-left: -15px;
 }
 
+.proto-2 .proto-2-flex .proto-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1470px;
+  overflow-x: scroll;
+}
+
 .proto-3 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -3653,6 +3664,7 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-1 > div {
@@ -3675,7 +3687,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-1 :nth-child(1) {
@@ -4571,7 +4583,7 @@ template {
 }
 
 .proto-4 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -4628,6 +4640,7 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-1 > div {
@@ -4650,7 +4663,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-1 :nth-child(1) {
@@ -5546,7 +5559,7 @@ template {
 }
 
 .proto-5 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -5603,6 +5616,7 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-1 > div {
@@ -5625,7 +5639,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-1 :nth-child(1) {
@@ -6273,7 +6287,7 @@ template {
 }
 
 .proto-6 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -6330,6 +6344,7 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-1 > div {
@@ -6352,7 +6367,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-1 :nth-child(1) {
@@ -7000,7 +7015,7 @@ template {
 }
 
 .proto-7 {
-  border: #90c6ad solid 1.5px;
+  border-top: #90c6ad solid 1.5px;
   z-index: 1000;
   position: absolute;
   top: 10%;
@@ -7057,6 +7072,8 @@ template {
   width: 210px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-left: #90c6ad solid 1.5px;
+  height: 990px;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-1 > div {
@@ -7079,7 +7096,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border-right: #90c6ad solid 0.1px;
+  border-right: #90c6ad solid 1.5px;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-1 :nth-child(1) {
@@ -7110,7 +7127,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: auto;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-2 {
@@ -7733,19 +7752,19 @@ template {
   margin-left: -15px;
 }
 
+.proto-7 .proto-7-flex .proto-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1050px;
+  overflow-x: scroll;
+}
+
 .proto-display {
   display: none;
 }
 
 #dark-bg {
-  opacity: 60%;
-  position: absolute;
-  background: #4D4D4D;
-  z-index: 50;
-  display: none;
-}
-
-#dark-bg-2 {
   opacity: 60%;
   position: absolute;
   background: #4D4D4D;
@@ -7764,6 +7783,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -8909,6 +8932,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -10054,6 +10081,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -11199,6 +11230,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .item-2-2 .item-2-2-title {
@@ -12447,6 +12482,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -13592,6 +13631,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -14737,6 +14780,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -15882,6 +15929,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -17027,6 +17078,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -18172,6 +18227,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -19317,6 +19376,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -20462,6 +20525,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -21607,6 +21674,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -22752,6 +22823,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .item-8-1 .item-8-1-title {
@@ -24000,6 +24075,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1050px;
 }
 
@@ -25151,6 +25230,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -26296,6 +26379,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -27441,6 +27528,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -28586,6 +28677,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 420px;
 }
 
@@ -29731,6 +29826,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -30876,6 +30975,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -32021,6 +32124,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -33166,6 +33273,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 840px;
 }
 
@@ -34311,6 +34422,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 630px;
 }
 
@@ -35456,6 +35571,10 @@ template {
   top: 10%;
   left: 50%;
   margin-left: -420px;
+  overflow: scroll;
+  height: 800px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 420px;
 }
 
@@ -36594,6 +36713,14 @@ template {
 }
 
 .items-display {
+  display: none;
+}
+
+#dark-bg-2 {
+  opacity: 60%;
+  position: absolute;
+  background: #4D4D4D;
+  z-index: 50;
   display: none;
 }
 
@@ -38212,10 +38339,12 @@ button {
 }
 
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
+  -webkit-border-radius: 5px;
+  height: 5px;
   border-radius: 10px;
   margin: 80px 0 5px 0;
 }
@@ -38223,4 +38352,8 @@ button {
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background: #dbdbdb;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
 }

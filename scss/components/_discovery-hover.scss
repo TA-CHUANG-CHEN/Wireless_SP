@@ -615,8 +615,6 @@ width: 210*3px;
         display: flex;
         .proto-2-scroll{
             display: flex;
-            //overflow-x: scroll;
-           // overflow-y: hidden;
           }
         .item-8-2-col-1{
         @include discovery-col-1
@@ -988,6 +986,13 @@ width: 210*3px;
 .items-display{
     display: none;
 }
+#dark-bg-2{
+    opacity: 60%;
+    position: absolute;
+    background:$color-dark-grey;
+    z-index:50;
+    display: none;
+  }
 
 .story {
     position: relative;

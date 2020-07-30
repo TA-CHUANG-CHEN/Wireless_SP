@@ -37,13 +37,14 @@
   .proto-2-flex{
     display: flex;
     .proto-2-col-1{
-      @include ov-col-1
+      @include ov-col-1;
+      height: 990px;
     }
     .proto-2-scroll{
       display: flex;
-      overflow-x: scroll;
-      overflow-x: overlay;
       overflow-y: hidden;
+      overflow-x: hidden;
+      height: auto;
     }
     .proto-2-col-2{
       @include ov-col-2
@@ -66,6 +67,11 @@
     }
     .proto-2-col-8{
       @include ov-col-2
+    }
+    .proto-overlay{
+      display: flex;
+      width:210*7px;
+      overflow-x: scroll;
     }
   }
 }
@@ -203,11 +209,14 @@
     display: flex;
     
     .proto-7-col-1{
-      @include ov-col-1
+      @include ov-col-1;
+      height:990px;
     }
     .proto-7-scroll{
       display: flex;
-      overflow: scroll;  
+      overflow-y: hidden;
+      overflow-x: hidden;
+      height: auto;
     }
     .proto-7-col-2{
       @include ov-col-2
@@ -224,19 +233,17 @@
     .proto-7-col-6{
       @include ov-col-2
     }
+    .proto-overlay{
+      display: flex;
+      width:210*5px;
+      overflow-x: scroll;
+    }
   }
 }
 .proto-display{
   display: none;
 }
 #dark-bg{
-  opacity: 60%;
-  position: absolute;
-  background:$color-dark-grey;
-  z-index:50;
-  display: none;
-}
-#dark-bg-2{
   opacity: 60%;
   position: absolute;
   background:$color-dark-grey;
