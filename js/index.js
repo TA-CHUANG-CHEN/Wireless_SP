@@ -163,7 +163,6 @@ const pro_fac = function (){
       dark_bg_2.style.display =`block`
    } if(e.target == dark_bg_2 ){
       item_1_1.style =`display:none`;dark_bg_2.style.display =`none`
-      
    }
    if(e.target == item_1_2_1 || e.target.closest('#item-1-2-2')){
     item_1_2.style =`display:block`;dark_bg_2.style.display =`block`

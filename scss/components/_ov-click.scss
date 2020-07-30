@@ -42,6 +42,7 @@
     .proto-2-scroll{
       display: flex;
       overflow-x: scroll;
+      overflow-x: overlay;
       overflow-y: hidden;
     }
     .proto-2-col-2{
