@@ -244,6 +244,8 @@ const products_ee = function (){
   const item_4_1 = document.querySelector('.item-4-1')
   const item_4_2 = document.querySelector('.item-4-2')
   const item_4_3 = document.querySelector('.item-4-3')
+  const item_4_4 = document.querySelector('.item-4-4')
+  const item_4_5 = document.querySelector('.item-4-5')
   const item_5_1 = document.querySelector('.item-5-1')
   const item_6_1 = document.querySelector('.item-6-1')
   const item_7_1 = document.querySelector('.item-7-1')
@@ -253,20 +255,30 @@ const products_ee = function (){
   let dark_bg_2 = document.getElementById('dark-bg-2')
   dark_bg_2.style.height = document.documentElement.scrollHeight+`px`
   dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
-    if(e.target == item_4_1_1 || e.target.closest('#item-4-1-2') || e.target.closest('#item-4-1-3') || e.target.closest('#item-4-1-4')){
+    if(e.target == item_4_1_1 || e.target.closest('#item-4-1-3')){
       item_4_1.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_4_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_4_2_1 || e.target.closest('#item-4-2-2') ||  e.target.closest('#item-4-2-3') ||  e.target.closest('#item-4-2-4') ){
-    item_4_2.style =`display:block`;dark_bg_2.style.display =`block`
+    if(e.target == item_4_2_1 ||  e.target.closest('#item-4-2-3') ){
+      item_4_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
-    item_4_2.style =`display:none`;dark_bg_2.style.display =`none`
+      item_4_2.style =`display:none`;dark_bg_2.style.display =`none`
     }  
     if(e.target == item_4_3_1 ||  e.target.closest('#item-4-3-2')){
-    item_4_3.style =`display:block`;dark_bg_2.style.display =`block`
+      item_4_3.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
-    item_4_3.style =`display:none`;dark_bg_2.style.display =`none`
+      item_4_3.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_4_1_2 ||  e.target.closest('#item-4-1-4')){
+      item_4_4.style =`display:block`;dark_bg_2.style.display =`block`
+      } if(e.target == dark_bg_2 ){
+      item_4_4.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_4_2_2 ||  e.target.closest('#item-4-2-4')){
+      item_4_5.style =`display:block`;dark_bg_2.style.display =`block`
+      } if(e.target == dark_bg_2 ){
+      item_4_5.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_5_1_1 || e.target.closest('#item-5-1-2')){
     item_5_1.style =`display:block`;dark_bg_2.style.display =`block`

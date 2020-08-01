@@ -241,7 +241,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-2-4{
     @include discovery-1;
     width: 210*4px;
@@ -275,7 +275,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-3-1{
     @include discovery-1;
     margin-left: -300px !important; 
@@ -310,7 +310,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-4-1{
     @include discovery-1;
     margin-left: -520px !important;
@@ -345,7 +345,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-4-2{
     @include discovery-1;
     margin-left: -520px !important;
@@ -380,7 +380,7 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
-    }
+}
 .item-4-3{
     @include discovery-1;
     margin-left: -420px !important;
@@ -415,7 +415,77 @@ width: 210*3px;
         @include discovery-col-2
         }
     }
+}
+.item-4-4{
+        @include discovery-1;
+        margin-left: -520px !important;
+        width: 210*5px;
+        .item-4-4-title{
+            @include discovery-title
+        }
+        .item-4-4-flex{
+            display: flex;
+            .item-4-4-col-1{
+            @include discovery-col-1
+            }
+            .item-4-4-col-2{
+            @include discovery-col-2
+            }
+            .item-4-4-col-3{
+            @include discovery-col-2
+            }
+            .item-4-4-col-4{
+            @include discovery-col-2
+            }
+            .item-4-4-col-5{
+            @include discovery-col-2
+            }
+            .item-4-4-col-6{
+            @include discovery-col-2
+            }
+            .item-4-4-col-7{
+            @include discovery-col-2
+            }
+            .item-4-4-col-8{
+            @include discovery-col-2
+            }
+        }
+}
+.item-4-5{
+    @include discovery-1;
+    margin-left: -520px !important;
+    width: 210*5px;
+    .item-4-5-title{
+        @include discovery-title
     }
+    .item-4-5-flex{
+        display: flex;
+        .item-4-5-col-1{
+        @include discovery-col-1
+        }
+        .item-4-5-col-2{
+        @include discovery-col-2
+        }
+        .item-4-5-col-3{
+        @include discovery-col-2
+        }
+        .item-4-5-col-4{
+        @include discovery-col-2
+        }
+        .item-4-5-col-5{
+        @include discovery-col-2
+        }
+        .item-4-5-col-6{
+        @include discovery-col-2
+        }
+        .item-4-5-col-7{
+        @include discovery-col-2
+        }
+        .item-4-5-col-8{
+        @include discovery-col-2
+        }
+    }
+}
 .item-5-1{
 @include discovery-1;
 width: 210*5px;

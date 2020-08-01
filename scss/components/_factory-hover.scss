@@ -10,7 +10,7 @@
             box-sizing: border-box;
             position: absolute;
             background-color:#f2f2f2;
-            display: none;
+            //display: none;
             .factory-content-1{
             display: flex;
             margin: 30px 0 30px 30px;
@@ -63,10 +63,9 @@
                         background: url('./css-img/F_a_2_AGV.png') no-repeat;
                         color:$color-discovery-apptext;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;;
+                        background-position: right 130px bottom 1px;;
                         font-size: $H5-font*0.7;
                         width:200px;
-                        ;
                         height: 50px;
                         margin: 0 0 0 20px;
                         .mti-text-2{
@@ -75,6 +74,7 @@
                     }
                     .factory-icon-2:hover{
                         border: 2px solid $color-discovery-app;
+                        box-sizing:border-box;
                         cursor: pointer;
                         position: relative;
                     }
