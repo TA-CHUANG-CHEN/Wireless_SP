@@ -8,7 +8,13 @@ main{
     strong{
         font-size: $H2-PC-font;
         color: $color-black;
-        margin: 50px 0 50px 0;
+        margin: 50px 0 0 0;
+    }
+    span{
+        font-size: $H2-PC-font;
+        font-weight: bolder;
+        color: $color-black;
+        margin: 30px 0 50px 0;
     }
     .discover-img{
         background-image:url('./css-img/discovery_1.png');

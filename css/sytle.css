@@ -2014,9 +2014,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2026,8 +2030,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2135,9 +2138,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2147,8 +2154,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2256,9 +2262,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2268,8 +2278,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2377,9 +2386,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2389,8 +2402,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2498,9 +2510,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2510,8 +2526,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2661,7 +2676,7 @@ template {
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
   z-index: 99;
-  height: 990px;
+  height: 930px;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-1 > div {
@@ -2739,9 +2754,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2751,8 +2770,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2860,9 +2878,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2872,8 +2894,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -2981,9 +3002,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -2993,8 +3018,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3102,9 +3126,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3114,8 +3142,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3223,9 +3250,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3235,8 +3266,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3344,9 +3374,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-7 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3356,8 +3390,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3465,9 +3498,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-2 .proto-2-flex .proto-2-col-8 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3477,8 +3514,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3704,9 +3740,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3716,8 +3756,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3825,9 +3864,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3837,8 +3880,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -3946,9 +3988,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -3958,8 +4004,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4067,9 +4112,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4079,8 +4128,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4188,9 +4236,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4200,8 +4252,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4309,9 +4360,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-7 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4321,8 +4376,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4430,9 +4484,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-8 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4442,8 +4500,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4661,9 +4718,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4673,8 +4734,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4787,6 +4847,8 @@ template {
 }
 
 .proto-4 .proto-4-flex .proto-4-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4796,8 +4858,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -4905,9 +4966,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -4917,8 +4982,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5026,9 +5090,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5038,8 +5106,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5147,9 +5214,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5159,8 +5230,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5268,9 +5338,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-7 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5280,8 +5354,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5389,9 +5462,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-8 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5401,8 +5478,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5620,9 +5696,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5632,8 +5712,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5741,9 +5820,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5753,8 +5836,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5862,9 +5944,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5874,8 +5960,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -5983,9 +6068,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -5995,8 +6084,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6104,9 +6192,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6116,8 +6208,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6335,9 +6426,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6347,8 +6442,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6456,9 +6550,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6468,8 +6566,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6577,9 +6674,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6589,8 +6690,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6698,9 +6798,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6710,8 +6814,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6819,9 +6922,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -6831,8 +6938,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -6982,7 +7088,7 @@ template {
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
   z-index: 99;
-  height: 990px;
+  height: 930px;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-1 > div {
@@ -7060,9 +7166,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-2 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -7072,8 +7182,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -7181,9 +7290,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-3 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -7193,8 +7306,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -7302,9 +7414,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-4 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -7314,8 +7430,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -7423,9 +7538,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-5 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -7435,8 +7554,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -7544,9 +7662,13 @@ template {
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .proto-7 .proto-7-flex .proto-7-col-6 > div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 60px;
   width: 210px;
   display: -webkit-box;
@@ -7556,8 +7678,7 @@ template {
       flex-wrap: wrap;
   text-align: left;
   font-size: 1.16667em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -23881,7 +24002,7 @@ template {
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-1 {
-  height: 810px;
+  height: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42743,7 +42864,14 @@ main {
 main strong {
   font-size: 3em;
   color: #000000;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 0 0;
+}
+
+main span {
+  font-size: 3em;
+  font-weight: bolder;
+  color: #000000;
+  margin: 30px 0 50px 0;
 }
 
 main .discover-img {

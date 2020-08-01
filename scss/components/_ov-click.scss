@@ -39,7 +39,7 @@
     display: flex;
     .proto-2-col-1{
       @include ov-col-1;
-      height: 990px;
+      height: 930px;
     }
     .proto-2-scroll{
       display: flex;
@@ -126,7 +126,6 @@
     }
     .proto-4-col-3{
       @include ov-col-2;
-      box-sizing: border-box;
     }
     .proto-4-col-4{
       @include ov-col-2
@@ -212,7 +211,7 @@
     
     .proto-7-col-1{
       @include ov-col-1;
-      height:990px;
+      height:930px;
     }
     .proto-7-scroll{
       display: flex;
