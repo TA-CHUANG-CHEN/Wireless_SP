@@ -37,13 +37,14 @@
                 .E-E-icon-1{     
                     background: url('./css-img/E_a_1_Meteorological.png') no-repeat;
                     background-size: 60px 50px;
-                    background-position: right 145px bottom 1px;
+                    background-position: right 140px bottom 1px;
                     font-size: 0.7* $H5-font;
                     font-weight: bold;
                     line-height: 18px;
                     color: $color-discovery-apptext;
                     width:200px;
                     box-sizing: border-box;
+                    border: 1.5px solid transparent;
                     height: 50px;
                     .E-E-text-1{
                         margin:5px 0 0 60px;
@@ -56,13 +57,14 @@
                 .E-E-icon-2{     
                     background: url('./css-img/E_a_2_Air Quality Monitoring.png') no-repeat;
                     background-size: 60px 50px;
-                    background-position: right 145px bottom 1px;
+                    background-position: right 140px bottom 1px;
                     font-size: 0.7* $H5-font;
                     font-weight: bold;
                     line-height: 18px;
                     color: $color-discovery-apptext;
                     width:200px;
                     box-sizing: border-box;
+                    border: 1.5px solid transparent;
                     height: 50px;
                     .E-E-text-2{
                         margin:5px 0 0 60px;
@@ -111,9 +113,10 @@
                         border: 1.5px solid transparent;
                         .E-E-icon-2{
                             box-sizing: border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -126,9 +129,10 @@
                         }
                         .E-E-icon-4{
                             box-sizing: border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -147,10 +151,11 @@
                         cursor: pointer;
                     }
                     .E-E-icon-3{
-                        
+                        box-sizing: border-box;
+                        border: 1.5px solid transparent;
                         background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
@@ -204,12 +209,14 @@
                         border: 1.5px solid transparent;
                         background: url('./css-img/E_c_1_Oilfield Wireless.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
                         height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         .E-E-text-5{
                             margin:7px 0 0 60px;
                         }
@@ -260,12 +267,14 @@
                     .E-E-icon-6{
                         background: url('./css-img/E_d_1_Solar Energy.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
                         height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         .E-E-text-6{
                             margin:7px 0 0 60px;
                         }
@@ -308,17 +317,19 @@
                     flex-direction: column;
                     width: 220px;
                     margin: 5px 0 0 0;
-                    
+                    box-sizing:border-box;
+                    border: 1.5px solid transparent;
                     .E-E-icon-7{
                         background: url('./css-img/E_e_1_Water Gas Oil .png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width: 200px;
                         height: 50px;
                         margin: 1px 0 0 5px;
+                        box-sizing:border-box;
                         border: 1.5px solid transparent;
                         .E-E-text-7{
                             margin:5px 0 0 55px;
@@ -331,6 +342,7 @@
                 }
                 .E-E-button-5:hover{
                     border: 1.5px solid $color-discovery-app;
+                    box-sizing: border-box;
                 }
             }
         }
@@ -370,10 +382,11 @@
                         border: 1.5px solid transparent;
                         box-sizing: border-box;
                         .E-E-icon-8{
-                            
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/E_f_1_Pipeline pressure.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -387,7 +400,9 @@
                         .E-E-icon-9{
                             background: url('./css-img/E_f_1_Leakage Detection.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -410,6 +425,8 @@
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         margin: 0 0 0 10px;
                         line-height: 50px;
                         width:200px;

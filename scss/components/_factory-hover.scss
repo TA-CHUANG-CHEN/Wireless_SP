@@ -10,7 +10,7 @@
             box-sizing: border-box;
             position: absolute;
             background-color:#f2f2f2;
-            //display: none;
+            display: none;
             .factory-content-1{
             display: flex;
             margin: 30px 0 30px 30px;
@@ -39,9 +39,10 @@
                     display: flex;
                     .factory-icon-1{
                         box-sizing: border-box;
+                        border: 1.5px solid transparent;
                         background: url('./css-img/F_a_1_Machine Connectivity.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: $H5-font*0.7;
                         font-weight: bold;
                         line-height: 18px;
@@ -49,7 +50,7 @@
                         width:200px;
                         height: 50px;
                         .mti-text-1{
-                            margin:5px 0 0 60px;
+                            margin:5px 0 0 65px;
                         }
                     }
                     .factory-icon-1:hover {
@@ -59,11 +60,12 @@
                     }
                     .factory-icon-2{
                         box-sizing: border-box;
+                        border: 1.5px solid transparent;
                         font-weight: bold;
                         background: url('./css-img/F_a_2_AGV.png') no-repeat;
                         color:$color-discovery-apptext;
                         background-size: 60px 50px;
-                        background-position: right 130px bottom 1px;;
+                        background-position: right 140px bottom 1px;;
                         font-size: $H5-font*0.7;
                         width:200px;
                         height: 50px;
@@ -73,7 +75,7 @@
                         }
                     }
                     .factory-icon-2:hover{
-                        border: 2px solid $color-discovery-app;
+                        border: 1.5px solid $color-discovery-app;
                         box-sizing:border-box;
                         cursor: pointer;
                         position: relative;
@@ -115,13 +117,13 @@
                     .factory-icon-3{
                         background: url('./css-img/F_b_1_OEE-Intelligent.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
-                        ;
+                        border: 1.5px solid transparent;
                         box-sizing: border-box;
                         height: 50px;
                         .mti-text-1{
@@ -136,7 +138,8 @@
                     .factory-icon-4{
                         background: url('./css-img/F_b_3_Motor Status.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        border: 1.5px solid transparent;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
@@ -157,13 +160,14 @@
                     .factory-icon-5{
                         background: url('./css-img/F_b_2_Wi-Fi Infrastructure.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
                         box-sizing: border-box;
+                        border: 1.5px solid transparent;
                         .mti-text-1{
                             margin:5px 0 0 60px;
                         }
@@ -176,7 +180,7 @@
                     .factory-icon-6{
                         background: url('./css-img/F_b_4_Facility Health.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
@@ -184,6 +188,7 @@
                         width:200px;
                         box-sizing: border-box;
                         height: 50px;
+                        border: 1.5px solid transparent;
                         margin: 0 0 0 20px;
                         .mti-text-1{
                             margin:5px 0 0 60px;
@@ -228,9 +233,9 @@
                     box-sizing: border-box;
                     .factory-border{   
                         .factory-icon-7{
-                            background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
+                            background: url('./css-img/F_c_1_Streamline Material .png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -242,9 +247,9 @@
                             }
                         }
                         .factory-icon-8{
-                            background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
+                            background: url('./css-img/F_c_1_Stock control.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -258,9 +263,9 @@
                         }
                     }
                     .factory-icon-9{  
-                        background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
+                        background: url('./css-img/F_c_1_Package Access.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;

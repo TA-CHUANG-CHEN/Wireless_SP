@@ -43,10 +43,11 @@
                         box-sizing: border-box;
                         border: 1.5px solid transparent;
                         .transport-icon-1{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/T_a_1_Lighting management.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -62,7 +63,8 @@
                             cursor: pointer;
                         }
                         .transport-icon-3{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/T_a_2_Crossroad access.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 155px bottom 1px;
@@ -85,13 +87,15 @@
                     .transport-icon-2{       
                         background: url('./css-img/T_a_3_Electronic toll.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
                         margin: 0 0 0 10px;        
                         height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         .transport-text-2{
                             margin:5px 0 0 60px;
                         }
@@ -140,10 +144,12 @@
                     .transport-icon-4{
                         background: url('./css-img/T_b_1_Location tracking.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         color: $color-discovery-apptext;
                         width:200px;
                         ;
@@ -160,14 +166,15 @@
                     .transport-icon-5{
                         background: url('./css-img/T_b_2_Hotspot sharing.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
                         height: 50px;
-                        box-sizing: border-box;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         margin: 0 0 0 0;
                         .mti-text-5{
                             margin:5px 0 0 60px;
@@ -212,10 +219,11 @@
                     border: 1.5px solid transparent;
                     .transport-border{   
                         .transport-icon-6{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext; 
@@ -227,10 +235,11 @@
                             }
                         }
                         .transport-icon-7{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -245,7 +254,7 @@
                     .transport-icon-8{  
                         background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
@@ -253,6 +262,8 @@
                         width:200px;
                         margin: 0 0 0 10px;                          
                         height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         .mti-text-8{
                             margin:5px 0 0 60px;
                         }
@@ -304,10 +315,11 @@
                         box-sizing: border-box;
                         border: 1.5px solid transparent;
                         .transport-icon-9{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/T_d_1_Surveillance.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -322,10 +334,11 @@
                             cursor: pointer;
                         }
                         .transport-icon-10{
-                            box-sizing: border-box;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
                             background: url('./css-img/T_d_2_Staff identity.png') no-repeat;
                             background-size: 60px 50px;
-                            background-position: right 145px bottom 1px;
+                            background-position: right 140px bottom 1px;
                             font-size: 0.7* $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
@@ -345,13 +358,15 @@
                     .transport-icon-11{       
                         background: url('./css-img/T_d_3_Elevator management.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
                         margin: 0 0 0 10px;       
                         height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         .transport-text-11{
                             margin:5px 0 0 60px;
                         }
@@ -396,13 +411,14 @@
                     .transport-icon-12{     
                         background: url('./css-img/T_e_1_Driver behavior .png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
-                        box-sizing: border-box;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         height: 50px;
                         .transport-text-12{
                             margin:5px 0 0 60px;
@@ -415,13 +431,14 @@
                     .transport-icon-13{     
                         background: url('./css-img/T_e_2_Fuel Use.png') no-repeat;
                         background-size: 60px 50px;
-                        background-position: right 145px bottom 1px;
+                        background-position: right 140px bottom 1px;
                         font-size: 0.7* $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
                         width:200px;
-                        box-sizing: border-box;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
                         height: 50px;
                         .transport-text-13{
                             margin:5px 0 0 60px;

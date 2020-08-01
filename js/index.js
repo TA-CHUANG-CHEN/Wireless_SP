@@ -151,21 +151,21 @@ const products_fac = function (){
     const item_1_1_1 = document.querySelector('#item-1-1-1')
     const item_1_1_2 = document.querySelector('#item-1-1-2 div')
     const item_1_2_1 = document.querySelector('#item-1-2-1')
-    const item_1_2_2 = document.querySelector('#item-1-2-2 div')
+    const item_1_2_2 = document.querySelector('#item-1-2-2')
     const item_2_1_1 = document.querySelector('#item-2-1-1')
-    const item_2_1_2 = document.querySelector('#item-2-1-2 div')
+    const item_2_1_2 = document.querySelector('#item-2-1-2')
     const item_2_2_1 = document.querySelector('#item-2-2-1')
-    const item_2_2_2 = document.querySelector('#item-2-2-2 div')
+    const item_2_2_2 = document.querySelector('#item-2-2-2')
     const item_2_3_1 = document.querySelector('#item-2-3-1')
-    const item_2_3_2 = document.querySelector('#item-2-3-2 div')
+    const item_2_3_2 = document.querySelector('#item-2-3-2')
     const item_2_4_1 = document.querySelector('#item-2-4-1')
-    const item_2_4_2 = document.querySelector('#item-2-4-2 div')
+    const item_2_4_2 = document.querySelector('#item-2-4-2')
     const item_3_1_1 = document.querySelector('#item-3-1-1')
-    const item_3_1_2 = document.querySelector('#item-3-1-2 div')
-    const item_3_1_3 = document.querySelector('#item-3-1-3 div')
-    const item_3_1_4 = document.querySelector('#item-3-1-4 div')
-    const item_3_1_5 = document.querySelector('#item-3-1-5 div')
-    const item_3_1_6 = document.querySelector('#item-3-1-6 div')
+    const item_3_1_2 = document.querySelector('#item-3-1-2')
+    const item_3_1_3 = document.querySelector('#item-3-1-3')
+    const item_3_1_4 = document.querySelector('#item-3-1-4')
+    const item_3_1_5 = document.querySelector('#item-3-1-5')
+    const item_3_1_6 = document.querySelector('#item-3-1-6')
     const item_1_1 = document.querySelector('.item-1-1')
     const item_1_2 = document.querySelector('.item-1-2')
     const item_2_1 = document.querySelector('.item-2-1')
@@ -173,6 +173,8 @@ const products_fac = function (){
     const item_2_3 = document.querySelector('.item-2-3')
     const item_2_4 = document.querySelector('.item-2-4')
     const item_3_1 = document.querySelector('.item-3-1')
+    const item_3_2 = document.querySelector('.item-3-2')
+    const item_3_3 = document.querySelector('.item-3-3')
     const dark_bg_2 = document.getElementById('dark-bg-2')
     dark_bg_2.style.height = document.documentElement.scrollHeight+'px'
     dark_bg_2.style.width = document.documentElement.scrollWidth+'px'
@@ -204,15 +206,25 @@ const products_fac = function (){
    } if(e.target == dark_bg_2 ){
     item_2_3.style =`display:none`;dark_bg_2.style.display =`none`
    }
-   if(e.target == item_3_1_1 || e.target.closest('#item-3-1-2') || e.target.closest('#item-3-1-3') || e.target.closest('#item-3-1-4') ||e.target.closest('#item-3-1-5') ||e.target.closest('#item-3-1-6')){
+   if(e.target == item_2_4_1 || e.target.closest('#item-2-4-2')){
     item_2_4.style =`display:block`;dark_bg_2.style.display =`block`
    } if(e.target == dark_bg_2 ){
     item_2_4.style =`display:none`;dark_bg_2.style.display =`none`
    }
-   if(e.target == item_2_4_1 || e.target.closest('#item-2-4-2')){
+   if(e.target == item_3_1_1 || e.target.closest('#item-3-1-4') ){
     item_3_1.style =`display:block`;dark_bg_2.style.display =`block`
    } if(e.target == dark_bg_2 ){
     item_3_1.style =`display:none`;dark_bg_2.style.display =`none`
+   }
+   if(e.target == item_3_1_2 || e.target.closest('#item-3-1-5') ){
+    item_3_2.style =`display:block`;dark_bg_2.style.display =`block`
+   } if(e.target == dark_bg_2 ){
+    item_3_2.style =`display:none`;dark_bg_2.style.display =`none`
+   }
+   if(e.target == item_3_1_3 || e.target.closest('#item-3-1-6') ){
+    item_3_3.style =`display:block`;dark_bg_2.style.display =`block`
+   } if(e.target == dark_bg_2 ){
+    item_3_3.style =`display:none`;dark_bg_2.style.display =`none`
    }
 
   })
@@ -260,7 +272,7 @@ const products_ee = function (){
     } if(e.target == dark_bg_2 ){
       item_4_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_4_2_1 ||  e.target.closest('#item-4-2-3') ){
+    if(e.target == item_4_2_1 ||  e.target.closest('#item-4-2-2') ){
       item_4_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_4_2.style =`display:none`;dark_bg_2.style.display =`none`
@@ -275,7 +287,7 @@ const products_ee = function (){
       } if(e.target == dark_bg_2 ){
       item_4_4.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_4_2_2 ||  e.target.closest('#item-4-2-4')){
+    if(e.target == item_4_2_4 ||  e.target.closest('#item-4-2-3')){
       item_4_5.style =`display:block`;dark_bg_2.style.display =`block`
       } if(e.target == dark_bg_2 ){
       item_4_5.style =`display:none`;dark_bg_2.style.display =`none`
@@ -403,17 +415,25 @@ const products_trans = function (){
     } if(e.target == dark_bg_2 ){
       item_11_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_11_2_1  || e.target.closest('#item-11-2-3') ){
+    if(e.target == item_11_2_1 ){
+      document.querySelector('.item-11-2-title').textContent = `Staff Identity`
       item_11_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_2.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if( e.target.closest('#item-11-2-3')){
+      document.querySelector('.item-11-2-title').textContent = `Staff Identity/
+      Entrance Control`
+      item_11_2.style =`display:block`;dark_bg_2.style.display =`block`
     }
     if(e.target == item_11_3_1 ||e.target.closest('#item-11-3-2')  ){
       item_11_3.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_11_2_2 || e.target.closest('#item-11-2-4')){
+    if(e.target == item_11_2_2){
+      document.querySelector('.item-11-2-title').textContent = `
+      Entrance Control`
       item_11_4.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_4.style =`display:none`;dark_bg_2.style.display =`none`
