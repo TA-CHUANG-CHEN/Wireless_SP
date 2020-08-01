@@ -342,6 +342,7 @@ const products_trans = function (){
     const item_11_3 = document.querySelector('.item-11-3')
     const item_11_4 = document.querySelector('.item-11-4')
     const item_12_1 = document.querySelector('.item-12-1')
+    const item_12_2 = document.querySelector('.item-12-2')
     let dark_bg_2 = document.getElementById('dark-bg-2')
     dark_bg_2.style.height = document.documentElement.scrollHeight+`px`
     dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
@@ -400,15 +401,20 @@ const products_trans = function (){
     } if(e.target == dark_bg_2 ){
       item_11_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_11_2_2 || e.target.closest('#item-11-2-4') ){
+    if(e.target == item_11_2_2 || e.target.closest('#item-11-2-4')){
       item_11_4.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_4.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_12_1_1 ||e.target.closest('#item-12-1-2')  || e.target.closest('#item-12-1-3')  || e.target.closest('#item-12-1-4')) {
+    if(e.target == item_12_1_1 || e.target.closest('#item-12-1-3')) {
       item_12_1.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_12_1.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_12_1_2 ||e.target.closest('#item-12-1-4')) {
+      item_12_2.style =`display:block`;dark_bg_2.style.display =`block`
+    } if(e.target == dark_bg_2 ){
+      item_12_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
   })
 }()
