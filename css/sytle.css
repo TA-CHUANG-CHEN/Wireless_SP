@@ -48491,7 +48491,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: pointer;
+  cursor: default;
   height: 250px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -48515,7 +48515,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: pointer;
+  cursor: default;
   height: 250px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -48539,7 +48539,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: pointer;
+  cursor: default;
   height: 250px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
