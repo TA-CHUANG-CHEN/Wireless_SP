@@ -249,6 +249,7 @@ const products_ee = function (){
   const item_7_1 = document.querySelector('.item-7-1')
   const item_8_1 = document.querySelector('.item-8-1')
   const item_8_2 = document.querySelector('.item-8-2')
+  const item_8_3 = document.querySelector('.item-8-3')
   let dark_bg_2 = document.getElementById('dark-bg-2')
   dark_bg_2.style.height = document.documentElement.scrollHeight+`px`
   dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
@@ -282,7 +283,7 @@ const products_ee = function (){
     } if(e.target == dark_bg_2 ){
     item_7_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_8_1_1 ||  e.target.closest('#item-8-1-2')|| e.target.closest('#item-8-1-3')||e.target.closest('#item-8-1-4')){
+    if(e.target == item_8_1_1 ||  e.target.closest('#item-8-1-3')){
     item_8_1.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
     item_8_1.style =`display:none`;dark_bg_2.style.display =`none`
@@ -291,6 +292,11 @@ const products_ee = function (){
     item_8_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
     item_8_2.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_8_1_2 || e.target.closest('#item-8-1-4')){
+    item_8_3.style =`display:block`;dark_bg_2.style.display =`block`
+    } if(e.target == dark_bg_2 ){
+    item_8_3.style =`display:none`;dark_bg_2.style.display =`none`
     }
   })
 }()
@@ -329,9 +335,12 @@ const products_trans = function (){
     const item_10_1 = document.querySelector('.item-10-1')
     const item_10_2 = document.querySelector('.item-10-2')
     const item_10_3 = document.querySelector('.item-10-3')
+    const item_10_4 = document.querySelector('.item-10-4')
+    const item_10_5 = document.querySelector('.item-10-5')
     const item_11_1 = document.querySelector('.item-11-1')
     const item_11_2 = document.querySelector('.item-11-2')
     const item_11_3 = document.querySelector('.item-11-3')
+    const item_11_4 = document.querySelector('.item-11-4')
     const item_12_1 = document.querySelector('.item-12-1')
     let dark_bg_2 = document.getElementById('dark-bg-2')
     dark_bg_2.style.height = document.documentElement.scrollHeight+`px`
@@ -361,17 +370,27 @@ const products_trans = function (){
     } if(e.target == dark_bg_2 ){
       item_10_2.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_10_3_1 || e.target.closest('#item-10-3-2')  || e.target.closest('#item-10-3-3')  ||  e.target.closest('#item-10-3-4')  || e.target.closest('#item-10-3-5') ||  e.target.closest('#item-10-3-6') ){
+    if(e.target == item_10_3_1 || e.target.closest('#item-10-3-4')){
       item_10_3.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_10_3.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_10_3_2 || e.target.closest('#item-10-3-5')){
+      item_10_4.style =`display:block`;dark_bg_2.style.display =`block`
+    } if(e.target == dark_bg_2 ){
+      item_10_4.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_10_3_3 || e.target.closest('#item-10-3-6')){
+      item_10_5.style =`display:block`;dark_bg_2.style.display =`block`
+    } if(e.target == dark_bg_2 ){
+      item_10_5.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_11_1_1 || e.target.closest('#item-11-1-2')){
       item_11_1.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_11_2_1 || e.target.closest('#item-11-2-2') || e.target.closest('#item-11-2-3') ){
+    if(e.target == item_11_2_1  || e.target.closest('#item-11-2-3') ){
       item_11_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_2.style =`display:none`;dark_bg_2.style.display =`none`
@@ -380,6 +399,11 @@ const products_trans = function (){
       item_11_3.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
       item_11_3.style =`display:none`;dark_bg_2.style.display =`none`
+    }
+    if(e.target == item_11_2_2 || e.target.closest('#item-11-2-4') ){
+      item_11_4.style =`display:block`;dark_bg_2.style.display =`block`
+    } if(e.target == dark_bg_2 ){
+      item_11_4.style =`display:none`;dark_bg_2.style.display =`none`
     }
     if(e.target == item_12_1_1 ||e.target.closest('#item-12-1-2')  || e.target.closest('#item-12-1-3')  || e.target.closest('#item-12-1-4')) {
       item_12_1.style =`display:block`;dark_bg_2.style.display =`block`

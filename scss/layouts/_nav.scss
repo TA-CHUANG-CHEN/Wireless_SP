@@ -30,11 +30,14 @@
     color:$color-dark-bg-white;
     font-size: $H3-font;
   }
+  a:first-letter{
+    text-transform: uppercase;
+  }
   a:hover { 
-    background-color: $color-nav-selec;
+    background-color: $color-nav-selec-1;
   }
   li:hover > a { 
-    background-color:$color-nav-selec;
+    background-color:$color-nav-selec-1;
   }
   li:hover > ul { 
     display: block;
@@ -61,7 +64,7 @@
       border-right: none;
     }
     a {
-      background-color: $color-nav-selec;
+      background-color: $color-nav-selec-1*0.95;
       border-right: 3px solid $color-dark-bg-white;
       display: block;
       padding: 10px 25px 10px 25px; 
@@ -101,7 +104,7 @@
         border-right: none;
       }
       a {
-        background-color: rgb(156, 215, 237);
+        background-color:$color-nav-selec-1 ;
         border-right: 3px solid white;
         display: block;
         border-style: none;
