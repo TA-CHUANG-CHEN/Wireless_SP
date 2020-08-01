@@ -1,6 +1,7 @@
 
 // over-view seven items clicks
 .proto-1{
+  margin-left: -200px !important;
   @include ov-1;
   width: 210*2px;
   .proto-1-title{
@@ -43,7 +44,7 @@
     .proto-2-scroll{
       display: flex;
       overflow-y: hidden;
-      overflow-x: scroll;
+      overflow-x:  hidden;
       height: auto;
     }
     .proto-2-col-2{
@@ -124,7 +125,8 @@
       @include ov-col-2
     }
     .proto-4-col-3{
-      @include ov-col-2
+      @include ov-col-2;
+      box-sizing: border-box;
     }
     .proto-4-col-4{
       @include ov-col-2

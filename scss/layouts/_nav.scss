@@ -1,3 +1,4 @@
+// dorp down menu Applicarions & Products
 .drop-down-menu {
   display: flex;
   justify-content: center;
@@ -100,7 +101,7 @@
         border-right: none;
       }
       a {
-        background-color: $color-nav-selec;
+        background-color: rgb(156, 215, 237);
         border-right: 3px solid white;
         display: block;
         border-style: none;
@@ -109,6 +110,7 @@
         color:$color-discovery-apptext;
         border-top: $color-dark-bg-white 1.5px solid;
         border-bottom: $color-dark-bg-white 1.5px solid;;
+        border-right: 3px solid white;
         font-size: $H4-font;
       }
       a:hover { 
@@ -119,6 +121,11 @@
       }
       li:hover > ul { 
         display: block;
+      }
+      ul{
+        a{
+          background-color: rgb(171, 218, 233);
+        }
       }
 
     }

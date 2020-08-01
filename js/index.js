@@ -1,3 +1,4 @@
+
 // resources parts
 
 const resources_all = function(){
@@ -45,6 +46,9 @@ res_all.addEventListener('click',(e)=>{
     res_item1_img.src = `images/leaflet_1.jpg`
     res_item2_img.src = `images/leaflet_2.jpg`
     res_item3_img.src = `images/leaflet_3.jpg`
+    res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
+    res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
+    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
     right_arrow.style = `visibility:visible`
     res_button.textContent = `Download Leaflet`
   }
@@ -55,6 +59,9 @@ res_all.addEventListener('click',(e)=>{
     res_item1_img.src = `images/brochure_1.jpg`
     res_item3_img.src = `images/brochure_2.jpg`
     res_button.textContent = `Download Brochure`
+    res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
+    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
+
   }
   if(e.target == resource_tag_3){
     res_item2.style="display:none"
@@ -66,10 +73,14 @@ res_all.addEventListener('click',(e)=>{
     res_item3.style = `padding:30px 0 0 0;`
     res_button.textContent = `Download Video/Webinar `
     res_button_slide.style=`display:none`
+    res_item1.setAttribute('href','https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be')
+    res_item3.setAttribute('href','https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be')
+
   }
   if(e.target == resource_tag_4){
     res_item2.style="display:none"
     res_item3.style="display:none"
+    res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
     res_para1.innerHTML = `Intelligent Connectivity Wireless<br>Success Stories`
     res_item1_img.src = `images/Success Story_1.jpg`
     res_item1.style = `padding:30px 0 0 0;`
@@ -81,6 +92,9 @@ res_all.addEventListener('click',(e)=>{
 })
 res_item.addEventListener('click',(e)=>{
   if(e.target == right_arrow){
+    res_item1.setAttribute('href','https://www.dropbox.com/sh/rvgpkh0rfytxfsr/AABXMhouixyGg9F2OiVai7gga?dl=0&preview=AdvantechBB_WzzardWirelessSensingProducts_1220.pdf')
+    res_item2.setAttribute('href','https://www.dropbox.com/sh/a8idmft5jdwjddq/AAB_YKtwP3aW1NH8_GOBJOMoa?dl=0&preview=AdvantechBB_WzzardStarterKitsOverview_2120ss.pdf')
+    res_item3.removeAttribute('href')
     left_arrow.style = `visibility:visible`
     right_arrow.style = `visibility:hidden`
     res_para1.innerHTML = `The Wzzard Intelligent <br>Sensing Platform`
@@ -91,6 +105,9 @@ res_item.addEventListener('click',(e)=>{
     res_item3_img.src = `images/leaflet_6.jpg`
   }
   if(e.target == left_arrow){
+    res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
+    res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
+    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
     left_arrow.style = `visibility:hidden`
     right_arrow.style = `visibility:visible`
     res_para1.textContent = `Advanced IndustrialLoRaWAN Wireless I/O Module`
@@ -102,7 +119,6 @@ res_item.addEventListener('click',(e)=>{
   }
 })
 }()
-
 
 // over-view parts
 
@@ -127,7 +143,9 @@ const over_view = function (){
     }
   })
 }()
-const pro_fac = function (){
+
+// products parts
+const products_fac = function (){
   document.addEventListener('click',(e)=>{
     console.log(e.target)
     const item_1_1_1 = document.querySelector('#item-1-1-1')
@@ -199,7 +217,7 @@ const pro_fac = function (){
 
   })
 }()
-const pro_ee = function (){
+const products_ee = function (){
   document.addEventListener('click',(e)=>{
   const item_4_1_1 = document.querySelector('#item-4-1-1')
   const item_4_1_2 = document.querySelector('#item-4-1-2')
@@ -208,6 +226,7 @@ const pro_ee = function (){
   const item_4_2_1 = document.querySelector('#item-4-2-1')
   const item_4_2_2 = document.querySelector('#item-4-2-2')
   const item_4_2_3 = document.querySelector('#item-4-2-3')
+  const item_4_2_4 = document.querySelector('#item-4-2-4')
   const item_4_3_1 = document.querySelector('#item-4-3-1')
   const item_4_3_2 = document.querySelector('#item-4-3-2')
   const item_5_1_1 = document.querySelector('#item-5-1-1')
@@ -238,7 +257,7 @@ const pro_ee = function (){
     } if(e.target == dark_bg_2 ){
       item_4_1.style =`display:none`;dark_bg_2.style.display =`none`
     }
-    if(e.target == item_4_2_1 || e.target.closest('#item-4-2-2') ||  e.target.closest('#item-4-2-3')  ){
+    if(e.target == item_4_2_1 || e.target.closest('#item-4-2-2') ||  e.target.closest('#item-4-2-3') ||  e.target.closest('#item-4-2-4') ){
     item_4_2.style =`display:block`;dark_bg_2.style.display =`block`
     } if(e.target == dark_bg_2 ){
     item_4_2.style =`display:none`;dark_bg_2.style.display =`none`
@@ -275,7 +294,7 @@ const pro_ee = function (){
     }
   })
 }()
-const pro_trans = function (){
+const products_trans = function (){
   document.addEventListener('click',(e)=>{
     const item_9_1_1 = document.querySelector('#item-9-1-1')
     const item_9_1_2 = document.querySelector('#item-9-1-2')

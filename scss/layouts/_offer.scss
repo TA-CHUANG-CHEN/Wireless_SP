@@ -44,10 +44,9 @@
             }
             background: $color-offer-hover;
             .view-more{
-                text-decoration:none;
                 font-weight: bold;
-                
                 background: $color-offer-hover;
+                text-decoration:none;
                 .view-more-pic{
                     background: url(./css-img/view_more_1.jpg) no-repeat;
                     background-size:contain;
@@ -58,6 +57,7 @@
             }
             .buy-now{
                 background: $color-offer-hover;
+                text-decoration:none;
                 .buy-now-pic{
                     background: url(./css-img/shopping_cart_1.jpg)no-repeat center;
                     background-size: contain;
@@ -120,6 +120,7 @@
                 height: 35px;;
                 background-color: $color-offer-icon;
                 margin: 0 10px 0 0;
+                text-decoration:none;
                 .view-more-pic{
                     background: url(./css-img/view_more_2.jpg) no-repeat;
                     background-size:contain;
@@ -132,6 +133,7 @@
                 display:flex;
                 width:140px;
                 background-color: $color-offer-icon;
+                text-decoration:none;
                 .buy-now-pic{
                     background: url(./css-img/shopping_cart_2.jpg)no-repeat center;
                     background-size: contain;
