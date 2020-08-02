@@ -7940,7 +7940,6 @@ template {
 
 .item-1-1 .item-1-1-flex .item-1-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9081,7 +9080,6 @@ template {
 
 .item-1-2 .item-1-2-flex .item-1-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10222,7 +10220,6 @@ template {
 
 .item-2-1 .item-2-1-flex .item-2-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11362,7 +11359,6 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11683,7 +11679,6 @@ template {
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 {
-  width: 300px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11708,7 +11703,6 @@ template {
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(1) {
   height: 200px;
-  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11729,7 +11723,6 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 300px;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(3) {
@@ -11743,7 +11736,6 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 300px;
   padding: 0 5px 0 5px;
 }
 
@@ -11759,12 +11751,10 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 300px;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(5) {
   height: 250px;
-  width: 300px;
   position: relative;
 }
 
@@ -11792,13 +11782,11 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
   text-align: center;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(7) {
   padding: 0 0 0 20px;
-  width: 300px !important;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 div:nth-child(8) {
@@ -11806,7 +11794,6 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
 }
 
 .item-2-2 .item-2-2-flex .item-2-2-col-4 > div {
@@ -12607,7 +12594,6 @@ template {
 
 .item-2-3 .item-2-3-flex .item-2-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13747,7 +13733,6 @@ template {
 
 .item-2-4 .item-2-4-flex .item-2-4-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14888,7 +14873,6 @@ template {
 
 .item-3-1 .item-3-1-flex .item-3-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16029,7 +16013,6 @@ template {
 
 .item-3-2 .item-3-2-flex .item-3-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17170,7 +17153,6 @@ template {
 
 .item-3-3 .item-3-3-flex .item-3-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18311,7 +18293,6 @@ template {
 
 .item-4-1 .item-4-1-flex .item-4-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19452,7 +19433,6 @@ template {
 
 .item-4-2 .item-4-2-flex .item-4-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20593,7 +20573,6 @@ template {
 
 .item-4-3 .item-4-3-flex .item-4-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21734,7 +21713,6 @@ template {
 
 .item-4-4 .item-4-4-flex .item-4-4-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22875,7 +22853,6 @@ template {
 
 .item-4-5 .item-4-5-flex .item-4-5-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24016,7 +23993,6 @@ template {
 
 .item-5-1 .item-5-1-flex .item-5-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25157,7 +25133,6 @@ template {
 
 .item-6-1 .item-6-1-flex .item-6-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26298,7 +26273,6 @@ template {
 
 .item-7-1 .item-7-1-flex .item-7-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27438,7 +27412,6 @@ template {
 
 .item-8-1 .item-8-1-flex .item-8-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28641,7 +28614,7 @@ template {
 }
 
 .item-8-2 .item-8-2-flex .item-8-2-col-1 {
-  height: 810px;
+  height: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28693,7 +28666,6 @@ template {
 
 .item-8-2 .item-8-2-flex .item-8-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29841,7 +29813,6 @@ template {
 
 .item-8-3 .item-8-3-flex .item-8-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31086,7 +31057,6 @@ template {
 
 .item-9-1 .item-9-1-flex .item-9-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32227,7 +32197,6 @@ template {
 
 .item-9-2 .item-9-2-flex .item-9-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33368,7 +33337,6 @@ template {
 
 .item-9-3 .item-9-3-flex .item-9-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34509,7 +34477,6 @@ template {
 
 .item-10-1 .item-10-1-flex .item-10-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35650,7 +35617,6 @@ template {
 
 .item-10-2 .item-10-2-flex .item-10-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36790,7 +36756,6 @@ template {
 
 .item-10-3 .item-10-3-flex .item-10-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37930,7 +37895,6 @@ template {
 
 .item-10-4 .item-10-4-flex .item-10-4-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39070,7 +39034,6 @@ template {
 
 .item-10-5 .item-10-5-flex .item-10-5-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40211,7 +40174,6 @@ template {
 
 .item-11-1 .item-11-1-flex .item-11-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41351,7 +41313,6 @@ template {
 
 .item-11-2 .item-11-2-flex .item-11-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42410,6 +42371,7 @@ template {
   margin-left: -420px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: -300px !important;
   width: 630px;
 }
 
@@ -42491,7 +42453,6 @@ template {
 
 .item-11-3 .item-11-3-flex .item-11-3-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43631,7 +43592,6 @@ template {
 
 .item-11-4 .item-11-4-flex .item-11-4-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44772,7 +44732,6 @@ template {
 
 .item-12-1 .item-12-1-flex .item-12-1-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45913,7 +45872,6 @@ template {
 
 .item-12-2 .item-12-2-flex .item-12-2-col-1 :nth-child(2) {
   background: #d4e7e9;
-  padding: 0 5px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47323,7 +47281,6 @@ template {
   white-space: nowrap;
   border-top: #FFFFFF 1px solid;
   border-bottom: #FFFFFF 1px solid;
-  width: 243px;
   text-align: center;
   cursor: pointer;
 }
@@ -47336,13 +47293,15 @@ template {
   background-color: #85c5db;
   border-right: 3px solid #FFFFFF;
   display: block;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 28px 10px 25px;
   text-decoration: none;
   color: #4D4D4D;
   font-size: 1.333em;
   font-weight: bold;
-  border-top: #FFFFFF 1px solid;
-  border-bottom: #FFFFFF 1px solid;
+}
+
+.drop-down-menu ul li:nth-child(1) a {
+  border-top: 1px solid #FFFFFF;
 }
 
 .drop-down-menu ul a:hover {
