@@ -48144,7 +48144,7 @@ main .product3 .transport .transport-icon .transport-3 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  margin: 60px 0 0 70px;
+  margin: 40px 0 0 90px;
 }
 
 #overview1 .ov1-title .ov1-para1 {
@@ -48159,6 +48159,10 @@ main .product3 .transport .transport-icon .transport-3 {
   width: 100%;
   font-size: 1.333em;
   line-height: 1.3em;
+}
+
+#overview1 .ov1-pic {
+  width: 70%;
 }
 
 #overview2 {
@@ -48350,10 +48354,6 @@ main .product3 .transport .transport-icon .transport-3 {
 
 #overview2 .ov2-pic {
   margin: 0 0 0 35px;
-  width: 100%;
-}
-
-#overview2 .ov1-pic {
   width: 100%;
 }
 
