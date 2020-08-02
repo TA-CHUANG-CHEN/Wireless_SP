@@ -350,6 +350,8 @@ template {
   color: #FFFFFF;
   background-color: #055791;
   font-weight: bold;
+  width: auto;
+  white-space: nowrap;
   height: 42px;
 }
 
@@ -368,6 +370,7 @@ template {
   padding: 12px 23px 12px 23px;
   border: #00427F solid 1px;
   color: #FFFFFF;
+  width: auto;
   height: 42px;
   background-color: #055791;
   font-weight: bold;
@@ -7868,8 +7871,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -9008,8 +9012,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -10148,8 +10153,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -11287,8 +11293,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -12531,8 +12538,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -13670,8 +13678,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -14810,8 +14819,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -15950,8 +15960,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -17090,8 +17101,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -18230,8 +18242,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -19370,8 +19383,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -20510,8 +20524,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -21650,8 +21665,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -22790,8 +22806,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -23930,8 +23947,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -25070,8 +25088,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -26210,8 +26229,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -27349,8 +27369,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -28593,8 +28614,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -29750,8 +29772,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -30994,8 +31017,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -32134,8 +32158,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -33274,8 +33299,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -34414,8 +34440,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -35554,8 +35581,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -36693,8 +36721,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -37832,8 +37861,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -38971,8 +39001,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -40111,8 +40142,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -41250,8 +41282,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -42389,8 +42422,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -43528,8 +43562,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -44668,8 +44703,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -45808,8 +45844,9 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #90c6cf;
   font-size: 2.25em;
   text-align: center;
@@ -48354,6 +48391,11 @@ main .product3 .transport .transport-icon .transport-3 {
 
 #overview2 .ov2-pic {
   margin: 0 0 0 35px;
+  width: 100%;
+}
+
+#overview2 .ov1-pic {
+  width: 100%;
 }
 
 #res-title {

@@ -7,6 +7,8 @@
     color:$color-dark-bg-white;
     background-color:$color-offer-icon;
     font-weight: bold;
+    width: auto;
+    white-space:nowrap;
     height:42px;
     a{
         color:$color-dark-bg-white;
@@ -22,6 +24,7 @@
     padding: 12px 23px 12px 23px;
     border: #00427F solid 1px;
     color:$color-dark-bg-white;
+    width: auto;
     height: 42px;
     background-color:$color-offer-icon;
     font-weight: bold;
