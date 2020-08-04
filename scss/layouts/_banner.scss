@@ -1,27 +1,19 @@
-@charset "utf-8";
 
-/*----------------------------------------
-  Yoursite Style
-----------------------------------------*/
-*{
-  font-family: $eng-font;
-  text-decoration: none;
+.banner-text{
+  box-sizing: border-box;
+  padding: 20px 0 0 50px ;
+  position: absolute;
+  h1{
+    font-size: $H1-PC-font;
+    color:$color-advanblue;
+    overflow: hidden;
+  };
+  h3{
+    font-size: $H3-font;
+    color:$color-advanblue;
+    overflow: hidden;
+  };
 }
-  .banner-text{
-    box-sizing: border-box;
-    padding: 20px 0 0 50px ;
-    position: absolute;
-    h1{
-      font-size: $H1-PC-font;
-      color:$color-advanblue;
-    };
-    h3{
-      font-size: $H3-font;
-      color:$color-advanblue;
-      line-height: 5px;
-    };
-  }
-
 #bg-cover{
   position: absolute;
   background:$color-banner-bg ;
@@ -30,3 +22,4 @@
   width: 100%;
   z-index: -1;
 }
+
