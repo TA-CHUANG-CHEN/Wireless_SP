@@ -30,11 +30,10 @@ main{
         align-items: center;
         height: 295px;
         margin:50px 0 0 0;
-        border: lightslategray sloid 1px;
         .factory1-img{
             background-image: url('./css-img/Factory_1.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             height: 100%;
             width: 352px;
             max-width: 1200px;
@@ -97,7 +96,7 @@ main{
         .E-E-img{
             background-image: url('./css-img/E_E_1.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             height: 100%;
             width: 352px;
         }
@@ -159,7 +158,7 @@ main{
         .transport-img{
             background-image: url('./css-img/transportation_1.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             height: 100%;
             width: 352px;
         }

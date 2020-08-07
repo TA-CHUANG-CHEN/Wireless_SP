@@ -486,13 +486,51 @@ template {
   cursor: pointer;
 }
 
+.close-icon-1-1:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-2:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-3:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-4:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-5:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-6:hover {
+  color: #90c6ad;
+}
+
+.close-icon-1-7:hover {
+  color: #90c6ad;
+}
+
 .close-icon-2 {
   display: none;
   z-index: 9999;
-  position: fixed;
-  top: 5%;
-  left: 74%;
+  position: absolute;
+  margin: -430px 0 0 980px;
   color: white;
+  cursor: pointer;
+}
+
+.close-icon-2:hover {
+  color: #90c6cf;
+}
+
+.product2 {
+  border: 5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
 }
 
@@ -503,10 +541,8 @@ template {
 .product2 .E-E .E-E-all {
   background-color: #f2f2f2;
   height: auto;
-  width: 800px;
   z-index: 99;
   position: absolute;
-  display: none;
 }
 
 .product2 .E-E .E-E-all .E-E-content-1 {
@@ -1071,8 +1107,15 @@ template {
   cursor: pointer;
 }
 
-.product2:hover .E-E-all {
-  display: block;
+.product2:hover {
+  border: 5px solid #91d0e6;
+}
+
+.product3 {
+  border: 5px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
 }
 
 .product3 .transport .transport-all {
@@ -1652,8 +1695,13 @@ template {
   cursor: pointer;
 }
 
-.product3:hover .transport-all {
-  display: block;
+.product3:hover {
+  border: 5px solid #91d0e6;
+}
+
+#products .product1 {
+  cursor: pointer;
+  border: 5px solid transparent;
 }
 
 #products .product1 .factory-auto {
@@ -1663,7 +1711,6 @@ template {
 #products .product1 .factory-auto .factory-all {
   background-color: #f2f2f2;
   height: auto;
-  width: 800px;
   z-index: 99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2016,8 +2063,8 @@ template {
   cursor: pointer;
 }
 
-#products .product1:hover #factory {
-  display: block;
+#products .product1:hover {
+  border: 5px solid #91d0e6;
 }
 
 #proto-1 {
@@ -2163,7 +2210,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
 }
 
 .proto-1 .proto-1-flex .proto-1-col-1 > div {
@@ -2893,7 +2939,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
   height: 930px;
 }
 
@@ -3887,7 +3932,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
 }
 
 .proto-3 .proto-3-flex .proto-3-col-1 > div {
@@ -4864,7 +4908,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
 }
 
 .proto-4 .proto-4-flex .proto-4-col-1 > div {
@@ -5841,7 +5884,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
 }
 
 .proto-5 .proto-5-flex .proto-5-col-1 > div {
@@ -6570,7 +6612,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
 }
 
 .proto-6 .proto-6-flex .proto-6-col-1 > div {
@@ -7300,7 +7341,6 @@ template {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left: #90c6ad solid 1.5px;
-  z-index: 99;
   height: 930px;
 }
 
@@ -7992,7 +8032,7 @@ template {
 }
 
 #dark-bg {
-  opacity: 60%;
+  opacity: 90%;
   position: absolute;
   background: #4D4D4D;
   z-index: 50;
@@ -8004,8 +8044,8 @@ template {
 } */
 .item-1-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -9143,8 +9183,8 @@ template {
 
 .item-1-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -10282,8 +10322,8 @@ template {
 
 .item-2-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -11421,8 +11461,8 @@ template {
 
 .item-2-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -12654,8 +12694,8 @@ template {
 
 .item-2-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -13793,8 +13833,8 @@ template {
 
 .item-2-4 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -14932,8 +14972,8 @@ template {
 
 .item-3-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -16071,8 +16111,8 @@ template {
 
 .item-3-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -17210,8 +17250,8 @@ template {
 
 .item-3-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -18349,8 +18389,8 @@ template {
 
 .item-4-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -19488,8 +19528,8 @@ template {
 
 .item-4-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -20627,8 +20667,8 @@ template {
 
 .item-4-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -21766,8 +21806,8 @@ template {
 
 .item-4-4 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -22905,8 +22945,8 @@ template {
 
 .item-4-5 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -24044,8 +24084,8 @@ template {
 
 .item-5-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -25183,8 +25223,8 @@ template {
 
 .item-6-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -26322,8 +26362,8 @@ template {
 
 .item-7-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -27461,8 +27501,8 @@ template {
 
 .item-8-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -28704,8 +28744,8 @@ template {
 
 .item-8-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -29861,8 +29901,8 @@ template {
 
 .item-8-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -31104,8 +31144,8 @@ template {
 
 .item-9-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -32243,8 +32283,8 @@ template {
 
 .item-9-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -33382,8 +33422,8 @@ template {
 
 .item-9-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -34521,8 +34561,8 @@ template {
 
 .item-10-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -35660,8 +35700,8 @@ template {
 
 .item-10-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -36799,8 +36839,8 @@ template {
 
 .item-10-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -37938,8 +37978,8 @@ template {
 
 .item-10-4 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -39077,8 +39117,8 @@ template {
 
 .item-10-5 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -40216,8 +40256,8 @@ template {
 
 .item-11-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -41355,8 +41395,8 @@ template {
 
 .item-11-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -42494,8 +42534,8 @@ template {
 
 .item-11-3 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -43633,8 +43673,8 @@ template {
 
 .item-11-4 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -44772,8 +44812,8 @@ template {
 
 .item-12-1 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -45911,8 +45951,8 @@ template {
 
 .item-12-2 {
   word-break: keep-all;
-  z-index: 99;
-  position: fixed;
+  z-index: 1000;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -47053,6 +47093,14 @@ template {
 }
 
 #dark-bg-2 {
+  opacity: 90%;
+  position: absolute;
+  background: #4D4D4D;
+  z-index: 500;
+  display: none;
+}
+
+#dark-bg-3 {
   opacity: 60%;
   position: absolute;
   background: #4D4D4D;
@@ -47577,13 +47625,12 @@ main .product1 {
           align-items: center;
   height: 295px;
   margin: 50px 0 0 0;
-  border: lightslategray sloid 1px;
 }
 
 main .product1 .factory1-img {
   background-image: url("./css-img/Factory_1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   width: 352px;
   max-width: 1200px;
@@ -47673,7 +47720,7 @@ main .product2 {
 main .product2 .E-E-img {
   background-image: url("./css-img/E_E_1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   width: 352px;
 }
@@ -47761,7 +47808,7 @@ main .product3 {
 main .product3 .transport-img {
   background-image: url("./css-img/transportation_1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   width: 352px;
 }

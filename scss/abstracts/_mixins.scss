@@ -56,7 +56,6 @@
         align-items: center;
         box-sizing: border-box;
         border-left: $color-ov-hover-border solid 1.5px;
-        z-index: 99;
     >div{
         box-sizing: border-box;
         height: 60px;
@@ -174,8 +173,8 @@ div:nth-child(6){
 
 @mixin discovery-1{
     word-break: keep-all;
-    z-index:99;
-    position: fixed;
+    z-index:1000;
+    position: absolute;
     top:50%;
     left:50%; 
     transform:translate(-50%,-50%);

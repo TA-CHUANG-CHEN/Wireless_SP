@@ -1,4 +1,7 @@
 .product3{
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
     .transport{
         .transport-all{
         position: absolute;
@@ -456,7 +459,5 @@
     }
 }
 .product3:hover{
-    .transport-all{
-        display: block;
-    }
+    border: 5px solid $color-discovery-app;
 }

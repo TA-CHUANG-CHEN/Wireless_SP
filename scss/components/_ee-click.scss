@@ -1,13 +1,15 @@
 .product2{
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
     .E-E{
         position: relative;
         .E-E-all{
         background-color:$color-discovery-bg;
         height: auto;
-        width: 800px;
         z-index: 99;  
         position: absolute;
-        display: none;
+        //display: none;
         .E-E-content-1{
         display: flex;
         margin: 30px 0 30px 30px;
@@ -447,7 +449,5 @@
     }
 }
 .product2:hover{
-    .E-E-all{
-        display: block;
-    }
+    border: 5px solid $color-discovery-app;
 }

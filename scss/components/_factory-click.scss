@@ -1,11 +1,12 @@
 #products{
     .product1{
+        cursor: pointer;
+        border: 5px solid transparent;
         .factory-auto{
             position: relative;
         .factory-all{
             background-color:$color-discovery-bg;
             height: auto;
-            width:800px;
             z-index: 99;  
             box-sizing: border-box;
             position: absolute;
@@ -291,8 +292,7 @@
         }
     } 
     .product1:hover{
-        #factory{
-            display: block;
-        }
+        border: 5px solid $color-discovery-app;
     }
 } 
+
