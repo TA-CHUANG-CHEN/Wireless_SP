@@ -1127,6 +1127,7 @@ template {
   z-index: 99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  display: none;
 }
 
 .product3 .transport .transport-all .transport-content-1 {
