@@ -419,7 +419,7 @@ const products_ee = function (){
     item_8_1.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
     if(e.target == item_8_2_1){
-    item_8_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 1190px;`
+    item_8_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -440px 0 0 1190px;`
     }
     if( e.target.closest('#item-8-2-2')){
       item_8_2.style =`display:block;top:70%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3680px 0 0 1190px;`
@@ -484,49 +484,77 @@ const products_trans = function (){
     const close_icon_2 = document.querySelector('.close-icon-2')
     dark_bg_2.style.height = document.documentElement.scrollHeight+`px`
     dark_bg_2.style.width = document.documentElement.scrollWidth+`px`;
-    if(e.target == item_9_1_1 || e.target.closest('#item-9-1-2') ){
+    if(e.target == item_9_1_1){
       item_9_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    }
+    if(e.target.closest('#item-9-1-2') ){
+      item_9_1.style =`display:block;top:48%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 2180px 0 0 980px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_9_1.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_9_2_1 || e.target.closest('#item-9-2-2') ){
-      item_9_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_9_2_1 ){
+      item_9_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 880px;`
+    } 
+    if( e.target.closest('#item-9-2-2') ){
+      item_9_2.style =`display:block;top:48%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 2180px 0 0 880px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_9_2.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_9_3_1 || e.target.closest('#item-9-3-2') ){
-      item_9_3.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_9_3_1){
+      item_9_3.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 880px;`
+    } 
+    if( e.target.closest('#item-9-3-2') ){
+      item_9_3.style =`display:block;top:48%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 2180px 0 0 880px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_9_3.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_10_1_1 || e.target.closest('#item-10-1-2') ){
-      item_10_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
-    } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
+    if(e.target == item_10_1_1){
+      item_10_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 780px;`
+    }
+    if( e.target.closest('#item-10-1-2') ){
+      item_10_1.style =`display:block;top:55%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 2655px 0 0 780px;`
+    }
+     if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_10_1.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_10_2_1 || e.target.closest('#item-10-2-2')  ){
-      item_10_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_10_2_1){
+      item_10_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 880px;`
+    } 
+    if(e.target.closest('#item-10-2-2')  ){
+      item_10_2.style =`display:block;top:55%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 2655px 0 0 880px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_10_2.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_10_3_1 || e.target.closest('#item-10-3-4')){
+    if(e.target == item_10_3_1){
       item_10_3.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    }
+    if(e.target.closest('#item-10-3-4')){
+      item_10_3.style =`display:block;top:62%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3140px 0 0 980px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_10_3.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_10_3_2 || e.target.closest('#item-10-3-5')){
+    if(e.target == item_10_3_2){
       item_10_4.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    } 
+    if(e.target.closest('#item-10-3-5')){
+      item_10_4.style =`display:block;top:62%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3140px 0 0 980px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_10_4.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_10_3_3 || e.target.closest('#item-10-3-6')){
+    if(e.target == item_10_3_3){
       item_10_5.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    } 
+    if(e.target.closest('#item-10-3-6')){
+      item_10_5.style =`display:block;top:62%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3140px 0 0 980px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_10_5.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_11_1_1 || e.target.closest('#item-11-1-2')){
-      item_11_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
-    } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
+    if(e.target == item_11_1_1){
+      item_11_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 880px;`
+    } 
+    if(e.target.closest('#item-11-1-2')){
+      item_11_1.style =`display:block;top:65%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3350px 0 0 880px;`
+    }if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_11_1.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
     if(e.target == item_11_2_1 ){
@@ -538,10 +566,13 @@ const products_trans = function (){
     if( e.target.closest('#item-11-2-3')){
       document.querySelector('.item-11-2-title').textContent = `Staff Identity/
       Entrance Control`
-      item_11_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+      item_11_2.style =`display:block;top:65%;;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3350px 0 0 980px;`
     }
-    if(e.target == item_11_3_1 ||e.target.closest('#item-11-3-2')  ){
-      item_11_3.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_11_3_1){
+      item_11_3.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 880px;`
+    }
+    if(e.target.closest('#item-11-3-2')  ){
+      item_11_3.style =`display:block;top:65%;;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: 3350px 0 0 880px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_11_3.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
@@ -552,13 +583,19 @@ const products_trans = function (){
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_11_4.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_12_1_1 || e.target.closest('#item-12-1-3')) {
-      item_12_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_12_1_1) {
+      item_12_1.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 780px;`
+    }
+    if(e.target.closest('#item-12-1-3')) {
+      item_12_1.style =`display:block;top:70%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin:  3690px 0 0 780px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_12_1.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }
-    if(e.target == item_12_1_2 ||e.target.closest('#item-12-1-4')) {
-      item_12_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 980px;`
+    if(e.target == item_12_1_2) {
+      item_12_2.style =`display:block;top:10%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin: -430px 0 0 780px;`
+    }
+    if(e.target.closest('#item-12-1-4')) {
+      item_12_2.style =`display:block;top:70%;`;dark_bg_2.style.display =`block`;close_icon_2.style = `display:block;margin:  3690px 0 0 780px;`
     } if(e.target == dark_bg_2 || e.target == close_icon_2 ){
       item_12_2.style =`display:none`;;dark_bg_2.style.display =`none`;close_icon_2.style.display =`none`
     }

@@ -543,6 +543,7 @@ template {
   height: auto;
   z-index: 99;
   position: absolute;
+  display: none;
 }
 
 .product2 .E-E .E-E-all .E-E-content-1 {
@@ -1126,7 +1127,6 @@ template {
   z-index: 99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  display: none;
 }
 
 .product3 .transport .transport-all .transport-content-1 {
