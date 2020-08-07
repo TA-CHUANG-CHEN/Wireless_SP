@@ -8,7 +8,69 @@
   left:50%;
   transform:translate(-50%,-50%);
   z-index:100;
+  display: none;
 }
+#proto-2{
+  position:absolute;
+  height:1050px;
+  width:1100px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+#proto-3{
+  position:absolute;
+  height:1050px;
+  width:1012px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+#proto-4{
+  position:absolute;
+  height:1050px;
+  width:1012px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+#proto-5{
+  position:absolute;
+  height:1050px;
+  width:1012px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+#proto-6{
+  position:absolute;
+  height:1050px;
+  width:1012px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+#proto-7{
+  position:absolute;
+  height:1050px;
+  width:1100px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  display: none;
+}
+
 .proto-1{
   @include ov-1;
   .proto-1-title{

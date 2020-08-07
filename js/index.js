@@ -123,30 +123,33 @@ const over_view = function (){
   document.addEventListener('click',(e)=>{
     for(let i =1 ; i<8 ;i++){
     let proto_all = document.querySelector(`.proto-${i}`)
-    let ov_all = document.querySelector(`.ov2-${i}`)
     let dark_bg = document.getElementById('dark-bg')
-    let close_icon_1 = document.querySelectorAll(`.close-icon-1`)
-    let set = [...new Set(close_icon_1)]
+    let close_icon = document.querySelector(`.close-icon-1-${i}`)
+    let proto_id = document.getElementById(`proto-${i}`)
+    console.log(close_icon)
     dark_bg.style.height =document.documentElement.offsetHeight+`px`
     dark_bg.style.width =document.documentElement.offsetWidth+`px`;
+    console.log(e.target)
     if(e.target.closest(`.ov2-${i}`)){
         proto_all.classList.remove('proto-display')
         dark_bg.style.display =`block`
-        set.forEach(el => { el.style.display =`block`})
+        close_icon.style.display =`block`
+        proto_id.style.display =`block`
         break;
     }
-    if(e.target == dark_bg || e.target.closest(`.close-icon-1`)){
+    if(e.target == dark_bg || e.target.closest(`.close-icon-1-${i}`)){
         proto_all.classList.add('proto-display')
         dark_bg.style.display =`none`
-        set.forEach(el => { el.style.display =`none`})
+        close_icon.style.display =`none`
+        proto_id.style.display =`none`
     }
     }
   })
 }()
+
 // products parts -factory
 const products_fac = function (){
   document.addEventListener('click',(e)=>{
-    console.log(e.target)
     const item_1_1_1 = document.querySelector('#item-1-1-1')
     const item_1_1_2 = document.querySelector('#item-1-1-2 div')
     const item_1_2_1 = document.querySelector('#item-1-2-1')
