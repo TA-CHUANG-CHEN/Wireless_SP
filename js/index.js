@@ -122,20 +122,23 @@ res_item.addEventListener('click',(e)=>{
 const over_view = function (){
   document.addEventListener('click',(e)=>{
     for(let i =1 ; i<8 ;i++){
-    let proto_all =document.querySelector(`.proto-${i}`)
-    let ov_all =document.querySelector(`.ov2-${i}`)
+    let proto_all = document.querySelector(`.proto-${i}`)
+    let ov_all = document.querySelector(`.ov2-${i}`)
     let dark_bg = document.getElementById('dark-bg')
-    dark_bg.style.height = document.documentElement.scrollHeight+`px`
-    dark_bg.style.width = document.documentElement.scrollWidth+`px`;
+    let close_icon_1 = document.querySelectorAll(`.close-icon-1`)
+    let set = [...new Set(close_icon_1)]
+    dark_bg.style.height =document.documentElement.offsetHeight+`px`
+    dark_bg.style.width =document.documentElement.offsetWidth+`px`;
     if(e.target.closest(`.ov2-${i}`)){
         proto_all.classList.remove('proto-display')
         dark_bg.style.display =`block`
+        set.forEach(el => { el.style.display =`block`})
         break;
     }
-    if(e.target == dark_bg ){
+    if(e.target == dark_bg || e.target.closest(`.close-icon-1`)){
         proto_all.classList.add('proto-display')
         dark_bg.style.display =`none`
-        e.stopPropagation()
+        set.forEach(el => { el.style.display =`none`})
     }
     }
   })
@@ -172,13 +175,17 @@ const products_fac = function (){
     const item_3_2 = document.querySelector('.item-3-2')
     const item_3_3 = document.querySelector('.item-3-3')
     const dark_bg_2 = document.getElementById('dark-bg-2')
+    const close_icon_2 = document.querySelector('.close-icon-2')
     dark_bg_2.style.height = document.documentElement.scrollHeight+'px'
     dark_bg_2.style.width = document.documentElement.scrollWidth+'px'
    if(e.target == item_1_1_1 || e.target.closest('#item-1-1-2')){
       item_1_1.style =`display:block`;
       dark_bg_2.style.display =`block`
-   } if(e.target == dark_bg_2 ){
+      close_icon_2.style.display =`block`
+      
+   } if(e.target == dark_bg_2 || e.target == close_icon_2){
       item_1_1.style =`display:none`;dark_bg_2.style.display =`none`
+      close_icon_2.style.display =`none`
    }
    if(e.target == item_1_2_1 || e.target.closest('#item-1-2-2')){
     item_1_2.style =`display:block`;dark_bg_2.style.display =`block`

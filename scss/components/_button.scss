@@ -67,3 +67,20 @@
         margin: 0 0 0 30px;
     }
 }
+.close-icon-1{
+    display: none;
+    z-index:99999;
+    position: absolute;
+    right:0;
+    color:white;
+    cursor: pointer;
+}
+.close-icon-2{
+    display: none;
+    z-index:9999;
+    position: fixed;
+    top:5%;
+    left:74%;
+    color:white;
+    cursor: pointer;
+ }

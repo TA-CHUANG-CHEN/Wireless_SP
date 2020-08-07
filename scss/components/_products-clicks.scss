@@ -1,10 +1,7 @@
-//     margin-left: -300px !important;  *2
-//       margin-left: -550px !important;     margin-left: -520px !important;  *4
-//          margin-left: -420px !important;  *3
 
 .item-1-1{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-1-1-title{
       @include discovery-title
     }
@@ -37,9 +34,8 @@
     }
   }
 .item-1-2{
-    margin-left: -300px !important; 
 @include discovery-1;
-width: 210*3px;
+
 .item-1-2-title{
     @include discovery-title
 }
@@ -73,8 +69,7 @@ width: 210*3px;
 }
 .item-2-1{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
+    
     .item-2-1-title{
         @include discovery-title
     }
@@ -108,8 +103,7 @@ width: 210*3px;
     }
 .item-2-2{
     @include discovery-1;
-    margin-left: -550px !important; 
-    //width: 210*5px;
+    //
     .item-2-2-title{
         @include discovery-title
     }
@@ -165,7 +159,6 @@ width: 210*3px;
             ul li:before {
                 content: '-';
                 position: absolute;
-                margin-left: -15px;
             }
         }
         div:nth-child(6){
@@ -201,8 +194,7 @@ width: 210*3px;
     }
 .item-2-3{
     @include discovery-1;
-    margin-left: -540px !important; 
-    width: 210*5px;
+    
     .item-2-3-title{
         @include discovery-title
     }
@@ -236,7 +228,7 @@ width: 210*3px;
 }
 .item-2-4{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-2-4-title{
         @include discovery-title
     }
@@ -270,8 +262,7 @@ width: 210*3px;
 }
 .item-3-1{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
+    
     .item-3-1-title{
         @include discovery-title
     }
@@ -305,8 +296,7 @@ width: 210*3px;
 }
 .item-3-2{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
+    
     .item-3-2-title{
         @include discovery-title
     }
@@ -340,8 +330,6 @@ width: 210*3px;
 }
 .item-3-3{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
     .item-3-3-title{
         @include discovery-title
     }
@@ -375,8 +363,7 @@ width: 210*3px;
 }
 .item-4-1{
     @include discovery-1;
-    margin-left: -520px !important;
-    width: 210*5px;
+    
     .item-4-1-title{
         @include discovery-title
     }
@@ -410,8 +397,7 @@ width: 210*3px;
 }
 .item-4-2{
     @include discovery-1;
-    margin-left: -520px !important;
-    width: 210*5px;
+    
     .item-4-2-title{
         @include discovery-title
     }
@@ -445,8 +431,6 @@ width: 210*3px;
 }
 .item-4-3{
     @include discovery-1;
-    margin-left: -420px !important;
-    width: 210*4px;
     .item-4-3-title{
         @include discovery-title
     }
@@ -480,8 +464,6 @@ width: 210*3px;
 }
 .item-4-4{
         @include discovery-1;
-        margin-left: -520px !important;
-        width: 210*5px;
         .item-4-4-title{
             @include discovery-title
         }
@@ -515,8 +497,6 @@ width: 210*3px;
 }
 .item-4-5{
     @include discovery-1;
-    margin-left: -520px !important;
-    width: 210*5px;
     .item-4-5-title{
         @include discovery-title
     }
@@ -550,8 +530,6 @@ width: 210*3px;
 }
 .item-5-1{
 @include discovery-1;
-width: 210*5px;
-margin-left: -520px !important;
 .item-5-1-title{
 @include discovery-title
 }
@@ -585,8 +563,6 @@ display: flex;
 }
 .item-6-1{
 @include discovery-1;
-margin-left: -300px ;
-width: 210*3px;
 .item-6-1-title{
     @include discovery-title
 }
@@ -620,8 +596,6 @@ width: 210*3px;
 }
 .item-7-1{
     @include discovery-1;
-    margin-left: -520px !important;
-    width: 210*5px;
     .item-7-1-title{
         @include discovery-title
     }
@@ -655,7 +629,6 @@ width: 210*3px;
     }
 .item-8-1{
     @include discovery-1;
-    margin-left: -580px !important;  
     .item-8-1-title{
         @include discovery-title
     }
@@ -755,8 +728,7 @@ width: 210*3px;
 }
 .item-8-2{
     @include discovery-1;
-    margin-left: -500px !important; 
-    width: 210*5px;
+    
     .item-8-2-title{
         @include discovery-title
     }
@@ -795,7 +767,7 @@ width: 210*3px;
         }
         .proto-overlay{
             display: flex;
-            width:210*7px;
+            width:210*5px;
             overflow-x: scroll;
             
           }
@@ -803,7 +775,6 @@ width: 210*3px;
 }
 .item-8-3{
     @include discovery-1;
-    margin-left: -580px !important;  
     .item-8-3-title{
         @include discovery-title
     }
@@ -903,8 +874,7 @@ width: 210*3px;
 }
 .item-9-1{
     @include discovery-1;
-    margin-left: -420px !important;
-    width: 210*4px;
+    
     .item-9-1-title{
         @include discovery-title
     }
@@ -938,8 +908,7 @@ width: 210*3px;
 }
 .item-9-2{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
+    
     .item-9-2-title{
         @include discovery-title
     }
@@ -973,8 +942,7 @@ width: 210*3px;
 }
 .item-9-3{
     @include discovery-1;
-    margin-left: -300px !important; 
-    width: 210*3px;
+    
     .item-9-3-title{
         @include discovery-title
     }
@@ -1008,8 +976,7 @@ width: 210*3px;
 }
 .item-10-1{
     @include discovery-1;
-    margin-left: -200px !important; 
-    width: 210*2px;
+    
     .item-10-1-title{
         @include discovery-title
     }
@@ -1043,8 +1010,7 @@ width: 210*3px;
 }
 .item-10-2{
 @include discovery-1;
-margin-left: -300px !important; 
-width: 210*3px;
+
 .item-10-2-title{
     @include discovery-title
 }
@@ -1078,7 +1044,7 @@ width: 210*3px;
 }
 .item-10-3{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-10-3-title{
         @include discovery-title
     }
@@ -1112,7 +1078,7 @@ width: 210*3px;
 }
 .item-10-4{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-10-4-title{
         @include discovery-title
     }
@@ -1146,7 +1112,7 @@ width: 210*3px;
 }
 .item-10-5{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-10-5-title{
         @include discovery-title
     }
@@ -1180,8 +1146,7 @@ width: 210*3px;
 }
 .item-11-1{
     @include discovery-1;
-    margin-left: -300px !important;
-    width: 210*3px;
+    
     .item-11-1-title{
         @include discovery-title
     }
@@ -1215,7 +1180,7 @@ width: 210*3px;
 }
 .item-11-2{
 @include discovery-1;
-width: 210*4px;
+
 .item-11-2-title{
 @include discovery-title
 }
@@ -1249,8 +1214,7 @@ display: flex;
 }
 .item-11-3{
 @include discovery-1;
-margin-left: -300px !important;
-width: 210*3px;
+
 .item-11-3-title{
     @include discovery-title
 }
@@ -1284,7 +1248,7 @@ width: 210*3px;
 }
 .item-11-4{
     @include discovery-1;
-    width: 210*4px;
+    
     .item-11-4-title{
     @include discovery-title
     }
@@ -1318,8 +1282,7 @@ width: 210*3px;
     }
 .item-12-1{
     @include discovery-1;
-    margin-left: -200px !important;
-    width: 210*2px;
+    
     .item-12-1-title{
         @include discovery-title
     }
@@ -1353,8 +1316,7 @@ width: 210*3px;
 }
 .item-12-2{
     @include discovery-1;
-    margin-left: -200px !important;
-    width: 210*2px;
+    
     .item-12-2-title{
         @include discovery-title
     }
@@ -1397,257 +1359,3 @@ width: 210*3px;
     z-index:50;
     display: none;
   }
-
-.story {
-    position: relative;
-    display: inline-block;
-}
-.story .story-1 {
-    visibility: hidden;
-    height: 30px;
-    line-height: 30px;
-    width: 150px;
-    background:$color-icon-border;
-    border-bottom: 3px;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    border: 2px white solid;
-    padding: 5px 0;
-    border-bottom:10spx;
-    position: absolute;
-    z-index: 1;
-    bottom:120%;
-    left: 20%;
-    margin:0 0 0 -60px;
-    text-decoration:underline;
-    font-size:$H5-font*0.7;
-}
-.story .story-1::after {
-content: "";
-position: absolute;
-top: 100%;
-left: 47%;
-z-index: 20;
-margin-left: -5px;
-border-width: 10px;
-border-style: solid;
-border-color: $color-icon-border transparent transparent transparent;
-}
-.story .story-1::before {
-content: "";
-position: absolute;
-top: 100%;
-left: 45%;
-z-index: 20;
-margin-left: -5px;
-border-width: 13px;
-border-style: solid;
-border-color: white transparent transparent transparent;
-}
-.story:hover  .story-1 {
-visibility: visible;
-}
-.datasheet {
-    position: relative;
-    display: inline-block;
-}
-.datasheet .datasheet-1 {
-visibility: hidden;
-height: 30px;
-line-height: 30px;
-width: 150px;
-background:$color-icon-border;
-border-bottom: 3px;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-border: 2px white solid;
-padding: 5px 0;
-border-bottom:10spx;
-position: absolute;
-z-index: 1;
-bottom:120%;
-left: 20%;
-margin:0 0 0 -60px;
-text-decoration:underline;
-font-size:$H5-font*0.7;
-}
-.datasheet .datasheet-1::after {
-content: "";
-position: absolute;
-top: 100%;
-left: 47%;
-z-index: 20;
-margin-left: -5px;
-border-width: 10px;
-border-style: solid;
-border-color: $color-icon-border transparent transparent transparent;
-}
-.datasheet .datasheet-1::before {
-content: "";
-position: absolute;
-top: 100%;
-left: 45%;
-z-index: 20;
-margin-left: -5px;
-border-width: 13px;
-border-style: solid;
-border-color: white transparent transparent transparent;
-}
-.datasheet:hover  .datasheet-1 {
-visibility: visible;
-}
-.brochure {
-    position: relative;
-    display: inline-block;
-}
-.brochure .brochure-1 {
-visibility: hidden;
-height: 30px;
-line-height: 30px;
-width: 150px;
-background:$color-icon-border;
-border-bottom: 3px;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-border: 2px white solid;
-padding: 5px 0;
-border-bottom:10spx;
-position: absolute;
-z-index: 1;
-bottom:120%;
-left: 20%;
-margin:0 0 0 -60px;
-text-decoration:underline;
-font-size:$H5-font*0.7;
-}
-.brochure .brochure-1::after {
-content: "";
-position: absolute;
-top: 100%;
-left: 47%;
-z-index: 20;
-margin-left: -5px;
-border-width: 10px;
-border-style: solid;
-border-color: $color-icon-border transparent transparent transparent;
-}
-.brochure .brochure-1::before {
-content: "";
-position: absolute;
-top: 100%;
-left: 45%;
-z-index: 20;
-margin-left: -5px;
-border-width: 13px;
-border-style: solid;
-border-color: white transparent transparent transparent;
-}
-.brochure:hover  .brochure-1 {
-visibility: visible;
-}
-.video {
-    position: relative;
-    display: inline-block;
-}
-.video .video-1 {
-visibility: hidden;
-height: 30px;
-line-height: 30px;
-width: 150px;
-background:$color-icon-border;
-border-bottom: 3px;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-border: 2px white solid;
-padding: 5px 0;
-border-bottom:10spx;
-position: absolute;
-z-index: 1;
-bottom:120%;
-left: 20%;
-margin:0 0 0 -60px;
-text-decoration:underline;
-font-size:$H5-font*0.7;
-}
-.video .video-1::after {
-content: "";
-position: absolute;
-top: 100%;
-left: 47%;
-z-index: 20;
-margin-left: -5px;
-border-width: 10px;
-border-style: solid;
-border-color: $color-icon-border transparent transparent transparent;
-}
-.video .video-1::before {
-content: "";
-position: absolute;
-top: 100%;
-left: 45%;
-z-index: 20;
-margin-left: -5px;
-border-width: 13px;
-border-style: solid;
-border-color: white transparent transparent transparent;
-}
-.video:hover  .video-1 {
-visibility: visible;
-}
-.leaflet {
-    position: relative;
-    display: inline-block;
-}
-.leaflet .leaflet-1 {
-visibility: hidden;
-height: 30px;
-line-height: 30px;
-width: 150px;
-background:$color-icon-border;
-border-bottom: 3px;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-border: 2px white solid;
-padding: 5px 0;
-border-bottom:10spx;
-position: absolute;
-z-index: 1;
-bottom:120%;
-left: 20%;
-margin:0 0 0 -60px;
-text-decoration:underline;
-font-size:$H5-font*0.7;
-}
-.leaflet .leaflet-1::after {
-content: "";
-position: absolute;
-top: 100%;
-left: 47%;
-z-index: 20;
-margin-left: -5px;
-border-width: 10px;
-border-style: solid;
-border-color: $color-icon-border transparent transparent transparent;
-}
-.leaflet .leaflet-1::before {
-content: "";
-position: absolute;
-top: 100%;
-left: 45%;
-z-index: 20;
-margin-left: -5px;
-border-width: 13px;
-border-style: solid;
-border-color: white transparent transparent transparent;
-}
-.leaflet:hover  .leaflet-1 {
-visibility: visible;
-}
-
-
-

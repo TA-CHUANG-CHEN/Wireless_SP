@@ -1,9 +1,16 @@
 
 // over-view seven items clicks
+#proto-1{
+  position:absolute;
+  height:1050px;
+  width:380px;
+  top:18%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+}
 .proto-1{
-  margin-left: -200px !important;
   @include ov-1;
-  width: 210*2px;
   .proto-1-title{
     @include ov-title
   }
@@ -71,14 +78,12 @@
     }
     .proto-overlay{
       display: flex;
-      width:210*7px;
       overflow-x: scroll;
     }
   }
 }
 .proto-3{
   @include ov-1;
-  width: 210*5px;
   .proto-3-title{
     @include ov-title
   }
@@ -112,7 +117,6 @@
 }
 .proto-4{
   @include ov-1;
-  width: 210*5px;
   .proto-4-title{
     @include ov-title
   }
@@ -146,7 +150,6 @@
 }
 .proto-5{
   @include ov-1;
-  width: 210*5px;
   .proto-5-title{
     @include ov-title
   }
@@ -174,7 +177,6 @@
 }
 .proto-6{
   @include ov-1;
-  width: 210*5px;
   .proto-6-title{
     @include ov-title
   }
@@ -236,7 +238,6 @@
     }
     .proto-overlay{
       display: flex;
-      width:210*5px;
       overflow-x: scroll;
     }
   }
