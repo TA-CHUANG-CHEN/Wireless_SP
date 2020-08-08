@@ -41,7 +41,7 @@ res_all.addEventListener('click',(e)=>{
   if(e.target == resource_tag_1 ){
     res_para1.innerHTML = `Advanced Industrial<br>LoRaWAN Wireless I/O Module`
     res_para2.innerHTML =`Wzzard Edge & IIoT<br>Starter Kits Selection Guide`
-    res_para3.innerHTML =`OBD Intelligent <br>Cellular Gateway`
+    res_para3.innerHTML =`Proprietary LPWAN IoT <br>Wireless I/O Module`
     res_item1_img.src = `images/leaflet_1.jpg`
     res_item2_img.src = `images/leaflet_2.jpg`
     res_item3_img.src = `images/leaflet_3.jpg`
@@ -57,7 +57,7 @@ res_all.addEventListener('click',(e)=>{
     res_para3.innerHTML =`WebAccess/DMP Generation2`
     res_item1_img.src = `images/brochure_1.jpg`
     res_item3_img.src = `images/brochure_2.jpg`
-    res_button.textContent = `Download Brochure`
+    res_button.textContent = `Download All`
     res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
     res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
 
@@ -83,8 +83,7 @@ res_all.addEventListener('click',(e)=>{
     res_para1.innerHTML = `Intelligent Connectivity Wireless<br>Success Stories`
     res_item1_img.src = `images/Success Story_1.jpg`
     res_item1.style = `padding:30px 0 0 0;`
-    res_button.innerHTML = `Download<br>Success Story    `
-    res_button_slide.style=`display:none`
+    res_button.innerHTML = `Download`
   }
   
 
@@ -97,8 +96,8 @@ res_item.addEventListener('click',(e)=>{
     left_arrow.style = `visibility:visible`
     right_arrow.style = `visibility:hidden`
     res_para1.innerHTML = `The Wzzard Intelligent <br>Sensing Platform`
-    res_para2.innerHTML =`Industrial NB-IoT/LTE-M<br>Wireless I/O Module`
-    res_para3.innerHTML =`Industrial LPWAN <br>Wireless I/O Module`
+    res_para2.innerHTML =`Wzzard Edge & IIoT <br> Starter Kits Selection Guide    `
+    res_para3.innerHTML =`OBD Intelligent <br>  Cellular Gateway`
     res_item1_img.src = `images/leaflet_4.jpg`
     res_item2_img.src = `images/leaflet_5.jpg`
     res_item3_img.src = `images/leaflet_6.jpg`
@@ -110,8 +109,8 @@ res_item.addEventListener('click',(e)=>{
     left_arrow.style = `visibility:hidden`
     right_arrow.style = `visibility:visible`
     res_para1.textContent = `Advanced IndustrialLoRaWAN Wireless I/O Module`
-    res_para2.innerHTML =`Wzzard Edge & IIoT<br>Starter Kits Selection Guide`
-    res_para3.innerHTML =`OBD Intelligent <br>Cellular Gateway`
+    res_para2.innerHTML =`Industrial NB-IoT/LTE-M <br>Wireless I/O Module`
+    res_para3.innerHTML =`Proprietary LPWAN IoT <br>Wireless I/O Module`
     res_item1_img.src = `images/leaflet_1.jpg`
     res_item2_img.src = `images/leaflet_2.jpg`
     res_item3_img.src = `images/leaflet_3.jpg`
