@@ -22,4 +22,30 @@
   width: 100%;
   z-index: -1;
 }
-
+@media(max-width:580px){
+ *{
+   overflow-x:hidden;
+   #advan-header{
+     padding-bottom: 5px;
+    .row-maxwidth-98pct {
+      width: 100%;
+    }
+   }
+   .banner-text{
+     padding:0;
+    h1{
+      font-size: $H1-PC-font;
+      color:$color-advanblue;
+      overflow: hidden;
+      padding: 10px 8px 0 10px;
+    };
+    h3{
+      font-size: $H3-font;
+      color:$color-advanblue;
+      line-height: 20px;
+      padding: 0 8px 0 10px;
+      overflow: hidden;
+    };
+   }
+ }
+}

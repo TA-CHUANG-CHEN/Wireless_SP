@@ -39,7 +39,8 @@
     background-color:$color-nav-selec-1;
   }
   li:hover > ul { 
-    display: block;
+    visibility: visible;
+    opacity: 1; 
   }
   ul {
     cursor: pointer;
@@ -47,7 +48,9 @@
     z-index: 99;
     left: -1px;
     top: 100%;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 300ms, opacity 300ms linear;
     border-style: none;
     list-style: none;
     li{
@@ -74,14 +77,12 @@
     li:nth-child(1) a{
       border-top: 1px solid $color-dark-bg-white;
     }
-    a:hover { 
-      background-color:  $color-nav-bg-hover;
-    }
     li:hover > a { 
       background-color: $color-nav-bg-hover;
     }
     li:hover > ul { 
-      display: block;
+      visibility:visible;
+      opacity: 1;
     }
     ul { 
       z-index: 999;
@@ -90,7 +91,9 @@
       left: 100%; 
       border: white 1px solid;
       position: absolute;
-      display: none;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 300ms, opacity 300ms linear;
       border-style: none;
       list-style: none;
       li{
@@ -107,7 +110,7 @@
         border-right: 3px solid white;
         display: block;
         border-style: none;
-        padding: 10px 25px 10px 25px; 
+        padding: 10px 18px 10px 18px; 
         text-decoration: none;
         color:$color-discovery-apptext;
         border-top: $color-dark-bg-white 1.5px solid;

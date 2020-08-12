@@ -4,18 +4,21 @@
     margin: 5px 3px 0 3px;
     color: $color-pdf-unknown-blue;
     border: solid 2px $color-pdf-unknown-blue;
+    transition:border 300ms; 
     padding: 7px 20px 7px 20px;
     border-radius: 30px;    
     cursor: pointer;
     :hover{
         border: solid 2px $color-nav-bg;
         color:$color-nav-bg;
+        transition:border 300ms; 
     }   
 }
 @mixin ov2-para4-hover{
     :hover{
         border: solid 2px $color-nav-bg;
         color:$color-nav-bg;
+        transition:border 300ms; 
     }
 }
 

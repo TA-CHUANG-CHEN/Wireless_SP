@@ -531,6 +531,9 @@ template {
   border: 5px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
   cursor: pointer;
 }
 
@@ -1110,12 +1113,18 @@ template {
 
 .product2:hover {
   border: 5px solid #91d0e6;
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
 }
 
 .product3 {
   border: 5px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
   cursor: pointer;
 }
 
@@ -1698,9 +1707,15 @@ template {
 
 .product3:hover {
   border: 5px solid #91d0e6;
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
 }
 
 #products .product1 {
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
   cursor: pointer;
   border: 5px solid transparent;
   -webkit-box-sizing: border-box;
@@ -2068,6 +2083,9 @@ template {
 
 #products .product1:hover {
   border: 5px solid #91d0e6;
+  -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
 }
 
 #proto-1 {
@@ -2077,6 +2095,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2089,6 +2108,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2101,6 +2121,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2113,6 +2134,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2125,6 +2147,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2137,6 +2160,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2149,6 +2173,7 @@ template {
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -2160,6 +2185,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -2888,6 +2914,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -3882,6 +3909,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -4858,6 +4886,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -5834,6 +5863,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -6562,6 +6592,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -7290,6 +7321,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -8052,6 +8084,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9191,6 +9224,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10330,6 +10364,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11469,6 +11504,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12702,6 +12738,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13841,6 +13878,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -14980,6 +15018,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -16119,6 +16158,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -17258,6 +17298,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18397,6 +18438,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -19536,6 +19578,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -20675,6 +20718,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -21814,6 +21858,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -22953,6 +22998,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24092,6 +24138,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -25231,6 +25278,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -26370,6 +26418,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -27509,6 +27558,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -28752,6 +28802,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29909,6 +29960,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -31152,6 +31204,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -32291,6 +32344,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -33430,6 +33484,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -34569,6 +34624,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -35708,6 +35764,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -36847,6 +36904,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -37986,6 +38044,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -39125,6 +39184,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -40264,6 +40324,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -41403,6 +41464,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -42542,6 +42604,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -43681,6 +43744,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -44820,6 +44884,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -45959,6 +46024,7 @@ template {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -47432,15 +47498,16 @@ template {
 }
 
 .drop-down-menu a:hover {
-  background-color: #8ccfe7;
+  background-color: #86c5db;
 }
 
 .drop-down-menu li:hover > a {
-  background-color: #8ccfe7;
+  background-color: #86c5db;
 }
 
 .drop-down-menu li:hover > ul {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .drop-down-menu ul {
@@ -47449,7 +47516,11 @@ template {
   z-index: 99;
   left: -1px;
   top: 100%;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 300ms, opacity 300ms linear;
+  -o-transition: visibility 300ms, opacity 300ms linear;
+  transition: visibility 300ms, opacity 300ms linear;
   border-style: none;
   list-style: none;
 }
@@ -47468,7 +47539,7 @@ template {
 }
 
 .drop-down-menu ul a {
-  background-color: #85c5db;
+  background-color: #7fbbd0;
   border-right: 3px solid #FFFFFF;
   display: block;
   padding: 10px 28px 10px 25px;
@@ -47482,16 +47553,13 @@ template {
   border-top: 1px solid #FFFFFF;
 }
 
-.drop-down-menu ul a:hover {
-  background-color: #c3e4ef;
-}
-
 .drop-down-menu ul li:hover > a {
   background-color: #c3e4ef;
 }
 
 .drop-down-menu ul li:hover > ul {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .drop-down-menu ul ul {
@@ -47501,7 +47569,11 @@ template {
   left: 100%;
   border: white 1px solid;
   position: absolute;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 300ms, opacity 300ms linear;
+  -o-transition: visibility 300ms, opacity 300ms linear;
+  transition: visibility 300ms, opacity 300ms linear;
   border-style: none;
   list-style: none;
 }
@@ -47518,11 +47590,11 @@ template {
 }
 
 .drop-down-menu ul ul a {
-  background-color: #8ccfe7;
+  background-color: #86c5db;
   border-right: 3px solid white;
   display: block;
   border-style: none;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 18px 10px 18px;
   text-decoration: none;
   color: #515152;
   border-top: #FFFFFF 1.5px solid;
@@ -47575,6 +47647,34 @@ template {
   z-index: -1;
 }
 
+@media (max-width: 580px) {
+  * {
+    overflow-x: hidden;
+  }
+  * #advan-header {
+    padding-bottom: 5px;
+  }
+  * #advan-header .row-maxwidth-98pct {
+    width: 100%;
+  }
+  * .banner-text {
+    padding: 0;
+  }
+  * .banner-text h1 {
+    font-size: 3.667em;
+    color: #004280;
+    overflow: hidden;
+    padding: 10px 8px 0 10px;
+  }
+  * .banner-text h3 {
+    font-size: 1.5em;
+    color: #004280;
+    line-height: 20px;
+    padding: 0 8px 0 10px;
+    overflow: hidden;
+  }
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47607,10 +47707,34 @@ main span {
 }
 
 main .discover-img {
-  background-image: url("./css-img/discovery_1.png");
-  background-repeat: no-repeat;
-  height: 323px;
-  width: 100%;
+  height: 325px;
+}
+
+main .discover-img:hover img {
+  -webkit-animation: trans 0.5s ease-in-out alternate 1;
+          animation: trans 0.5s ease-in-out alternate 1;
+}
+
+@-webkit-keyframes trans {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes trans {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 main .product1 {
@@ -47716,7 +47840,7 @@ main .product2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px 20px 0 20px;
+  margin: 30px 20px 0 20px;
 }
 
 main .product2 .E-E-img {
@@ -47805,7 +47929,7 @@ main .product3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px 20px 50px 20px;
+  margin: 30px 20px 50px 20px;
 }
 
 main .product3 .transport-img {
@@ -48105,16 +48229,22 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-high-flex:hover {
-  background: #10c5e9;
+  background-color: #10c5e9;
+  -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
+  transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-high-flex:hover .products-high-font {
   color: #FFFFFF;
+  -webkit-transition: color 100ms;
+  -o-transition: color 100ms;
+  transition: color 100ms;
 }
 
 #product-offer .product-flex .products-high-flex:hover .view-more {
   font-weight: bold;
-  background: #10c5e9;
+  background-color: #10c5e9;
   text-decoration: none;
 }
 
@@ -48127,7 +48257,7 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-high-flex:hover .buy-now {
-  background: #10c5e9;
+  background-color: #10c5e9;
   text-decoration: none;
 }
 
@@ -48160,16 +48290,25 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-low-flex:hover {
-  background: #10c5e9;
+  background-color: #10c5e9;
+  -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
+  transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-low-flex:hover .products-low-font {
   color: #FFFFFF;
+  -webkit-transition: color 100ms;
+  -o-transition: color 100ms;
+  transition: color 100ms;
 }
 
 #product-offer .product-flex .products-low-flex:hover .view-more {
   text-decoration: none;
-  background: #10c5e9;
+  background-color: #10c5e9;
+  -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
+  transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-low-flex:hover .view-more .view-more-pic {
@@ -48181,7 +48320,10 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-low-flex:hover .buy-now {
-  background: #10c5e9;
+  background-color: #10c5e9;
+  -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
+  transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-low-flex:hover .buy-now .buy-now-pic {
@@ -48344,6 +48486,9 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48352,17 +48497,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-1 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-2 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48371,17 +48525,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-2 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-3 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48390,17 +48553,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-3 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-4 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48409,17 +48581,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-5 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48428,17 +48609,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-5 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-6 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48447,17 +48637,26 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-6 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 .ov2-7 {
   margin: 5px 3px 0 3px;
   color: #00c1db;
   border: solid 2px #00c1db;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
   cursor: pointer;
@@ -48466,11 +48665,17 @@ main .product3 .transport .transport-icon .transport-3 {
 #overview2 .ov2-title2 .ov2-para4 .ov2-7 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-title2 .ov2-para4 :hover {
   border: solid 2px #008CD6;
   color: #008CD6;
+  -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
+  transition: border 300ms;
 }
 
 #overview2 .ov2-pic {
@@ -48500,6 +48705,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-1 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48509,6 +48717,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-1:hover {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48518,6 +48729,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-2 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48527,6 +48741,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-2:hover {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48536,6 +48753,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-3 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48545,6 +48765,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-3:hover {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
@@ -48555,6 +48778,9 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
   color: #FFFFFF;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   width: 155px;
   height: 35px;
   text-align: center;
@@ -48564,6 +48790,9 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-4:hover {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
+  -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
   text-align: center;
