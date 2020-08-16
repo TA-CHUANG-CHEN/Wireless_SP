@@ -59,6 +59,24 @@
         text-decoration: none;
     }
 }
+@media(max-width:580px){
+    .dmp-button{
+        font-size: $H4-font;
+        text-align: center;
+        padding: 12px 23px 12px 23px;
+        border: #00427F solid 1px;
+        color:$color-dark-bg-white;
+        width: auto;
+        height: 42px;
+        background-color:$color-offer-icon;
+        font-weight: bold;
+        margin: 30px 0 60px 0;
+        a{
+            color:$color-dark-bg-white;
+            text-decoration: none;
+        }
+    }
+}
 .download-button{ //resources download
     background: url(./css-img/arrow.png) no-repeat ;
     background-size: 30px 25px;
