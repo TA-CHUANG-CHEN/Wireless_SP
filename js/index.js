@@ -9,12 +9,21 @@ const right_arrow = document.querySelector('.right-arrow img')
 const res_item1  = document.querySelector('.res-item-1')
 const res_item2  = document.querySelector('.res-item-2')
 const res_item3  = document.querySelector('.res-item-3')
+const res_item4  = document.querySelector('.res-item-4')
+const res_item5  = document.querySelector('.res-item-5')
+const res_item6  = document.querySelector('.res-item-6')
 const res_item1_img  = document.querySelector('.res-item-1 img')
 const res_item2_img  = document.querySelector('.res-item-2 img')
 const res_item3_img  = document.querySelector('.res-item-3 img')
+const res_item4_img  = document.querySelector('.res-item-4 img')
+const res_item5_img  = document.querySelector('.res-item-5 img')
+const res_item6_img  = document.querySelector('.res-item-6 img')
 const res_para1 = document.querySelector('.resource-para1')
 const res_para2 = document.querySelector('.resource-para2')
 const res_para3 = document.querySelector('.resource-para3')
+const res_para4 = document.querySelector('.resource-para4')
+const res_para5 = document.querySelector('.resource-para5')
+const res_para6 = document.querySelector('.resource-para6')
 const resource_tag_1 = document.querySelector('.resource-1')
 const resource_tag_2 = document.querySelector('.resource-2')
 const resource_tag_3 = document.querySelector('.resource-3')
@@ -45,6 +54,12 @@ res_all.addEventListener('click',(e)=>{
     res_item1_img.src = `images/leaflet_1.jpg`
     res_item2_img.src = `images/leaflet_2.jpg`
     res_item3_img.src = `images/leaflet_3.jpg`
+    res_item4_img.style = 'margin: 0 0 0 80px'
+    res_item5_img.style = 'margin: 0 0 0 80px'
+    res_item6_img.style = 'margin: 0 0 0 80px'
+    res_item4.style.display="block"
+    res_item5.style.display="block"
+    res_item6.style.display="block"
     res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
     res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
     res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
@@ -58,6 +73,9 @@ res_all.addEventListener('click',(e)=>{
     res_item1_img.src = `images/brochure_1.jpg`
     res_item3_img.src = `images/brochure_2.jpg`
     res_button.textContent = `Download All`
+    res_item4.style.display="none"
+    res_item5.style.display="none"
+    res_item6.style.display="none"
     res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
     res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
 
@@ -72,6 +90,9 @@ res_all.addEventListener('click',(e)=>{
     res_item3.style = `padding:30px 0 0 0;`
     res_button.textContent = `Download Video/Webinar `
     res_button_slide.style=`display:none`
+    res_item4.style.display="none"
+    res_item5.style.display="none"
+    res_item6.style.display="none"
     res_item1.setAttribute('href','https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be')
     res_item3.setAttribute('href','https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be')
 
@@ -79,6 +100,9 @@ res_all.addEventListener('click',(e)=>{
   if(e.target == resource_tag_4){
     res_item2.style="display:none"
     res_item3.style="display:none"
+    res_item4.style.display="none"
+    res_item5.style.display="none"
+    res_item6.style.display="none"
     res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
     res_para1.innerHTML = `Intelligent Connectivity Wireless<br>Success Stories`
     res_item1_img.src = `images/Success Story_1.jpg`
