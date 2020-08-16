@@ -152,6 +152,9 @@
     li:last-child {
       border-right: none;
     }
+    .nav-products:hover>a{
+      background-color: initial;
+    }
     a {
       background-color:  $color-nav-bg;
       border-right: none;
@@ -167,9 +170,14 @@
     a:first-letter{
       text-transform: uppercase;
     }
-   /*  li:hover > ul { 
-      display: block;
-    } */
+     li:hover > ul { 
+      display: initial;
+      visibility:initial;
+      opacity: initial;
+    } 
+     li:hover > a { 
+      background-color: none;
+    }
     ul {
       cursor: pointer;
       position: relative;
@@ -177,8 +185,12 @@
       left: -1px;
       top: 100%;
       display: none;
+      visibility:initial;
+      opacity: 1;
+      transition:none;
       border-style: none;
       list-style: none;
+      transition: none;
       li{
         position: relative;
         text-align: center;
@@ -196,9 +208,9 @@
         font-weight: bold;
         background-color: $color-nav-selec-1;
       }
-      /* li:hover > ul { 
-        display: block;
-      } */
+      li:hover > ul { 
+        display: unset;
+      } 
       ul { 
         z-index: 999;
         cursor: pointer;
@@ -207,6 +219,10 @@
         display: none;
         border-style: none;
         list-style: none;
+        transition: none;
+         visibility:initial;
+      opacity: 1;
+      transition:none;
         left:0; 
         li{
           position: relative;
@@ -227,10 +243,13 @@
           background-color:  $color-nav-selec-2;
           border-bottom: $color-dark-bg-white 1px solid;
         }
-      /*   li:hover > ul { 
-          display: block;
-        } */
+        li:hover > ul { 
+          display: unset;
+        } 
         ul{
+         visibility:initial;
+      opacity: 1;
+      transition:none;
           a{
             background-color:  $color-nav-selec-3;
             border-bottom: $color-dark-bg-white 1px solid;

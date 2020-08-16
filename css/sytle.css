@@ -47712,9 +47712,6 @@ template {
     background-color: #008CD6;
     line-height: 20px;
     margin: 0;
-    /*  li:hover > ul { 
-      display: block;
-    } */
   }
   .drop-down-menu li {
     position: relative;
@@ -47722,6 +47719,9 @@ template {
   }
   .drop-down-menu li:last-child {
     border-right: none;
+  }
+  .drop-down-menu .nav-products:hover > a {
+    background-color: initial;
   }
   .drop-down-menu a {
     background-color: #008CD6;
@@ -47738,6 +47738,14 @@ template {
   .drop-down-menu a:first-letter {
     text-transform: uppercase;
   }
+  .drop-down-menu li:hover > ul {
+    display: initial;
+    visibility: initial;
+    opacity: initial;
+  }
+  .drop-down-menu li:hover > a {
+    background-color: none;
+  }
   .drop-down-menu ul {
     cursor: pointer;
     position: relative;
@@ -47745,11 +47753,14 @@ template {
     left: -1px;
     top: 100%;
     display: none;
+    visibility: initial;
+    opacity: 1;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
     border-style: none;
     list-style: none;
-    /* li:hover > ul { 
-        display: block;
-      } */
+    transition: none;
   }
   .drop-down-menu ul li {
     position: relative;
@@ -47768,6 +47779,9 @@ template {
     font-weight: bold;
     background-color: #86c5db;
   }
+  .drop-down-menu ul li:hover > ul {
+    display: unset;
+  }
   .drop-down-menu ul ul {
     z-index: 999;
     cursor: pointer;
@@ -47776,10 +47790,13 @@ template {
     display: none;
     border-style: none;
     list-style: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    visibility: initial;
+    opacity: 1;
+    transition: none;
     left: 0;
-    /*   li:hover > ul { 
-          display: block;
-        } */
   }
   .drop-down-menu ul ul li {
     position: relative;
@@ -47799,6 +47816,16 @@ template {
     font-size: 1.333em;
     background-color: #d1e4f3;
     border-bottom: #FFFFFF 1px solid;
+  }
+  .drop-down-menu ul ul li:hover > ul {
+    display: unset;
+  }
+  .drop-down-menu ul ul ul {
+    visibility: initial;
+    opacity: 1;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
   }
   .drop-down-menu ul ul ul a {
     background-color: #e9e9e9;
