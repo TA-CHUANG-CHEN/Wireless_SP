@@ -486,6 +486,26 @@ template {
   margin: 0 0 0 30px;
 }
 
+@media (max-width: 580px) {
+  .footer-button {
+    font-size: 1.333em;
+    background: url(./css-img/email.png) no-repeat;
+    background-size: 40px 25px;
+    background-position: left 20px top 8px;
+    background-color: #055791;
+    color: #FFFFFF;
+    max-width: 100%;
+    line-height: 40px;
+    height: auto;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto;
+  }
+  .footer-button [type="text-contact"] {
+    margin: 0 0 0 30px;
+  }
+}
+
 .close-icon-1-1 {
   display: none;
   z-index: 99999;
@@ -48890,6 +48910,15 @@ main .product3 .transport .transport-icon .transport-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer img {
+  max-width: 100%;
+  margin: 50px 0 0 0;
 }
 
 .footer .footer-flex {
@@ -48900,10 +48929,11 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 60px 0 0 30px;
+  margin: 60px 0 50px 30px;
 }
 
 .footer .footer-flex .footer-title {
+  text-align: center;
   font-size: 3em;
   color: #4D4D4D;
   line-height: 1.3em;
