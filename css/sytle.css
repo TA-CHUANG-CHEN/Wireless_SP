@@ -47452,171 +47452,107 @@ template {
   visibility: visible;
 }
 
-.drop-down-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  list-style-type: none;
-  margin: 20px 0 0 0;
-  background-color: #008CD6;
-  line-height: 20px;
-}
-
-.drop-down-menu .nav-resources > a {
-  border-style: none;
-}
-
-.drop-down-menu .nav-products:hover > a {
-  background-color: #008CD6;
-}
-
-.drop-down-menu li {
-  position: relative;
-  white-space: nowrap;
-}
-
-.drop-down-menu li:last-child {
-  border-right: none;
-}
-
-.drop-down-menu a {
-  background-color: #008CD6;
-  border-right: 3px solid white;
-  cursor: pointer;
-  display: block;
-  padding: 10px 25px 10px 25px;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-.drop-down-menu a:first-letter {
-  text-transform: uppercase;
-}
-
-.drop-down-menu a:hover {
-  background-color: #86c5db;
-}
-
-.drop-down-menu li:hover > a {
-  background-color: #86c5db;
-}
-
-.drop-down-menu li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-}
-
-.drop-down-menu ul {
-  cursor: pointer;
-  position: absolute;
-  z-index: 99;
-  left: -1px;
-  top: 100%;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: visibility 300ms, opacity 300ms linear;
-  -o-transition: visibility 300ms, opacity 300ms linear;
-  transition: visibility 300ms, opacity 300ms linear;
-  border-style: none;
-  list-style: none;
-}
-
-.drop-down-menu ul li {
-  position: relative;
-  white-space: nowrap;
-  border-top: #FFFFFF 1px solid;
-  border-bottom: #FFFFFF 1px solid;
-  text-align: center;
-  cursor: pointer;
-}
-
-.drop-down-menu ul li:last-child {
-  border-right: none;
-}
-
-.drop-down-menu ul a {
-  background-color: #7fbbd0;
-  border-right: 3px solid #FFFFFF;
-  display: block;
-  padding: 10px 28px 10px 25px;
-  text-decoration: none;
-  color: #4D4D4D;
-  font-size: 1.333em;
-  font-weight: bold;
-}
-
-.drop-down-menu ul li:nth-child(1) a {
-  border-top: 1px solid #FFFFFF;
-}
-
-.drop-down-menu ul li:hover > a {
-  background-color: #c3e4ef;
-}
-
-.drop-down-menu ul li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-}
-
-.drop-down-menu ul ul {
-  z-index: 999;
-  cursor: pointer;
-  top: 0;
-  left: 100%;
-  border: white 1px solid;
-  position: absolute;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: visibility 300ms, opacity 300ms linear;
-  -o-transition: visibility 300ms, opacity 300ms linear;
-  transition: visibility 300ms, opacity 300ms linear;
-  border-style: none;
-  list-style: none;
-}
-
-.drop-down-menu ul ul li {
-  position: relative;
-  white-space: nowrap;
-  border-style: none;
-  width: auto;
-}
-
-.drop-down-menu ul ul li:last-child {
-  border-right: none;
-}
-
-.drop-down-menu ul ul a {
-  background-color: #86c5db;
-  border-right: 3px solid white;
-  display: block;
-  border-style: none;
-  padding: 10px 18px 10px 18px;
-  text-decoration: none;
-  color: #515152;
-  border-top: #FFFFFF 1.5px solid;
-  border-bottom: #FFFFFF 1.5px solid;
-  border-right: 3px solid white;
-  font-size: 1.333em;
-}
-
-.drop-down-menu ul ul a:hover {
-  background-color: #c3e4ef;
-}
-
-.drop-down-menu ul ul li:hover > a {
-  background-color: #c3e4ef;
-}
-
-.drop-down-menu ul ul li:hover > ul {
-  display: block;
-}
-
-.drop-down-menu ul ul ul a {
-  background-color: #abdae9;
+@media (max-width: 580px) {
+  .drop-down-menu {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style-type: none;
+    background-color: #008CD6;
+    line-height: 20px;
+    /*  li:hover > ul { 
+      display: block;
+    } */
+  }
+  .drop-down-menu li {
+    position: relative;
+    white-space: nowrap;
+  }
+  .drop-down-menu li:last-child {
+    border-right: none;
+  }
+  .drop-down-menu a {
+    background-color: #008CD6;
+    border-right: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    border-top: #FFFFFF 1px solid;
+  }
+  .drop-down-menu a:first-letter {
+    text-transform: uppercase;
+  }
+  .drop-down-menu ul {
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    left: -1px;
+    top: 100%;
+    display: none;
+    border-style: none;
+    list-style: none;
+    /* li:hover > ul { 
+        display: block;
+      } */
+  }
+  .drop-down-menu ul li {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+  }
+  .drop-down-menu ul li:last-child {
+    border-right: none;
+  }
+  .drop-down-menu ul a {
+    border-right: none;
+    padding: 10px 28px 10px 25px;
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 1.333em;
+    font-weight: bold;
+    background-color: #86c5db;
+  }
+  .drop-down-menu ul ul {
+    z-index: 999;
+    cursor: pointer;
+    top: 0;
+    position: relative;
+    display: none;
+    border-style: none;
+    list-style: none;
+    left: 0;
+    /*   li:hover > ul { 
+          display: block;
+        } */
+  }
+  .drop-down-menu ul ul li {
+    position: relative;
+    white-space: nowrap;
+    border-style: none;
+    width: auto;
+  }
+  .drop-down-menu ul ul li:last-child {
+    border-right: none;
+  }
+  .drop-down-menu ul ul a {
+    border-top: #FFFFFF 1px solid;
+    display: block;
+    border-style: none;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    font-size: 1.333em;
+    background-color: #d1e4f3;
+    border-bottom: #FFFFFF 1px solid;
+  }
+  .drop-down-menu ul ul ul a {
+    background-color: #e9e9e9;
+    border-bottom: #FFFFFF 1px solid;
+  }
 }
 
 .banner-text {
@@ -47642,7 +47578,7 @@ template {
   position: absolute;
   background: #4cb5d5;
   background-size: 410px 410px;
-  height: 450px;
+  height: 430px;
   width: 100%;
   z-index: -1;
 }
@@ -47656,6 +47592,11 @@ template {
   }
   * #advan-header .row-maxwidth-98pct {
     width: 100%;
+    max-width: 500px;
+  }
+  * .row-fluid {
+    background-size: contain;
+    padding: 5px 0 0 0;
   }
   * .banner-text {
     padding: 0;
@@ -47672,6 +47613,14 @@ template {
     line-height: 20px;
     padding: 0 8px 0 10px;
     overflow: hidden;
+  }
+  * #bg-cover {
+    position: absolute;
+    background: #4cb5d5;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
   }
 }
 

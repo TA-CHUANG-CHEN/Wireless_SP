@@ -18,7 +18,7 @@
   position: absolute;
   background:$color-banner-bg ;
   background-size:  410px 410px;
-  height: 450px;
+  height: 430px;
   width: 100%;
   z-index: -1;
 }
@@ -29,8 +29,13 @@
      padding-bottom: 5px;
     .row-maxwidth-98pct {
       width: 100%;
+      max-width:500px;
     }
    }
+   .row-fluid{
+    background-size: contain;
+    padding:5px 0 0 0;
+    }
    .banner-text{
      padding:0;
     h1{
@@ -47,5 +52,13 @@
       overflow: hidden;
     };
    }
+   #bg-cover{
+  position: absolute;
+  background:$color-banner-bg ;
+  background-size:  cover;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
  }
 }
