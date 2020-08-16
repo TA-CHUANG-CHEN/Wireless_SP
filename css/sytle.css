@@ -48590,10 +48590,6 @@ main .product3 .transport .transport-icon .transport-3 {
   }
 }
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .dmp2 {
   position: relative;
   display: -webkit-box;
@@ -48714,6 +48710,139 @@ main .product3 .transport .transport-icon .transport-3 {
 .dmp2 figure > img {
   margin: 0 0 50px 0;
   max-width: 100%;
+}
+
+@media (max-width: 580px) {
+  .dmp2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dmp2 .dmp2-title-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 10px 0;
+  }
+  .dmp2 .dmp2-title-logo #dmp2-title {
+    font-size: 3em;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: bold;
+    margin: 0 10px 20px 10px;
+    overflow: hidden;
+  }
+  .dmp2 .dmp2-title-logo #dmp2-title img {
+    max-width: 100%;
+  }
+  .dmp2 .dmp2-para1 {
+    font-size: 1.5em;
+    margin: 5px 0 0 0;
+    line-height: 1.3em;
+  }
+  .dmp2 .dmp2-para2 {
+    font-size: 1.5em;
+    margin: 30px 40px 50px 40px;
+    line-height: 1.3em;
+    text-align: center;
+  }
+  .dmp2 .fea-advan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 50px 0;
+  }
+  .dmp2 .fea-advan .fea-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 30px 30px 0;
+  }
+  .dmp2 .fea-advan .fea-flex .features {
+    color: #1d88a9;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+  }
+  .dmp2 .fea-advan .fea-flex ul {
+    font-size: 1.333em;
+    color: #000000;
+    padding: 20px 0 0 30px;
+    max-width: 100%;
+    border-top: solid 2px #00c1db;
+    border-left: solid 6px #00c1db;
+    line-height: 1.3em;
+  }
+  .dmp2 .fea-advan .advan-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 30px 0 0;
+    white-space: nowrap;
+  }
+  .dmp2 .fea-advan .advan-flex .advantages {
+    color: #1d88a9;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+  }
+  .dmp2 .fea-advan .advan-flex ul {
+    font-size: 1.333em;
+    color: #000000;
+    padding: 20px 0 0 30px;
+    line-height: 1.3em;
+    border-top: solid 2px #00c1db;
+    border-left: solid 6px #00c1db;
+    max-width: 100%;
+    height: 160px;
+  }
+  .dmp2 figure > img {
+    margin: 0 0 50px 0;
+    max-width: 100%;
+  }
 }
 
 .footer {
