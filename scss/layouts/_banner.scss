@@ -1,4 +1,4 @@
-
+// banner img
 .banner-text{
   box-sizing: border-box;
   padding: 20px 0 0 50px ;
@@ -14,6 +14,7 @@
     overflow: hidden;
   };
 }
+// banner img color stretch
 #bg-cover{
   position: absolute;
   background:$color-banner-bg ;
@@ -22,6 +23,7 @@
   width: 100%;
   z-index: -1;
 }
+//RWD
 @media(max-width:580px){
  *{
    overflow-x:hidden;

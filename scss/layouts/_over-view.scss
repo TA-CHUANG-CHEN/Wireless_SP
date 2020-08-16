@@ -24,6 +24,37 @@
           width:70%;
        }
     }
+@media(max-width:580px){
+    #overview1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        .ov1-title{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            margin:0;
+            .ov1-para1{
+                font-size: $H2-PC-font;
+                text-align: center;
+                font-weight: bold;
+                line-height: 1.3em;
+                margin: 20px 0 30px 0;
+            }
+            .ov1-para2{
+                margin:10px 20px 0 20px;
+                font-size: $H4-font;
+                line-height: 1.3em;
+                hyphens: auto;
+                width: auto;
+            }
+        }
+        .ov1-pic{
+          max-width: 100%;
+          width:100%;
+       }
+    }
+}
 #overview2{
     display: flex;
     margin:10px 0 50px 0;
@@ -83,5 +114,73 @@
         margin: 0 0 0 35px;
         width:100%;
     }
+}
+@media(max-width:580px){
+    #overview2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:10px 0 20px 0;
+        .ov2-title2{
+            display: flex;
+            flex-direction: column;
+            width:auto;
+            hyphens: auto;
+            margin: 20px 0 30px 0;
+            .ov2-para1{
+                font-size:$H2-PC-font;
+                font-weight: bold;
+                line-height: 1.3em;
+                width:100%;
+                text-align: center;
+            }
+            .ov2-para2{
+                margin: 20px 20px 0 20px;
+                font-size: $H4-font;
+                line-height: 1.3em;
+                width:auto;
+            }
+            .ov2-para3{
+                margin: 20px 20px 0 20px;
+                font-size: $H3-font;
+                font-weight: bold;
+                line-height: 1.3em;
+            }
+            .ov2-para4{
+                margin: 20px 20px 0 20px;
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: flex-start;
+                align-content: flex-start;
+                font-size: $H3-font;
+                font-weight: bold;
+                .ov2-1{
+                @include ov2-para4-css 
+                }@include ov2-para4-hover;
+                .ov2-2{
+                @include ov2-para4-css
+                }@include ov2-para4-hover;
+                .ov2-3{
+                @include ov2-para4-css
+                }@include ov2-para4-hover;
+                .ov2-4{
+                    @include ov2-para4-css
+                }@include ov2-para4-hover;
+                .ov2-5{
+                    @include ov2-para4-css
+                }@include ov2-para4-hover;
+                .ov2-6{
+                    @include ov2-para4-css           
+                }@include ov2-para4-hover;
+                .ov2-7{
+                    @include ov2-para4-css
+                }@include ov2-para4-hover;
+            }
+        }
+        .ov2-pic{
+            width:80%;
+            max-width: 100%;
+            margin:50px 0 30px 30px;
+        }
+    }  
 }
 

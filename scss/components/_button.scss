@@ -1,4 +1,5 @@
-.ov-button{ //Learn more
+//Learn more Button
+.ov-button{ 
     font-size: $H4-font;
     text-align: center;
     margin: 40px 0 0 500px;
@@ -17,6 +18,30 @@
 }
 .ov-button:hover{ 
     background-color: $color-advanblue;
+}
+//Learn more Button RWD
+@media(max-width:580px){
+    .ov-button{ 
+
+        font-size: $H4-font;
+        text-align: center;
+        padding: 12px 23px 12px 23px;
+        border: #00427F solid 1px;
+        color:$color-dark-bg-white;
+        background-color:$color-offer-icon;
+        font-weight: bold;
+        white-space:nowrap;
+        margin:50px auto 0 auto;
+        max-width: 100%;
+        height:auto;
+        a{
+            color:$color-dark-bg-white;
+            text-decoration: none;
+        }
+    }
+    .ov-button:hover{ 
+        background-color: $color-advanblue;
+    }
 }
 .dmp-button{
     font-size: $H4-font;

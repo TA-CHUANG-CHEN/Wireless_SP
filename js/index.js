@@ -143,7 +143,6 @@ const over_view = function (){
     }
   })
 }()
-
 //3x 66.5%
 //2x 62%
 const products = function (){
@@ -182,7 +181,6 @@ const products = function (){
   })
 
 }()
-
 // products parts -factory
 const products_fac = function (){
   document.addEventListener('click',(e)=>{
@@ -599,8 +597,7 @@ const products_trans = function (){
     }
   })
 }()
-
-// nav rwd selector 
+// check useagent, RWD dropdown
 const MobileDevice = function MobileDevice() {
   const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone']
   let MobileDevice = mobileDevice.some(e => navigator.userAgent.match(e))
