@@ -243,15 +243,18 @@
                 justify-content: center;
                 margin:60px 0 30px 0;
                 padding: 20px 30px 20px 30px;
+                overflow: hidden;
                 .products-low-font{
                     font-size: $H3-font;
                     margin:0 0 20px 0;
+                    overflow: hidden;
                 }
             }
             .products-low-flex:hover{
                 .products-low-font{
                     color: $color-dark-bg-white;
                     transition: color 100ms;
+                    overflow: hidden;
                 }
                 background-color: $color-offer-hover;
                 transition: background-color 100ms;

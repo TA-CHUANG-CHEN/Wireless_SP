@@ -3,6 +3,7 @@
     font-weight: bold;
     text-align: center;
     margin: 100px 0 100px 0;
+    overflow: hidden;
 }
 .res-over-view{
     display: flex;
@@ -67,16 +68,15 @@
     .resource-4{
         margin: 0 10px 0 0;
         background-color:  $color-resources-title;
-        color: $color-dark-bg-white;
         transition:background-color 300ms; 
+        color: $color-dark-bg-white;
         width: 155px;
-        height: 35px;
         text-align: center;
         line-height: 35px;
     }
     .resource-4:hover{
         margin: 0 10px 0 0;
-        background-color: $color-offer-hover;
+        background-color:  $color-resources-title;
         transition:background-color 300ms; 
         color: $color-dark-bg-white;
         width: 155px;
@@ -275,18 +275,17 @@
             line-height: 35px;
         }
         .resource-4{
-            margin: 0 ;
+            margin: 0 0 0 0;
             background-color:  $color-resources-title;
-            color: $color-dark-bg-white;
             transition:background-color 300ms; 
+            color: $color-dark-bg-white;
             width: 155px;
-            height: 35px;
             text-align: center;
             line-height: 35px;
         }
         .resource-4:hover{
-            margin: 0;
-            background-color: $color-offer-hover;
+            margin: 0 0 0 0;
+            background-color:  $color-resources-title;
             transition:background-color 300ms; 
             color: $color-dark-bg-white;
             width: 155px;

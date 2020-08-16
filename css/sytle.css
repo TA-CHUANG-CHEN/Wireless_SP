@@ -49257,10 +49257,12 @@ main .product3 .transport .transport-icon .transport-3 {
             justify-content: center;
     margin: 60px 0 30px 0;
     padding: 20px 30px 20px 30px;
+    overflow: hidden;
   }
   #product-offer .product-flex .products-low-flex .products-low-font {
     font-size: 1.5em;
     margin: 0 0 20px 0;
+    overflow: hidden;
   }
   #product-offer .product-flex .products-low-flex:hover {
     background-color: #10c5e9;
@@ -49273,6 +49275,7 @@ main .product3 .transport .transport-icon .transport-3 {
     -webkit-transition: color 100ms;
     -o-transition: color 100ms;
     transition: color 100ms;
+    overflow: hidden;
   }
   #product-offer .product-flex .products-low-flex:hover .view-more {
     text-decoration: none;
@@ -49937,6 +49940,7 @@ main .product3 .transport .transport-icon .transport-3 {
   font-weight: bold;
   text-align: center;
   margin: 100px 0 100px 0;
+  overflow: hidden;
 }
 
 .res-over-view {
@@ -50026,19 +50030,18 @@ main .product3 .transport .transport-icon .transport-3 {
 .res-over-view .resource-4 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
-  color: #FFFFFF;
   -webkit-transition: background-color 300ms;
   -o-transition: background-color 300ms;
   transition: background-color 300ms;
+  color: #FFFFFF;
   width: 155px;
-  height: 35px;
   text-align: center;
   line-height: 35px;
 }
 
 .res-over-view .resource-4:hover {
   margin: 0 10px 0 0;
-  background-color: #10c5e9;
+  background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
   -o-transition: background-color 300ms;
   transition: background-color 300ms;
@@ -50332,20 +50335,19 @@ main .product3 .transport .transport-icon .transport-3 {
     line-height: 35px;
   }
   .res-over-view .resource-4 {
-    margin: 0;
+    margin: 0 0 0 0;
     background-color: #bbbdbe;
-    color: #FFFFFF;
     -webkit-transition: background-color 300ms;
     -o-transition: background-color 300ms;
     transition: background-color 300ms;
+    color: #FFFFFF;
     width: 155px;
-    height: 35px;
     text-align: center;
     line-height: 35px;
   }
   .res-over-view .resource-4:hover {
-    margin: 0;
-    background-color: #10c5e9;
+    margin: 0 0 0 0;
+    background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
     -o-transition: background-color 300ms;
     transition: background-color 300ms;
