@@ -604,7 +604,6 @@ const products_trans = function (){
 const MobileDevice = function MobileDevice() {
   const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone']
   let MobileDevice = mobileDevice.some(e => navigator.userAgent.match(e))
-  return MobileDevice
   if(!!MobileDevice){
     const nav_touch = function(){
       const target_go = document.querySelector('.drop-down-me')
@@ -636,6 +635,7 @@ const MobileDevice = function MobileDevice() {
       })
     }()
   }
+  console.log(MobileDevice)
 }()
 
 
