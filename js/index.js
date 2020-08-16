@@ -600,36 +600,45 @@ const products_trans = function (){
   })
 }()
 
-// nav selector 
-const nav_touch = function(){
-  const target_go = document.querySelector('.drop-down-me')
-  const target_1 = document.querySelector('.nav-products>a')
-  const target_2 = document.querySelectorAll('.first-layer>a')
-  const target_3 = document.querySelectorAll('.sec-layer>a')
-  const layer_1 = document.querySelector('.nav-products>ul')
-  const layer_2 = document.querySelectorAll('.first-layer > ul')
-  const layer_3 = document.querySelectorAll('.sec-layer > ul')
-  document.addEventListener('touchstart', e => {
-    if(layer_1.style.display == 'block' && e.target == target_1)
-    layer_1.style.display = 'none';
-    else if(e.target == target_1)
-    layer_1.style.display = 'block';
-    for(let i = 0; i <layer_2.length ;i++){
-      if(layer_2[i].style.display == 'block' && e.target == target_2[i]){
-        layer_2[i].style.display = 'none';
-      }else if(e.target == target_2[i]){
-        layer_2[i].style.display = 'block';
-      }
-    }
-    for(let i = 0; i <layer_3.length ;i++){
-      if(layer_3[i].style.display == 'block' && e.target == target_3[i]){
-        layer_3[i].style.display = 'none';
-      }else if(e.target == target_3[i]){
-        layer_3[i].style.display = 'block';
-      }
-    }
-  })
+// nav rwd selector 
+const MobileDevice = function MobileDevice() {
+  const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone']
+  let MobileDevice = mobileDevice.some(e => navigator.userAgent.match(e))
+  return MobileDevice
+  if(!!MobileDevice){
+    const nav_touch = function(){
+      const target_go = document.querySelector('.drop-down-me')
+      const target_1 = document.querySelector('.nav-products>a')
+      const target_2 = document.querySelectorAll('.first-layer>a')
+      const target_3 = document.querySelectorAll('.sec-layer>a')
+      const layer_1 = document.querySelector('.nav-products>ul')
+      const layer_2 = document.querySelectorAll('.first-layer > ul')
+      const layer_3 = document.querySelectorAll('.sec-layer > ul')
+      document.addEventListener('touchstart', e => {
+        if(layer_1.style.display == 'block' && e.target == target_1)
+        layer_1.style.display = 'none';
+        else if(e.target == target_1)
+        layer_1.style.display = 'block';
+        for(let i = 0; i <layer_2.length ;i++){
+          if(layer_2[i].style.display == 'block' && e.target == target_2[i]){
+            layer_2[i].style.display = 'none';
+          }else if(e.target == target_2[i]){
+            layer_2[i].style.display = 'block';
+          }
+        }
+        for(let i = 0; i <layer_3.length ;i++){
+          if(layer_3[i].style.display == 'block' && e.target == target_3[i]){
+            layer_3[i].style.display = 'none';
+          }else if(e.target == target_3[i]){
+            layer_3[i].style.display = 'block';
+          }
+        }
+      })
+    }()
+  }
 }()
+
+
 
 
 
