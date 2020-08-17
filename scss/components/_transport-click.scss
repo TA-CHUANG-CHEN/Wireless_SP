@@ -1,6 +1,7 @@
 .product3{
     border: 5px solid transparent;
     box-sizing: border-box;
+    transition: border 500ms;
     cursor: pointer;
     .transport{
         .transport-all{
@@ -460,4 +461,5 @@
 }
 .product3:hover{
     border: 5px solid $color-discovery-app;
+    transition: border 500ms;
 }

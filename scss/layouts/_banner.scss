@@ -1,4 +1,4 @@
-
+// banner img
 .banner-text{
   box-sizing: border-box;
   padding: 20px 0 0 50px ;
@@ -14,12 +14,53 @@
     overflow: hidden;
   };
 }
+// banner img color stretch
 #bg-cover{
   position: absolute;
   background:$color-banner-bg ;
   background-size:  410px 410px;
-  height: 450px;
+  height: 430px;
   width: 100%;
   z-index: -1;
 }
-
+//RWD
+@media(max-width:580px){
+ *{
+   overflow-x:hidden;
+   #advan-header{
+     padding-bottom: 5px;
+    .row-maxwidth-98pct {
+      width: 100%;
+      max-width:500px;
+    }
+   }
+   .row-fluid{
+    background-size: contain;
+    padding:5px 0 0 0;
+    }
+   .banner-text{
+     padding:0;
+    h1{
+      font-size: $H1-PC-font;
+      color:$color-advanblue;
+      overflow: hidden;
+      padding: 10px 8px 0 10px;
+    };
+    h3{
+      font-size: $H3-font;
+      color:$color-advanblue;
+      line-height: 20px;
+      padding: 0 8px 0 10px;
+      overflow: hidden;
+    };
+   }
+   #bg-cover{
+  position: absolute;
+  background:$color-banner-bg ;
+  background-size:  cover;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+ }
+}

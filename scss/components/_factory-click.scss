@@ -1,7 +1,9 @@
 #products{
     .product1{
+        transition: border 500ms;
         cursor: pointer;
         border: 5px solid transparent;
+        box-sizing: border-box;
         .factory-auto{
             position: relative;
         .factory-all{
@@ -293,6 +295,7 @@
     } 
     .product1:hover{
         border: 5px solid $color-discovery-app;
+        transition: border 500ms;
     }
 } 
 

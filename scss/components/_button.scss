@@ -1,4 +1,5 @@
-.ov-button{ //Learn more
+//Learn more Button
+.ov-button{ 
     font-size: $H4-font;
     text-align: center;
     margin: 40px 0 0 500px;
@@ -18,6 +19,30 @@
 .ov-button:hover{ 
     background-color: $color-advanblue;
 }
+//Learn more Button RWD
+@media(max-width:580px){
+    .ov-button{ 
+
+        font-size: $H4-font;
+        text-align: center;
+        padding: 12px 23px 12px 23px;
+        border: #00427F solid 1px;
+        color:$color-dark-bg-white;
+        background-color:$color-offer-icon;
+        font-weight: bold;
+        white-space:nowrap;
+        margin:50px auto 0 auto;
+        max-width: 100%;
+        height:auto;
+        a{
+            color:$color-dark-bg-white;
+            text-decoration: none;
+        }
+    }
+    .ov-button:hover{ 
+        background-color: $color-advanblue;
+    }
+}
 .dmp-button{
     font-size: $H4-font;
     text-align: center;
@@ -32,6 +57,24 @@
     a{
         color:$color-dark-bg-white;
         text-decoration: none;
+    }
+}
+@media(max-width:580px){
+    .dmp-button{
+        font-size: $H4-font;
+        text-align: center;
+        padding: 12px 23px 12px 23px;
+        border: #00427F solid 1px;
+        color:$color-dark-bg-white;
+        width: auto;
+        height: 42px;
+        background-color:$color-offer-icon;
+        font-weight: bold;
+        margin: 30px auto 60px auto;
+        a{
+            color:$color-dark-bg-white;
+            text-decoration: none;
+        }
     }
 }
 .download-button{ //resources download
@@ -51,6 +94,25 @@
         margin: 0 0 0 30px;
     }
 }
+@media(max-width:580px){
+    .download-button{ //resources download
+        background: url(./css-img/arrow.png) no-repeat ;
+        background-size: 30px 25px;
+        background-position: left 10px top 8px;
+        color: $color-dark-bg-white;
+        background-color: $color-offer-icon;
+        font-size: $H4-font;
+        max-width: 100%;
+        height: 42px;
+        box-sizing: border-box;
+        text-align: center ;
+        border-style: none;
+        margin: 0 auto 30px auto;
+        [type="text"]{
+            margin: 0 0 0 30px;
+        }
+    }
+}
 .footer-button{//contact via email
     font-size: $H4-font;
     background: url(./css-img/email.png) no-repeat;
@@ -65,6 +127,25 @@
     border-style: none;
     [type="text-contact"]{
         margin: 0 0 0 30px;
+    }
+}
+@media(max-width:580px){
+    .footer-button{
+        font-size: $H4-font;
+        background: url(./css-img/email.png) no-repeat;
+        background-size: 40px 25px;
+        background-position: left 20px top 8px ;
+        background-color: $color-offer-icon;
+        color: $color-dark-bg-white;
+        max-width:100%;
+        line-height: 40px;
+        height: auto;
+        text-align: center;
+        border-style: none;
+        margin: 0 auto;
+        [type="text-contact"]{
+            margin: 0 0 0 30px;
+        }
     }
 }
 .close-icon-1-1{

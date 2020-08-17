@@ -1,6 +1,7 @@
 .product2{
     border: 5px solid transparent;
     box-sizing: border-box;
+    transition: border 500ms;
     cursor: pointer;
     .E-E{
         position: relative;
@@ -450,4 +451,5 @@
 }
 .product2:hover{
     border: 5px solid $color-discovery-app;
+    transition: border 500ms;
 }
