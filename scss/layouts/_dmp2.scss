@@ -136,6 +136,7 @@
                     font-size: $H3-font;
                     font-weight: bold;
                     margin: 0 0 15px 0;
+                    overflow: hidden;
                 }
                 ul{
                     font-size: $H4-font;
@@ -156,6 +157,7 @@
                 margin: 0 30px 0 0;
                 white-space:nowrap;
                 .advantages{
+                    overflow: hidden;
                     color:$color-dmp-color;
                     font-size: $H3-font;
                     font-weight: bold;

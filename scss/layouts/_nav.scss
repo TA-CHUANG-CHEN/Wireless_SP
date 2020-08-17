@@ -149,6 +149,9 @@
       position: relative;
       white-space: nowrap;  
     }
+    .nav-resources>a{
+      border-style: solid;
+    }
     li:last-child {
       border-right: none;
     }
@@ -220,9 +223,9 @@
         border-style: none;
         list-style: none;
         transition: none;
-         visibility:initial;
-      opacity: 1;
-      transition:none;
+        visibility:initial;
+        opacity: 1;
+        transition:none;
         left:0; 
         li{
           position: relative;
@@ -236,7 +239,6 @@
         a {
           border-top: $color-dark-bg-white 1px solid;
           display: block;
-          border-style: none;
           padding: 10px 25px 10px 25px; 
           text-decoration: none;
           font-size: $H4-font;
