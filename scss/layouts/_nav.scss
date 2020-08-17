@@ -150,7 +150,7 @@
       white-space: nowrap;  
     }
     .nav-resources>a{
-      border-style: solid;
+      border-top:$color-dark-bg-white 1px solid;
     }
     li:last-child {
       border-right: none;
