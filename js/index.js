@@ -1,8 +1,26 @@
-// check useagent
-const isMobileDevice = function isMobileDevice() {
-  const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone']
-  let isMobileDevice = mobileDevice.some(e => navigator.userAgent.match(e))
-  return isMobileDevice
+// check screen-size
+const hastouchscreen = function hastouchscreen(){
+  let hastouchscreen = false
+  if('maxTouchPoints' in navigator){
+    let hastouchscreen = navigator.maxTouchPoints > 0
+    return hastouchscreen 
+  }else if('msMaxTouchPoints' in navigator){
+    let hastouchscreen = navigator.msMaxTouchPoints > 0
+    return hastouchscreen 
+  }else{
+    let mq =window.matchMedia && matchMedia('(max-width:580px)')
+    if(mq && mq.media == ('(max-width:580px)') ){
+      hastouchscreen = true
+       return hastouchscreen 
+    }else if('orientation' in window){
+      hastouchscreen = true
+       return hastouchscreen 
+    }else{
+      const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone','IEMobile','Opera Mini']
+      let hastouchscreen  = mobileDevice.some(e => navigator.userAgent.match(e))
+      return hastouchscreen 
+    }
+  }
 }()
 // resources parts
 const resources_all = function(){
@@ -52,7 +70,7 @@ res_all.addEventListener('click',(e)=>{
   res_item1.style = `padding:0 0 0 0;`
   res_item3.style = `padding:0 0 0 0;`
   res_button_slide.style=`display:block`
-  if(e.target == resource_tag_1 && isMobileDevice == false){
+  if(e.target == resource_tag_1 && !hastouchscreen ){
     res_para1.innerHTML = `Advanced Industrial<br>LoRaWAN Wireless I/O Module`
     res_para2.innerHTML =`Wzzard Edge & IIoT<br>Starter Kits Selection Guide`
     res_para3.innerHTML =`Proprietary LPWAN IoT <br>Wireless I/O Module`
@@ -68,7 +86,7 @@ res_all.addEventListener('click',(e)=>{
     right_arrow.style = `visibility:visible`
     res_button.textContent = `Download Leaflet`
   }
-  if(e.target == resource_tag_1 && isMobileDevice == true){
+  else if(e.target == resource_tag_1 && !!hastouchscreen){
     res_para1.innerHTML = `Advanced Industrial<br>LoRaWAN Wireless I/O Module`
     res_para2.innerHTML =`Wzzard Edge & IIoT<br>Starter Kits Selection Guide`
     res_para3.innerHTML =`Proprietary LPWAN IoT <br>Wireless I/O Module`
@@ -643,7 +661,7 @@ const products_trans = function (){
 }()
 // RWD dropdown
 const nav_touch = function nav_touch() {
-  if(!!isMobileDevice){
+  if(hastouchscreen){
     const nav_touch = function(){
       const target_go = document.querySelector('.drop-down-me')
       const target_1 = document.querySelector('.nav-products>a')
