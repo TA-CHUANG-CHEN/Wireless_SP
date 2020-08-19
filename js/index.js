@@ -80,11 +80,11 @@ res_all.addEventListener('click',(e)=>{
     res_item4_img.style = 'margin: 0 0 0 80px'
     res_item5_img.style = 'margin: 0 0 0 80px'
     res_item6_img.style = 'margin: 0 0 0 80px'
-    res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
-    res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
-    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
+    //res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
+    //res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
+    //res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
     right_arrow.style = `visibility:visible`
-    res_button.textContent = `Download Leaflet`
+    res_button.textContent = `Download All`
   }
   else if(e.target == resource_tag_1 && !!hastouchscreen){
     res_para1.innerHTML = `Advanced Industrial<br>LoRaWAN Wireless I/O Module`
@@ -99,9 +99,9 @@ res_all.addEventListener('click',(e)=>{
     res_item4_img.style = 'margin: 0 0 0 80px'
     res_item5_img.style = 'margin: 0 0 0 80px'
     res_item6_img.style = 'margin: 0 0 0 80px'
-    res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
-    res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
-    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
+    //res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
+    //res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
+    //res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
     right_arrow.style = `visibility:visible`
     res_button.textContent = `Download Leaflet`
   }
@@ -116,8 +116,8 @@ res_all.addEventListener('click',(e)=>{
     res_item4.style.display="none"
     res_item5.style.display="none"
     res_item6.style.display="none"
-    res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
-    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
+    //res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
+    //res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
 
   }
   if(e.target == resource_tag_3){
@@ -133,8 +133,8 @@ res_all.addEventListener('click',(e)=>{
     res_item4.style.display="none"
     res_item5.style.display="none"
     res_item6.style.display="none"
-    res_item1.setAttribute('href','https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be')
-    res_item3.setAttribute('href','https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be')
+    //res_item1.setAttribute('href','https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be')
+    //res_item3.setAttribute('href','https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be')
 
   }
   if(e.target == resource_tag_4){
@@ -143,7 +143,7 @@ res_all.addEventListener('click',(e)=>{
     res_item4.style.display="none"
     res_item5.style.display="none"
     res_item6.style.display="none"
-    res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
+    //res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
     res_para1.innerHTML = `Intelligent Connectivity Wireless<br>Success Stories`
     res_item1_img.src = `images/Success Story_1.jpg`
     res_item1.style = `padding:30px 0 0 0;`
@@ -152,8 +152,8 @@ res_all.addEventListener('click',(e)=>{
 })
 res_item.addEventListener('click',(e)=>{
   if(e.target == right_arrow){
-    res_item1.setAttribute('href','https://www.dropbox.com/sh/rvgpkh0rfytxfsr/AABXMhouixyGg9F2OiVai7gga?dl=0&preview=AdvantechBB_WzzardWirelessSensingProducts_1220.pdf')
-    res_item2.setAttribute('href','https://www.dropbox.com/sh/a8idmft5jdwjddq/AAB_YKtwP3aW1NH8_GOBJOMoa?dl=0&preview=AdvantechBB_WzzardStarterKitsOverview_2120ss.pdf')
+    //res_item1.setAttribute('href','https://www.dropbox.com/sh/rvgpkh0rfytxfsr/AABXMhouixyGg9F2OiVai7gga?dl=0&preview=AdvantechBB_WzzardWirelessSensingProducts_1220.pdf')
+    //res_item2.setAttribute('href','https://www.dropbox.com/sh/a8idmft5jdwjddq/AAB_YKtwP3aW1NH8_GOBJOMoa?dl=0&preview=AdvantechBB_WzzardStarterKitsOverview_2120ss.pdf')
     res_item3.removeAttribute('href')
     left_arrow.style = `visibility:visible`
     right_arrow.style = `visibility:hidden`
@@ -165,9 +165,9 @@ res_item.addEventListener('click',(e)=>{
     res_item3_img.src = `images/leaflet_6.jpg`
   }
   if(e.target == left_arrow){
-    res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
-    res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
-    res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
+    //res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
+    //res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
+    //res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
     left_arrow.style = `visibility:hidden`
     right_arrow.style = `visibility:visible`
     res_para1.textContent = `Advanced IndustrialLoRaWAN Wireless I/O Module`
