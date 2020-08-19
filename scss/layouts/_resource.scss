@@ -76,7 +76,7 @@
     }
     .resource-4:hover{
         margin: 0 10px 0 0;
-        background-color:  $color-resources-title;
+        background-color:  $color-offer-hover;
         transition:background-color 300ms; 
         color: $color-dark-bg-white;
         width: 155px;
@@ -285,7 +285,7 @@
         }
         .resource-4:hover{
             margin: 0 0 0 0;
-            background-color:  $color-resources-title;
+            background-color: $color-offer-hover;
             transition:background-color 300ms; 
             color: $color-dark-bg-white;
             width: 155px;

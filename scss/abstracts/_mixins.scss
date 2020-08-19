@@ -33,6 +33,9 @@
     overflow-x: hidden;
     overflow-y: hidden;
     word-break: keep-all;
+    a{
+        color:black;
+    }
 }
 @mixin ov-title {
     display: flex; 
@@ -171,7 +174,162 @@ div:nth-child(6){
     }
 }
 }
-
+@media(max-width:580px){
+    @mixin ov-1{
+      //border: $color-ov-hover-border solid px;
+      z-index:1000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      word-break: keep-all;
+      max-width: 100%;
+      a{
+          color:black;
+      }
+      } 
+  @mixin ov-title {
+      display: flex; 
+      flex-wrap:wrap;
+      justify-content: center;
+      align-content: center;
+      background: $color-ov-hover-title;
+      font-size: $H2-PC-font ;
+      font-weight: bold;
+      height: 60px;
+      color:white;
+      box-sizing: border-box;
+      max-width: 100%;
+  }
+  @mixin ov-flex-1 {
+      display: flex;
+  }
+  @mixin ov-col-1{
+          display: flex;
+          flex-direction: column;
+          flex-wrap:wrap;
+          background: white;
+          font-size: $H5-font;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          border-left: $color-ov-hover-border solid 1.5px;
+          max-width: 100%;
+      >div{
+          box-sizing: border-box;
+          height: 60px;
+          max-width:100%;width:100%;        display: flex;
+          flex-wrap:wrap;
+          text-align: left;
+          padding: 0 0 0 10px;
+          font-size: $H5-font;
+          box-sizing: border-box;
+          align-items: center;
+          justify-content: flex-start;
+          border-right: $color-ov-hover-border solid 1px;
+          max-width: 100%;
+      }
+      :nth-child(1){
+          height: 200px;
+      }
+      :nth-child(2){
+          background: $color-ov-hover-no;
+          display: flex;
+      }
+      :nth-child(4){
+          background: $color-ov-hover-no;
+  
+      }
+      :nth-child(5){
+          height: 250px;
+  
+      }
+      :nth-child(6){
+          background: $color-ov-hover-no;
+          height: 300px;
+      }
+  }
+  @mixin ov-col-2{
+      display: flex;
+      flex-direction: column;
+      flex-wrap:wrap;
+      background: white;
+      font-size: $H5-font;
+      justify-content: center;
+      align-items: center;
+      max-width:100%;
+      box-sizing: border-box;
+  >div{
+      box-sizing: border-box;
+      height: 60px;
+      max-width:100%;
+      display: flex;
+      flex-wrap:wrap;
+      text-align: left;
+      font-size: $H5-font;
+      box-sizing: border-box;
+      justify-content: flex-start;
+      border-right: $color-ov-hover-border solid 0.1px;
+  }
+  div:nth-child(1){
+      height: 200px;
+      
+  }
+  div:nth-child(2){
+      background: $color-ov-hover-no;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  div:nth-child(3){
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding:0 5px 0 5px;
+  }
+  div:nth-child(4){
+      background: $color-ov-hover-no;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  
+  }
+  div:nth-child(5){
+      position: relative;
+      height: 250px;
+      box-sizing: border-box;
+      ul {
+          list-style-type: none;
+          font-size: $H5-font*0.75;
+          padding: 10px 20px 0 25px;
+      }
+      ul li:before {
+          content: '-';
+          position: absolute;
+          margin-left: -15px;
+      }
+  }
+  div:nth-child(6){
+      background: $color-ov-hover-no;
+      height: 300px;
+      position: relative;
+      ul {
+          list-style-type: none;
+          font-size: $H5-font*0.75;
+          padding: 10px 10px 0 25px;
+      }
+      ul li:before {
+          content: '-';
+          position: absolute;
+          margin-left: -15px;
+      }
+  }
+  }
+  }
 // discover our products
 
 @mixin discovery-1{
@@ -182,6 +340,9 @@ div:nth-child(6){
     left:50%; 
     transform:translate(-50%,-50%);
     box-sizing: border-box;
+    a{
+        color:black;
+    }
 }
 @mixin discovery-title {
     display: flex; 
