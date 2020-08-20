@@ -555,6 +555,7 @@
                 display: flex;
                 flex-direction: column;
                 margin: 0;
+                padding: 0;
                 box-sizing: border-box;
                 background-color:#f2f2f2;
                 border-top: 2px $color-dark-grey solid;
@@ -716,6 +717,7 @@
                 border-top: 2px $color-dark-grey solid;
                 border-bottom: 2px $color-dark-grey solid;
                 border-top: 2px $color-dark-grey solid;
+                padding: 0;
                 img{
                     height: auto;
                     max-width: 100%;
@@ -831,6 +833,7 @@
                 display: flex;
                 flex-direction: column;
                 margin: 0;
+                padding: 0;
                 box-sizing: border-box;
                 background-color:#f2f2f2;
                 border-top: 2px $color-dark-grey solid;

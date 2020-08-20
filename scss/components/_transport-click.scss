@@ -589,6 +589,7 @@
             }
             }   
             .transport-content-2{
+                padding: 0;
                 display: flex;
                 flex-direction: column;
                 margin: 0;
@@ -761,6 +762,7 @@
                 }
             }
             .transport-content-4{
+                padding: 0;
                 border-top: 2px $color-dark-grey solid;
                 border-bottom: 2px $color-dark-grey solid;
                 display: flex;
