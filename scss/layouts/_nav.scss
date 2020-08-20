@@ -198,7 +198,8 @@
         position: relative;
         text-align: center;
         cursor: pointer;
-      }
+        border-top-style:none;
+        border-bottom-style:none;
       li:last-child {
         border-right: none;
       }
@@ -261,4 +262,5 @@
       }
     }
   }
+}
 }

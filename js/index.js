@@ -212,8 +212,8 @@ const products = function (){
   const factory = document.getElementById('factory')
   const ee_all = document.querySelector('.E-E-all')
   const transport_all = document.querySelector('.transport-all')
-  dark_bg_3.style.height = document.documentElement.scrollHeight+`px`
-  dark_bg_3.style.width = document.documentElement.scrollWidth+`px`
+  dark_bg_3.style.height = document.documentElement.scrollHeight+'px'
+  dark_bg_3.style.width = document.documentElement.scrollWidth+'px'
   document.addEventListener('click', e =>{
     if(e.target.closest('#products-1')){
       factory.style.display = `block`
