@@ -1,515 +1,467 @@
-@media(max-width:580px){
-  #proto-1{
-  position:absolute;
-  height:1050px;
-  max-width:100%;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-2{
-  position:absolute;
-  height:1060px;
-  max-width:100%;
-    
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-3{
-  position:absolute;
-  height:1050px;
-  max-width:100%;  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-4{
-  position:absolute;
-  height:1050px;
-  max-width:100%;  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-5{
-  position:absolute;
-  height:1050px;
-  max-width:100%;  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-6{
-  position:absolute;
-  height:1050px;
-  max-width:100%;  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-7{
-  position:absolute;
-  height:1060px;
-  max-width:100%;  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-  @mixin ov-1{
-    //border: $color-ov-hover-border solid px;
-    z-index:1000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    word-break: keep-all;
-    a{
-        color:black;
-    }
-    } 
-@mixin ov-title {
-    display: flex; 
-    flex-wrap:wrap;
-    justify-content: center;
-    align-content: center;
-    background: $color-ov-hover-title;
-    font-size: $H2-PC-font ;
-    font-weight: bold;
-    height: 60px;
-    color:white;
-    box-sizing: border-box;
-}
-@mixin ov-flex-1 {
-    display: flex;
-}
-@mixin ov-col-1{
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-        background: white;
-        font-size: $H5-font;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        border-left: $color-ov-hover-border solid 1.5px;
-    >div{
-        box-sizing: border-box;
-        height: 60px;
-        max-width:100%;        display: flex;
-        flex-wrap:wrap;
-        text-align: left;
-        padding: 0 0 0 10px;
-        font-size: $H5-font;
-        box-sizing: border-box;
-        align-items: center;
-        justify-content: flex-start;
-        border-right: $color-ov-hover-border solid 1px;
-    }
-    :nth-child(1){
-        height: 200px;
-    }
-    :nth-child(2){
-        background: $color-ov-hover-no;
-        display: flex;
-    }
-    :nth-child(4){
-        background: $color-ov-hover-no;
+#products{
+  .product3{
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  transition: border 500ms;
+  cursor: pointer;
+  .transport{
+      .transport-all{
+      position: absolute;
+      background-color:$color-discovery-bg;
+      height: auto;
+      width:800px;
+      z-index: 99;  
+      box-sizing: border-box;
+      display: none;
+      .transport-content-1{
+          display: flex;
+          margin: 30px 0 30px 30px;
+          background-color:#f2f2f2;
+          box-sizing: border-box;
+          img{
+              height: 219px;
+          }
+          .transport-mti{
+              margin:0 0 0 30px;
+              .transport-mti-1{
+                  font-size: 0.7* $H2-MB-font; //待確認
+                  font-weight: bold;
+              }
+              .transport-mti-2{
+                  margin: 15px 0 15px 0;
+                  font-size: 0.7* $H4-font; //待確認
+                  width:auto;
+              }
+              .transport-mti-3{
+                  font-size: 0.7* $H4-font; //待確認
+                  font-weight: bold;
+                  margin: 40px 0 5px 0;
+                  color:$color-discovery-apptext;
+              }
+              .transport-button{
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin: 5px 0 0 0;
+                  .transport-border{   
+                      display: flex;
+                      flex-direction: column;
+                      box-sizing: border-box;
+                      border: 1.5px solid transparent;
+                      .transport-icon-1{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_a_1_Lighting management.png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 140px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext;
+                          width:200px;
+                          height: 50px;
+                          margin: 0 0 10px 0;
+                          .transport-text-1{
+                              margin:5px 0 0 60px;
+                          }
+                      }
+                      .transport-icon-1:hover{
+                          border: 1.5px solid $color-discovery-app;
+                          cursor: pointer;
+                      }
+                      .transport-icon-3{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_a_2_Crossroad access.png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 155px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext;
+                          width:210px;
+                          height: 50px;
+                          margin: 0 0 0 0;
+                          .transport-text-3{
+                              margin:0 0 0 60px;
+                          }
+                          
+                      }
+                      .transport-icon-3:hover{
+                          border: 1.5px solid $color-discovery-app;
+                          cursor: pointer;
+                      }
+                  }
+                  .transport-icon-2{       
+                      background: url('./css-img/T_a_3_Electronic toll.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      margin: 0 0 0 10px;        
+                      height: 50px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      .transport-text-2{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-2:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                      box-sizing: border-box;
+                  }
+              }
+      }
+      }   
+      .transport-content-2{
+          display: flex;
+          margin: 20px 40px 20px 40px;
+          background-color:#f2f2f2;
+          border-top: 2px $color-dark-grey solid;
+          border-bottom: 2px $color-dark-grey solid;
+          padding: 40px 0 50px 0 ;
+          box-sizing: border-box;
+          
+          img{
+              height: 219px;
+          }
+          .transport-mti{
+              margin:0 0 0 30px;
+              .transport-mti-1{
+                  font-size: 0.7* $H2-MB-font; //待確認
+                  font-weight: bold;
+              }
+              .transport-mti-2{
+                  margin: 15px 0 15px 0;
+                  font-size: 0.7* $H4-font; //待確認
+                  width:520px;
+              }
+              .transport-mti-3{
+                  font-size: 0.7* $H4-font; //待確認
+                  font-weight: bold;
+                  margin: 40px 0 5px 0;
+                  color:$color-discovery-apptext;
+              }
+              .transport-button-2{
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin: 10px 0 0 0;
+                  .transport-icon-4{
+                      background: url('./css-img/T_b_1_Location tracking.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      line-height: 18px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      ;
+                      box-sizing: border-box;
+                      height: 50px;
+                      .mti-text-4{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-4:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                  }
+                  .transport-icon-5{
+                      background: url('./css-img/T_b_2_Hotspot sharing.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      line-height: 18px;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      height: 50px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      margin: 0 0 0 0;
+                      .mti-text-5{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-5:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                  }
+              }
+          }
+      }
+      .transport-content-3{
+          box-sizing: border-box;
+          display: flex;
+          margin: 30px 0 30px 30px;
+          background-color:#f2f2f2;
+          img{
+              height: 219px;
+          }
+          .transport-mti{
+              margin:0 0 0 30px;
+              .transport-mti-1{
+                  font-size: 0.7* $H2-MB-font; //待確認
+                  font-weight: bold;
+              }
+              .transport-mti-2{
+                  margin: 15px 0 15px 0;
+                  font-size: 0.7* $H4-font; //待確認
+                  width:520px;
+              }
+              .transport-mti-3{
+                  font-size: 0.7* $H4-font; //待確認
+                  font-weight: bold;
+                  margin: 40px 0 5px 0;
+                  color:$color-discovery-apptext;
+              }
+              .transport-button-3{
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin: 5px 80px 0 0;
+                  border: 1.5px solid transparent;
+                  .transport-border{   
+                      .transport-icon-6{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_c_1_PIS_Arrival .png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 140px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext; 
+                          width:200px;
+                          height: 50px;
+                          .mti-text-6{
+                              margin:0 0 0 60px;
+                              padding: 10px 0 0 0;
+                          }
+                      }
+                      .transport-icon-7{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_c_1_Departure info.png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 140px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext;
+                          height: 50px;
+                          width:200px;
+                          margin: 0 0 0 0;
+                          .mti-text-7{
+                              margin:10px 0 0 60px;
+                          }
+                      }
+                  }
+                  .transport-icon-8{  
+                      background: url('./css-img/T_c_1_Boarding managemen.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      line-height: 18px;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      margin: 0 0 0 10px;                          
+                      height: 50px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      .mti-text-8{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+              }
+              .transport-button-3:hover{
+                  border: 1.5px solid $color-discovery-app;
+                  box-sizing: border-box;
+                  cursor: pointer;
+              }
 
-    }
-    :nth-child(5){
-        height: 250px;
+          }
+      }
+      .transport-content-4{
+          border-top: 2px $color-dark-grey solid;
+          border-bottom: 2px $color-dark-grey solid;
+          padding: 40px 0 50px 0 ;
+          box-sizing: border-box;
+          display: flex;
+          margin: 30px 30px 30px 30px;
+          background-color:#f2f2f2;
+          img{
+              height: 219px;
+          }
+          .transport-mti{
+              margin:0 0 0 30px;
+              .transport-mti-1{
+                  font-size: 0.7* $H2-MB-font; //待確認
+                  font-weight: bold;
+              }
+              .transport-mti-2{
+                  margin: 15px 0 15px 0;
+                  font-size: 0.7* $H4-font; //待確認
+                  width:470px;
+              }
+              .transport-mti-3{
+                  font-size: 0.7* $H4-font; //待確認
+                  font-weight: bold;
+                  margin: 40px 0 5px 0;
+                  color:$color-discovery-apptext;
+              }
+              .transport-button-4{
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin: 5px 0 0 0;
+                  .transport-border{   
+                      display: flex;
+                      flex-direction: column;
+                      box-sizing: border-box;
+                      border: 1.5px solid transparent;
+                      .transport-icon-9{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_d_1_Surveillance.png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 140px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext;
+                          width:200px;
+                          height: 50px;
+                          .transport-text-9{
+                              margin:10px 0 0 60px;
+                          }
+                      }
+                      .transport-icon-9:hover{
+                          border: 1.5px solid $color-discovery-app;
+                          cursor: pointer;
+                      }
+                      .transport-icon-10{
+                          box-sizing:border-box;
+                          border: 1.5px solid transparent;
+                          background: url('./css-img/T_d_2_Staff identity.png') no-repeat;
+                          background-size: 60px 50px;
+                          background-position: right 140px bottom 1px;
+                          font-size: 0.7* $H5-font;
+                          font-weight: bold;
+                          color: $color-discovery-apptext;
+                          width:200px;
+                          height: 50px;
+                          margin: 0 0 0 0;
+                          .transport-text-10{
+                              margin:5px 0 0 60px;
+                          }
+                          
+                      }
+                      .transport-icon-10:hover{
+                          border: 1.5px solid $color-discovery-app;
+                          cursor: pointer;
+                      }
+                  }
+                  .transport-icon-11{       
+                      background: url('./css-img/T_d_3_Elevator management.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      margin: 0 0 0 10px;       
+                      height: 50px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      .transport-text-11{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-11:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                      box-sizing: border-box;
+                  }
+          }
 
-    }
-    :nth-child(6){
-        background: $color-ov-hover-no;
-        height: 300px;
-    }
-}
-@mixin ov-col-2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    background: white;
-    font-size: $H5-font;
-    justify-content: center;
-    align-items: center;
-    max-width:100%;    box-sizing: border-box;
->div{
-    box-sizing: border-box;
-    height: 60px;
-    max-width:100%;    display: flex;
-    flex-wrap:wrap;
-    text-align: left;
-    font-size: $H5-font;
-    box-sizing: border-box;
-    justify-content: flex-start;
-    border-right: $color-ov-hover-border solid 0.1px;
-}
-div:nth-child(1){
-    height: 200px;
-    
-}
-div:nth-child(2){
-    background: $color-ov-hover-no;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-div:nth-child(3){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding:0 5px 0 5px;
-}
-div:nth-child(4){
-    background: $color-ov-hover-no;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+          }
+      }
+      .transport-content-5{
+          box-sizing: border-box;
+          display: flex;
+          margin: 30px 0 30px 30px;
+          background-color:#f2f2f2;
+          img{
+              height: 219px;
+          }
+          .transport-mti{
+              margin:0 0 0 30px;
+              .transport-mti-1{
+                  font-size: 0.7* $H2-MB-font; //待確認
+                  font-weight: bold;
+              }
+              .transport-mti-2{
+                  margin: 15px 0 15px 0;
+                  font-size: 0.7* $H4-font; //待確認
+                  width:520px;
+              }
+              .transport-mti-3{
+                  font-size: 0.7* $H4-font; //待確認
+                  font-weight: bold;
+                  margin: 40px 0 5px 0;
+                  color:$color-discovery-apptext;
+              }
+              .transport-button-5{
+                  margin: 5px 0 30px 0;
+                  display: flex;
+                  .transport-icon-12{     
+                      background: url('./css-img/T_e_1_Driver behavior .png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      line-height: 18px;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      height: 50px;
+                      .transport-text-12{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-12:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                  }
+                  .transport-icon-13{     
+                      background: url('./css-img/T_e_2_Fuel Use.png') no-repeat;
+                      background-size: 60px 50px;
+                      background-position: right 140px bottom 1px;
+                      font-size: 0.7* $H5-font;
+                      font-weight: bold;
+                      line-height: 18px;
+                      color: $color-discovery-apptext;
+                      width:200px;
+                      box-sizing:border-box;
+                      border: 1.5px solid transparent;
+                      height: 50px;
+                      .transport-text-13{
+                          margin:5px 0 0 60px;
+                      }
+                  }
+                  .transport-icon-13:hover{
+                      border: 1.5px solid $color-discovery-app;
+                      cursor: pointer;
+                  }
+              }
 
-}
-div:nth-child(5){
-    position: relative;
-    height: 250px;
-    box-sizing: border-box;
-    ul {
-        list-style-type: none;
-        font-size: $H5-font*0.75;
-        padding: 10px 20px 0 25px;
-    }
-    ul li:before {
-        content: '-';
-        position: absolute;
-        margin-left: -15px;
-    }
-}
-div:nth-child(6){
-    background: $color-ov-hover-no;
-    height: 300px;
-    position: relative;
-    ul {
-        list-style-type: none;
-        font-size: $H5-font*0.75;
-        padding: 10px 10px 0 25px;
-    }
-    ul li:before {
-        content: '-';
-        position: absolute;
-        margin-left: -15px;
-    }
-}
-}
-}
-@media(max-width:580px){
-  #proto-1{
-    position:absolute;
-    height:1050px;
-    max-width:100%;
-    top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
+          }
+      }
+      }
   }
-  #proto-2{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
   }
-  #proto-3{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-4{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-5{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-6{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-7{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-}
-@media(max-width:580px){
-  .proto-1{
-    @include ov-1;
-    .proto-1-title{
-      @include ov-title
-    }
-    .proto-1-flex{
-      display: flex;
-      .proto-1-col-1{
-        @include ov-col-1
-      }
-      .proto-1-col-2{
-        @include ov-col-2
-      }
-      .proto-1-col-3{
-        @include ov-col-2
-      }
-      .proto-1-col-4{
-        @include ov-col-2
-      }
-      .proto-1-col-5{
-        @include ov-col-2
-      }
-      .proto-1-col-6{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-2{
-    @include ov-1;
-    .proto-2-title{
-      @include ov-title
-    }
-    .proto-2-flex{
-      display: flex;
-      .proto-2-col-1{
-        @include ov-col-1;
-        height: 930px;
-      }
-      .proto-2-scroll{
-        display: flex;
-        overflow-y: hidden;
-        overflow-x:  hidden;
-        height: auto;
-      }
-      .proto-2-col-2{
-        @include ov-col-2
-        
-      }
-      .proto-2-col-3{
-        @include ov-col-2
-      }
-      .proto-2-col-4{
-        @include ov-col-2
-      }
-      .proto-2-col-5{
-        @include ov-col-2
-      }
-      .proto-2-col-6{
-        @include ov-col-2
-      }
-      .proto-2-col-7{
-        @include ov-col-2
-      }
-      .proto-2-col-8{
-        @include ov-col-2
-      }
-      .proto-overlay{
-        display: flex;
-        overflow-x: scroll;
-      }
-    }
-  }
-  .proto-3{
-    @include ov-1;
-    .proto-3-title{
-      @include ov-title
-    }
-    .proto-3-flex{
-      display: flex;
-      .proto-3-col-1{
-        @include ov-col-1
-      }
-      .proto-3-col-2{
-        @include ov-col-2
-      }
-      .proto-3-col-3{
-        @include ov-col-2
-      }
-      .proto-3-col-4{
-        @include ov-col-2
-      }
-      .proto-3-col-5{
-        @include ov-col-2
-      }
-      .proto-3-col-6{
-        @include ov-col-2
-      }
-      .proto-3-col-7{
-        @include ov-col-2
-      }
-      .proto-3-col-8{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-4{
-    @include ov-1;
-    .proto-4-title{
-      @include ov-title
-    }
-    .proto-4-flex{
-      display: flex;
-      .proto-4-col-1{
-        @include ov-col-1
-      }
-      .proto-4-col-2{
-        @include ov-col-2
-      }
-      .proto-4-col-3{
-        @include ov-col-2;
-      }
-      .proto-4-col-4{
-        @include ov-col-2
-      }
-      .proto-4-col-5{
-        @include ov-col-2
-      }
-      .proto-4-col-6{
-        @include ov-col-2
-      }
-      .proto-4-col-7{
-        @include ov-col-2
-      }
-      .proto-4-col-8{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-5{
-    @include ov-1;
-    .proto-5-title{
-      @include ov-title
-    }
-    .proto-5-flex{
-      display: flex;
-      .proto-5-col-1{
-        @include ov-col-1
-      }
-      .proto-5-col-2{
-        @include ov-col-2
-      }
-      .proto-5-col-3{
-        @include ov-col-2
-      }
-      .proto-5-col-4{
-        @include ov-col-2
-      }
-      .proto-5-col-5{
-        @include ov-col-2
-      }
-      .proto-5-col-6{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-6{
-    @include ov-1;
-    .proto-6-title{
-      @include ov-title
-    }
-    .proto-6-flex{
-      display: flex;
-      .proto-6-col-1{
-        @include ov-col-1
-      }
-      .proto-6-col-2{
-        @include ov-col-2
-      }
-      .proto-6-col-3{
-        @include ov-col-2
-      }
-      .proto-6-col-4{
-        @include ov-col-2
-      }
-      .proto-6-col-5{
-        @include ov-col-2
-      }
-      .proto-6-col-6{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-7{
-    @include ov-1;
-    .proto-7-title{
-      @include ov-title
-    }
-    .proto-7-flex{
-      display: flex;
-      
-      .proto-7-col-1{
-        @include ov-col-1;
-        height:930px;
-      }
-      .proto-7-scroll{
-        display: flex;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        height: auto;
-      }
-      .proto-7-col-2{
-        @include ov-col-2
-      }
-      .proto-7-col-3{
-        @include ov-col-2
-      }
-      .proto-7-col-4{
-        @include ov-col-2
-      }
-      .proto-7-col-5{
-        @include ov-col-2
-      }
-      .proto-7-col-6{
-        @include ov-col-2
-      }
-      .proto-overlay{
-        display: flex;
-        overflow-x: scroll;
-      }
-    }
+  .product3:hover{
+  border: 5px solid $color-offer-hover;
+  transition: border 500ms;
   }
 }
