@@ -1,467 +1,457 @@
 #products{
-  .product3{
-  border: 5px solid transparent;
-  box-sizing: border-box;
-  transition: border 500ms;
-  cursor: pointer;
-  .transport{
-      .transport-all{
-      position: absolute;
-      background-color:$color-discovery-bg;
-      height: auto;
-      width:800px;
-      z-index: 99;  
-      box-sizing: border-box;
-      display: none;
-      .transport-content-1{
-          display: flex;
-          margin: 30px 0 30px 30px;
-          background-color:#f2f2f2;
-          box-sizing: border-box;
-          img{
-              height: 219px;
-          }
-          .transport-mti{
-              margin:0 0 0 30px;
-              .transport-mti-1{
-                  font-size: 0.7* $H2-MB-font; //待確認
-                  font-weight: bold;
-              }
-              .transport-mti-2{
-                  margin: 15px 0 15px 0;
-                  font-size: 0.7* $H4-font; //待確認
-                  width:auto;
-              }
-              .transport-mti-3{
-                  font-size: 0.7* $H4-font; //待確認
-                  font-weight: bold;
-                  margin: 40px 0 5px 0;
-                  color:$color-discovery-apptext;
-              }
-              .transport-button{
-                  display: flex;
-                  flex-wrap: wrap;
-                  margin: 5px 0 0 0;
-                  .transport-border{   
-                      display: flex;
-                      flex-direction: column;
-                      box-sizing: border-box;
-                      border: 1.5px solid transparent;
-                      .transport-icon-1{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_a_1_Lighting management.png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 140px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext;
-                          width:200px;
-                          height: 50px;
-                          margin: 0 0 10px 0;
-                          .transport-text-1{
-                              margin:5px 0 0 60px;
-                          }
-                      }
-                      .transport-icon-1:hover{
-                          border: 1.5px solid $color-discovery-app;
-                          cursor: pointer;
-                      }
-                      .transport-icon-3{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_a_2_Crossroad access.png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 155px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext;
-                          width:210px;
-                          height: 50px;
-                          margin: 0 0 0 0;
-                          .transport-text-3{
-                              margin:0 0 0 60px;
-                          }
-                          
-                      }
-                      .transport-icon-3:hover{
-                          border: 1.5px solid $color-discovery-app;
-                          cursor: pointer;
-                      }
-                  }
-                  .transport-icon-2{       
-                      background: url('./css-img/T_a_3_Electronic toll.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      margin: 0 0 0 10px;        
-                      height: 50px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      .transport-text-2{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-2:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                      box-sizing: border-box;
-                  }
-              }
-      }
-      }   
-      .transport-content-2{
-          display: flex;
-          margin: 20px 40px 20px 40px;
-          background-color:#f2f2f2;
-          border-top: 2px $color-dark-grey solid;
-          border-bottom: 2px $color-dark-grey solid;
-          padding: 40px 0 50px 0 ;
-          box-sizing: border-box;
-          
-          img{
-              height: 219px;
-          }
-          .transport-mti{
-              margin:0 0 0 30px;
-              .transport-mti-1{
-                  font-size: 0.7* $H2-MB-font; //待確認
-                  font-weight: bold;
-              }
-              .transport-mti-2{
-                  margin: 15px 0 15px 0;
-                  font-size: 0.7* $H4-font; //待確認
-                  width:520px;
-              }
-              .transport-mti-3{
-                  font-size: 0.7* $H4-font; //待確認
-                  font-weight: bold;
-                  margin: 40px 0 5px 0;
-                  color:$color-discovery-apptext;
-              }
-              .transport-button-2{
-                  display: flex;
-                  flex-wrap: wrap;
-                  margin: 10px 0 0 0;
-                  .transport-icon-4{
-                      background: url('./css-img/T_b_1_Location tracking.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      line-height: 18px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      ;
-                      box-sizing: border-box;
-                      height: 50px;
-                      .mti-text-4{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-4:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                  }
-                  .transport-icon-5{
-                      background: url('./css-img/T_b_2_Hotspot sharing.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      line-height: 18px;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      height: 50px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      margin: 0 0 0 0;
-                      .mti-text-5{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-5:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                  }
-              }
-          }
-      }
-      .transport-content-3{
-          box-sizing: border-box;
-          display: flex;
-          margin: 30px 0 30px 30px;
-          background-color:#f2f2f2;
-          img{
-              height: 219px;
-          }
-          .transport-mti{
-              margin:0 0 0 30px;
-              .transport-mti-1{
-                  font-size: 0.7* $H2-MB-font; //待確認
-                  font-weight: bold;
-              }
-              .transport-mti-2{
-                  margin: 15px 0 15px 0;
-                  font-size: 0.7* $H4-font; //待確認
-                  width:520px;
-              }
-              .transport-mti-3{
-                  font-size: 0.7* $H4-font; //待確認
-                  font-weight: bold;
-                  margin: 40px 0 5px 0;
-                  color:$color-discovery-apptext;
-              }
-              .transport-button-3{
-                  display: flex;
-                  flex-wrap: wrap;
-                  margin: 5px 80px 0 0;
-                  border: 1.5px solid transparent;
-                  .transport-border{   
-                      .transport-icon-6{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_c_1_PIS_Arrival .png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 140px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext; 
-                          width:200px;
-                          height: 50px;
-                          .mti-text-6{
-                              margin:0 0 0 60px;
-                              padding: 10px 0 0 0;
-                          }
-                      }
-                      .transport-icon-7{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_c_1_Departure info.png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 140px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext;
-                          height: 50px;
-                          width:200px;
-                          margin: 0 0 0 0;
-                          .mti-text-7{
-                              margin:10px 0 0 60px;
-                          }
-                      }
-                  }
-                  .transport-icon-8{  
-                      background: url('./css-img/T_c_1_Boarding managemen.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      line-height: 18px;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      margin: 0 0 0 10px;                          
-                      height: 50px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      .mti-text-8{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-              }
-              .transport-button-3:hover{
-                  border: 1.5px solid $color-discovery-app;
-                  box-sizing: border-box;
-                  cursor: pointer;
-              }
-
-          }
-      }
-      .transport-content-4{
-          border-top: 2px $color-dark-grey solid;
-          border-bottom: 2px $color-dark-grey solid;
-          padding: 40px 0 50px 0 ;
-          box-sizing: border-box;
-          display: flex;
-          margin: 30px 30px 30px 30px;
-          background-color:#f2f2f2;
-          img{
-              height: 219px;
-          }
-          .transport-mti{
-              margin:0 0 0 30px;
-              .transport-mti-1{
-                  font-size: 0.7* $H2-MB-font; //待確認
-                  font-weight: bold;
-              }
-              .transport-mti-2{
-                  margin: 15px 0 15px 0;
-                  font-size: 0.7* $H4-font; //待確認
-                  width:470px;
-              }
-              .transport-mti-3{
-                  font-size: 0.7* $H4-font; //待確認
-                  font-weight: bold;
-                  margin: 40px 0 5px 0;
-                  color:$color-discovery-apptext;
-              }
-              .transport-button-4{
-                  display: flex;
-                  flex-wrap: wrap;
-                  margin: 5px 0 0 0;
-                  .transport-border{   
-                      display: flex;
-                      flex-direction: column;
-                      box-sizing: border-box;
-                      border: 1.5px solid transparent;
-                      .transport-icon-9{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_d_1_Surveillance.png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 140px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext;
-                          width:200px;
-                          height: 50px;
-                          .transport-text-9{
-                              margin:10px 0 0 60px;
-                          }
-                      }
-                      .transport-icon-9:hover{
-                          border: 1.5px solid $color-discovery-app;
-                          cursor: pointer;
-                      }
-                      .transport-icon-10{
-                          box-sizing:border-box;
-                          border: 1.5px solid transparent;
-                          background: url('./css-img/T_d_2_Staff identity.png') no-repeat;
-                          background-size: 60px 50px;
-                          background-position: right 140px bottom 1px;
-                          font-size: 0.7* $H5-font;
-                          font-weight: bold;
-                          color: $color-discovery-apptext;
-                          width:200px;
-                          height: 50px;
-                          margin: 0 0 0 0;
-                          .transport-text-10{
-                              margin:5px 0 0 60px;
-                          }
-                          
-                      }
-                      .transport-icon-10:hover{
-                          border: 1.5px solid $color-discovery-app;
-                          cursor: pointer;
-                      }
-                  }
-                  .transport-icon-11{       
-                      background: url('./css-img/T_d_3_Elevator management.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      margin: 0 0 0 10px;       
-                      height: 50px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      .transport-text-11{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-11:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                      box-sizing: border-box;
-                  }
-          }
-
-          }
-      }
-      .transport-content-5{
-          box-sizing: border-box;
-          display: flex;
-          margin: 30px 0 30px 30px;
-          background-color:#f2f2f2;
-          img{
-              height: 219px;
-          }
-          .transport-mti{
-              margin:0 0 0 30px;
-              .transport-mti-1{
-                  font-size: 0.7* $H2-MB-font; //待確認
-                  font-weight: bold;
-              }
-              .transport-mti-2{
-                  margin: 15px 0 15px 0;
-                  font-size: 0.7* $H4-font; //待確認
-                  width:520px;
-              }
-              .transport-mti-3{
-                  font-size: 0.7* $H4-font; //待確認
-                  font-weight: bold;
-                  margin: 40px 0 5px 0;
-                  color:$color-discovery-apptext;
-              }
-              .transport-button-5{
-                  margin: 5px 0 30px 0;
-                  display: flex;
-                  .transport-icon-12{     
-                      background: url('./css-img/T_e_1_Driver behavior .png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      line-height: 18px;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      height: 50px;
-                      .transport-text-12{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-12:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                  }
-                  .transport-icon-13{     
-                      background: url('./css-img/T_e_2_Fuel Use.png') no-repeat;
-                      background-size: 60px 50px;
-                      background-position: right 140px bottom 1px;
-                      font-size: 0.7* $H5-font;
-                      font-weight: bold;
-                      line-height: 18px;
-                      color: $color-discovery-apptext;
-                      width:200px;
-                      box-sizing:border-box;
-                      border: 1.5px solid transparent;
-                      height: 50px;
-                      .transport-text-13{
-                          margin:5px 0 0 60px;
-                      }
-                  }
-                  .transport-icon-13:hover{
-                      border: 1.5px solid $color-discovery-app;
-                      cursor: pointer;
-                  }
-              }
-
-          }
-      }
-      }
+    .product2{
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    transition: border 500ms;
+    cursor: pointer;
+    .E-E{
+        position: relative;
+        .E-E-all{
+        background-color:$color-discovery-bg;
+        height: auto;
+        z-index: 99;  
+        position: absolute;
+        display: none;
+        .E-E-content-1{
+        display: flex;
+        margin: 30px 0 30px 30px;
+        background-color:#f2f2f2;
+        img{
+            height: 219px;
+        }
+        .E-E-mti{
+            margin:0 0 0 30px;
+            .E-E-mti-1{
+                font-size: $H2-MB-font*0.7; //待確認
+                font-weight: bold;
+            }
+            .E-E-mti-2{
+                margin: 15px 0 15px 0;
+                font-size: $H4-font*0.7; //待確認
+            }
+            .E-E-mti-3{
+                font-size: $H4-font*0.7; //待確認
+                font-weight: bold;
+                margin: 40px 0 5px 0;
+                color:$color-discovery-apptext;
+            }
+            .E-E-button{
+                margin: 5px 0 0 0;
+                display: flex;
+                .E-E-icon-1{     
+                    background: url('./css-img/E_a_1_Meteorological.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 140px bottom 1px;
+                    font-size: 0.7* $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    box-sizing: border-box;
+                    border: 1.5px solid transparent;
+                    height: 50px;
+                    .E-E-text-1{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .E-E-icon-1:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+                .E-E-icon-2{     
+                    background: url('./css-img/E_a_2_Air Quality Monitoring.png') no-repeat;
+                    background-size: 60px 50px;
+                    background-position: right 140px bottom 1px;
+                    font-size: 0.7* $H5-font;
+                    font-weight: bold;
+                    line-height: 18px;
+                    color: $color-discovery-apptext;
+                    width:200px;
+                    box-sizing: border-box;
+                    border: 1.5px solid transparent;
+                    height: 50px;
+                    .E-E-text-2{
+                        margin:5px 0 0 60px;
+                    }
+                }
+                .E-E-icon-2:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                }
+            }
+        }
+        }
+        .E-E-content-2{
+            display: flex;
+            margin: 20px 40px 20px 40px;
+            background-color:#f2f2f2;
+            border-top: 2px $color-dark-grey solid;
+            border-bottom: 2px $color-dark-grey solid;
+            padding: 40px 0 50px 0 ;
+            img{
+                height: 219px;
+            }
+            .E-E-mti{
+                margin:0 0 0 30px;
+                .E-E-mti-1{
+                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-weight: bold;
+                }
+                .E-E-mti-2{
+                    margin: 15px 0 15px 0;
+                    font-size: 0.7* $H4-font; //待確認
+                    width: 500px;
+                }
+                .E-E-mti-3{
+                    font-size: 0.7* $H4-font; //待確認
+                    font-weight: bold;
+                    margin: 40px 0 5px 0;
+                    color:$color-discovery-apptext;
+                }
+                .E-E-button-2{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 5px 0 0 0;
+                    .E-E-border{   
+                        box-sizing: border-box;
+                        border: 1.5px solid transparent;
+                        .E-E-icon-2{
+                            box-sizing: border-box;
+                            border: 1.5px solid transparent;
+                            background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
+                            background-size: 60px 50px;
+                            background-position: right 140px bottom 1px;
+                            font-size: 0.7* $H5-font;
+                            font-weight: bold;
+                            color: $color-discovery-apptext;
+                            line-height: 50px;
+                            width:200px;
+                            height: 50px;
+                            .E-E-text-2{
+                                margin:0 0 0 60px;
+                            }
+                        }
+                        .E-E-icon-4{
+                            box-sizing: border-box;
+                            border: 1.5px solid transparent;
+                            background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
+                            background-size: 60px 50px;
+                            background-position: right 140px bottom 1px;
+                            font-size: 0.7* $H5-font;
+                            font-weight: bold;
+                            color: $color-discovery-apptext;
+                            width:200px;
+                            height: 50px;
+                            
+                            line-height: 50px;
+                            margin: 0 0 0 0;
+                            .E-E-text-3{
+                                margin:0 0 0 60px;
+                            }
+                        }
+                    }
+                    .E-E-border:hover{
+                        border: 1.5px solid $color-discovery-app;
+                        cursor: pointer;
+                    }
+                    .E-E-icon-3{
+                        box-sizing: border-box;
+                        border: 1.5px solid transparent;
+                        background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
+                        background-size: 60px 50px;
+                        background-position: right 140px bottom 1px;
+                        font-size: 0.7* $H5-font;
+                        font-weight: bold;
+                        line-height: 18px;
+                        color: $color-discovery-apptext;
+                        width:200px;
+                        margin: 0 0 0 10px;
+                                                    
+                        height: 50px;
+                        .E-E-text-4{
+                            margin:5px 0 0 60px;
+                        }
+                    }
+                    .E-E-icon-3:hover{
+                        border: 1.5px solid $color-discovery-app;
+                        cursor: pointer;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+        }
+        .E-E-content-3{
+            display: flex;
+            margin: 30px 0 30px 30px;
+            background-color:#f2f2f2;
+            img{
+                height: 219px;
+            }
+            .E-E-mti{
+                margin:0 0 0 30px;
+                .E-E-mti-1{
+                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-weight: bold;
+                }
+                .E-E-mti-2{
+                    margin: 15px 0 15px 0;
+                    font-size: 0.7* $H4-font; //待確認
+                }
+                .E-E-mti-3{
+                    font-size: 0.7* $H4-font; //待確認
+                    font-weight: bold;
+                    margin: 40px 0 5px 0;
+                    color:$color-discovery-apptext;
+                }
+                .E-E-button-3{
+                    display: flex;
+                    flex-direction: column;
+                    width: 220px;
+                    margin: 5px 0 0 0;
+                    border: 1.5px solid transparent;
+                    .E-E-icon-5{
+                        border: 1.5px solid transparent;
+                        background: url('./css-img/E_c_1_Oilfield Wireless.png') no-repeat;
+                        background-size: 60px 50px;
+                        background-position: right 140px bottom 1px;
+                        font-size: 0.7* $H5-font;
+                        font-weight: bold;
+                        color: $color-discovery-apptext;
+                        width:200px;
+                        height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
+                        .E-E-text-5{
+                            margin:7px 0 0 60px;
+                        }
+                    }
+                }
+                .E-E-button-3:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    box-sizing: border-box;
+                    cursor: pointer;
+                }
+  
+            }
+        }
+        .E-E-content-4{
+            display: flex;
+            margin: 30px 30px 30px 30px;
+            background-color:#f2f2f2;
+            border-top: 2px $color-dark-grey solid;
+            border-bottom: 2px $color-dark-grey solid;
+            padding: 40px 0 50px 0 ;
+            border-top: 2px $color-dark-grey solid;
+            img{
+                height: 219px;
+            }
+            .E-E-mti{
+                margin:0 0 0 30px;
+                .E-E-mti-1{
+                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-weight: bold;
+                }
+                .E-E-mti-2{
+                    margin: 15px 0 15px 0;
+                    font-size: 0.7* $H4-font; //待確認
+                    width:500px;
+                }
+                .E-E-mti-3{
+                    font-size: 0.7* $H4-font; //待確認
+                    font-weight: bold;
+                    margin: 40px 0 5px 0;
+                    color:$color-discovery-apptext;
+                }
+                .E-E-button-4{
+                    display: flex;
+                    flex-direction: column;
+                    width: 220px;
+                    margin: 5px 0 0 0;
+                    border: 1.5px solid transparent;
+                    .E-E-icon-6{
+                        background: url('./css-img/E_d_1_Solar Energy.png') no-repeat;
+                        background-size: 60px 50px;
+                        background-position: right 140px bottom 1px;
+                        font-size: 0.7* $H5-font;
+                        font-weight: bold;
+                        color: $color-discovery-apptext;
+                        width:200px;
+                        height: 50px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
+                        .E-E-text-6{
+                            margin:7px 0 0 60px;
+                        }
+                    }
+                }
+                .E-E-button-4:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    cursor: pointer;
+                    box-sizing:border-box;
+                }
+  
+            }
+        }
+        .E-E-content-5{
+            
+            display: flex;
+            margin: 30px 30px 30px 30px;
+            background-color:#f2f2f2;
+            img{
+                height: 219px;
+            }
+            .E-E-mti{
+                margin:0 0 0 30px;
+                .E-E-mti-1{
+                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-weight: bold;
+                }
+                .E-E-mti-2{
+                    margin: 15px 0 15px 0;
+                    font-size: 0.7* $H4-font; //待確認
+                }
+                .E-E-mti-3{
+                    font-size: 0.7* $H4-font; //待確認
+                    font-weight: bold;
+                    margin: 40px 0 5px 0;
+                    color:$color-discovery-apptext;
+                }
+                .E-E-button-5{
+                    display: flex;
+                    flex-direction: column;
+                    width: 220px;
+                    margin: 5px 0 0 0;
+                    box-sizing:border-box;
+                    border: 1.5px solid transparent;
+                    .E-E-icon-7{
+                        background: url('./css-img/E_e_1_Water Gas Oil .png') no-repeat;
+                        background-size: 60px 50px;
+                        background-position: right 147px bottom 1px;
+                        font-size: 0.7* $H5-font;
+                        font-weight: bold;
+                        color: $color-discovery-apptext;
+                        width: 200px;
+                        height: 50px;
+                        margin: 1px 0 0 5px;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
+                        .E-E-text-7{
+                            margin:5px 0 0 55px;
+                        }
+                    }
+                    .E-E-icon-7:hover{
+                        cursor: pointer;
+                        box-sizing: border-box;
+                    }
+                }
+                .E-E-button-5:hover{
+                    border: 1.5px solid $color-discovery-app;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .E-E-content-6{
+            display: flex;
+            margin: 30px 30px 30px 30px;
+            background-color:#f2f2f2;
+            padding: 40px 0 0 0 ;
+            border-top: 2px $color-dark-grey solid;
+            
+            img{
+                height: 219px;
+            }
+            .E-E-mti{
+                margin:0 0 0 30px;
+                .E-E-mti-1{
+                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-weight: bold;
+                }
+                .E-E-mti-2{
+                    margin: 15px 0 15px 0;
+                    font-size: 0.7* $H4-font; //待確認
+                    width:500px;
+                }
+                .E-E-mti-3{
+                    font-size: 0.7* $H4-font; //待確認
+                    font-weight: bold;
+                    margin: 40px 0 5px 0;
+                    color:$color-discovery-apptext;
+                }
+                .E-E-button-6{
+                    display: flex;
+                    margin: 5px 0 0 0;
+                    .E-E-border{
+                        display: flex;
+                        flex-direction: column;
+                        border: 1.5px solid transparent;
+                        box-sizing: border-box;
+                        .E-E-icon-8{
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
+                            background: url('./css-img/E_f_1_Pipeline pressure.png') no-repeat;
+                            background-size: 60px 50px;
+                            background-position: right 140px bottom 1px;
+                            font-size: 0.7* $H5-font;
+                            font-weight: bold;
+                            color: $color-discovery-apptext;
+                            line-height: 50px;
+                            width:200px;
+                            height: 50px;
+                            .E-E-text-8{
+                                margin:0 0 0 60px;
+                            }
+                        }
+                        .E-E-icon-9{
+                            background: url('./css-img/E_f_1_Leakage Detection.png') no-repeat;
+                            background-size: 60px 50px;
+                            background-position: right 140px bottom 1px;
+                            box-sizing:border-box;
+                            border: 1.5px solid transparent;
+                            font-size: 0.7* $H5-font;
+                            font-weight: bold;
+                            color: $color-discovery-apptext;
+                            width:200px;
+                            height: 50px;
+                            line-height: 50px;
+                            margin: 0 0 0 0;
+                            .E-E-text-9{
+                                margin:0 0 0 60px;
+                            }
+                        }
+                    }
+                    .E-E-border:hover{
+                        border: 1.5px solid $color-discovery-app;
+                        cursor: pointer;
+                    }
+                    .E-E-icon-10{
+                        background: url('./css-img/E_f_2_Pump.png') no-repeat;
+                        background-size: 60px 50px;
+                        font-size: 0.7* $H5-font;
+                        font-weight: bold;
+                        color: $color-discovery-apptext;
+                        box-sizing:border-box;
+                        border: 1.5px solid transparent;
+                        margin: 0 0 0 10px;
+                        line-height: 50px;
+                        width:200px;
+                        height: 50px;
+                        .E-E-text-10{
+                            margin:0 0 0 70px;
+                        }
+                    }
+                    .E-E-icon-10:hover{
+                        border: 1.5px solid $color-discovery-app;
+                        cursor: pointer;
+                    }
+                }
+  
+            }
+        }
+        }      
+    }
+    }
+    .product2:hover{
+    border: 5px solid $color-offer-hover;
+    transition: border 500ms;
+    }
   }
-  }
-  .product3:hover{
-  border: 5px solid $color-offer-hover;
-  transition: border 500ms;
-  }
-}

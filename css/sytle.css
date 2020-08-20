@@ -36225,6 +36225,10 @@ template {
   margin-top: 5px;
 }
 
+.item-8-2 .item-8-2-flex .item-8-2-col-2 .item-image {
+  padding: 0 0 0 50px;
+}
+
 .item-8-2 .item-8-2-flex .item-8-2-col-3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54425,7 +54429,7 @@ template {
   position: absolute;
   top: 100%;
   left: 47%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
@@ -54437,7 +54441,7 @@ template {
   position: absolute;
   top: 100%;
   left: 45%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 13px;
   border-style: solid;
@@ -54467,7 +54471,7 @@ template {
   padding: 5px 0;
   border-bottom: 10spx;
   position: absolute;
-  z-index: 1;
+  z-index: 9999;
   bottom: 120%;
   left: 20%;
   margin: 0 0 0 -60px;
@@ -54480,7 +54484,7 @@ template {
   position: absolute;
   top: 100%;
   left: 47%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
@@ -54492,7 +54496,7 @@ template {
   position: absolute;
   top: 100%;
   left: 45%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 13px;
   border-style: solid;
@@ -54535,7 +54539,7 @@ template {
   position: absolute;
   top: 100%;
   left: 47%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
@@ -54547,7 +54551,7 @@ template {
   position: absolute;
   top: 100%;
   left: 45%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 13px;
   border-style: solid;
@@ -54590,7 +54594,7 @@ template {
   position: absolute;
   top: 100%;
   left: 47%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
@@ -54602,7 +54606,7 @@ template {
   position: absolute;
   top: 100%;
   left: 45%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 13px;
   border-style: solid;
@@ -54645,7 +54649,7 @@ template {
   position: absolute;
   top: 100%;
   left: 47%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
@@ -54657,7 +54661,7 @@ template {
   position: absolute;
   top: 100%;
   left: 45%;
-  z-index: 20;
+  z-index: 9999;
   margin-left: -5px;
   border-width: 13px;
   border-style: solid;
@@ -57173,19 +57177,22 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 .res-over-view {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   font-size: 1.5em;
   margin: 0 0 0 0;
   cursor: pointer;
+  line-height: normal;
+  line-height: 35px;
 }
 
 .res-over-view .resource-1 {
   margin: 0 10px 0 0;
+  display: inline-block;
   background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
   -o-transition: background-color 300ms;
@@ -57193,7 +57200,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #FFFFFF;
   width: 155px;
   text-align: center;
-  line-height: 35px;
+  vertical-align: middle;
 }
 
 .res-over-view .resource-1:hover {
@@ -57205,7 +57212,6 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #FFFFFF;
   width: 155px;
   text-align: center;
-  line-height: 35px;
 }
 
 .res-over-view .resource-2 {
@@ -57506,7 +57512,15 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #FFFFFF;
     width: 155px;
     text-align: center;
-    line-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .res-over-view .resource-1:hover {
     margin: 0 5px 0 0;
@@ -57529,6 +57543,15 @@ main .product3 .transport .transport-icon .transport-3 {
     width: 155px;
     text-align: center;
     line-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .res-over-view .resource-2:hover {
     margin: 0 5px 0 0;
@@ -57551,6 +57574,15 @@ main .product3 .transport .transport-icon .transport-3 {
     width: 155px;
     text-align: center;
     line-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .res-over-view .resource-3:hover {
     margin: 0 5px 0 0;
@@ -57573,6 +57605,15 @@ main .product3 .transport .transport-icon .transport-3 {
     width: 155px;
     text-align: center;
     line-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .res-over-view .resource-4:hover {
     margin: 0 0 0 0;

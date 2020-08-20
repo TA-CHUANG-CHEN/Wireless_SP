@@ -6,19 +6,22 @@
     overflow: hidden;
 }
 .res-over-view{
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     font-size: $H3-font;
     margin: 0 0 0 0;
     cursor: pointer;
+    line-height: normal;
+    line-height: 35px;
     .resource-1{
         margin: 0 10px 0 0;
+        display: inline-block;
         background-color: $color-resources-title;
         transition:background-color 300ms; 
         color: $color-dark-bg-white;
         width: 155px;
         text-align: center;
-        line-height: 35px;
+        vertical-align: middle;
     }
     .resource-1:hover{
         margin: 0 10px 0 0;
@@ -27,7 +30,6 @@
         color: $color-dark-bg-white;
         width: 155px;
         text-align: center;
-        line-height: 35px;
     }
     .resource-2{
         margin: 0 10px 0 0;
@@ -221,13 +223,15 @@
         margin: 0 0 0 0;
         cursor: pointer;
         .resource-1{
-            margin: 0 5px 0 0;
+            margin:0 5px 0 0;
             background-color: $color-resources-title;
             transition:background-color 300ms; 
             color: $color-dark-bg-white;
             width: 155px;
             text-align: center;
-            line-height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .resource-1:hover{
             margin: 0 5px 0 0;
@@ -246,6 +250,9 @@
             width: 155px;
             text-align: center;
             line-height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .resource-2:hover{
             margin: 0 5px 0 0;
@@ -264,6 +271,9 @@
             width: 155px;
             text-align: center;
             line-height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .resource-3:hover{
             margin: 0 5px 0 0;
@@ -282,6 +292,9 @@
             width: 155px;
             text-align: center;
             line-height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .resource-4:hover{
             margin: 0 0 0 0;

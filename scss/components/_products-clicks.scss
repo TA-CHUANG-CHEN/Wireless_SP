@@ -745,10 +745,13 @@ display: flex;
         @include discovery-col-1
         }
         .item-8-2-col-2{
-        @include discovery-col-2
+        @include discovery-col-2;
+        .item-image{
+            padding: 0 0 0 50px;
+       }
         }
         .item-8-2-col-3{
-        @include discovery-col-2
+        @include discovery-col-2;
         }
         .item-8-2-col-4{
         @include discovery-col-2
