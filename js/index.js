@@ -659,11 +659,10 @@ const products_trans = function (){
     }
   })
 }()
-// RWD dropdown
+// RWD dropdown 
 const nav_touch = function nav_touch() {
   if(hastouchscreen){
     const nav_touch = function(){
-      const target_go = document.querySelector('.drop-down-me')
       const target_1 = document.querySelector('.nav-products>a')
       const target_2 = document.querySelectorAll('.first-layer>a')
       const target_3 = document.querySelectorAll('.sec-layer>a')
@@ -679,6 +678,12 @@ const nav_touch = function nav_touch() {
           if(layer_2[i].style.display == 'block' && e.target == target_2[i]){
             layer_2[i].style.display = 'none';
           }else if(e.target == target_2[i]){
+            let layers =  [...layer_2].filter(la=>{
+              return e.target !== la
+            })
+            for(let i =0; i <  [...layer_2].length; i++){
+              layers[i].style.display='none';
+            }
             layer_2[i].style.display = 'block';
           }
         }
@@ -686,6 +691,12 @@ const nav_touch = function nav_touch() {
           if(layer_3[i].style.display == 'block' && e.target == target_3[i]){
             layer_3[i].style.display = 'none';
           }else if(e.target == target_3[i]){
+            let layers =  [...layer_3].filter(la=>{
+              return e.target !== la
+            })
+            for(let i =0; i <  [...layer_3].length; i++){
+              layers[i].style.display='none';
+            }
             layer_3[i].style.display = 'block';
           }
         }

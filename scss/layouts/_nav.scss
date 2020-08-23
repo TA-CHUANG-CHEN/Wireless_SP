@@ -178,8 +178,8 @@
       visibility:initial;
       opacity: initial;
     } 
-     li:hover > a { 
-      background-color: none;
+    li:hover > a { 
+      background-color:$color-nav-selec-1;
     }
     ul {
       cursor: pointer;
@@ -194,6 +194,9 @@
       border-style: none;
       list-style: none;
       transition: none;
+      li:hover > a {
+        background-color:$color-nav-selec-1;
+      }
       li{
         position: relative;
         text-align: center;
@@ -234,6 +237,9 @@
           border-style: none;
           width:auto;
         }
+        li:hover > a {
+          background-color:$color-nav-selec-2;
+        }
         li:last-child {
           border-right: none;
         }
@@ -263,4 +269,5 @@
     }
   }
 }
+
 }

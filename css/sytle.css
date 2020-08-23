@@ -54885,7 +54885,7 @@ template {
     opacity: initial;
   }
   .drop-down-menu li:hover > a {
-    background-color: none;
+    background-color: #86c5db;
   }
   .drop-down-menu ul {
     cursor: pointer;
@@ -54902,6 +54902,9 @@ template {
     border-style: none;
     list-style: none;
     transition: none;
+  }
+  .drop-down-menu ul li:hover > a {
+    background-color: #86c5db;
   }
   .drop-down-menu ul li {
     position: relative;
@@ -54946,6 +54949,9 @@ template {
     white-space: nowrap;
     border-style: none;
     width: auto;
+  }
+  .drop-down-menu ul li ul li:hover > a {
+    background-color: #d1e4f3;
   }
   .drop-down-menu ul li ul li:last-child {
     border-right: none;
@@ -56228,7 +56234,6 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-high-flex:hover .view-more {
-  font-weight: bold;
   background-color: #10c5e9;
   text-decoration: none;
 }
@@ -56453,7 +56458,6 @@ main .product3 .transport .transport-icon .transport-3 {
     transition: color 100ms;
   }
   #product-offer .product-flex .products-high-flex:hover .view-more {
-    font-weight: bold;
     background-color: #10c5e9;
     text-decoration: none;
     overflow: hidden;
