@@ -1433,6 +1433,7 @@ template {
     color: #515152;
     width: 200px;
     height: 50px;
+    margin: 0;
   }
   #products .product2 .E-E .E-E-all .E-E-content-2 .E-E-mti .E-E-button-2 .E-E-icon-3 .E-E-text-4 {
     margin: 5px 0 0 60px;
@@ -1778,7 +1779,7 @@ template {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border: 1.5px solid transparent;
-    margin: 0 0 0 10px;
+    margin: 0;
     line-height: 50px;
     width: 200px;
     height: 50px;
@@ -56224,7 +56225,6 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 #product-offer .product-flex .products-high-flex:hover .view-more {
-  font-weight: bold;
   background-color: #10c5e9;
   text-decoration: none;
 }
@@ -56449,7 +56449,6 @@ main .product3 .transport .transport-icon .transport-3 {
     transition: color 100ms;
   }
   #product-offer .product-flex .products-high-flex:hover .view-more {
-    font-weight: bold;
     background-color: #10c5e9;
     text-decoration: none;
     overflow: hidden;
