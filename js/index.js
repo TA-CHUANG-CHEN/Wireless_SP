@@ -636,11 +636,7 @@ const hastouchscreen = (function has() {
       else if (e.target == target_1) layer_1.style.display = 'block';
       for (let i = 0; i < layer_2.length; i += 1) {
         if (layer_2[i].style.display == 'block' && e.target == target_2[i]) {
-<<<<<<< HEAD
-        // displays are't inline-style, so need add style block first
-=======
         // displays aren't inline-style, so need add style block first
->>>>>>> rwdtable
           layer_2[i].style.display = 'none';
         } else if (e.target == target_2[i]) {
           (function layer() {
@@ -650,21 +646,13 @@ const hastouchscreen = (function has() {
               layers[i].style.display = 'none';
             }
           }());
-<<<<<<< HEAD
-          // layer have to execute first to disappar other block
-=======
           // layer have to execute first to disappar before
->>>>>>> rwdtable
           layer_2[i].style.display = 'block';
         }
       }
       for (let i = 0; i < layer_3.length; i += 1) {
         if (layer_3[i].style.display == 'block' && e.target == target_3[i]) {
-<<<<<<< HEAD
-        // displays are't inline-style, so need add style block first
-=======
         // displays aren't inline-style, so need add style block first
->>>>>>> rwdtable
           layer_3[i].style.display = 'none';
         } else if (e.target == target_3[i]) {
         // close none-target layer
@@ -680,10 +668,7 @@ const hastouchscreen = (function has() {
     });
   }
 }());
-<<<<<<< HEAD
 // 580px banner
-=======
->>>>>>> rwdtable
 (function banner_switch() {
   const rowf = document.querySelectorAll('.row-fluid');
   if (hastouchscreen) {
