@@ -1,8 +1,10 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable camelcase */
 /* eslint-disable no-else-return */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-shadow */
-// check screen-size
+
+// check device type
 const hastouchscreen = (function has() {
   let hastouchscreen = false;
   if ('maxTouchPoints' in navigator) {
@@ -20,6 +22,7 @@ const hastouchscreen = (function has() {
     hastouchscreen = true;
     return hastouchscreen;
   } else {
+    // not recommanded userAgent
     const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone', 'IEMobile', 'Opera Mini'];
     const hastouchscreen = mobileDevice.some((e) => navigator.userAgent.match(e));
     return hastouchscreen;
@@ -621,52 +624,53 @@ const hastouchscreen = (function has() {
 }());
 // RWD dropdown
 (function nav_touch() {
-if(hastouchscreen){
-  const target_1 = document.querySelector('.nav-products>a');
-  const target_2 = document.querySelectorAll('.first-layer>a');
-  const target_3 = document.querySelectorAll('.sec-layer>a');
-  const layer_1 = document.querySelector('.nav-products>ul');
-  const layer_2 = document.querySelectorAll('.first-layer > ul');
-  const layer_3 = document.querySelectorAll('.sec-layer > ul');
-  document.addEventListener('touchstart', (e) => {
-    if (layer_1.style.display == 'block' && e.target == target_1) layer_1.style.display = 'none';
-    else if (e.target == target_1) layer_1.style.display = 'block';
-    for (let i = 0; i < layer_2.length; i += 1) {
-      if (layer_2[i].style.display == 'block' && e.target == target_2[i]) {
-        // displays are't inline-style, so need add style block first
-        layer_2[i].style.display = 'none';
-      } else if (e.target == target_2[i]) {
-        (function layer() {
+  if (hastouchscreen) {
+    const target_1 = document.querySelector('.nav-products>a');
+    const target_2 = document.querySelectorAll('.first-layer>a');
+    const target_3 = document.querySelectorAll('.sec-layer>a');
+    const layer_1 = document.querySelector('.nav-products>ul');
+    const layer_2 = document.querySelectorAll('.first-layer > ul');
+    const layer_3 = document.querySelectorAll('.sec-layer > ul');
+    document.addEventListener('touchstart', (e) => {
+      if (layer_1.style.display == 'block' && e.target == target_1) layer_1.style.display = 'none';
+      else if (e.target == target_1) layer_1.style.display = 'block';
+      for (let i = 0; i < layer_2.length; i += 1) {
+        if (layer_2[i].style.display == 'block' && e.target == target_2[i]) {
+        // displays aren't inline-style, so need add style block first
+          layer_2[i].style.display = 'none';
+        } else if (e.target == target_2[i]) {
+          (function layer() {
           // close none-target layer
-          const layers = [...layer_2].filter((la) => e.target !== la);
-          for (let i = 0; i < [...layer_2].length; i += 1) {
-            layers[i].style.display = 'none';
-          }
-        }());
-        // layer have to execute first to disappar other block
-        layer_2[i].style.display = 'block';
+            const layers = [...layer_2].filter((la) => e.target !== la);
+            for (let i = 0; i < [...layer_2].length; i += 1) {
+              layers[i].style.display = 'none';
+            }
+          }());
+          // layer have to execute first to disappar before
+          layer_2[i].style.display = 'block';
+        }
       }
-    }
-    for (let i = 0; i < layer_3.length; i += 1) {
-      if (layer_3[i].style.display == 'block' && e.target == target_3[i]) {
-        // displays are't inline-style, so need add style block first
-        layer_3[i].style.display = 'none';
-      } else if (e.target == target_3[i]) {
+      for (let i = 0; i < layer_3.length; i += 1) {
+        if (layer_3[i].style.display == 'block' && e.target == target_3[i]) {
+        // displays aren't inline-style, so need add style block first
+          layer_3[i].style.display = 'none';
+        } else if (e.target == target_3[i]) {
         // close none-target layer
-        (function layer() {
-          const layers = [...layer_3].filter((la) => e.target !== la);
-          for (let i = 0; i < [...layer_3].length; i += 1) {
-            layers[i].style.display = 'none';
-          }
-        }());
-        layer_3[i].style.display = 'block';
+          (function layer() {
+            const layers = [...layer_3].filter((la) => e.target !== la);
+            for (let i = 0; i < [...layer_3].length; i += 1) {
+              layers[i].style.display = 'none';
+            }
+          }());
+          layer_3[i].style.display = 'block';
+        }
       }
-    }
-  });
-}}());
-(function banner_switch(){
- const rowf = document.querySelectorAll('.row-fluid')
- if(hastouchscreen){
-   rowf[1].style = 'background:url(./css/css-img/580x550_banner.jpg) no-repeat;width:100%'
-}
-}())
+    });
+  }
+}());
+(function banner_switch() {
+  const rowf = document.querySelectorAll('.row-fluid');
+  if (hastouchscreen) {
+    rowf[1].style = 'background:url(./css/css-img/580x550_banner.jpg) no-repeat;width:100%';
+  }
+}());
