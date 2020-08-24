@@ -621,6 +621,7 @@ const hastouchscreen = (function has() {
 }());
 // RWD dropdown
 (function nav_touch() {
+if(hastouchscreen){
   const target_1 = document.querySelector('.nav-products>a');
   const target_2 = document.querySelectorAll('.first-layer>a');
   const target_3 = document.querySelectorAll('.sec-layer>a');
@@ -662,4 +663,10 @@ const hastouchscreen = (function has() {
       }
     }
   });
-}());
+}}());
+(function banner_switch(){
+ const rowf = document.querySelectorAll('.row-fluid')
+ if(hastouchscreen){
+   rowf[1].style = 'background:url(./css/css-img/580x550_banner.jpg) no-repeat;width:100%'
+}
+}())
