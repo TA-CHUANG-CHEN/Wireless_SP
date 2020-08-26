@@ -1,617 +1,384 @@
-
 // over-view seven items clicks
-#proto-1{
-  position:absolute;
-  height:1050px;
-  width:380px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-2{
-  position:absolute;
-  height:1060px;
-  width:1100px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-3{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-4{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-5{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-6{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-7{
-  position:absolute;
-  height:1060px;
-  width:1100px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-@media(max-width:580px){
-  #proto-1{
-    position:absolute;
-    height:1050px;
-    max-width:100%;
-    top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-2{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-3{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-4{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-5{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-6{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-7{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-}
-.proto-1{
-  @include ov-1;
-  .proto-1-title{
-    @include ov-title
-  }
-  .proto-1-flex{
-    display: flex;
-    .proto-1-col-1{
-      @include ov-col-1
-    }
-    .proto-1-col-2{
-      @include ov-col-2
-    }
-    .proto-1-col-3{
-      @include ov-col-2
-    }
-    .proto-1-col-4{
-      @include ov-col-2
-    }
-    .proto-1-col-5{
-      @include ov-col-2
-    }
-    .proto-1-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-2{
-  @include ov-1;
-  width: 210*5px;
-  .proto-2-title{
-    @include ov-title
-  }
-  .proto-2-flex{
-    display: flex;
-    .proto-2-col-1{
-      @include ov-col-1;
-      height: 930px;
-    }
-    .proto-2-scroll{
-      display: flex;
-      overflow-y: hidden;
-      overflow-x:  hidden;
-      height: auto;
-    }
-    .proto-2-col-2{
-      @include ov-col-2
-      
-    }
-    .proto-2-col-3{
-      @include ov-col-2
-    }
-    .proto-2-col-4{
-      @include ov-col-2
-    }
-    .proto-2-col-5{
-      @include ov-col-2
-    }
-    .proto-2-col-6{
-      @include ov-col-2
-    }
-    .proto-2-col-7{
-      @include ov-col-2
-    }
-    .proto-2-col-8{
-      @include ov-col-2
-    }
-    .proto-overlay{
-      display: flex;
-      overflow-x: scroll;
-    }
-  }
-}
-.proto-3{
-  @include ov-1;
-  .proto-3-title{
-    @include ov-title
-  }
-  .proto-3-flex{
-    display: flex;
-    .proto-3-col-1{
-      @include ov-col-1
-    }
-    .proto-3-col-2{
-      @include ov-col-2
-    }
-    .proto-3-col-3{
-      @include ov-col-2
-    }
-    .proto-3-col-4{
-      @include ov-col-2
-    }
-    .proto-3-col-5{
-      @include ov-col-2
-    }
-    .proto-3-col-6{
-      @include ov-col-2
-    }
-    .proto-3-col-7{
-      @include ov-col-2
-    }
-    .proto-3-col-8{
-      @include ov-col-2
-    }
-  }
-}
-.proto-4{
-  @include ov-1;
-  .proto-4-title{
-    @include ov-title
-  }
-  .proto-4-flex{
-    display: flex;
-    .proto-4-col-1{
-      @include ov-col-1
-    }
-    .proto-4-col-2{
-      @include ov-col-2
-    }
-    .proto-4-col-3{
-      @include ov-col-2;
-    }
-    .proto-4-col-4{
-      @include ov-col-2
-    }
-    .proto-4-col-5{
-      @include ov-col-2
-    }
-    .proto-4-col-6{
-      @include ov-col-2
-    }
-    .proto-4-col-7{
-      @include ov-col-2
-    }
-    .proto-4-col-8{
-      @include ov-col-2
-    }
-  }
-}
-.proto-5{
-  @include ov-1;
-  .proto-5-title{
-    @include ov-title
-  }
-  .proto-5-flex{
-    display: flex;
-    .proto-5-col-1{
-      @include ov-col-1
-    }
-    .proto-5-col-2{
-      @include ov-col-2
-    }
-    .proto-5-col-3{
-      @include ov-col-2
-    }
-    .proto-5-col-4{
-      @include ov-col-2
-    }
-    .proto-5-col-5{
-      @include ov-col-2
-    }
-    .proto-5-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-6{
-  @include ov-1;
-  .proto-6-title{
-    @include ov-title
-  }
-  .proto-6-flex{
-    display: flex;
-    .proto-6-col-1{
-      @include ov-col-1
-    }
-    .proto-6-col-2{
-      @include ov-col-2
-    }
-    .proto-6-col-3{
-      @include ov-col-2
-    }
-    .proto-6-col-4{
-      @include ov-col-2
-    }
-    .proto-6-col-5{
-      @include ov-col-2
-    }
-    .proto-6-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-7{
-  @include ov-1;
-  width: 210*5px;
-  .proto-7-title{
-    @include ov-title
-  }
-  .proto-7-flex{
-    display: flex;
-    
-    .proto-7-col-1{
-      @include ov-col-1;
-      height:930px;
-    }
-    .proto-7-scroll{
-      display: flex;
-      overflow-y: hidden;
-      overflow-x: hidden;
-      height: auto;
-    }
-    .proto-7-col-2{
-      @include ov-col-2
-    }
-    .proto-7-col-3{
-      @include ov-col-2
-    }
-    .proto-7-col-4{
-      @include ov-col-2
-    }
-    .proto-7-col-5{
-      @include ov-col-2
-    }
-    .proto-7-col-6{
-      @include ov-col-2
-    }
-    .proto-overlay{
-      display: flex;
-      overflow-x: scroll;
-    }
-  }
-}
-@media(max-width:580px){
-  .proto-1{
+
+#proto-1 {
+  position: absolute;
+  height: 1050px;
+  width: 380px;
+  top: 18%;
+  left: 50%;
+  z-index: 100;
+  display: block;
+
+  .proto-1 {
     @include ov-1;
-    .proto-1-title{
+
+    .proto-1-title {
       @include ov-title
     }
-    .proto-1-flex{
+
+    .proto-1-flex {
       display: flex;
-      .proto-1-col-1{
+
+      .proto-1-col-1 {
         @include ov-col-1
       }
-      .proto-1-col-2{
+
+      .proto-1-col-2 {
         @include ov-col-2
       }
-      .proto-1-col-3{
+
+      .proto-1-col-3 {
         @include ov-col-2
       }
-      .proto-1-col-4{
+
+      .proto-1-col-4 {
         @include ov-col-2
       }
-      .proto-1-col-5{
+
+      .proto-1-col-5 {
         @include ov-col-2
       }
-      .proto-1-col-6{
+
+      .proto-1-col-6 {
         @include ov-col-2
       }
     }
   }
-  .proto-2{
+
+}
+
+#proto-2 {
+  //position:absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  .proto-2 {
     @include ov-1;
-    .proto-2-title{
+    .proto-2-title {
       @include ov-title
     }
-    .proto-2-flex{
+
+    .proto-2-flex {
       display: flex;
-      .proto-2-col-1{
+
+      .proto-2-col-1 {
         @include ov-col-1;
         height: 930px;
       }
-      .proto-2-scroll{
+
+      .proto-2-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-3 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-6 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-7 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-8 {
+        @include ov-col-2
+      }
+
+      .proto-overlay {
         display: flex;
-        overflow-y: hidden;
-        overflow-x:  hidden;
-        height: auto;
+        overflow-y: visible;
       }
-      .proto-2-col-2{
+    } 
+  }
+}
+
+#proto-3 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  
+  z-index: 100;
+  display: block;
+
+  .proto-3 {
+    @include ov-1;
+
+    .proto-3-title {
+      @include ov-title
+    }
+
+    .proto-3-flex {
+      display: flex;
+
+      .proto-3-col-1 {
+        @include ov-col-1
+      }
+
+      .proto-3-col-2 {
         @include ov-col-2
-        
       }
-      .proto-2-col-3{
+
+      .proto-3-col-3 {
         @include ov-col-2
       }
-      .proto-2-col-4{
+
+      .proto-3-col-4 {
         @include ov-col-2
       }
-      .proto-2-col-5{
+
+      .proto-3-col-5 {
         @include ov-col-2
       }
-      .proto-2-col-6{
+
+      .proto-3-col-6 {
         @include ov-col-2
       }
-      .proto-2-col-7{
+
+      .proto-3-col-7 {
         @include ov-col-2
       }
-      .proto-2-col-8{
+
+      .proto-3-col-8 {
         @include ov-col-2
-      }
-      .proto-overlay{
-        display: flex;
-        overflow-x: scroll;
       }
     }
   }
-  .proto-3{
+}
+
+#proto-4 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  
+  z-index: 100;
+  display: block;
+
+  .proto-4 {
     @include ov-1;
-    .proto-3-title{
+
+    .proto-4-title {
       @include ov-title
     }
-    .proto-3-flex{
+
+    .proto-4-flex {
       display: flex;
-      .proto-3-col-1{
+
+      .proto-4-col-1 {
         @include ov-col-1
       }
-      .proto-3-col-2{
+
+      .proto-4-col-2 {
         @include ov-col-2
       }
-      .proto-3-col-3{
-        @include ov-col-2
-      }
-      .proto-3-col-4{
-        @include ov-col-2
-      }
-      .proto-3-col-5{
-        @include ov-col-2
-      }
-      .proto-3-col-6{
-        @include ov-col-2
-      }
-      .proto-3-col-7{
-        @include ov-col-2
-      }
-      .proto-3-col-8{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-4{
-    @include ov-1;
-    .proto-4-title{
-      @include ov-title
-    }
-    .proto-4-flex{
-      display: flex;
-      .proto-4-col-1{
-        @include ov-col-1
-      }
-      .proto-4-col-2{
-        @include ov-col-2
-      }
-      .proto-4-col-3{
+
+      .proto-4-col-3 {
         @include ov-col-2;
       }
-      .proto-4-col-4{
+
+      .proto-4-col-4 {
         @include ov-col-2
       }
-      .proto-4-col-5{
+
+      .proto-4-col-5 {
         @include ov-col-2
       }
-      .proto-4-col-6{
+
+      .proto-4-col-6 {
         @include ov-col-2
       }
-      .proto-4-col-7{
+
+      .proto-4-col-7 {
         @include ov-col-2
       }
-      .proto-4-col-8{
+
+      .proto-4-col-8 {
         @include ov-col-2
       }
     }
   }
-  .proto-5{
+}
+
+#proto-5 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  
+  z-index: 100;
+  display: block;
+
+  .proto-5 {
     @include ov-1;
-    .proto-5-title{
+
+    .proto-5-title {
       @include ov-title
     }
-    .proto-5-flex{
+
+    .proto-5-flex {
       display: flex;
-      .proto-5-col-1{
+
+      .proto-5-col-1 {
         @include ov-col-1
       }
-      .proto-5-col-2{
+
+      .proto-5-col-2 {
         @include ov-col-2
       }
-      .proto-5-col-3{
+
+      .proto-5-col-3 {
         @include ov-col-2
       }
-      .proto-5-col-4{
+
+      .proto-5-col-4 {
         @include ov-col-2
       }
-      .proto-5-col-5{
+
+      .proto-5-col-5 {
         @include ov-col-2
       }
-      .proto-5-col-6{
+
+      .proto-5-col-6 {
         @include ov-col-2
       }
     }
   }
-  .proto-6{
+}
+
+#proto-6 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  
+  z-index: 100;
+  display: block;
+
+  .proto-6 {
     @include ov-1;
-    .proto-6-title{
+
+    .proto-6-title {
       @include ov-title
     }
-    .proto-6-flex{
+
+    .proto-6-flex {
       display: flex;
-      .proto-6-col-1{
+
+      .proto-6-col-1 {
         @include ov-col-1
       }
-      .proto-6-col-2{
+
+      .proto-6-col-2 {
         @include ov-col-2
       }
-      .proto-6-col-3{
+
+      .proto-6-col-3 {
         @include ov-col-2
       }
-      .proto-6-col-4{
+
+      .proto-6-col-4 {
         @include ov-col-2
       }
-      .proto-6-col-5{
+
+      .proto-6-col-5 {
         @include ov-col-2
       }
-      .proto-6-col-6{
+
+      .proto-6-col-6 {
         @include ov-col-2
       }
     }
   }
-  .proto-7{
+}
+
+#proto-7 {
+  position: absolute;
+  height: 1060px;
+  width: 1100px;
+  top: 18%;
+  left: 50%;
+  
+  z-index: 100;
+  display: block;
+
+  .proto-7 {
     @include ov-1;
-    .proto-7-title{
+    width: 210*5px;
+
+    .proto-7-title {
       @include ov-title
     }
-    .proto-7-flex{
+
+    .proto-7-flex {
       display: flex;
-      
-      .proto-7-col-1{
+
+      .proto-7-col-1 {
         @include ov-col-1;
-        height:930px;
+        height: 930px;
       }
-      .proto-7-scroll{
+
+      .proto-7-scroll {
         display: flex;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        overflow-y: visible;
+        overflow-x: visible;
         height: auto;
       }
-      .proto-7-col-2{
+
+      .proto-7-col-2 {
         @include ov-col-2
       }
-      .proto-7-col-3{
+
+      .proto-7-col-3 {
         @include ov-col-2
       }
-      .proto-7-col-4{
+
+      .proto-7-col-4 {
         @include ov-col-2
       }
-      .proto-7-col-5{
+
+      .proto-7-col-5 {
         @include ov-col-2
       }
-      .proto-7-col-6{
+
+      .proto-7-col-6 {
         @include ov-col-2
       }
-      .proto-overlay{
-        display: flex;
-        overflow-x: scroll;
-      }
+
     }
   }
 }
-.proto-display{
+
+
+
+
+
+/* .proto-display{
   display: none;
-}
-#dark-bg{
+} */
+#dark-bg {
   opacity: 90%;
   position: absolute;
-  background:$color-dark-grey;
-  z-index:50;
-  display: none;
+  background: $color-dark-grey;
+  z-index: 50;
+  display: block;
 }
+
 /* .dark-bg-display{
-  display: none;
+  display: block;
 } */
