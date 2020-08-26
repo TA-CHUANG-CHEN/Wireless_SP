@@ -219,8 +219,7 @@ const hastouchscreen = (function has() {
           close_icon.style.display = 'block';
           proto_id.style.display = 'block';
           break;
-        }
-        else if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
+        } else if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
           proto_id.classList.add('proto-display');
           dark_bg.style.display = 'none';
           close_icon.style.display = 'none';
@@ -238,9 +237,9 @@ const hastouchscreen = (function has() {
   const factory = document.getElementById('factory');
   const ee_all = document.querySelector('.E-E-all');
   const transport_all = document.querySelector('.transport-all');
-  dark_bg_3.style.height = `${document.documentElement.scrollHeight}px`;
-  dark_bg_3.style.width = `${document.documentElement.scrollWidth}px`;
   document.addEventListener('click', (e) => {
+    dark_bg_3.style.height = `${document.documentElement.scrollHeight}px`;
+    dark_bg_3.style.width = `${document.documentElement.scrollWidth}px`;
     if (e.target.closest('#products-1')) {
       factory.style.display = 'block';
       dark_bg_3.style.display = 'block';

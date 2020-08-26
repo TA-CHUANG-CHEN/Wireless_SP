@@ -1,4 +1,27 @@
 // over-view seven items clicks
+#proto-1-rwd {
+  @include ov-rwd;
+
+  .proto-1-rwd {
+    @include ov-rwd-1;
+
+    .proto-1-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-1-rwd-flex {
+      display: flex;
+
+      .proto-1-rwd-col-1 {
+        @include ov-rwd-col-1;
+      }
+
+      .proto-1-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+    }
+  }
+}
 #proto-1 {
   position: absolute;
   height: 1050px;
@@ -26,26 +49,9 @@
       .proto-1-col-2 {
         @include ov-col-2
       }
-
-      .proto-1-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-6 {
-        @include ov-col-2
-      }
     }
   }
 }
-
 #proto-2 {
   position: absolute;
   height: 1060px;
@@ -122,7 +128,7 @@
     @include ov-rwd-1;
 
     .proto-2-rwd-title {
-      @include ov-rwd-title
+      @include ov-rwd-title;
     }
 
     .proto-2-rwd-flex {
@@ -134,7 +140,7 @@
       }
 
       .proto-2-rwd-col-2 {
-        @include ov-rwd-col-2
+        @include ov-rwd-col-2;
       }
 
       .proto-2-rwd-col-3 {
@@ -223,6 +229,59 @@
     }
   }
 }
+#proto-3-rwd {
+  @include ov-rwd;
+
+  .proto-3-rwd {
+    @include ov-rwd-1;
+
+    .proto-3-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-3-rwd-flex {
+      display: flex;
+
+      .proto-3-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-3-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-3-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-6 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-7 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-8 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-y: visible;
+      }
+    }
+  }
+}
 
 #proto-4 {
   position: absolute;
@@ -278,7 +337,42 @@
     }
   }
 }
+#proto-4-rwd {
+  @include ov-rwd;
 
+  .proto-4-rwd {
+    @include ov-rwd-1;
+
+    .proto-4-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-4-rwd-flex {
+      display: flex;
+
+      .proto-4-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-4-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-4-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-4-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-4-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
 #proto-5 {
   position: absolute;
   height: 1050px;
@@ -325,7 +419,42 @@
     }
   }
 }
+#proto-5-rwd {
+  @include ov-rwd;
 
+  .proto-5-rwd {
+    @include ov-rwd-1;
+
+    .proto-5-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-5-rwd-flex {
+      display: flex;
+
+      .proto-5-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-5-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-5-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-5-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-5-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
 #proto-6 {
   position: absolute;
   height: 1050px;
@@ -368,6 +497,42 @@
 
       .proto-6-col-6 {
         @include ov-col-2
+      }
+    }
+  }
+}
+#proto-6-rwd {
+  @include ov-rwd;
+
+  .proto-6-rwd {
+    @include ov-rwd-1;
+
+    .proto-6-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-6-rwd-flex {
+      display: flex;
+
+      .proto-6-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-6-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-6-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-6-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-6-rwd-col-5 {
+        @include ov-rwd-col-2
       }
     }
   }
@@ -433,7 +598,42 @@
     }
   }
 }
+#proto-7-rwd {
+  @include ov-rwd;
 
+  .proto-7-rwd {
+    @include ov-rwd-1;
+
+    .proto-7-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-7-rwd-flex {
+      display: flex;
+
+      .proto-7-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-7-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-7-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-7-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-7-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
 .proto-display {
   display: none;
 }
