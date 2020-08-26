@@ -1,60 +1,25 @@
 // over-view seven items clicks
 
-#proto-1 {
-  position: absolute;
-  height: 1050px;
-  width: 380px;
-  top: 18%;
-  left: 50%;
-  z-index: 100;
-  display: block;
-
-  .proto-1 {
-    @include ov-1;
-
-    .proto-1-title {
-      @include ov-title
-    }
-
-    .proto-1-flex {
-      display: flex;
-
-      .proto-1-col-1 {
-        @include ov-col-1
-      }
-
-      .proto-1-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-1-col-6 {
-        @include ov-col-2
-      }
-    }
-  }
-
-}
 
 #proto-2 {
-  //position:absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
   z-index: 100;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   margin: 0 auto;
+  overflow-x: visible;
+  overflow-y: visible;
+
   .proto-2 {
     @include ov-1;
+  position: relative;
+    top: initial;
+    left:  initial;
+    transform:  initial;
+
     .proto-2-title {
       @include ov-title
     }
@@ -99,270 +64,11 @@
         display: flex;
         overflow-y: visible;
       }
-    } 
-  }
-}
-
-#proto-3 {
-  position: absolute;
-  height: 1050px;
-  width: 1012px;
-  top: 18%;
-  left: 50%;
-  
-  z-index: 100;
-  display: block;
-
-  .proto-3 {
-    @include ov-1;
-
-    .proto-3-title {
-      @include ov-title
-    }
-
-    .proto-3-flex {
-      display: flex;
-
-      .proto-3-col-1 {
-        @include ov-col-1
-      }
-
-      .proto-3-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-6 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-7 {
-        @include ov-col-2
-      }
-
-      .proto-3-col-8 {
-        @include ov-col-2
-      }
     }
   }
 }
 
-#proto-4 {
-  position: absolute;
-  height: 1050px;
-  width: 1012px;
-  top: 18%;
-  left: 50%;
-  
-  z-index: 100;
-  display: block;
 
-  .proto-4 {
-    @include ov-1;
-
-    .proto-4-title {
-      @include ov-title
-    }
-
-    .proto-4-flex {
-      display: flex;
-
-      .proto-4-col-1 {
-        @include ov-col-1
-      }
-
-      .proto-4-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-4-col-3 {
-        @include ov-col-2;
-      }
-
-      .proto-4-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-4-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-4-col-6 {
-        @include ov-col-2
-      }
-
-      .proto-4-col-7 {
-        @include ov-col-2
-      }
-
-      .proto-4-col-8 {
-        @include ov-col-2
-      }
-    }
-  }
-}
-
-#proto-5 {
-  position: absolute;
-  height: 1050px;
-  width: 1012px;
-  top: 18%;
-  left: 50%;
-  
-  z-index: 100;
-  display: block;
-
-  .proto-5 {
-    @include ov-1;
-
-    .proto-5-title {
-      @include ov-title
-    }
-
-    .proto-5-flex {
-      display: flex;
-
-      .proto-5-col-1 {
-        @include ov-col-1
-      }
-
-      .proto-5-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-5-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-5-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-5-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-5-col-6 {
-        @include ov-col-2
-      }
-    }
-  }
-}
-
-#proto-6 {
-  position: absolute;
-  height: 1050px;
-  width: 1012px;
-  top: 18%;
-  left: 50%;
-  
-  z-index: 100;
-  display: block;
-
-  .proto-6 {
-    @include ov-1;
-
-    .proto-6-title {
-      @include ov-title
-    }
-
-    .proto-6-flex {
-      display: flex;
-
-      .proto-6-col-1 {
-        @include ov-col-1
-      }
-
-      .proto-6-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-6-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-6-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-6-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-6-col-6 {
-        @include ov-col-2
-      }
-    }
-  }
-}
-
-#proto-7 {
-  position: absolute;
-  height: 1060px;
-  width: 1100px;
-  top: 18%;
-  left: 50%;
-  
-  z-index: 100;
-  display: block;
-
-  .proto-7 {
-    @include ov-1;
-    width: 210*5px;
-
-    .proto-7-title {
-      @include ov-title
-    }
-
-    .proto-7-flex {
-      display: flex;
-
-      .proto-7-col-1 {
-        @include ov-col-1;
-        height: 930px;
-      }
-
-      .proto-7-scroll {
-        display: flex;
-        overflow-y: visible;
-        overflow-x: visible;
-        height: auto;
-      }
-
-      .proto-7-col-2 {
-        @include ov-col-2
-      }
-
-      .proto-7-col-3 {
-        @include ov-col-2
-      }
-
-      .proto-7-col-4 {
-        @include ov-col-2
-      }
-
-      .proto-7-col-5 {
-        @include ov-col-2
-      }
-
-      .proto-7-col-6 {
-        @include ov-col-2
-      }
-
-    }
-  }
-}
 
 
 
