@@ -22,16 +22,16 @@
         .E-E-mti{
             margin:0 0 0 30px;
             .E-E-mti-1{
-                font-size: $H2-MB-font*0.7; //待確認
+                font-size: $H2-MB-font; //待確認
                 font-weight: bold;
             }
             .E-E-mti-2{
                 margin: 15px 15px 15px 0;
-                font-size: $H4-font*0.7; //待確認
+                font-size: $H4-font; //待確認
                 width:auto;
             }
             .E-E-mti-3{
-                font-size: $H4-font*0.7; //待確認
+                font-size: $H4-font; //待確認
                 font-weight: bold;
                 margin: 40px 0 5px 0;
                 color:$color-discovery-apptext;
@@ -43,7 +43,7 @@
                     background: url('./css-img/E_a_1_Meteorological.png') no-repeat;
                     background-size: 60px 50px;
                     background-position: right 140px bottom 1px;
-                    font-size: 0.7* $H5-font;
+                    font-size:  $H5-font;
                     font-weight: bold;
                     line-height: 18px;
                     color: $color-discovery-apptext;
@@ -63,7 +63,7 @@
                     background: url('./css-img/E_a_2_Air Quality Monitoring.png') no-repeat;
                     background-size: 60px 50px;
                     background-position: right 140px bottom 1px;
-                    font-size: 0.7* $H5-font;
+                    font-size:  $H5-font;
                     font-weight: bold;
                     line-height: 18px;
                     color: $color-discovery-apptext;
@@ -95,16 +95,16 @@
             .E-E-mti{
                 margin:0 0 0 30px;
                 .E-E-mti-1{
-                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-size:  $H2-MB-font; //待確認
                     font-weight: bold;
                 }
                 .E-E-mti-2{
                     margin: 15px 15px 15px 0;
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     width:auto;
                 }
                 .E-E-mti-3{
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -122,7 +122,7 @@
                             background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
                             line-height: 50px;
@@ -138,7 +138,7 @@
                             background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
                             width:200px;
@@ -161,7 +161,7 @@
                         background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 140px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold;
                         line-height: 18px;
                         color: $color-discovery-apptext;
@@ -191,16 +191,16 @@
             .E-E-mti{
                 margin:0 0 0 30px;
                 .E-E-mti-1{
-                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-size:  $H2-MB-font; //待確認
                     font-weight: bold;
                 }
                 .E-E-mti-2{
                     margin: 15px 15px 15px 0;
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     width:auto;
                 }
                 .E-E-mti-3{
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -216,7 +216,7 @@
                         background: url('./css-img/E_c_1_Oilfield Wireless.png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 140px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
@@ -250,16 +250,16 @@
             .E-E-mti{
                 margin:0 0 0 30px;
                 .E-E-mti-1{
-                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-size:  $H2-MB-font; //待確認
                     font-weight: bold;
                 }
                 .E-E-mti-2{
                     margin: 15px 15px 15px 0;
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     width:auto;
                 }
                 .E-E-mti-3{
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -274,7 +274,7 @@
                         background: url('./css-img/E_d_1_Solar Energy.png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 140px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width:200px;
@@ -305,16 +305,16 @@
             .E-E-mti{
                 margin:0 0 0 30px;
                 .E-E-mti-1{
-                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-size:  $H2-MB-font; //待確認
                     font-weight: bold;
                 }
                 .E-E-mti-2{
                     margin: 15px 15px 15px 0;
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     width:auto;
                 }
                 .E-E-mti-3{
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -330,7 +330,7 @@
                         background: url('./css-img/E_e_1_Water Gas Oil .png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 147px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         width: 200px;
@@ -366,16 +366,16 @@
             .E-E-mti{
                 margin:0 0 0 30px;
                 .E-E-mti-1{
-                    font-size: 0.7* $H2-MB-font; //待確認
+                    font-size:  $H2-MB-font; //待確認
                     font-weight: bold;
                 }
                 .E-E-mti-2{
                     margin: 15px 15px 15px 0;
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     width:500px;
                 }
                 .E-E-mti-3{
-                    font-size: 0.7* $H4-font; //待確認
+                    font-size:  $H4-font; //待確認
                     font-weight: bold;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -394,7 +394,7 @@
                             background: url('./css-img/E_f_1_Pipeline pressure.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
                             line-height: 50px;
@@ -410,7 +410,7 @@
                             background-position: right 140px bottom 1px;
                             box-sizing:border-box;
                             border: 1.5px solid transparent;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold;
                             color: $color-discovery-apptext;
                             width:200px;
@@ -429,7 +429,7 @@
                     .E-E-icon-10{
                         background: url('./css-img/E_f_2_Pump.png') no-repeat;
                         background-size: 60px 50px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold;
                         color: $color-discovery-apptext;
                         box-sizing:border-box;
@@ -491,17 +491,17 @@
             .E-E-mti{
                 margin:0 25px 0 25px;
                 .E-E-mti-1{
-                    font-size: $H2-MB-font*0.7; //待確認
+                    font-size: $H2-MB-font; //待確認
                     font-weight: bold; line-height: normal;
                     line-height: normal;
                 }
                 .E-E-mti-2{
                     margin: 15px 0 15px 0;
-                    font-size: $H4-font*0.7; //待確認
+                    font-size: $H4-font; //待確認
                     width:auto;
                 }
                 .E-E-mti-3{
-                    font-size: $H4-font*0.7; //待確認
+                    font-size: $H4-font; //待確認
                     font-weight: bold; line-height: normal;
                     margin: 40px 0 5px 0;
                     color:$color-discovery-apptext;
@@ -514,7 +514,7 @@
                         background: url('./css-img/E_a_1_Meteorological.png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 140px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold; line-height: normal;
                         line-height: 18px;
                         color: $color-discovery-apptext;
@@ -534,7 +534,7 @@
                         background: url('./css-img/E_a_2_Air Quality Monitoring.png') no-repeat;
                         background-size: 60px 50px;
                         background-position: right 140px bottom 1px;
-                        font-size: 0.7* $H5-font;
+                        font-size:  $H5-font;
                         font-weight: bold; line-height: normal;
                         line-height: 18px;
                         color: $color-discovery-apptext;
@@ -572,16 +572,16 @@
                 .E-E-mti{
                    margin:0 25px 0 25px;
                     .E-E-mti-1{
-                        font-size: 0.7* $H2-MB-font; //待確認
+                        font-size:  $H2-MB-font; //待確認
                         font-weight: bold; line-height: normal;
                     }
                     .E-E-mti-2{
                         margin: 15px 0 15px 0;
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         width:auto;
                     }
                     .E-E-mti-3{
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         font-weight: bold; line-height: normal;
                         margin: 40px 0 5px 0;
                         color:$color-discovery-apptext;
@@ -599,7 +599,7 @@
                                 background: url('./css-img/E_b_1_Slope Stability.png') no-repeat;
                                 background-size: 60px 50px;
                                 background-position: right 140px bottom 1px;
-                                font-size: 0.7* $H5-font;
+                                font-size:  $H5-font;
                                 font-weight: bold; line-height: normal;
                                 color: $color-discovery-apptext;
                                 line-height: 50px;
@@ -615,7 +615,7 @@
                                 background: url('./css-img/E_b_1_Flood inspector.png') no-repeat;
                                 background-size: 60px 50px;
                                 background-position: right 140px bottom 1px;
-                                font-size: 0.7* $H5-font;
+                                font-size:  $H5-font;
                                 font-weight: bold; line-height: normal;
                                 color: $color-discovery-apptext;
                                 width:200px;
@@ -638,7 +638,7 @@
                             background: url('./css-img/E_b_2_Tunnel bridge.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold; line-height: normal;
                             line-height: 18px;
                             color: $color-discovery-apptext;
@@ -670,16 +670,16 @@
                 .E-E-mti{
                    margin:0 25px 0 25px;
                     .E-E-mti-1{
-                        font-size: 0.7* $H2-MB-font; //待確認
+                        font-size:  $H2-MB-font; //待確認
                         font-weight: bold; line-height: normal;
                     }
                     .E-E-mti-2{
                         margin: 15px 0 15px 0;
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         width:auto;
                     }
                     .E-E-mti-3{
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         font-weight: bold; line-height: normal;
                         margin: 40px 0 5px 0;
                         color:$color-discovery-apptext;
@@ -694,7 +694,7 @@
                             background: url('./css-img/E_c_1_Oilfield Wireless.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold; line-height: normal;
                             color: $color-discovery-apptext;
                             width:200px;
@@ -732,16 +732,16 @@
                 .E-E-mti{
                    margin:0 25px 0 25px;
                     .E-E-mti-1{
-                        font-size: 0.7* $H2-MB-font; //待確認
+                        font-size:  $H2-MB-font; //待確認
                         font-weight: bold; line-height: normal;
                     }
                     .E-E-mti-2{
                         margin: 15px 0 15px 0;
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         width:auto;
                     }
                     .E-E-mti-3{
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         font-weight: bold; line-height: normal;
                         margin: 40px 0 5px 0;
                         color:$color-discovery-apptext;
@@ -755,7 +755,7 @@
                             background: url('./css-img/E_d_1_Solar Energy.png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 140px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold; line-height: normal;
                             color: $color-discovery-apptext;
                             width:200px;
@@ -789,16 +789,16 @@
                 .E-E-mti{
                    margin:0 25px 0 25px;
                     .E-E-mti-1{
-                        font-size: 0.7* $H2-MB-font; //待確認
+                        font-size:  $H2-MB-font; //待確認
                         font-weight: bold; line-height: normal;
                     }
                     .E-E-mti-2{
                         margin: 15px 0 15px 0;
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         width:auto;
                     }
                     .E-E-mti-3{
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         font-weight: bold; line-height: normal;
                         margin: 40px 0 5px 0;
                         color:$color-discovery-apptext;
@@ -813,7 +813,7 @@
                             background: url('./css-img/E_e_1_Water Gas Oil .png') no-repeat;
                             background-size: 60px 50px;
                             background-position: right 147px bottom 1px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold; line-height: normal;
                             color: $color-discovery-apptext;
                             width: 200px;
@@ -853,16 +853,16 @@
                 .E-E-mti{
                    margin:0 25px 0 25px;
                     .E-E-mti-1{
-                        font-size: 0.7* $H2-MB-font; //待確認
+                        font-size:  $H2-MB-font; //待確認
                         font-weight: bold; line-height: normal;
                     }
                     .E-E-mti-2{
                         margin: 15px 0 15px 0;
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         width:auto;
                     }
                     .E-E-mti-3{
-                        font-size: 0.7* $H4-font; //待確認
+                        font-size:  $H4-font; //待確認
                         font-weight: bold; line-height: normal;
                         margin: 40px 0 5px 0;
                         color:$color-discovery-apptext;
@@ -882,7 +882,7 @@
                                 background: url('./css-img/E_f_1_Pipeline pressure.png') no-repeat;
                                 background-size: 60px 50px;
                                 background-position: right 140px bottom 1px;
-                                font-size: 0.7* $H5-font;
+                                font-size:  $H5-font;
                                 font-weight: bold; 
                                 line-height: normal;
                                 overflow: hidden;
@@ -900,7 +900,7 @@
                                 background-position: right 140px bottom 1px;
                                 box-sizing:border-box;
                                 border: 1.5px solid transparent;
-                                font-size: 0.7* $H5-font;
+                                font-size:  $H5-font;
                                 font-weight: bold; 
                                 line-height: normal;
                                 overflow: hidden;
@@ -921,7 +921,7 @@
                         .E-E-icon-10{
                             background: url('./css-img/E_f_2_Pump.png') no-repeat;
                             background-size: 60px 50px;
-                            font-size: 0.7* $H5-font;
+                            font-size:  $H5-font;
                             font-weight: bold;
                             line-height: normal;
                             overflow: hidden;

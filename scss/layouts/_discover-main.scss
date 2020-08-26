@@ -230,19 +230,19 @@ main{
         background-color:$color-pdf-blue;
         margin: 0 0 100px 0;
         strong{
-            font-size: $H2-PC-font;
+            font-size: $H2-MB-font;
             display: flex;
             align-items: center;
             text-align: center;
             justify-content: center;
             color: $color-black;
-            margin: 50px 100px 0 100px;
+            margin: 50px 60px 0 60px;
             line-height: 1.3em;
             height: auto;
             overflow:hidden;
         }
         span{
-            font-size: $H2-PC-font;
+            font-size: $H2-MB-font;
             font-weight: bolder;
             height: auto;
             color: $color-black;

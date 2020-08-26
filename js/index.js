@@ -182,25 +182,51 @@ const hastouchscreen = (function has() {
 // over-view parts
 (function over_view() {
   document.addEventListener('click', (e) => {
-    for (let i = 1; i < 8; i += 1) {
-      const proto_all = document.querySelector(`.proto-${i}`);
-      const dark_bg = document.getElementById('dark-bg');
-      const close_icon = document.querySelector(`.close-icon-1-${i}`);
-      const proto_id = document.getElementById(`proto-${i}`);
-      dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
-      dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
-      if (e.target.closest(`.ov2-${i}`)) {
-        proto_all.classList.remove('proto-display');
-        dark_bg.style.display = 'block';
-        close_icon.style.display = 'block';
-        proto_id.style.display = 'block';
-        break;
+    if (!hastouchscreen) {
+      for (let i = 1; i < 8; i += 1) {
+        const proto_all = document.querySelector(`.proto-${i}`);
+        const dark_bg = document.getElementById('dark-bg');
+        const close_icon = document.querySelector(`.close-icon-1-${i}`);
+        const proto_id = document.getElementById(`proto-${i}`);
+        dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
+        dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
+        if (e.target.closest(`.ov2-${i}`)) {
+          proto_all.classList.remove('proto-display');
+          dark_bg.style.display = 'block';
+          close_icon.style.display = 'block';
+          proto_id.style.display = 'block';
+          break;
+        }
+        if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
+          proto_all.classList.add('proto-display');
+          dark_bg.style.display = 'none';
+          close_icon.style.display = 'none';
+          proto_id.style.display = 'none';
+        }
       }
-      if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
-        proto_all.classList.add('proto-display');
-        dark_bg.style.display = 'none';
-        close_icon.style.display = 'none';
-        proto_id.style.display = 'none';
+    }
+    if (hastouchscreen) {
+      for (let i = 1; i < 8; i += 1) {
+        const proto_all = document.querySelectorAll(`.proto-${i}-rwd`);
+        const dark_bg = document.getElementById('dark-bg');
+        const close_icon = document.querySelector(`.close-icon-1-${i}`);
+        const proto_id = document.getElementById(`proto-${i}-rwd`);
+        dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
+        dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
+        if (e.target.closest(`.ov2-${i}`)) {
+          proto_id.classList.remove('proto-display');
+          dark_bg.style.display = 'block';
+          close_icon.style.display = 'block';
+          proto_id.style.display = 'block';
+          break;
+        }
+        else if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
+          proto_id.classList.add('proto-display');
+          dark_bg.style.display = 'none';
+          close_icon.style.display = 'none';
+          proto_id.style.display = 'none';
+          break;
+        }
       }
     }
   });
