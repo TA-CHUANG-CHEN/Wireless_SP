@@ -207,7 +207,6 @@ const hastouchscreen = (function has() {
     }
     if (hastouchscreen) {
       for (let i = 1; i < 8; i += 1) {
-        const proto_all = document.querySelectorAll(`.proto-${i}-rwd`);
         const dark_bg = document.getElementById('dark-bg');
         const close_icon = document.querySelector(`.close-icon-1-${i}`);
         const proto_id = document.getElementById(`proto-${i}-rwd`);
@@ -224,7 +223,6 @@ const hastouchscreen = (function has() {
           dark_bg.style.display = 'none';
           close_icon.style.display = 'none';
           proto_id.style.display = 'none';
-          break;
         }
       }
     }
