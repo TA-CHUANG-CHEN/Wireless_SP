@@ -234,6 +234,9 @@ const hastouchscreen = (function has() {
   const dark_bg_3 = document.getElementById('dark-bg-3');
   const factory = document.getElementById('factory');
   const ee_all = document.querySelector('.E-E-all');
+  const product_1 = document.getElementById('products-1');
+  const product_2 = document.getElementById('products-2');
+  const product_3 = document.getElementById('products-3');
   const transport_all = document.querySelector('.transport-all');
   document.addEventListener('click', (e) => {
     dark_bg_3.style.height = `${document.documentElement.scrollHeight}px`;
@@ -242,28 +245,28 @@ const hastouchscreen = (function has() {
       factory.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (factory.style.display == 'block' && e.target === dark_bg_3) {
+    if (factory.style.display === 'block' && e.target === dark_bg_3) {
       factory.style.display = 'none';
       dark_bg_3.style.display = 'none';
-      document.getElementById('products-1').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
+      document.getElementById('products-1').scrollIntoView({ behavior: 'smooth' });
     }
     if (e.target.closest('#products-2')) {
       ee_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (ee_all.style.display == 'block' && e.target === dark_bg_3) {
+    if (ee_all.style.display === 'block' && e.target === dark_bg_3) {
       ee_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
-      document.getElementById('products-2').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
+      document.getElementById('products-2').scrollIntoView({ behavior: 'smooth' });
     }
     if (e.target.closest('#products-3')) {
       transport_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (transport_all.style.display == 'block' && e.target === dark_bg_3) {
+    if (transport_all.style.display === 'block' && e.target === dark_bg_3) {
       transport_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
-      document.getElementById('products-3').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
+      document.getElementById('products-3').scrollIntoView({ behavior: 'smooth' });
     }
   });
 }());
