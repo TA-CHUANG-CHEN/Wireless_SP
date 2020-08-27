@@ -242,25 +242,28 @@ const hastouchscreen = (function has() {
       factory.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (factory.style.display == 'block' && e.target === dark_bg_3) {
       factory.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-1').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
     }
     if (e.target.closest('#products-2')) {
       ee_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (ee_all.style.display == 'block' && e.target === dark_bg_3) {
       ee_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-2').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
     }
     if (e.target.closest('#products-3')) {
       transport_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (transport_all.style.display == 'block' && e.target === dark_bg_3) {
       transport_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-3').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
     }
   });
 }());
