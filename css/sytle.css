@@ -18542,9 +18542,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -19682,11 +19682,11 @@ template {
 
 #item-rwd-1-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20999,9 +20999,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -22139,11 +22139,11 @@ template {
 
 #item-rwd-1-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23456,9 +23456,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24596,11 +24596,11 @@ template {
 
 #item-rwd-2-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25913,9 +25913,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -27147,11 +27147,11 @@ template {
 
 #item-rwd-2-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28464,9 +28464,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29604,11 +29604,11 @@ template {
 
 #item-rwd-2-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30921,9 +30921,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -32065,11 +32065,11 @@ template {
 
 #item-rwd-2-4 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33382,9 +33382,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -34522,11 +34522,11 @@ template {
 
 #item-rwd-3-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35839,9 +35839,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36979,11 +36979,11 @@ template {
 
 #item-rwd-3-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38296,9 +38296,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -39436,11 +39436,11 @@ template {
 
 #item-rwd-3-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40753,9 +40753,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41893,11 +41893,11 @@ template {
 
 #item-rwd-4-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43210,9 +43210,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -44350,11 +44350,11 @@ template {
 
 #item-rwd-4-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45667,9 +45667,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46807,11 +46807,11 @@ template {
 
 #item-rwd-4-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48124,9 +48124,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -49264,11 +49264,11 @@ template {
 
 #item-rwd-4-4 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50581,9 +50581,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51721,11 +51721,11 @@ template {
 
 #item-rwd-4-5 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53038,9 +53038,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -54178,11 +54178,11 @@ template {
 
 #item-rwd-5-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55495,9 +55495,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -56635,11 +56635,11 @@ template {
 
 #item-rwd-6-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57952,9 +57952,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -59092,11 +59092,11 @@ template {
 
 #item-rwd-7-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60409,9 +60409,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -61653,11 +61653,11 @@ template {
 
 #item-rwd-8-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62970,9 +62970,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -64132,11 +64132,11 @@ template {
 
 #item-rwd-8-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65449,9 +65449,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -66693,11 +66693,11 @@ template {
 
 #item-rwd-8-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68010,9 +68010,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -69150,11 +69150,11 @@ template {
 
 #item-rwd-9-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70467,9 +70467,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -71607,11 +71607,11 @@ template {
 
 #item-rwd-9-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72924,9 +72924,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -74064,11 +74064,11 @@ template {
 
 #item-rwd-9-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75381,9 +75381,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -76521,11 +76521,11 @@ template {
 
 #item-rwd-10-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77838,9 +77838,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78978,11 +78978,11 @@ template {
 
 #item-rwd-10-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80295,9 +80295,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -81435,11 +81435,11 @@ template {
 
 #item-rwd-10-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82752,9 +82752,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83892,11 +83892,11 @@ template {
 
 #item-rwd-10-4 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85209,9 +85209,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -86349,11 +86349,11 @@ template {
 
 #item-rwd-10-5 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87666,9 +87666,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -88806,11 +88806,11 @@ template {
 
 #item-rwd-11-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90123,9 +90123,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -91263,11 +91263,11 @@ template {
 
 #item-rwd-11-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92580,9 +92580,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -93720,11 +93720,11 @@ template {
 
 #item-rwd-11-3 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95037,9 +95037,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -96177,11 +96177,11 @@ template {
 
 #item-rwd-11-4 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97494,9 +97494,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -98634,11 +98634,11 @@ template {
 
 #item-rwd-12-1 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99951,9 +99951,9 @@ template {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-70%, -50%);
+      -ms-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -101091,11 +101091,11 @@ template {
 
 #item-rwd-12-2 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 900;
   display: -webkit-box;
   display: -ms-flexbox;

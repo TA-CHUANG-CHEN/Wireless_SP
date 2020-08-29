@@ -575,9 +575,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
     box-sizing: border-box;
-
     a {
         color: black;
     }
@@ -756,9 +755,9 @@
 
 @mixin discovery-rwd {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     z-index: 900;
     display: flex;
     flex-wrap: wrap;
