@@ -1,617 +1,651 @@
-
 // over-view seven items clicks
-#proto-1{
-  position:absolute;
-  height:1050px;
-  width:380px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-2{
-  position:absolute;
-  height:1060px;
-  width:1100px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-3{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-4{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-5{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-6{
-  position:absolute;
-  height:1050px;
-  width:1012px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-#proto-7{
-  position:absolute;
-  height:1060px;
-  width:1100px;
-  top:18%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  z-index:100;
-  display: none;
-}
-@media(max-width:580px){
-  #proto-1{
-    position:absolute;
-    height:1050px;
-    max-width:100%;
-    top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-2{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-3{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-4{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-5{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-6{
-    position:absolute;
-    height:1050px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-  #proto-7{
-    position:absolute;
-    height:1060px;
-    max-width:100%;  top:18%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    display: none;
-  }
-}
-.proto-1{
-  @include ov-1;
-  .proto-1-title{
-    @include ov-title
-  }
-  .proto-1-flex{
-    display: flex;
-    .proto-1-col-1{
-      @include ov-col-1
+#proto-1-rwd {
+  @include ov-rwd;
+
+  .proto-1-rwd {
+    @include ov-rwd-1;
+
+    .proto-1-rwd-title {
+      @include ov-rwd-title;
     }
-    .proto-1-col-2{
-      @include ov-col-2
-    }
-    .proto-1-col-3{
-      @include ov-col-2
-    }
-    .proto-1-col-4{
-      @include ov-col-2
-    }
-    .proto-1-col-5{
-      @include ov-col-2
-    }
-    .proto-1-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-2{
-  @include ov-1;
-  width: 210*5px;
-  .proto-2-title{
-    @include ov-title
-  }
-  .proto-2-flex{
-    display: flex;
-    .proto-2-col-1{
-      @include ov-col-1;
-      height: 930px;
-    }
-    .proto-2-scroll{
+
+    .proto-1-rwd-flex {
       display: flex;
-      overflow-y: hidden;
-      overflow-x:  hidden;
-      height: auto;
-    }
-    .proto-2-col-2{
-      @include ov-col-2
-      
-    }
-    .proto-2-col-3{
-      @include ov-col-2
-    }
-    .proto-2-col-4{
-      @include ov-col-2
-    }
-    .proto-2-col-5{
-      @include ov-col-2
-    }
-    .proto-2-col-6{
-      @include ov-col-2
-    }
-    .proto-2-col-7{
-      @include ov-col-2
-    }
-    .proto-2-col-8{
-      @include ov-col-2
-    }
-    .proto-overlay{
-      display: flex;
-      overflow-x: scroll;
+
+      .proto-1-rwd-col-1 {
+        @include ov-rwd-col-1;
+      }
+
+      .proto-1-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
     }
   }
 }
-.proto-3{
-  @include ov-1;
-  .proto-3-title{
-    @include ov-title
-  }
-  .proto-3-flex{
-    display: flex;
-    .proto-3-col-1{
-      @include ov-col-1
-    }
-    .proto-3-col-2{
-      @include ov-col-2
-    }
-    .proto-3-col-3{
-      @include ov-col-2
-    }
-    .proto-3-col-4{
-      @include ov-col-2
-    }
-    .proto-3-col-5{
-      @include ov-col-2
-    }
-    .proto-3-col-6{
-      @include ov-col-2
-    }
-    .proto-3-col-7{
-      @include ov-col-2
-    }
-    .proto-3-col-8{
-      @include ov-col-2
-    }
-  }
-}
-.proto-4{
-  @include ov-1;
-  .proto-4-title{
-    @include ov-title
-  }
-  .proto-4-flex{
-    display: flex;
-    .proto-4-col-1{
-      @include ov-col-1
-    }
-    .proto-4-col-2{
-      @include ov-col-2
-    }
-    .proto-4-col-3{
-      @include ov-col-2;
-    }
-    .proto-4-col-4{
-      @include ov-col-2
-    }
-    .proto-4-col-5{
-      @include ov-col-2
-    }
-    .proto-4-col-6{
-      @include ov-col-2
-    }
-    .proto-4-col-7{
-      @include ov-col-2
-    }
-    .proto-4-col-8{
-      @include ov-col-2
-    }
-  }
-}
-.proto-5{
-  @include ov-1;
-  .proto-5-title{
-    @include ov-title
-  }
-  .proto-5-flex{
-    display: flex;
-    .proto-5-col-1{
-      @include ov-col-1
-    }
-    .proto-5-col-2{
-      @include ov-col-2
-    }
-    .proto-5-col-3{
-      @include ov-col-2
-    }
-    .proto-5-col-4{
-      @include ov-col-2
-    }
-    .proto-5-col-5{
-      @include ov-col-2
-    }
-    .proto-5-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-6{
-  @include ov-1;
-  .proto-6-title{
-    @include ov-title
-  }
-  .proto-6-flex{
-    display: flex;
-    .proto-6-col-1{
-      @include ov-col-1
-    }
-    .proto-6-col-2{
-      @include ov-col-2
-    }
-    .proto-6-col-3{
-      @include ov-col-2
-    }
-    .proto-6-col-4{
-      @include ov-col-2
-    }
-    .proto-6-col-5{
-      @include ov-col-2
-    }
-    .proto-6-col-6{
-      @include ov-col-2
-    }
-  }
-}
-.proto-7{
-  @include ov-1;
-  width: 210*5px;
-  .proto-7-title{
-    @include ov-title
-  }
-  .proto-7-flex{
-    display: flex;
-    
-    .proto-7-col-1{
-      @include ov-col-1;
-      height:930px;
-    }
-    .proto-7-scroll{
-      display: flex;
-      overflow-y: hidden;
-      overflow-x: hidden;
-      height: auto;
-    }
-    .proto-7-col-2{
-      @include ov-col-2
-    }
-    .proto-7-col-3{
-      @include ov-col-2
-    }
-    .proto-7-col-4{
-      @include ov-col-2
-    }
-    .proto-7-col-5{
-      @include ov-col-2
-    }
-    .proto-7-col-6{
-      @include ov-col-2
-    }
-    .proto-overlay{
-      display: flex;
-      overflow-x: scroll;
-    }
-  }
-}
-@media(max-width:580px){
-  .proto-1{
+#proto-1 {
+  position: absolute;
+  height: 1050px;
+  width: 380px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-1 {
     @include ov-1;
-    .proto-1-title{
+
+    .proto-1-title {
       @include ov-title
     }
-    .proto-1-flex{
+
+    .proto-1-flex {
       display: flex;
-      .proto-1-col-1{
+
+      .proto-1-col-1 {
         @include ov-col-1
       }
-      .proto-1-col-2{
-        @include ov-col-2
-      }
-      .proto-1-col-3{
-        @include ov-col-2
-      }
-      .proto-1-col-4{
-        @include ov-col-2
-      }
-      .proto-1-col-5{
-        @include ov-col-2
-      }
-      .proto-1-col-6{
+
+      .proto-1-col-2 {
         @include ov-col-2
       }
     }
   }
-  .proto-2{
+}
+#proto-2 {
+  position: absolute;
+  height: 1060px;
+  width: 1100px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-2 {
     @include ov-1;
-    .proto-2-title{
+    width: 210*5px;
+
+    .proto-2-title {
       @include ov-title
     }
-    .proto-2-flex{
+
+    .proto-2-flex {
       display: flex;
-      .proto-2-col-1{
+
+      .proto-2-col-1 {
         @include ov-col-1;
         height: 930px;
       }
-      .proto-2-scroll{
-        display: flex;
-        overflow-y: hidden;
-        overflow-x:  hidden;
-        height: auto;
-      }
-      .proto-2-col-2{
-        @include ov-col-2
-        
-      }
-      .proto-2-col-3{
-        @include ov-col-2
-      }
-      .proto-2-col-4{
-        @include ov-col-2
-      }
-      .proto-2-col-5{
-        @include ov-col-2
-      }
-      .proto-2-col-6{
-        @include ov-col-2
-      }
-      .proto-2-col-7{
-        @include ov-col-2
-      }
-      .proto-2-col-8{
-        @include ov-col-2
-      }
-      .proto-overlay{
-        display: flex;
-        overflow-x: scroll;
-      }
-    }
-  }
-  .proto-3{
-    @include ov-1;
-    .proto-3-title{
-      @include ov-title
-    }
-    .proto-3-flex{
-      display: flex;
-      .proto-3-col-1{
-        @include ov-col-1
-      }
-      .proto-3-col-2{
-        @include ov-col-2
-      }
-      .proto-3-col-3{
-        @include ov-col-2
-      }
-      .proto-3-col-4{
-        @include ov-col-2
-      }
-      .proto-3-col-5{
-        @include ov-col-2
-      }
-      .proto-3-col-6{
-        @include ov-col-2
-      }
-      .proto-3-col-7{
-        @include ov-col-2
-      }
-      .proto-3-col-8{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-4{
-    @include ov-1;
-    .proto-4-title{
-      @include ov-title
-    }
-    .proto-4-flex{
-      display: flex;
-      .proto-4-col-1{
-        @include ov-col-1
-      }
-      .proto-4-col-2{
-        @include ov-col-2
-      }
-      .proto-4-col-3{
-        @include ov-col-2;
-      }
-      .proto-4-col-4{
-        @include ov-col-2
-      }
-      .proto-4-col-5{
-        @include ov-col-2
-      }
-      .proto-4-col-6{
-        @include ov-col-2
-      }
-      .proto-4-col-7{
-        @include ov-col-2
-      }
-      .proto-4-col-8{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-5{
-    @include ov-1;
-    .proto-5-title{
-      @include ov-title
-    }
-    .proto-5-flex{
-      display: flex;
-      .proto-5-col-1{
-        @include ov-col-1
-      }
-      .proto-5-col-2{
-        @include ov-col-2
-      }
-      .proto-5-col-3{
-        @include ov-col-2
-      }
-      .proto-5-col-4{
-        @include ov-col-2
-      }
-      .proto-5-col-5{
-        @include ov-col-2
-      }
-      .proto-5-col-6{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-6{
-    @include ov-1;
-    .proto-6-title{
-      @include ov-title
-    }
-    .proto-6-flex{
-      display: flex;
-      .proto-6-col-1{
-        @include ov-col-1
-      }
-      .proto-6-col-2{
-        @include ov-col-2
-      }
-      .proto-6-col-3{
-        @include ov-col-2
-      }
-      .proto-6-col-4{
-        @include ov-col-2
-      }
-      .proto-6-col-5{
-        @include ov-col-2
-      }
-      .proto-6-col-6{
-        @include ov-col-2
-      }
-    }
-  }
-  .proto-7{
-    @include ov-1;
-    .proto-7-title{
-      @include ov-title
-    }
-    .proto-7-flex{
-      display: flex;
-      
-      .proto-7-col-1{
-        @include ov-col-1;
-        height:930px;
-      }
-      .proto-7-scroll{
+
+      .proto-2-scroll {
         display: flex;
         overflow-y: hidden;
         overflow-x: hidden;
         height: auto;
       }
-      .proto-7-col-2{
+
+      .proto-2-col-2 {
         @include ov-col-2
       }
-      .proto-7-col-3{
+
+      .proto-2-col-3 {
         @include ov-col-2
       }
-      .proto-7-col-4{
+
+      .proto-2-col-4 {
         @include ov-col-2
       }
-      .proto-7-col-5{
+
+      .proto-2-col-5 {
         @include ov-col-2
       }
-      .proto-7-col-6{
+
+      .proto-2-col-6 {
         @include ov-col-2
       }
-      .proto-overlay{
+
+      .proto-2-col-7 {
+        @include ov-col-2
+      }
+
+      .proto-2-col-8 {
+        @include ov-col-2
+      }
+
+      .proto-overlay {
         display: flex;
         overflow-x: scroll;
       }
     }
   }
 }
-.proto-display{
+
+#proto-2-rwd {
+  @include ov-rwd;
+
+  .proto-2-rwd {
+    @include ov-rwd-1;
+
+    .proto-2-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-2-rwd-flex {
+      display: flex;
+
+      .proto-2-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-2-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-2-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-2-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-2-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-2-rwd-col-6 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-2-rwd-col-7 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-2-rwd-col-8 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-y: visible;
+      }
+    }
+  }
+}
+
+#proto-3 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-3 {
+    @include ov-1;
+
+    .proto-3-title {
+      @include ov-title
+    }
+
+    .proto-3-flex {
+      display: flex;
+
+      .proto-3-col-1 {
+        @include ov-col-1
+      }
+
+      .proto-3-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-3 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-6 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-7 {
+        @include ov-col-2
+      }
+
+      .proto-3-col-8 {
+        @include ov-col-2
+      }
+    }
+  }
+}
+#proto-3-rwd {
+  @include ov-rwd;
+
+  .proto-3-rwd {
+    @include ov-rwd-1;
+
+    .proto-3-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-3-rwd-flex {
+      display: flex;
+
+      .proto-3-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-3-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-3-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-6 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-7 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-3-rwd-col-8 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-y: visible;
+      }
+    }
+  }
+}
+
+#proto-4 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-4 {
+    @include ov-1;
+
+    .proto-4-title {
+      @include ov-title
+    }
+
+    .proto-4-flex {
+      display: flex;
+
+      .proto-4-col-1 {
+        @include ov-col-1
+      }
+
+      .proto-4-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-4-col-3 {
+        @include ov-col-2;
+      }
+
+      .proto-4-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-4-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-4-col-6 {
+        @include ov-col-2
+      }
+
+      .proto-4-col-7 {
+        @include ov-col-2
+      }
+
+      .proto-4-col-8 {
+        @include ov-col-2
+      }
+    }
+  }
+}
+#proto-4-rwd {
+  @include ov-rwd;
+
+  .proto-4-rwd {
+    @include ov-rwd-1;
+
+    .proto-4-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-4-rwd-flex {
+      display: flex;
+
+      .proto-4-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-4-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-4-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-4-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-4-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
+#proto-5 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-5 {
+    @include ov-1;
+
+    .proto-5-title {
+      @include ov-title
+    }
+
+    .proto-5-flex {
+      display: flex;
+
+      .proto-5-col-1 {
+        @include ov-col-1
+      }
+
+      .proto-5-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-5-col-3 {
+        @include ov-col-2
+      }
+
+      .proto-5-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-5-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-5-col-6 {
+        @include ov-col-2
+      }
+    }
+  }
+}
+#proto-5-rwd {
+  @include ov-rwd;
+
+  .proto-5-rwd {
+    @include ov-rwd-1;
+
+    .proto-5-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-5-rwd-flex {
+      display: flex;
+
+      .proto-5-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-5-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-5-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-5-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-5-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
+#proto-6 {
+  position: absolute;
+  height: 1050px;
+  width: 1012px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-6 {
+    @include ov-1;
+
+    .proto-6-title {
+      @include ov-title
+    }
+
+    .proto-6-flex {
+      display: flex;
+
+      .proto-6-col-1 {
+        @include ov-col-1
+      }
+
+      .proto-6-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-6-col-3 {
+        @include ov-col-2
+      }
+
+      .proto-6-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-6-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-6-col-6 {
+        @include ov-col-2
+      }
+    }
+  }
+}
+#proto-6-rwd {
+  @include ov-rwd;
+
+  .proto-6-rwd {
+    @include ov-rwd-1;
+
+    .proto-6-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-6-rwd-flex {
+      display: flex;
+
+      .proto-6-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-6-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-6-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-6-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-6-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
+
+#proto-7 {
+  position: absolute;
+  height: 1060px;
+  width: 1100px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: none;
+
+  .proto-7 {
+    @include ov-1;
+    width: 210*5px;
+
+    .proto-7-title {
+      @include ov-title
+    }
+
+    .proto-7-flex {
+      display: flex;
+
+      .proto-7-col-1 {
+        @include ov-col-1;
+        height: 930px;
+      }
+
+      .proto-7-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .proto-7-col-2 {
+        @include ov-col-2
+      }
+
+      .proto-7-col-3 {
+        @include ov-col-2
+      }
+
+      .proto-7-col-4 {
+        @include ov-col-2
+      }
+
+      .proto-7-col-5 {
+        @include ov-col-2
+      }
+
+      .proto-7-col-6 {
+        @include ov-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+#proto-7-rwd {
+  @include ov-rwd;
+
+  .proto-7-rwd {
+    @include ov-rwd-1;
+
+    .proto-7-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-7-rwd-flex {
+      display: flex;
+
+      .proto-7-rwd-col-1 {
+        @include ov-rwd-col-1;
+        height: 930px;
+      }
+
+      .proto-7-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+
+      .proto-7-rwd-col-3 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-7-rwd-col-4 {
+        @include ov-rwd-col-2
+      }
+
+      .proto-7-rwd-col-5 {
+        @include ov-rwd-col-2
+      }
+    }
+  }
+}
+.proto-display {
   display: none;
 }
-#dark-bg{
+
+#dark-bg {
   opacity: 90%;
   position: absolute;
-  background:$color-dark-grey;
-  z-index:50;
+  background: $color-dark-grey;
+  z-index: 50;
   display: none;
 }
+
 /* .dark-bg-display{
   display: none;
 } */

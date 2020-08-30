@@ -182,25 +182,48 @@ const hastouchscreen = (function has() {
 // over-view parts
 (function over_view() {
   document.addEventListener('click', (e) => {
-    for (let i = 1; i < 8; i += 1) {
-      const proto_all = document.querySelector(`.proto-${i}`);
-      const dark_bg = document.getElementById('dark-bg');
-      const close_icon = document.querySelector(`.close-icon-1-${i}`);
-      const proto_id = document.getElementById(`proto-${i}`);
-      dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
-      dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
-      if (e.target.closest(`.ov2-${i}`)) {
-        proto_all.classList.remove('proto-display');
-        dark_bg.style.display = 'block';
-        close_icon.style.display = 'block';
-        proto_id.style.display = 'block';
-        break;
+    if (!hastouchscreen) {
+      for (let i = 1; i < 8; i += 1) {
+        const proto_all = document.querySelector(`.proto-${i}`);
+        const dark_bg = document.getElementById('dark-bg');
+        const close_icon = document.querySelector(`.close-icon-1-${i}`);
+        const proto_id = document.getElementById(`proto-${i}`);
+        dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
+        dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
+        if (e.target.closest(`.ov2-${i}`)) {
+          proto_all.classList.remove('proto-display');
+          dark_bg.style.display = 'block';
+          close_icon.style.display = 'block';
+          proto_id.style.display = 'block';
+          break;
+        }
+        if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
+          proto_all.classList.add('proto-display');
+          dark_bg.style.display = 'none';
+          close_icon.style.display = 'none';
+          proto_id.style.display = 'none';
+        }
       }
-      if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
-        proto_all.classList.add('proto-display');
-        dark_bg.style.display = 'none';
-        close_icon.style.display = 'none';
-        proto_id.style.display = 'none';
+    }
+    if (hastouchscreen) {
+      for (let i = 1; i < 8; i += 1) {
+        const dark_bg = document.getElementById('dark-bg');
+        const close_icon = document.querySelector(`.close-icon-1-${i}`);
+        const proto_id = document.getElementById(`proto-${i}-rwd`);
+        dark_bg.style.height = `${document.documentElement.offsetHeight}px`;
+        dark_bg.style.width = `${document.documentElement.offsetWidth}px`;
+        if (e.target.closest(`.ov2-${i}`)) {
+          proto_id.classList.remove('proto-display');
+          dark_bg.style.display = 'block';
+          close_icon.style.display = 'block';
+          proto_id.style.display = 'block';
+          break;
+        } else if (e.target === dark_bg || e.target.closest(`.close-icon-1-${i}`)) {
+          proto_id.classList.add('proto-display');
+          dark_bg.style.display = 'none';
+          close_icon.style.display = 'none';
+          proto_id.style.display = 'none';
+        }
       }
     }
   });
@@ -211,33 +234,39 @@ const hastouchscreen = (function has() {
   const dark_bg_3 = document.getElementById('dark-bg-3');
   const factory = document.getElementById('factory');
   const ee_all = document.querySelector('.E-E-all');
+  const product_1 = document.getElementById('products-1');
+  const product_2 = document.getElementById('products-2');
+  const product_3 = document.getElementById('products-3');
   const transport_all = document.querySelector('.transport-all');
-  dark_bg_3.style.height = `${document.documentElement.scrollHeight}px`;
-  dark_bg_3.style.width = `${document.documentElement.scrollWidth}px`;
   document.addEventListener('click', (e) => {
+    dark_bg_3.style.height = `${document.documentElement.scrollHeight}px`;
+    dark_bg_3.style.width = `${document.documentElement.scrollWidth}px`;
     if (e.target.closest('#products-1')) {
       factory.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (factory.style.display === 'block' && e.target === dark_bg_3) {
       factory.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-1').scrollIntoView({ behavior: 'smooth' });
     }
     if (e.target.closest('#products-2')) {
       ee_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (ee_all.style.display === 'block' && e.target === dark_bg_3) {
       ee_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-2').scrollIntoView({ behavior: 'smooth' });
     }
     if (e.target.closest('#products-3')) {
       transport_all.style.display = 'block';
       dark_bg_3.style.display = 'block';
     }
-    if (e.target === dark_bg_3) {
+    if (transport_all.style.display === 'block' && e.target === dark_bg_3) {
       transport_all.style.display = 'none';
       dark_bg_3.style.display = 'none';
+      document.getElementById('products-3').scrollIntoView({ behavior: 'smooth' });
     }
   });
 }());

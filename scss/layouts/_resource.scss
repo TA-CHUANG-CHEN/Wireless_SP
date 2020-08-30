@@ -211,7 +211,7 @@
 //RWD Mobile
 @media(max-width:580px){
     #res-title{
-        font-size: $H2-PC-font;
+        font-size: $H2-MB-font;
         font-weight: bold;
         text-align: center;
         margin: 40px 0 50px 0;
@@ -270,7 +270,7 @@
             color: $color-dark-bg-white;
             width: 155px;
             text-align: center;
-            line-height: 35px;
+            line-height: 1.3rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -282,16 +282,16 @@
             color: $color-dark-bg-white;
             width: 155px;
             text-align: center;
-            line-height: 35px;
+            line-height: 1.3rem;
         }
         .resource-4{
-            margin: 0 0 0 0;
+            margin: 0 0 0 0; 
             background-color:  $color-resources-title;
             transition:background-color 300ms; 
             color: $color-dark-bg-white;
             width: 155px;
             text-align: center;
-            line-height: 35px;
+            line-height: 1.3rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -303,7 +303,7 @@
             color: $color-dark-bg-white;
             width: 155px;
             text-align: center;
-            line-height: 35px;
+            line-height: 1.3rem;
         }
     
     }
