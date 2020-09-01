@@ -109,11 +109,12 @@ const hastouchscreen = (function has() {
     }
 
     if (e.target === resource_tag_2) {
-      res_item2.style = 'display:none';
       res_para1.innerHTML = 'Cellular Routers & Gateways <br>For Industrial IoT & Enahced Networking';
-      res_para3.innerHTML = 'WebAccess/DMP Generation2';
+      res_para3.innerHTML = 'WebAccess/DMP Generation2-2';
+      res_para2.innerHTML = 'WebAccess/DMP Generation2';
       res_item1_img.src = 'images/brochure_1.jpg';
-      res_item3_img.src = 'images/brochure_2.jpg';
+      res_item3_img.src = 'images/brochure_3.jpg';
+      res_item2_img.src = 'images/brochure_2.jpg';
       res_button.textContent = 'Download All';
       res_item4.style.display = 'none';
       res_item5.style.display = 'none';
@@ -127,15 +128,15 @@ const hastouchscreen = (function has() {
       res_para3.innerHTML = 'NB-IoT/LET-M Solutions and Use Cases';
       res_item1_img.src = 'images/video_1.jpg';
       res_item3_img.src = 'images/video_2.jpg';
-      res_item1.style = 'padding:30px 0 0 0;';
-      res_item3.style = 'padding:30px 0 0 0;';
+      res_item1.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor';
+      res_item3.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor';
       res_button.textContent = 'Download Video/Webinar ';
       res_button_slide.style = 'display:none';
       res_item4.style.display = 'none';
       res_item5.style.display = 'none';
       res_item6.style.display = 'none';
-      // res_item1.setAttribute('href','https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be')
-      // res_item3.setAttribute('href','https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be')
+      res_item1.setAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item3.setAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
     if (e.target === resource_tag_4) {
       res_item2.style = 'display:none';
@@ -1096,6 +1097,6 @@ const hastouchscreen = (function has() {
 (function banner_switch() {
   const rowf = document.querySelectorAll('.row-fluid');
   if (hastouchscreen) {
-    rowf[1].style = 'background:url(./css/css-img/580x550_banner.jpg) no-repeat;width:100%';
+    rowf[1].style = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
   }
 }());
