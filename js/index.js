@@ -109,9 +109,9 @@ const hastouchscreen = (function has() {
     }
 
     if (e.target === resource_tag_2) {
-      res_para1.innerHTML = 'Cellular Routers & Gateways <br>For Industrial IoT & Enahced Networking';
-      res_para3.innerHTML = 'WebAccess/DMP Generation2-2';
+      res_para1.innerHTML = 'Cellular Routers and Gateways For Industrial IoT and Enhanced Networking';
       res_para2.innerHTML = 'WebAccess/DMP Generation2';
+      res_para3.innerHTML = 'WebAccess/VPN';
       res_item1_img.src = 'images/brochure_1.jpg';
       res_item3_img.src = 'images/brochure_3.jpg';
       res_item2_img.src = 'images/brochure_2.jpg';
@@ -128,8 +128,8 @@ const hastouchscreen = (function has() {
       res_para3.innerHTML = 'NB-IoT/LET-M Solutions and Use Cases';
       res_item1_img.src = 'images/video_1.jpg';
       res_item3_img.src = 'images/video_2.jpg';
-      res_item1.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor';
-      res_item3.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor';
+      res_item1.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor;cursor:pointer';
+      res_item3.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor;cursor:pointer';
       res_button.textContent = 'Download Video/Webinar ';
       res_button_slide.style = 'display:none';
       res_item4.style.display = 'none';
