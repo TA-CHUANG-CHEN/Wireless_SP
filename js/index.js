@@ -56,7 +56,7 @@ const hastouchscreen = (function has() {
   const resource_tag_4 = document.querySelector('.resource-4');
   const res_button = document.querySelector('.download-button div');
   const res_button_slide = document.querySelector('.download-button');
-  res_all.addEventListener('mouseover', (e) => {
+  res_all.addEventListener('mouseenter', (e) => {
     if (e.target.closest('.res-over-view') !== null) {
       res_content.setAttribute('style', 'border:#10c5e9 1px solid;');
     }
@@ -88,6 +88,8 @@ const hastouchscreen = (function has() {
       // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
       right_arrow.style = 'visibility:visible';
       res_button.textContent = 'Download All';
+      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     } else if (e.target === resource_tag_1 && !!hastouchscreen) {
       res_para1.innerHTML = 'Advanced Industrial<br>LoRaWAN Wireless I/O Module';
       res_para2.innerHTML = 'Wzzard Edge & IIoT<br>Starter Kits Selection Guide';
@@ -106,6 +108,8 @@ const hastouchscreen = (function has() {
       // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
       right_arrow.style = 'visibility:visible';
       res_button.textContent = 'Download Leaflet';
+      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
 
     if (e.target === resource_tag_2) {
@@ -119,8 +123,8 @@ const hastouchscreen = (function has() {
       res_item4.style.display = 'none';
       res_item5.style.display = 'none';
       res_item6.style.display = 'none';
-      // res_item1.setAttribute('href','https://mega.nz/file/pw8zWCYA#DIW9c0xUOpWulyuDlqBrbG34D9VvXLTba2OwbKb3jbo')
-      // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2019/01081359.pdf')
+      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
     if (e.target === resource_tag_3) {
       res_item2.style = 'display:none';
@@ -149,6 +153,8 @@ const hastouchscreen = (function has() {
       res_item1_img.src = 'images/Success Story_1.jpg';
       res_item1.style = 'padding:30px 0 0 0;';
       res_button.innerHTML = 'Download';
+      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
   });
   res_item.addEventListener('click', (e) => {

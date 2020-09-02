@@ -105899,3 +105899,13 @@ button {
   border-radius: 4px;
   background: #dbdbdb;
 }
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+  background: linear-gradient(210deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(330deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(90deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+  background: linear-gradient(30deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(150deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(270deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #b6b6b6;
+}
