@@ -1,4 +1,4 @@
-//import '../scss/sytle.scss';
+import scss from '../scss/style.scss';
 const closest_polyfill = function(){
 if (!Element.prototype.matches) {
   Element.prototype.matches =
