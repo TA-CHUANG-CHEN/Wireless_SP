@@ -2,6 +2,5 @@
 /.Devitem/
 /.vscode/
 ./vscode
-webpack.config.js
 *.jsx
 /.folder/
