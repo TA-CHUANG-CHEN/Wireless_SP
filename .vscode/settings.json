@@ -1,24 +1,19 @@
 {
-   "liveSassCompile.settings.formats": [{
-     "format": "expanded",
-     "extensionName": ".css",
-     "savePath": "/css" //此為輸出的路徑，可以自行更改
-   }],
-   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-   //generateMap:SASS跟CSS做對應行數
-   "liveSassCompile.settings.generateMap": false,
-   //autoprefix設定
-   //這項套件會自動幫你加入前綴（Prefix）
-   //例如：-webkit- -moz- ...等
-   "liveSassCompile.settings.autoprefix": [
-     "> 1%",
-     "last 3 versions"
-   ],
-   "git.ignoreLimitWarning": true,
-   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
-   "git.enableSmartCommit": true,
-   "editor.autoIndent": "none",
-   "editor.minimap.enabled": false
- }
- 
-
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "git.ignoreLimitWarning": true,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "git.enableSmartCommit": true,
+  "editor.autoIndent": "none",
+  "editor.minimap.enabled": false
+}

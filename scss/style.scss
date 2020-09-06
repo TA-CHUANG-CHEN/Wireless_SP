@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*----------------------------------------
+  Yoursite Style
+----------------------------------------*/
+
+@import './abstracts/abstracts-dir'; //fonts, varables..
+@import './base/Base-dir'; // reset.css, font-awesome..
+@import './components/components-dir'; // button..
+@import './layouts/layout-dir'; // main pages, navbar ..
+@import './vendor/vendor-dir'; // normalize ..
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 5px;
+    background-color: $color-dark-grey;
+    height: 5px;
+    border-radius: 10px;
+    margin: 0 0 5px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: rgb(219, 219, 219);
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background:
+        linear-gradient(210deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(330deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(90deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background:
+        linear-gradient(30deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(150deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(270deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
+}
