@@ -1,6 +1,26 @@
+//import '../scss/sytle.scss';
+const closest_polyfill = function(){
+if (!Element.prototype.matches) {
+  Element.prototype.matches =
+    Element.prototype.msMatchesSelector || 
+    Element.prototype.webkitMatchesSelector;
+}
+
+if (!Element.prototype.closest) {
+  Element.prototype.closest = function(s) {
+    var el = this;
+
+    do {
+      if (Element.prototype.matches.call(el, s)) return el;
+      el = el.parentElement || el.parentNode;
+    } while (el !== null && el.nodeType === 1);
+    return null;
+  };
+}
+}()
+/* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
 /* eslint-disable camelcase */
-/* eslint-disable no-else-return */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-shadow */
 
@@ -21,15 +41,14 @@ const hastouchscreen = (function has() {
   } if ('orientation' in window) {
     hastouchscreen = true;
     return hastouchscreen;
-  } else {
-    // not recommanded userAgent
-    const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone', 'IEMobile', 'Opera Mini'];
-    const hastouchscreen = mobileDevice.some((e) => navigator.userAgent.match(e));
-    return hastouchscreen;
   }
+  // not recommanded userAgent
+  const mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone', 'IEMobile', 'Opera Mini'];
+  hastouchscreen = mobileDevice.some((e) => navigator.userAgent.match(e));
+  return hastouchscreen;
 }());
 // resources parts
-(function resources_all() {
+const resources_all = (function resources_all() {
   const res_all = document.querySelector('.res-over-view');
   const res_content = document.querySelector('.res-content');
   const res_item = document.querySelector('.res-item');
@@ -132,8 +151,10 @@ const hastouchscreen = (function has() {
       res_para3.innerHTML = 'NB-IoT/LET-M Solutions and Use Cases';
       res_item1_img.src = 'images/video_1.jpg';
       res_item3_img.src = 'images/video_2.jpg';
-      res_item1.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor;cursor:pointer';
-      res_item3.style = 'padding:30px 0 0 0;text-decoration:underline;color:currentColor;cursor:pointer';
+      res_item1.style = 'padding:30px 0 0 0;cursor:pointer';
+      res_item1.style.removeProperty = 'text-decoration';
+      res_item3.style.removeProperty = 'text-decoration';
+      res_item3.style = 'padding:30px 0 0 0;cursor:pointer';
       res_button.textContent = 'Download Video/Webinar ';
       res_button_slide.style = 'display:none';
       res_item4.style.display = 'none';
@@ -187,7 +208,7 @@ const hastouchscreen = (function has() {
   });
 }());
 // over-view parts
-(function over_view() {
+const over_view = (function over_view() {
   document.addEventListener('click', (e) => {
     const ov2_para1 = document.querySelector('.ov2-para1');
     if (!hastouchscreen) {
@@ -240,7 +261,7 @@ const hastouchscreen = (function has() {
 }());
 // 3x 66.5%
 // 2x 62%
-(function products() {
+const products = (function products() {
   const dark_bg_3 = document.getElementById('dark-bg-3');
   const factory = document.getElementById('factory');
   const ee_all = document.querySelector('.E-E-all');
@@ -281,7 +302,7 @@ const hastouchscreen = (function has() {
   });
 }());
 // products parts -factory
-(function products_fac() {
+const products_fac = (function products_fac() {
   if (!hastouchscreen) {
     document.addEventListener('click', (e) => {
       const scroll_item = document.getElementById('products-1');
@@ -504,7 +525,7 @@ const hastouchscreen = (function has() {
   }
 }());
 // products parts -E-E
-(function products_ee() {
+const products_ee = (function products_ee() {
   if (!hastouchscreen) {
     document.addEventListener('click', (e) => {
       const scroll_item = document.getElementById('products-2');
@@ -745,7 +766,7 @@ const hastouchscreen = (function has() {
   }
 }());
 // products parts -transport
-(function products_trans() {
+const products_trans = (function products_trans() {
   if (!hastouchscreen) {
     document.addEventListener('click', (e) => {
       const scroll_item = document.getElementById('products-3');
@@ -1054,7 +1075,7 @@ const hastouchscreen = (function has() {
   }
 }());
 // RWD dropdown
-(function nav_touch() {
+const nav_touch = (function nav_touch() {
   if (hastouchscreen) {
     const target_1 = document.querySelector('.nav-products>a');
     const target_2 = document.querySelectorAll('.first-layer>a');
@@ -1100,7 +1121,7 @@ const hastouchscreen = (function has() {
   }
 }());
 // 580px banner
-(function banner_switch() {
+const banner_switch = (function banner_switch() {
   const rowf = document.querySelectorAll('.row-fluid');
   if (hastouchscreen) {
     rowf[1].style = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
