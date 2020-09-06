@@ -1,130 +1,59 @@
-#proto-2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 100;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  overflow-x: visible;
-  overflow-y: visible;
-  .proto-2 {
-    @include ov-1;
-  position: relative;
-    top: initial;
-    left:  initial;
-    transform:  initial;
+#item-rwd-12-2 {
+  @include discovery-rwd;
 
-    .proto-2-title {
-      @include ov-title
+  .item-rwd-12-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-12-2-title {
+      @include discovery-rwd-title;
     }
 
-    .proto-2-flex {
-      display: flex;
+    .item-rwd-12-2-flex {
+      @include discovery-rwd-flex-1;
 
-      .proto-2-col-1 {
-        @include ov-col-1;
+      .item-rwd-12-2-col-1 {
+        @include discovery-rwd-col-1;
         height: 930px;
       }
 
-      .proto-2-col-2 {
-        @include ov-col-2
+      .item-rwd-12-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
       }
 
-      .proto-2-col-3 {
-        @include ov-col-2
+      .item-rwd-12-2-col-2 {
+        @include discovery-rwd-col-2
       }
 
-      .proto-2-col-4 {
-        @include ov-col-2
+      .item-rwd-12-2-col-3 {
+        @include discovery-rwd-col-2
       }
 
-      .proto-2-col-5 {
-        @include ov-col-2
+      .item-rwd-12-2-col-4 {
+        @include discovery-rwd-col-2
       }
 
-      .proto-2-col-6 {
-        @include ov-col-2
+      .item-rwd-12-2-col-5 {
+        @include discovery-rwd-col-2
       }
 
-      .proto-2-col-7 {
-        @include ov-col-2
+      .item-rwd-12-2-col-6 {
+        @include discovery-rwd-col-2
       }
 
-      .proto-2-col-8 {
-        @include ov-col-2
+      .item-rwd-12-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-8 {
+        @include discovery-rwd-col-2
       }
 
       .proto-overlay {
         display: flex;
-        overflow-y: visible;
-      }
-    }
-  }
-}
-#proto-2-rwd {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 100;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  overflow-x: visible;
-  overflow-y: visible;
-
-  .proto-2-rwd {
-    @include ov-rwd-1;
-  position: relative;
-    top: initial;
-    left:  initial;
-    transform:  initial;
-
-    .proto-2-rwd-title {
-      @include ov-rwd-title
-    }
-
-    .proto-2-rwd-flex {
-      display: flex;
-
-      .proto-2-rwd-col-1 {
-        @include ov-rwd-col-1;
-        height: 930px;
-      }
-
-      .proto-2-rwd-col-2 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-3 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-4 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-5 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-6 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-7 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-2-rwd-col-8 {
-        @include ov-rwd-col-2
-      }
-
-      .proto-overlay {
-        display: flex;
-        overflow-y: visible;
+        overflow-x: scroll;
       }
     }
   }

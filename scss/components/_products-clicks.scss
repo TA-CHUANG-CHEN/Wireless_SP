@@ -1,660 +1,1878 @@
-
-.item-1-1{
+.item-1-1 {
     @include discovery-1;
-    
-    .item-1-1-title{
-      @include discovery-title
+
+    .item-1-1-title {
+        @include discovery-title
     }
-    .item-1-1-flex{
-      display: flex;
-      .item-1-1-col-1{
-        @include discovery-col-1
+
+    .item-1-1-flex {
+        display: flex;
+
+        .item-1-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-1-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-1-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-1-1 {
+  @include discovery-rwd;
+
+  .item-rwd-1-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-1-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-1-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-1-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
       }
-      .item-1-1-col-2{
-        @include discovery-col-2
+
+      .item-rwd-1-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
       }
-      .item-1-1-col-3{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-2 {
+        @include discovery-rwd-col-2
       }
-      .item-1-1-col-4{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-3 {
+        @include discovery-rwd-col-2
       }
-      .item-1-1-col-5{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-4 {
+        @include discovery-rwd-col-2
       }
-      .item-1-1-col-6{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-5 {
+        @include discovery-rwd-col-2
       }
-      .item-1-1-col-7{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-6 {
+        @include discovery-rwd-col-2
       }
-      .item-1-1-col-8{
-        @include discovery-col-2
+
+      .item-rwd-1-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
       }
     }
   }
-.item-1-2{
-@include discovery-1;
+}
+.item-1-2 {
+    @include discovery-1;
 
-.item-1-2-title{
-    @include discovery-title
-}
-.item-1-2-flex{
-    display: flex;
-    .item-1-2-col-1{
-    @include discovery-col-1
-    }
-    .item-1-2-col-2{
-    @include discovery-col-2
-    }
-    .item-1-2-col-3{
-    @include discovery-col-2
-    }
-    .item-1-2-col-4{
-    @include discovery-col-2
-    }
-    .item-1-2-col-5{
-    @include discovery-col-2
-    }
-    .item-1-2-col-6{
-    @include discovery-col-2
-    }
-    .item-1-2-col-7{
-    @include discovery-col-2
-    }
-    .item-1-2-col-8{
-    @include discovery-col-2
-    }
-}
-}
-.item-2-1{
-    @include discovery-1;
-    
-    .item-2-1-title{
+    .item-1-2-title {
         @include discovery-title
     }
-    .item-2-1-flex{
+
+    .item-1-2-flex {
         display: flex;
-        .item-2-1-col-1{
-        @include discovery-col-1
-        }
-        .item-2-1-col-2{
-        @include discovery-col-2
-        }
-        .item-2-1-col-3{
-        @include discovery-col-2
-        }
-        .item-2-1-col-4{
-        @include discovery-col-2
-        }
-        .item-2-1-col-5{
-        @include discovery-col-2
-        }
-        .item-2-1-col-6{
-        @include discovery-col-2
-        }
-        .item-2-1-col-7{
-        @include discovery-col-2
-        }
-        .item-2-1-col-8{
-        @include discovery-col-2
-        }
-    }
-    }
-.item-2-2{
-    @include discovery-1;
-    //
-    .item-2-2-title{
-        @include discovery-title
-    }
-    .item-2-2-flex{
-        display: flex;
-        .item-2-2-col-1{
-        @include discovery-col-1
-        }
-        .item-2-2-col-2{
-        @include discovery-col-2
-        }
-        .item-2-2-col-3{
-        @include discovery-col-2
-        }
-        .item-2-2-col-4{
-    
-        div:nth-child(1){
-            height: 200px;
-            display: flex;
-            justify-content: center;
-        }
-        div:nth-child(2){
-            background: $color-discovery-hover-no;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        div:nth-child(3){
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding:0 5px 0 5px;
-            
-        }
-        div:nth-child(4){
-            background: $color-discovery-hover-function;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        div:nth-child(5){
-            height: 250px;
-            position: relative;
-            ul {
-                list-style-type: none;
-                font-size: $H5-font;
-                word-break: keep-all;
-                padding: 10px 10px 0 25px;
-            }
-            ul li:before {
-                content: '-';
-                position: absolute;
-            }
-        }
-        div:nth-child(6){
-            background: $color-discovery-hover-wifi;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        div:nth-child(7){
-          padding: 0 0 0 20px;
-        }
-        div:nth-child(8){
-            background: $color-discovery-hover-link;
-            display: flex;
-        }
-        
-        @include discovery-col-2;
-        }
-        .item-2-2-col-5{
-        @include discovery-col-2
-        }
-        .item-2-2-col-6{
-        @include discovery-col-2
-        }
-        .item-2-2-col-7{
-        @include discovery-col-2
-        }
-        .item-2-2-col-8{
-        @include discovery-col-2
-        }
-    }
-    }
-.item-2-3{
-    @include discovery-1;
-    
-    .item-2-3-title{
-        @include discovery-title
-    }
-    .item-2-3-flex{
-        display: flex;
-        .item-2-3-col-1{
-        @include discovery-col-1
-        }
-        .item-2-3-col-2{
-        @include discovery-col-2
-        }
-        .item-2-3-col-3{
-        @include discovery-col-2
-        }
-        .item-2-3-col-4{
-        @include discovery-col-2
-        }
-        .item-2-3-col-5{
-        @include discovery-col-2
-        }
-        .item-2-3-col-6{
-        @include discovery-col-2
-        }
-        .item-2-3-col-7{
-        @include discovery-col-2
-        }
-        .item-2-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-2-4{
-    @include discovery-1;
-    
-    .item-2-4-title{
-        @include discovery-title
-    }
-    .item-2-4-flex{
-        display: flex;
-        .item-2-4-col-1{
-        @include discovery-col-1
-        }
-        .item-2-4-col-2{
-        @include discovery-col-2
-        }
-        .item-2-4-col-3{
-        @include discovery-col-2
-        }
-        .item-2-4-col-4{
-        @include discovery-col-2
-        }
-        .item-2-4-col-5{
-        @include discovery-col-2
-        }
-        .item-2-4-col-6{
-        @include discovery-col-2
-        }
-        .item-2-4-col-7{
-        @include discovery-col-2
-        }
-        .item-2-4-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-3-1{
-    @include discovery-1;
-    
-    .item-3-1-title{
-        @include discovery-title
-    }
-    .item-3-1-flex{
-        display: flex;
-        .item-3-1-col-1{
-        @include discovery-col-1
-        }
-        .item-3-1-col-2{
-        @include discovery-col-2
-        }
-        .item-3-1-col-3{
-        @include discovery-col-2
-        }
-        .item-3-1-col-4{
-        @include discovery-col-2
-        }
-        .item-3-1-col-5{
-        @include discovery-col-2
-        }
-        .item-3-1-col-6{
-        @include discovery-col-2
-        }
-        .item-3-1-col-7{
-        @include discovery-col-2
-        }
-        .item-3-1-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-3-2{
-    @include discovery-1;
-    
-    .item-3-2-title{
-        @include discovery-title
-    }
-    .item-3-2-flex{
-        display: flex;
-        .item-3-2-col-1{
-        @include discovery-col-1
-        }
-        .item-3-2-col-2{
-        @include discovery-col-2
-        }
-        .item-3-2-col-3{
-        @include discovery-col-2
-        }
-        .item-3-2-col-4{
-        @include discovery-col-2
-        }
-        .item-3-2-col-5{
-        @include discovery-col-2
-        }
-        .item-3-2-col-6{
-        @include discovery-col-2
-        }
-        .item-3-2-col-7{
-        @include discovery-col-2
-        }
-        .item-3-2-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-3-3{
-    @include discovery-1;
-    .item-3-3-title{
-        @include discovery-title
-    }
-    .item-3-3-flex{
-        display: flex;
-        .item-3-3-col-1{
-        @include discovery-col-1
-        }
-        .item-3-3-col-2{
-        @include discovery-col-2
-        }
-        .item-3-3-col-3{
-        @include discovery-col-2
-        }
-        .item-3-3-col-4{
-        @include discovery-col-2
-        }
-        .item-3-3-col-5{
-        @include discovery-col-2
-        }
-        .item-3-3-col-6{
-        @include discovery-col-2
-        }
-        .item-3-3-col-7{
-        @include discovery-col-2
-        }
-        .item-3-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-4-1{
-    @include discovery-1;
-    
-    .item-4-1-title{
-        @include discovery-title
-    }
-    .item-4-1-flex{
-        display: flex;
-        .item-4-1-col-1{
-        @include discovery-col-1
-        }
-        .item-4-1-col-2{
-        @include discovery-col-2
-        }
-        .item-4-1-col-3{
-        @include discovery-col-2
-        }
-        .item-4-1-col-4{
-        @include discovery-col-2
-        }
-        .item-4-1-col-5{
-        @include discovery-col-2
-        }
-        .item-4-1-col-6{
-        @include discovery-col-2
-        }
-        .item-4-1-col-7{
-        @include discovery-col-2
-        }
-        .item-4-1-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-4-2{
-    @include discovery-1;
-    
-    .item-4-2-title{
-        @include discovery-title
-    }
-    .item-4-2-flex{
-        display: flex;
-        .item-4-2-col-1{
-        @include discovery-col-1
-        }
-        .item-4-2-col-2{
-        @include discovery-col-2
-        }
-        .item-4-2-col-3{
-        @include discovery-col-2
-        }
-        .item-4-2-col-4{
-        @include discovery-col-2
-        }
-        .item-4-2-col-5{
-        @include discovery-col-2
-        }
-        .item-4-2-col-6{
-        @include discovery-col-2
-        }
-        .item-4-2-col-7{
-        @include discovery-col-2
-        }
-        .item-4-2-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-4-3{
-    @include discovery-1;
-    .item-4-3-title{
-        @include discovery-title
-    }
-    .item-4-3-flex{
-        display: flex;
-        .item-4-3-col-1{
-        @include discovery-col-1
-        }
-        .item-4-3-col-2{
-        @include discovery-col-2
-        }
-        .item-4-3-col-3{
-        @include discovery-col-2
-        }
-        .item-4-3-col-4{
-        @include discovery-col-2
-        }
-        .item-4-3-col-5{
-        @include discovery-col-2
-        }
-        .item-4-3-col-6{
-        @include discovery-col-2
-        }
-        .item-4-3-col-7{
-        @include discovery-col-2
-        }
-        .item-4-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-4-4{
-        @include discovery-1;
-        .item-4-4-title{
-            @include discovery-title
-        }
-        .item-4-4-flex{
-            display: flex;
-            .item-4-4-col-1{
+
+        .item-1-2-col-1 {
             @include discovery-col-1
-            }
-            .item-4-4-col-2{
-            @include discovery-col-2
-            }
-            .item-4-4-col-3{
-            @include discovery-col-2
-            }
-            .item-4-4-col-4{
-            @include discovery-col-2
-            }
-            .item-4-4-col-5{
-            @include discovery-col-2
-            }
-            .item-4-4-col-6{
-            @include discovery-col-2
-            }
-            .item-4-4-col-7{
-            @include discovery-col-2
-            }
-            .item-4-4-col-8{
-            @include discovery-col-2
-            }
         }
+
+        .item-1-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-1-2-col-8 {
+            @include discovery-col-2
+        }
+    }
 }
-.item-4-5{
+#item-rwd-1-2 {
+  @include discovery-rwd;
+
+  .item-rwd-1-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-1-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-1-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-1-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-1-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-1-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-1-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+.item-2-1 {
     @include discovery-1;
-    .item-4-5-title{
+
+    .item-2-1-title {
         @include discovery-title
     }
-    .item-4-5-flex{
+
+    .item-2-1-flex {
         display: flex;
-        .item-4-5-col-1{
-        @include discovery-col-1
+
+        .item-2-1-col-1 {
+            @include discovery-col-1
         }
-        .item-4-5-col-2{
-        @include discovery-col-2
+
+        .item-2-1-col-2 {
+            @include discovery-col-2
         }
-        .item-4-5-col-3{
-        @include discovery-col-2
+
+        .item-2-1-col-3 {
+            @include discovery-col-2
         }
-        .item-4-5-col-4{
-        @include discovery-col-2
+
+        .item-2-1-col-4 {
+            @include discovery-col-2
         }
-        .item-4-5-col-5{
-        @include discovery-col-2
+
+        .item-2-1-col-5 {
+            @include discovery-col-2
         }
-        .item-4-5-col-6{
-        @include discovery-col-2
+
+        .item-2-1-col-6 {
+            @include discovery-col-2
         }
-        .item-4-5-col-7{
-        @include discovery-col-2
+
+        .item-2-1-col-7 {
+            @include discovery-col-2
         }
-        .item-4-5-col-8{
-        @include discovery-col-2
+
+        .item-2-1-col-8 {
+            @include discovery-col-2
         }
     }
 }
-.item-5-1{
-@include discovery-1;
-.item-5-1-title{
-@include discovery-title
-}
-.item-5-1-flex{
-display: flex;
-.item-5-1-col-1{
-@include discovery-col-1
-}
-.item-5-1-col-2{
-@include discovery-col-2
-}
-.item-5-1-col-3{
-@include discovery-col-2
-}
-.item-5-1-col-4{
-@include discovery-col-2
-}
-.item-5-1-col-5{
-@include discovery-col-2
-}
-.item-5-1-col-6{
-@include discovery-col-2
-}
-.item-5-1-col-7{
-@include discovery-col-2
-}
-.item-5-1-col-8{
-@include discovery-col-2
-}
-}
-}
-.item-6-1{
-@include discovery-1;
-.item-6-1-title{
-    @include discovery-title
-}
-.item-6-1-flex{
-    display: flex;
-    .item-6-1-col-1{
-    @include discovery-col-1
+#item-rwd-2-1 {
+  @include discovery-rwd;
+
+  .item-rwd-2-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-2-1-title {
+      @include discovery-rwd-title;
     }
-    .item-6-1-col-2{
-    @include discovery-col-2
+
+    .item-rwd-2-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-2-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-2-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-2-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
     }
-    .item-6-1-col-3{
-    @include discovery-col-2
-    }
-    .item-6-1-col-4{
-    @include discovery-col-2
-    }
-    .item-6-1-col-5{
-    @include discovery-col-2
-    }
-    .item-6-1-col-6{
-    @include discovery-col-2
-    }
-    .item-6-1-col-7{
-    @include discovery-col-2
-    }
-    .item-6-1-col-8{
-    @include discovery-col-2
-    }
+  }
 }
-}
-.item-7-1{
+
+.item-2-2 {
     @include discovery-1;
-    .item-7-1-title{
+
+    //
+    .item-2-2-title {
         @include discovery-title
     }
-    .item-7-1-flex{
+
+    .item-2-2-flex {
         display: flex;
-        .item-7-1-col-1{
-        @include discovery-col-1
+
+        .item-2-2-col-1 {
+            @include discovery-col-1
         }
-        .item-7-1-col-2{
-        @include discovery-col-2
+
+        .item-2-2-col-2 {
+            @include discovery-col-2
         }
-        .item-7-1-col-3{
-        @include discovery-col-2
+
+        .item-2-2-col-3 {
+            @include discovery-col-2
         }
-        .item-7-1-col-4{
-        @include discovery-col-2
+
+        .item-2-2-col-4 {
+
+            div:nth-child(1) {
+                height: 200px;
+                display: flex;
+                justify-content: center;
+            }
+
+            div:nth-child(2) {
+                background: $color-discovery-hover-no;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            div:nth-child(3) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 0 5px 0 5px;
+
+            }
+
+            div:nth-child(4) {
+                background: $color-discovery-hover-function;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            div:nth-child(5) {
+                height: 250px;
+                position: relative;
+
+                ul {
+                    list-style-type: none;
+                    font-size: $H5-font;
+                    word-break: keep-all;
+                    padding: 10px 10px 0 25px;
+                }
+
+                ul li:before {
+                    content: '-';
+                    position: absolute;
+                }
+            }
+
+            div:nth-child(6) {
+                background: $color-discovery-hover-wifi;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            div:nth-child(7) {
+                padding: 0 0 0 20px;
+            }
+
+            div:nth-child(8) {
+                background: $color-discovery-hover-link;
+                display: flex;
+            }
+
+            @include discovery-col-2;
         }
-        .item-7-1-col-5{
-        @include discovery-col-2
+
+        .item-2-2-col-5 {
+            @include discovery-col-2
         }
-        .item-7-1-col-6{
-        @include discovery-col-2
+
+        .item-2-2-col-6 {
+            @include discovery-col-2
         }
-        .item-7-1-col-7{
-        @include discovery-col-2
+
+        .item-2-2-col-7 {
+            @include discovery-col-2
         }
-        .item-7-1-col-8{
-        @include discovery-col-2
+
+        .item-2-2-col-8 {
+            @include discovery-col-2
         }
     }
+}
+#item-rwd-2-2 {
+  @include discovery-rwd;
+
+  .item-rwd-2-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-2-2-title {
+      @include discovery-rwd-title;
     }
-.item-8-1{
+
+    .item-rwd-2-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-2-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-2-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-2-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-2-3 {
     @include discovery-1;
-    .item-8-1-title{
+
+    .item-2-3-title {
         @include discovery-title
     }
-    .item-8-1-flex{
+
+    .item-2-3-flex {
         display: flex;
-        .item-8-1-col-1{
-        @include discovery-col-1
+
+        .item-2-3-col-1 {
+            @include discovery-col-1
         }
-        .item-8-1-col-2{
-        @include discovery-col-2
+
+        .item-2-3-col-2 {
+            @include discovery-col-2
         }
-        .item-8-1-col-3{
-        @include discovery-col-2
+
+        .item-2-3-col-3 {
+            @include discovery-col-2
         }
-        .item-8-1-col-4{
-        @include discovery-col-2
+
+        .item-2-3-col-4 {
+            @include discovery-col-2
         }
-        .item-8-1-col-5{
-            width: 300px !important; 
-            div:nth-child(1){
+
+        .item-2-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-2-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-2-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-2-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-2-3 {
+  @include discovery-rwd;
+
+  .item-rwd-2-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-2-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-2-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-2-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-2-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-2-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-2-4 {
+    @include discovery-1;
+
+    .item-2-4-title {
+        @include discovery-title
+    }
+
+    .item-2-4-flex {
+        display: flex;
+
+        .item-2-4-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-2-4-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-2-4-col-3 {
+            @include discovery-col-2;
+
+        }
+
+        .item-2-4-col-3 ul {
+            list-style: none;
+        }
+
+        .item-2-4-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-2-4-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-2-4-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-2-4-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-2-4-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-2-4 {
+  @include discovery-rwd;
+
+  .item-rwd-2-4 {
+    @include discovery-rwd-1;
+
+    .item-rwd-2-4-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-2-4-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-2-4-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-2-4-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-2-4-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-2-4-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-3-1 {
+    @include discovery-1;
+
+    .item-3-1-title {
+        @include discovery-title
+    }
+
+    .item-3-1-flex {
+        display: flex;
+
+        .item-3-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-3-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-3-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-3-1 {
+  @include discovery-rwd;
+
+  .item-rwd-3-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-3-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-3-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-3-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-3-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-3-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-3-2 {
+    @include discovery-1;
+
+    .item-3-2-title {
+        @include discovery-title
+    }
+
+    .item-3-2-flex {
+        display: flex;
+
+        .item-3-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-3-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-3-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-3-2 {
+  @include discovery-rwd;
+
+  .item-rwd-3-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-3-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-3-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-3-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-3-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-3-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-3-3 {
+    @include discovery-1;
+
+    .item-3-3-title {
+        @include discovery-title
+    }
+
+    .item-3-3-flex {
+        display: flex;
+
+        .item-3-3-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-3-3-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-3-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-3-3 {
+  @include discovery-rwd;
+
+  .item-rwd-3-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-3-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-3-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-3-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-3-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-3-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-3-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-4-1 {
+    @include discovery-1;
+
+    .item-4-1-title {
+        @include discovery-title
+    }
+
+    .item-4-1-flex {
+        display: flex;
+
+        .item-4-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-4-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-4-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-4-1 {
+  @include discovery-rwd;
+
+  .item-rwd-4-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-4-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-4-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-4-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-4-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-4-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-4-2 {
+    @include discovery-1;
+
+    .item-4-2-title {
+        @include discovery-title
+    }
+
+    .item-4-2-flex {
+        display: flex;
+
+        .item-4-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-4-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-4-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-4-2 {
+  @include discovery-rwd;
+
+  .item-rwd-4-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-4-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-4-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-4-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-4-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-4-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-4-3 {
+    @include discovery-1;
+
+    .item-4-3-title {
+        @include discovery-title
+    }
+
+    .item-4-3-flex {
+        display: flex;
+
+        .item-4-3-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-4-3-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-4-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-4-3 {
+  @include discovery-rwd;
+
+  .item-rwd-4-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-4-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-4-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-4-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-4-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-4-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-4-4 {
+    @include discovery-1;
+
+    .item-4-4-title {
+        @include discovery-title
+    }
+
+    .item-4-4-flex {
+        display: flex;
+
+        .item-4-4-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-4-4-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-4-4-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-4-4 {
+  @include discovery-rwd;
+
+  .item-rwd-4-4 {
+    @include discovery-rwd-1;
+
+    .item-rwd-4-4-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-4-4-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-4-4-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-4-4-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-4-4-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-4-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-4-5 {
+    @include discovery-1;
+
+    .item-4-5-title {
+        @include discovery-title
+    }
+
+    .item-4-5-flex {
+        display: flex;
+
+        .item-4-5-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-4-5-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-4-5-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-4-5 {
+  @include discovery-rwd;
+
+  .item-rwd-4-5 {
+    @include discovery-rwd-1;
+
+    .item-rwd-4-5-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-4-5-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-4-5-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-4-5-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-4-5-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-4-5-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-5-1 {
+    @include discovery-1;
+
+    .item-5-1-title {
+        @include discovery-title
+    }
+
+    .item-5-1-flex {
+        display: flex;
+
+        .item-5-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-5-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-5-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-5-1 {
+  @include discovery-rwd;
+
+  .item-rwd-5-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-5-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-5-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-5-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-5-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-5-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-5-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-6-1 {
+    @include discovery-1;
+
+    .item-6-1-title {
+        @include discovery-title
+    }
+
+    .item-6-1-flex {
+        display: flex;
+
+        .item-6-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-6-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-6-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-6-1 {
+  @include discovery-rwd;
+
+  .item-rwd-6-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-6-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-6-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-6-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-6-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-6-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-6-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-7-1 {
+    @include discovery-1;
+
+    .item-7-1-title {
+        @include discovery-title
+    }
+
+    .item-7-1-flex {
+        display: flex;
+
+        .item-7-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-7-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-7-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-7-1 {
+  @include discovery-rwd;
+
+  .item-rwd-7-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-7-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-7-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-7-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-7-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-7-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-7-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-8-1 {
+    @include discovery-1;
+
+    .item-8-1-title {
+        @include discovery-title
+    }
+
+    .item-8-1-flex {
+        display: flex;
+
+        .item-8-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-8-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-8-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-8-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-8-1-col-5 {
+            width: 300px !important;
+
+            div:nth-child(1) {
                 height: 200px;
                 width: 300px;
                 display: flex;
                 justify-content: center;
             }
-            div:nth-child(2){
+
+            div:nth-child(2) {
                 background: $color-discovery-hover-no;
                 display: flex;
                 align-items: center;
@@ -662,16 +1880,18 @@ display: flex;
                 text-align: center;
                 width: 300px;
             }
-            div:nth-child(3){
+
+            div:nth-child(3) {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
                 width: 300px;
-                padding:0 5px 0 5px;
-                
+                padding: 0 5px 0 5px;
+
             }
-            div:nth-child(4){
+
+            div:nth-child(4) {
                 background: $color-discovery-hover-function;
                 display: flex;
                 align-items: center;
@@ -679,23 +1899,27 @@ display: flex;
                 text-align: center;
                 width: 300px;
             }
-            div:nth-child(5){
+
+            div:nth-child(5) {
                 height: 250px;
                 width: 300px;
                 position: relative;
+
                 ul {
                     list-style-type: none;
                     font-size: $H5-font;
                     word-break: keep-all;
                     padding: 10px 10px 0 25px;
                 }
+
                 ul li:before {
                     content: '-';
                     position: absolute;
                     margin-left: -15px;
                 }
             }
-            div:nth-child(6){
+
+            div:nth-child(6) {
                 background: $color-discovery-hover-wifi;
                 display: flex;
                 align-items: center;
@@ -703,107 +1927,255 @@ display: flex;
                 width: 300px;
                 text-align: center;
             }
-            div:nth-child(7){
-              padding: 0 0 0 40px;
-              width: 300px;
+
+            div:nth-child(7) {
+                padding: 0 0 0 40px;
+                width: 300px;
             }
-            div:nth-child(8){
+
+            div:nth-child(8) {
                 background: $color-discovery-hover-link;
                 display: flex;
                 width: 300px;
             }
-            
+
             @include discovery-col-2;
-            }
-        .item-8-1-col-6{
-        @include discovery-col-2
         }
-        .item-8-1-col-7{
-        @include discovery-col-2
+
+        .item-8-1-col-6 {
+            @include discovery-col-2
         }
-        .item-8-1-col-8{
-        @include discovery-col-2
+
+        .item-8-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-8-1-col-8 {
+            @include discovery-col-2
         }
     }
 }
-.item-8-2{
+#item-rwd-8-1 {
+  @include discovery-rwd;
+
+  .item-rwd-8-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-8-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-8-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-8-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-8-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-8-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-8-2 {
     @include discovery-1;
-    
-    .item-8-2-title{
+
+    .item-8-2-title {
         @include discovery-title
     }
-    .item-8-2-flex{
+
+    .item-8-2-flex {
         display: flex;
-        .proto-2-scroll{
+
+        .proto-2-scroll {
             display: flex;
             overflow-y: hidden;
-            overflow-x:hidden;
+            overflow-x: hidden;
             height: auto;
-          }
-        .item-8-2-col-1{
+        }
+
+        .item-8-2-col-1 {
             height: 750px;
-        @include discovery-col-1
+            @include discovery-col-1
         }
-        .item-8-2-col-2{
-        @include discovery-col-2;
-        .item-image{
-            padding: 0 0 0 50px;
-       }
+
+        .item-8-2-col-2 {
+            @include discovery-col-2;
+
+            .item-image {
+                padding: 0 0 0 50px;
+            }
         }
-        .item-8-2-col-3{
-        @include discovery-col-2;
+
+        .item-8-2-col-3 {
+            @include discovery-col-2;
         }
-        .item-8-2-col-4{
-        @include discovery-col-2
+
+        .item-8-2-col-4 {
+            @include discovery-col-2
         }
-        .item-8-2-col-5{
-        @include discovery-col-2
+
+        .item-8-2-col-5 {
+            @include discovery-col-2
         }
-        .item-8-2-col-6{
-        @include discovery-col-2
+
+        .item-8-2-col-6 {
+            @include discovery-col-2
         }
-        .item-8-2-col-7{
-        @include discovery-col-2
+
+        .item-8-2-col-7 {
+            @include discovery-col-2
         }
-        .item-8-2-col-8{
-        @include discovery-col-2
+
+        .item-8-2-col-8 {
+            @include discovery-col-2
         }
-        .proto-overlay{
+
+        .proto-overlay {
             display: flex;
-            width:210*5px;
+            width: 210*5px;
             overflow-x: scroll;
-            
-          }
+
+        }
     }
 }
-.item-8-3{
+#item-rwd-8-2 {
+  @include discovery-rwd;
+
+  .item-rwd-8-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-8-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-8-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-8-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-8-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-8-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-8-3 {
     @include discovery-1;
-    .item-8-3-title{
+
+    .item-8-3-title {
         @include discovery-title
     }
-    .item-8-3-flex{
+
+    .item-8-3-flex {
         display: flex;
-        .item-8-3-col-1{
-        @include discovery-col-1
+
+        .item-8-3-col-1 {
+            @include discovery-col-1
         }
-        .item-8-3-col-2{
-        @include discovery-col-2
+
+        .item-8-3-col-2 {
+            @include discovery-col-2
         }
-        .item-8-3-col-3{
-        @include discovery-col-2
+
+        .item-8-3-col-3 {
+            @include discovery-col-2
         }
-        .item-8-3-col-4{
-        @include discovery-col-2
+
+        .item-8-3-col-4 {
+            @include discovery-col-2
         }
-        .item-8-3-col-5{
-            width: 300px !important; 
-            div:nth-child(1){
+
+        .item-8-3-col-5 {
+            width: 300px !important;
+
+            div:nth-child(1) {
                 height: 200px;
                 width: 300px;
                 display: flex;
                 justify-content: center;
             }
-            div:nth-child(2){
+
+            div:nth-child(2) {
                 background: $color-discovery-hover-no;
                 display: flex;
                 align-items: center;
@@ -811,16 +2183,18 @@ display: flex;
                 text-align: center;
                 width: 300px;
             }
-            div:nth-child(3){
+
+            div:nth-child(3) {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
                 width: 300px;
-                padding:0 5px 0 5px;
-                
+                padding: 0 5px 0 5px;
+
             }
-            div:nth-child(4){
+
+            div:nth-child(4) {
                 background: $color-discovery-hover-function;
                 display: flex;
                 align-items: center;
@@ -828,23 +2202,27 @@ display: flex;
                 text-align: center;
                 width: 300px;
             }
-            div:nth-child(5){
+
+            div:nth-child(5) {
                 height: 250px;
                 width: 300px;
                 position: relative;
+
                 ul {
                     list-style-type: none;
                     font-size: $H5-font;
                     word-break: keep-all;
                     padding: 10px 10px 0 25px;
                 }
+
                 ul li:before {
                     content: '-';
                     position: absolute;
                     margin-left: -15px;
                 }
             }
-            div:nth-child(6){
+
+            div:nth-child(6) {
                 background: $color-discovery-hover-wifi;
                 display: flex;
                 align-items: center;
@@ -852,520 +2230,1567 @@ display: flex;
                 width: 300px;
                 text-align: center;
             }
-            div:nth-child(7){
-              padding: 0 0 0 40px;
-              width: 300px;
+
+            div:nth-child(7) {
+                padding: 0 0 0 40px;
+                width: 300px;
             }
-            div:nth-child(8){
+
+            div:nth-child(8) {
                 background: $color-discovery-hover-link;
                 display: flex;
                 width: 300px;
             }
-            
+
             @include discovery-col-2;
-            }
-        .item-8-3-col-6{
-        @include discovery-col-2
         }
-        .item-8-3-col-7{
-        @include discovery-col-2
-        }
-        .item-8-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-9-1{
-    @include discovery-1;
-    
-    .item-9-1-title{
-        @include discovery-title
-    }
-    .item-9-1-flex{
-        display: flex;
-        .item-9-1-col-1{
-        @include discovery-col-1
-        }
-        .item-9-1-col-2{
-        @include discovery-col-2
-        }
-        .item-9-1-col-3{
-        @include discovery-col-2
-        }
-        .item-9-1-col-4{
-        @include discovery-col-2
-        }
-        .item-9-1-col-5{
-        @include discovery-col-2
-        }
-        .item-9-1-col-6{
-        @include discovery-col-2
-        }
-        .item-9-1-col-7{
-        @include discovery-col-2
-        }
-        .item-9-1-col-8{
-        @include discovery-col-2
-        }
-}
-}
-.item-9-2{
-    @include discovery-1;
-    
-    .item-9-2-title{
-        @include discovery-title
-    }
-    .item-9-2-flex{
-        display: flex;
-        .item-9-2-col-1{
-        @include discovery-col-1
-        }
-        .item-9-2-col-2{
-        @include discovery-col-2
-        }
-        .item-9-2-col-3{
-        @include discovery-col-2
-        }
-        .item-9-2-col-4{
-        @include discovery-col-2
-        }
-        .item-9-2-col-5{
-        @include discovery-col-2
-        }
-        .item-9-2-col-6{
-        @include discovery-col-2
-        }
-        .item-9-2-col-7{
-        @include discovery-col-2
-        }
-        .item-9-2-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-9-3{
-    @include discovery-1;
-    
-    .item-9-3-title{
-        @include discovery-title
-    }
-    .item-9-3-flex{
-        display: flex;
-        .item-9-3-col-1{
-        @include discovery-col-1
-        }
-        .item-9-3-col-2{
-        @include discovery-col-2
-        }
-        .item-9-3-col-3{
-        @include discovery-col-2
-        }
-        .item-9-3-col-4{
-        @include discovery-col-2
-        }
-        .item-9-3-col-5{
-        @include discovery-col-2
-        }
-        .item-9-3-col-6{
-        @include discovery-col-2
-        }
-        .item-9-3-col-7{
-        @include discovery-col-2
-        }
-        .item-9-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-10-1{
-    @include discovery-1;
-    
-    .item-10-1-title{
-        @include discovery-title
-    }
-    .item-10-1-flex{
-        display: flex;
-        .item-10-1-col-1{
-        @include discovery-col-1
-        }
-        .item-10-1-col-2{
-        @include discovery-col-2
-        }
-        .item-10-1-col-3{
-        @include discovery-col-2
-        }
-        .item-10-1-col-4{
-        @include discovery-col-2
-        }
-        .item-10-1-col-5{
-        @include discovery-col-2
-        }
-        .item-10-1-col-6{
-        @include discovery-col-2
-        }
-        .item-10-1-col-7{
-        @include discovery-col-2
-        }
-        .item-10-1-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-10-2{
-@include discovery-1;
 
-.item-10-2-title{
-    @include discovery-title
-}
-.item-10-2-flex{
-    display: flex;
-    .item-10-2-col-1{
-    @include discovery-col-1
-    }
-    .item-10-2-col-2{
-    @include discovery-col-2
-    }
-    .item-10-2-col-3{
-    @include discovery-col-2
-    }
-    .item-10-2-col-4{
-    @include discovery-col-2
-    }
-    .item-10-2-col-5{
-    @include discovery-col-2
-    }
-    .item-10-2-col-6{
-    @include discovery-col-2
-    }
-    .item-10-2-col-7{
-    @include discovery-col-2
-    }
-    .item-10-2-col-8{
-    @include discovery-col-2
-    }
-}
-}
-.item-10-3{
-    @include discovery-1;
-    
-    .item-10-3-title{
-        @include discovery-title
-    }
-    .item-10-3-flex{
-        display: flex;
-        .item-10-3-col-1{
-        @include discovery-col-1
+        .item-8-3-col-6 {
+            @include discovery-col-2
         }
-        .item-10-3-col-2{
-        @include discovery-col-2
-        }
-        .item-10-3-col-3{
-        @include discovery-col-2
-        }
-        .item-10-3-col-4{
-        @include discovery-col-2
-        }
-        .item-10-3-col-5{
-        @include discovery-col-2
-        }
-        .item-10-3-col-6{
-        @include discovery-col-2
-        }
-        .item-10-3-col-7{
-        @include discovery-col-2
-        }
-        .item-10-3-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-10-4{
-    @include discovery-1;
-    
-    .item-10-4-title{
-        @include discovery-title
-    }
-    .item-10-4-flex{
-        display: flex;
-        .item-10-4-col-1{
-        @include discovery-col-1
-        }
-        .item-10-4-col-2{
-        @include discovery-col-2
-        }
-        .item-10-4-col-3{
-        @include discovery-col-2
-        }
-        .item-10-4-col-4{
-        @include discovery-col-2
-        }
-        .item-10-4-col-5{
-        @include discovery-col-2
-        }
-        .item-10-4-col-6{
-        @include discovery-col-2
-        }
-        .item-10-4-col-7{
-        @include discovery-col-2
-        }
-        .item-10-4-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-10-5{
-    @include discovery-1;
-    
-    .item-10-5-title{
-        @include discovery-title
-    }
-    .item-10-5-flex{
-        display: flex;
-        .item-10-5-col-1{
-        @include discovery-col-1
-        }
-        .item-10-5-col-2{
-        @include discovery-col-2
-        }
-        .item-10-5-col-3{
-        @include discovery-col-2
-        }
-        .item-10-5-col-4{
-        @include discovery-col-2
-        }
-        .item-10-5-col-5{
-        @include discovery-col-2
-        }
-        .item-10-5-col-6{
-        @include discovery-col-2
-        }
-        .item-10-5-col-7{
-        @include discovery-col-2
-        }
-        .item-10-5-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-11-1{
-    @include discovery-1;
-    
-    .item-11-1-title{
-        @include discovery-title
-    }
-    .item-11-1-flex{
-        display: flex;
-        .item-11-1-col-1{
-        @include discovery-col-1
-        }
-        .item-11-1-col-2{
-        @include discovery-col-2
-        }
-        .item-11-1-col-3{
-        @include discovery-col-2
-        }
-        .item-11-1-col-4{
-        @include discovery-col-2
-        }
-        .item-11-1-col-5{
-        @include discovery-col-2
-        }
-        .item-11-1-col-6{
-        @include discovery-col-2
-        }
-        .item-11-1-col-7{
-        @include discovery-col-2
-        }
-        .item-11-1-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-11-2{
-@include discovery-1;
 
-.item-11-2-title{
-@include discovery-title
-}
-.item-11-2-flex{
-display: flex;
-.item-11-2-col-1{
-@include discovery-col-1
-}
-.item-11-2-col-2{
-@include discovery-col-2
-}
-.item-11-2-col-3{
-@include discovery-col-2
-}
-.item-11-2-col-4{
-@include discovery-col-2
-}
-.item-11-2-col-5{
-@include discovery-col-2
-}
-.item-11-2-col-6{
-@include discovery-col-2
-}
-.item-11-2-col-7{
-@include discovery-col-2
-}
-.item-11-2-col-8{
-@include discovery-col-2
-}
-}
-}
-.item-11-3{
-@include discovery-1;
+        .item-8-3-col-7 {
+            @include discovery-col-2
+        }
 
-.item-11-3-title{
-    @include discovery-title
-}
-.item-11-3-flex{
-    display: flex;
-    .item-11-3-col-1{
-    @include discovery-col-1
-    }
-    .item-11-3-col-2{
-    @include discovery-col-2
-    }
-    .item-11-3-col-3{
-    @include discovery-col-2
-    }
-    .item-11-3-col-4{
-    @include discovery-col-2
-    }
-    .item-11-3-col-5{
-    @include discovery-col-2
-    }
-    .item-11-3-col-6{
-    @include discovery-col-2
-    }
-    .item-11-3-col-7{
-    @include discovery-col-2
-    }
-    .item-11-3-col-8{
-    @include discovery-col-2
+        .item-8-3-col-8 {
+            @include discovery-col-2
+        }
     }
 }
-}
-.item-11-4{
-    @include discovery-1;
-    
-    .item-11-4-title{
-    @include discovery-title
+#item-rwd-8-3 {
+  @include discovery-rwd;
+
+  .item-rwd-8-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-8-3-title {
+      @include discovery-rwd-title;
     }
-    .item-11-4-flex{
-    display: flex;
-    .item-11-4-col-1{
-    @include discovery-col-1
-    }
-    .item-11-4-col-2{
-    @include discovery-col-2
-    }
-    .item-11-4-col-3{
-    @include discovery-col-2
-    }
-    .item-11-4-col-4{
-    @include discovery-col-2
-    }
-    .item-11-4-col-5{
-    @include discovery-col-2
-    }
-    .item-11-4-col-6{
-    @include discovery-col-2
-    }
-    .item-11-4-col-7{
-    @include discovery-col-2
-    }
-    .item-11-4-col-8{
-    @include discovery-col-2
-    }
-    }
-    }
-.item-12-1{
-    @include discovery-1;
-    
-    .item-12-1-title{
-        @include discovery-title
-    }
-    .item-12-1-flex{
+
+    .item-rwd-8-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-8-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-8-3-scroll {
         display: flex;
-        .item-12-1-col-1{
-        @include discovery-col-1
-        }
-        .item-12-1-col-2{
-        @include discovery-col-2
-        }
-        .item-12-1-col-3{
-        @include discovery-col-2
-        }
-        .item-12-1-col-4{
-        @include discovery-col-2
-        }
-        .item-12-1-col-5{
-        @include discovery-col-2
-        }
-        .item-12-1-col-6{
-        @include discovery-col-2
-        }
-        .item-12-1-col-7{
-        @include discovery-col-2
-        }
-        .item-12-1-col-8{
-        @include discovery-col-2
-        }
-    }
-}
-.item-12-2{
-    @include discovery-1;
-    
-    .item-12-2-title{
-        @include discovery-title
-    }
-    .item-12-2-flex{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-8-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-8-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
         display: flex;
-        .item-12-2-col-1{
-        @include discovery-col-1
-        }
-        .item-12-2-col-2{
-        @include discovery-col-2
-        }
-        .item-12-2-col-3{
-        @include discovery-col-2
-        }
-        .item-12-2-col-4{
-        @include discovery-col-2
-        }
-        .item-12-2-col-5{
-        @include discovery-col-2
-        }
-        .item-12-2-col-6{
-        @include discovery-col-2
-        }
-        .item-12-2-col-7{
-        @include discovery-col-2
-        }
-        .item-12-2-col-8{
-        @include discovery-col-2
-        }
+        overflow-x: scroll;
+      }
     }
+  }
 }
 
-.items-display{
+.item-9-1 {
+    @include discovery-1;
+
+    .item-9-1-title {
+        @include discovery-title
+    }
+
+    .item-9-1-flex {
+        display: flex;
+
+        .item-9-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-9-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-9-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-9-1 {
+  @include discovery-rwd;
+
+  .item-rwd-9-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-9-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-9-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-9-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-9-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-9-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-9-2 {
+    @include discovery-1;
+
+    .item-9-2-title {
+        @include discovery-title
+    }
+
+    .item-9-2-flex {
+        display: flex;
+
+        .item-9-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-9-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-9-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-9-2 {
+  @include discovery-rwd;
+
+  .item-rwd-9-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-9-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-9-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-9-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-9-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-9-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-9-3 {
+    @include discovery-1;
+
+    .item-9-3-title {
+        @include discovery-title
+    }
+
+    .item-9-3-flex {
+        display: flex;
+
+        .item-9-3-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-9-3-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-9-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-9-3 {
+  @include discovery-rwd;
+
+  .item-rwd-9-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-9-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-9-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-9-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-9-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-9-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-9-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-10-1 {
+    @include discovery-1;
+
+    .item-10-1-title {
+        @include discovery-title
+    }
+
+    .item-10-1-flex {
+        display: flex;
+
+        .item-10-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-10-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-10-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-10-1 {
+  @include discovery-rwd;
+
+  .item-rwd-10-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-10-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-10-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-10-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-10-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-10-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-10-2 {
+    @include discovery-1;
+
+    .item-10-2-title {
+        @include discovery-title
+    }
+
+    .item-10-2-flex {
+        display: flex;
+
+        .item-10-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-10-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-10-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-10-2 {
+  @include discovery-rwd;
+
+  .item-rwd-10-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-10-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-10-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-10-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-10-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-10-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-10-3 {
+    @include discovery-1;
+
+    .item-10-3-title {
+        @include discovery-title
+    }
+
+    .item-10-3-flex {
+        display: flex;
+
+        .item-10-3-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-10-3-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-10-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-10-3 {
+  @include discovery-rwd;
+
+  .item-rwd-10-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-10-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-10-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-10-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-10-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-10-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-10-4 {
+    @include discovery-1;
+
+    .item-10-4-title {
+        @include discovery-title
+    }
+
+    .item-10-4-flex {
+        display: flex;
+
+        .item-10-4-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-10-4-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-10-4-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-10-4 {
+  @include discovery-rwd;
+
+  .item-rwd-10-4 {
+    @include discovery-rwd-1;
+
+    .item-rwd-10-4-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-10-4-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-10-4-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-10-4-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-10-4-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-4-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-10-5 {
+    @include discovery-1;
+
+    .item-10-5-title {
+        @include discovery-title
+    }
+
+    .item-10-5-flex {
+        display: flex;
+
+        .item-10-5-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-10-5-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-10-5-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-10-5 {
+  @include discovery-rwd;
+
+  .item-rwd-10-5 {
+    @include discovery-rwd-1;
+
+    .item-rwd-10-5-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-10-5-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-10-5-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-10-5-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-10-5-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-10-5-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-11-1 {
+    @include discovery-1;
+
+    .item-11-1-title {
+        @include discovery-title
+    }
+
+    .item-11-1-flex {
+        display: flex;
+
+        .item-11-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-11-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-11-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-11-1 {
+  @include discovery-rwd;
+
+  .item-rwd-11-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-11-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-11-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-11-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-11-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-11-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-11-2 {
+    @include discovery-1;
+
+    .item-11-2-title {
+        @include discovery-title
+    }
+
+    .item-11-2-flex {
+        display: flex;
+
+        .item-11-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-11-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-11-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-11-2 {
+  @include discovery-rwd;
+
+  .item-rwd-11-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-11-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-11-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-11-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-11-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-11-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-11-3 {
+    @include discovery-1;
+
+    .item-11-3-title {
+        @include discovery-title
+    }
+
+    .item-11-3-flex {
+        display: flex;
+
+        .item-11-3-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-11-3-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-11-3-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-11-3 {
+  @include discovery-rwd;
+
+  .item-rwd-11-3 {
+    @include discovery-rwd-1;
+
+    .item-rwd-11-3-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-11-3-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-11-3-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-11-3-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-11-3-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-3-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-11-4 {
+    @include discovery-1;
+
+    .item-11-4-title {
+        @include discovery-title
+    }
+
+    .item-11-4-flex {
+        display: flex;
+
+        .item-11-4-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-11-4-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-11-4-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-11-4 {
+  @include discovery-rwd;
+
+  .item-rwd-11-4 {
+    @include discovery-rwd-1;
+
+    .item-rwd-11-4-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-11-4-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-11-4-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-11-4-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-11-4-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-11-4-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-12-1 {
+    @include discovery-1;
+
+    .item-12-1-title {
+        @include discovery-title
+    }
+
+    .item-12-1-flex {
+        display: flex;
+
+        .item-12-1-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-12-1-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-12-1-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-12-1 {
+  @include discovery-rwd;
+
+  .item-rwd-12-1 {
+    @include discovery-rwd-1;
+
+    .item-rwd-12-1-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-12-1-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-12-1-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-12-1-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-12-1-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-1-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.item-12-2 {
+    @include discovery-1;
+
+    .item-12-2-title {
+        @include discovery-title
+    }
+
+    .item-12-2-flex {
+        display: flex;
+
+        .item-12-2-col-1 {
+            @include discovery-col-1
+        }
+
+        .item-12-2-col-2 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-3 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-4 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-5 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-6 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-7 {
+            @include discovery-col-2
+        }
+
+        .item-12-2-col-8 {
+            @include discovery-col-2
+        }
+    }
+}
+#item-rwd-12-2 {
+  @include discovery-rwd;
+
+  .item-rwd-12-2 {
+    @include discovery-rwd-1;
+
+    .item-rwd-12-2-title {
+      @include discovery-rwd-title;
+    }
+
+    .item-rwd-12-2-flex {
+      @include discovery-rwd-flex-1;
+
+      .item-rwd-12-2-col-1 {
+        @include discovery-rwd-col-1;
+        height: 930px;
+      }
+
+      .item-rwd-12-2-scroll {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: auto;
+      }
+
+      .item-rwd-12-2-col-2 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-3 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-4 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-5 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-6 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-7 {
+        @include discovery-rwd-col-2
+      }
+
+      .item-rwd-12-2-col-8 {
+        @include discovery-rwd-col-2
+      }
+
+      .proto-overlay {
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.items-display {
     display: none;
 }
-#dark-bg-2{
+
+#dark-bg-2 {
     opacity: 90%;
     position: absolute;
-    background:$color-dark-grey;
-    z-index:500;
+    background: $color-dark-grey;
+    z-index: 500;
     display: none;
 }
-#dark-bg-3{
+
+#dark-bg-3 {
     opacity: 60%;
     position: absolute;
-    background:$color-dark-grey;
-    z-index:50;
+    background: $color-dark-grey;
+    z-index: 50;
     display: none;
 }

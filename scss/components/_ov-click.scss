@@ -1,27 +1,5 @@
 // over-view seven items clicks
-#proto-1-rwd {
-  @include ov-rwd;
 
-  .proto-1-rwd {
-    @include ov-rwd-1;
-
-    .proto-1-rwd-title {
-      @include ov-rwd-title;
-    }
-
-    .proto-1-rwd-flex {
-      display: flex;
-
-      .proto-1-rwd-col-1 {
-        @include ov-rwd-col-1;
-      }
-
-      .proto-1-rwd-col-2 {
-        @include ov-rwd-col-2;
-      }
-    }
-  }
-}
 #proto-1 {
   position: absolute;
   height: 1050px;
@@ -52,6 +30,31 @@
     }
   }
 }
+
+#proto-1-rwd {
+  @include ov-rwd;
+
+  .proto-1-rwd {
+    @include ov-rwd-1;
+
+    .proto-1-rwd-title {
+      @include ov-rwd-title;
+    }
+
+    .proto-1-rwd-flex {
+      display: flex;
+
+      .proto-1-rwd-col-1 {
+        @include ov-rwd-col-1;
+      }
+
+      .proto-1-rwd-col-2 {
+        @include ov-rwd-col-2;
+      }
+    }
+  }
+}
+
 #proto-2 {
   position: absolute;
   height: 1060px;
@@ -229,6 +232,7 @@
     }
   }
 }
+
 #proto-3-rwd {
   @include ov-rwd;
 
@@ -337,6 +341,7 @@
     }
   }
 }
+
 #proto-4-rwd {
   @include ov-rwd;
 
@@ -373,6 +378,7 @@
     }
   }
 }
+
 #proto-5 {
   position: absolute;
   height: 1050px;
@@ -419,6 +425,7 @@
     }
   }
 }
+
 #proto-5-rwd {
   @include ov-rwd;
 
@@ -455,6 +462,7 @@
     }
   }
 }
+
 #proto-6 {
   position: absolute;
   height: 1050px;
@@ -501,6 +509,7 @@
     }
   }
 }
+
 #proto-6-rwd {
   @include ov-rwd;
 
@@ -598,6 +607,7 @@
     }
   }
 }
+
 #proto-7-rwd {
   @include ov-rwd;
 
@@ -631,9 +641,14 @@
       .proto-7-rwd-col-5 {
         @include ov-rwd-col-2
       }
+
+      .proto-7-rwd-col-6 {
+        @include ov-rwd-col-2
+      }
     }
   }
 }
+
 .proto-display {
   display: none;
 }
