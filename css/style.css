@@ -63121,6 +63121,10 @@ template {
   margin-top: 5px;
 }
 
+.item-8-2 .item-8-2-flex .item-8-2-col-2 .item-image {
+  padding: 0 0 0 50px;
+}
+
 .item-8-2 .item-8-2-flex .item-8-2-col-3 {
   display: -webkit-box;
   display: -ms-flexbox;
