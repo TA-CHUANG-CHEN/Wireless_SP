@@ -26,7 +26,7 @@
 // over-view-click-table-1- column
 @mixin ov-1 {
     //border: $color-ov-hover-border solid px;
-    z-index: 1000;
+    z-index: 9999;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -212,7 +212,7 @@
     top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 100;
+    z-index: 9999;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -223,7 +223,7 @@
 
 @mixin ov-rwd-1 {
     //border: $color-ov-hover-border solid px;
-    z-index: 1000;
+    z-index: 9999;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -241,7 +241,7 @@
 
     @media(max-width: 580px) {
         //border: $color-ov-hover-border solid px;
-        z-index: 1000;
+        z-index: 9999;
         overflow-x: visible;
         overflow-y: visible;
         word-break: keep-all;
@@ -571,7 +571,7 @@
 
 @mixin discovery-1 {
     word-break: keep-all;
-    z-index: 1000;
+    z-index: 9999;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -758,7 +758,7 @@
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 900;
+    z-index: 9999;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -769,7 +769,7 @@
 
 @mixin discovery-rwd-1 {
     //border: $color-discovery-hover-border solid px;
-    z-index: 1000;
+    z-index: 9999;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -787,7 +787,7 @@
 
     @media(max-width: 580px) {
         //border: $color-discovery-hover-border solid px;
-        z-index: 1000;
+        z-index: 9999;
         overflow-x: visible;
         overflow-y: visible;
         word-break: keep-all;
