@@ -1,23 +1,23 @@
 import scss from '../scss/style.scss';
-const closest_polyfill = function(){
-if (!Element.prototype.matches) {
-  Element.prototype.matches =
-    Element.prototype.msMatchesSelector || 
-    Element.prototype.webkitMatchesSelector;
-}
+(function () {
+  if (!Element.prototype.matches) {
+    Element.prototype.matches =
+      Element.prototype.msMatchesSelector ||
+      Element.prototype.webkitMatchesSelector;
+  }
 
-if (!Element.prototype.closest) {
-  Element.prototype.closest = function(s) {
-    var el = this;
+  if (!Element.prototype.closest) {
+    Element.prototype.closest = function (s) {
+      var el = this;
 
-    do {
-      if (Element.prototype.matches.call(el, s)) return el;
-      el = el.parentElement || el.parentNode;
-    } while (el !== null && el.nodeType === 1);
-    return null;
-  };
-}
-}()
+      do {
+        if (Element.prototype.matches.call(el, s)) return el;
+        el = el.parentElement || el.parentNode;
+      } while (el !== null && el.nodeType === 1);
+      return null;
+    };
+  }
+}())
 /* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
 /* eslint-disable camelcase */
@@ -412,8 +412,9 @@ const products_fac = (function products_fac() {
         item_3_3.style = 'display:none'; dark_bg_2.style.display = 'none'; close_icon_2.style.display = 'none';
       }
     });
+    break
   }
-  if (hastouchscreen) {
+  else if (hastouchscreen) {
     document.addEventListener('click', (e) => {
       const item_1_1_1 = document.querySelector('#item-1-1-1');
       const scroll_item = document.getElementById('products-1');
@@ -644,8 +645,9 @@ const products_ee = (function products_ee() {
         item_8_3.style = 'display:none'; dark_bg_2.style.display = 'none'; close_icon_2.style.display = 'none';
       }
     });
+    break
   }
-  if (hastouchscreen) {
+  else if (hastouchscreen) {
     document.addEventListener('click', (e) => {
       const item_4_1_1 = document.querySelector('#item-4-1-1');
       const item_4_1_2 = document.querySelector('#item-4-1-2');
