@@ -37,213 +37,225 @@ main {
         }
     }
 
-    .product1 {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        margin: 50px 20px 0 20px;
+    #products {
+        width: 100%;
 
-        .factory1-img {
-            background: url('./css-img/Factory_1.jpg') no-repeat center center;
-            background-size: cover;
-            height: 350px;
-            width: 100%;
-            max-width: 100%;
-        }
-
-        .factory-auto {
-            background-color: $color-dark-bg-white;
+        .product1 {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            font-size: $H4-font;
-            word-wrap: break-word;
-            line-height: 1.3em;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 20px 0 20px;
 
-            .factory-para1 {
-                margin: 40px 52px 0 52px;
-                hyphens: auto;
+            .factory1-img {
+                background: url('./css-img/Factory_1.jpg') no-repeat center center;
+                background-size: cover;
+                height: 350px;
+                width: 372px;
+                max-width: 100%;
             }
 
-            .factory-icon {
+            .factory-auto {
+                background-color: $color-dark-bg-white;
                 display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-                height: 210px;
-                width: 100%;
-                font-weight: bold;
-                color: $color-advanblue;
-                margin: 20px 0 0 0;
+                flex-direction: column;
+                align-items: flex-start;
+                font-size: $H4-font;
+                word-wrap: break-word;
+                line-height: 1.3em;
+                width: 800px;
+                height: 350px;
 
-                .factory-1 {
-                    background-image: url('./css-img/Factory_icon_1.jpg');
-                    background-repeat: no-repeat;
-                    width: 150px;
-                    padding: 105px 0 0 10px;
-                    margin: 0 0 0 60px;
+                .factory-para1 {
+                    hyphens: auto;
+                    max-width: 100%;
+                    padding: 40px 30px 0 30px;
+                    box-sizing: border-box;
                 }
 
-                .factory-2 {
-                    background-image: url('./css-img/Factory_icon_2.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 50% 1%;
-                    width: 180px;
-                    padding: 105px 0 0 30px;
-                    margin: 0 0 0 50px;
-                }
+                .factory-icon {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 210px;
+                    width: 100%;
+                    font-weight: bold;
+                    color: $color-advanblue;
+                    margin: 20px 0 0 0;
 
-                .factory-3 {
-                    background-image: url('./css-img/Factory_icon_3.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 70% 1%;
-                    width: 200px;
-                    padding: 105px 0 0 20px;
-                    margin: 20px 50px 0 40px;
-                    text-align: center;
+                    .factory-1 {
+                        background-image: url('./css-img/Factory_icon_1.jpg');
+                        background-repeat: no-repeat;
+                        width: 150px;
+                        padding: 105px 0 0 10px;
+                        margin: 0 0 0 20px;
+                    }
+
+                    .factory-2 {
+                        background-image: url('./css-img/Factory_icon_2.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 50% 1%;
+                        width: 180px;
+                        padding: 105px 0 0 30px;
+                        margin: 0 0 0 50px;
+                    }
+
+                    .factory-3 {
+                        background-image: url('./css-img/Factory_icon_3.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 70% 1%;
+                        width: 200px;
+                        padding: 105px 0 0 20px;
+                        margin: 20px 50px 0 40px;
+                        text-align: center;
+                    }
                 }
             }
         }
-    }
 
-    .product2 {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        margin: 30px 20px 0 20px;
-
-        .E-E-img {
-            background: url('./css-img/E_E_1.jpg')no-repeat center center;
-            background-size: cover;
-            height: 350px;
-            width: 372px;
-            max-width: 100%;
-        }
-
-        .E-E {
-            background-color: $color-dark-bg-white;
+        .product2 {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 800px;
-            height: 100%;
-            font-size: $H4-font;
-            line-height: 1.3em;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 20px 0 20px;
 
-            .E-E-para1 {
-                margin: 40px 52px 0 52px;
+            .E-E-img {
+                background: url('./css-img/E_E_1.jpg')no-repeat center center;
+                background-size: cover;
+                height: 350px;
+                width: 372px;
+                max-width: 100%;
             }
 
-            .E-E-icon {
+            .E-E {
+                background-color: $color-dark-bg-white;
                 display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-                height: 210px;
-                width: 100%;
-                font-weight: bold;
-                color: $color-advanblue;
-                margin: 0 0 0 0;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 800px;
+                height: 350px;
+                font-size: $H4-font;
+                line-height: 1.3em;
 
-                .E-E-1 {
-                    background-image: url('./css-img/E_E_icon_1.jpg');
-                    background-repeat: no-repeat;
-                    width: 150px;
-                    padding: 105px 0 0 10px;
-                    margin: 0 0 0 60px;
+                .E-E-para1 {
+                    padding: 40px 30px 0 30px;
+                    box-sizing: border-box;
+                    max-width: 100%;
                 }
 
-                .E-E-2 {
-                    background-image: url('./css-img/E_E_icon_2.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 50% 1%;
-                    width: 180px;
-                    padding: 105px 0 0 30px;
-                    margin: 0 0 0 50px;
-                }
+                .E-E-icon {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 210px;
+                    width: 100%;
+                    font-weight: bold;
+                    color: $color-advanblue;
+                    margin: 0 0 0 0;
 
-                .E-E-3 {
-                    background-image: url('./css-img/E_E_icon_3.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 70% 1%;
-                    width: 200px;
-                    padding: 105px 0 0 20px;
-                    margin: 20px 50px 0 40px;
-                    text-align: center;
+                    .E-E-1 {
+                        background-image: url('./css-img/E_E_icon_1.jpg');
+                        background-repeat: no-repeat;
+                        width: 150px;
+                        padding: 105px 0 0 10px;
+                        margin: 0 0 0 20px;
+                    }
+
+                    .E-E-2 {
+                        background-image: url('./css-img/E_E_icon_2.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 50% 1%;
+                        width: 180px;
+                        padding: 105px 0 0 30px;
+                        margin: 0 0 0 50px;
+                    }
+
+                    .E-E-3 {
+                        background-image: url('./css-img/E_E_icon_3.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 70% 1%;
+                        width: 200px;
+                        padding: 105px 0 0 20px;
+                        margin: 20px 50px 0 40px;
+                        text-align: center;
+                    }
                 }
             }
         }
-    }
 
-    .product3 {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        margin: 30px 20px 50px 20px;
-
-        .transport-img {
-            background: url('./css-img/transportation_1.jpg')no-repeat center center;
-            ;
-            background-size: cover;
-            height: 350px;
-            width: 372px;
-            max-width: 100%;
-        }
-
-        .transport {
-            background-color: $color-dark-bg-white;
+        .product3 {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 800px;
-            height: 100%;
-            font-size: $H4-font;
-            line-height: 1.3em;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 20px 50px 20px;
 
-            .transport-para1 {
-                margin: 40px 52px 0 60px;
+            .transport-img {
+                background: url('./css-img/transportation_1.jpg')no-repeat center center;
+                ;
+                background-size: cover;
+                height: 350px;
+                width: 372px;
+                max-width: 100%;
             }
 
-            .transport-icon {
+            .transport {
+                background-color: $color-dark-bg-white;
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 210px;
-                width: 100%;
-                font-weight: bold;
-                color: $color-advanblue;
-                margin: 20px 0 0 0;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 800px;
+                height: 350px;
+                font-size: $H4-font;
+                line-height: 1.3em;
 
-                .transport-1 {
-                    background-image: url('./css-img/transportation_icon_1.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 40% 1%;
-                    width: 220px;
-                    padding: 105px 20px 0 0;
-                    margin: 20px 0 0 10px;
-                    text-align: center;
+                .transport-para1 {
+                    padding: 40px 30px 0 30px;
+                    box-sizing: border-box;
+                    max-width: 100%;
                 }
 
-                .transport-2 {
-                    background-image: url('./css-img/transportation_icon_2.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 50% 1%;
-                    width: 180px;
-                    padding: 105px 0 0 30px;
-                    margin: 0 0 0 10px;
-                }
+                .transport-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 210px;
+                    width: 100%;
+                    font-weight: bold;
+                    color: $color-advanblue;
+                    margin: 20px 0 0 0;
 
-                .transport-3 {
-                    background-image: url('./css-img/transportation_icon_3.jpg');
-                    background-repeat: no-repeat;
-                    background-position: 70% 1%;
-                    width: 200px;
-                    padding: 105px 0 0 20px;
-                    margin: 20px 50px 0 40px;
-                    text-align: center;
+                    .transport-1 {
+                        background-image: url('./css-img/transportation_icon_1.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 40% 1%;
+                        width: 220px;
+                        padding: 105px 20px 0 0;
+                        margin: 20px 0 0 10px;
+                        text-align: center;
+                    }
+
+                    .transport-2 {
+                        background-image: url('./css-img/transportation_icon_2.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 50% 1%;
+                        width: 180px;
+                        padding: 105px 0 0 30px;
+                        margin: 0 0 0 10px;
+                    }
+
+                    .transport-3 {
+                        background-image: url('./css-img/transportation_icon_3.jpg');
+                        background-repeat: no-repeat;
+                        background-position: 70% 1%;
+                        width: 200px;
+                        padding: 105px 0 0 20px;
+                        margin: 20px 50px 0 40px;
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -319,6 +331,7 @@ main {
                 background: url('./css-img/Factory_1.jpg') no-repeat center center;
                 background-size: cover;
                 max-width: 100%;
+                width: 100%;
                 height: 350px;
             }
 
@@ -331,6 +344,7 @@ main {
                 word-wrap: break-word;
                 line-height: 1.3em;
                 width: 100%;
+                height: auto;
 
                 .factory-para1 {
                     margin: 20px 20px 0 20px;

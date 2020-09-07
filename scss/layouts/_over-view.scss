@@ -2,6 +2,7 @@
 #overview1{
         display: flex;
         margin-top: 70px;
+
         .ov1-title{
             display: flex;
             flex-direction: column;
@@ -20,9 +21,7 @@
                 line-height: 1.3em;
             }
         }
-        .ov1-pic{
-          width:70%;
-       }
+     
     }
 @media(max-width:580px){
     #overview1{
@@ -49,10 +48,6 @@
                 width: auto;
             }
         }
-        .ov1-pic{
-          max-width: 100%;
-          width:100%;
-       }
     }
 }
 #overview2{
@@ -112,7 +107,6 @@
     }
     .ov2-pic{
         margin: 0 0 0 35px;
-        width:100%;
     }
 }
 @media(max-width:580px){

@@ -102217,6 +102217,10 @@ template {
   overflow-x: scroll;
 }
 
+.item-image img {
+  width: 100%;
+}
+
 .items-display {
   display: none;
 }
@@ -102835,6 +102839,7 @@ template {
   font-size: 18px;
   color: #004280;
   overflow: hidden;
+  line-height: 1.3em;
 }
 
 #bg-cover {
@@ -102949,7 +102954,11 @@ main .discover-img:hover img {
   }
 }
 
-main .product1 {
+main #products {
+  width: 100%;
+}
+
+main #products .product1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102964,15 +102973,15 @@ main .product1 {
   margin: 50px 20px 0 20px;
 }
 
-main .product1 .factory1-img {
+main #products .product1 .factory1-img {
   background: url("./css-img/Factory_1.jpg") no-repeat center center;
   background-size: cover;
   height: 350px;
-  width: 100%;
+  width: 372px;
   max-width: 100%;
 }
 
-main .product1 .factory-auto {
+main #products .product1 .factory-auto {
   background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102987,16 +102996,21 @@ main .product1 .factory-auto {
   font-size: 16px;
   word-wrap: break-word;
   line-height: 1.3em;
+  width: 800px;
+  height: 350px;
 }
 
-main .product1 .factory-auto .factory-para1 {
-  margin: 40px 52px 0 52px;
+main #products .product1 .factory-auto .factory-para1 {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
+  max-width: 100%;
+  padding: 40px 30px 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-main .product1 .factory-auto .factory-icon {
+main #products .product1 .factory-auto .factory-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103015,15 +103029,15 @@ main .product1 .factory-auto .factory-icon {
   margin: 20px 0 0 0;
 }
 
-main .product1 .factory-auto .factory-icon .factory-1 {
+main #products .product1 .factory-auto .factory-icon .factory-1 {
   background-image: url("./css-img/Factory_icon_1.jpg");
   background-repeat: no-repeat;
   width: 150px;
   padding: 105px 0 0 10px;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 20px;
 }
 
-main .product1 .factory-auto .factory-icon .factory-2 {
+main #products .product1 .factory-auto .factory-icon .factory-2 {
   background-image: url("./css-img/Factory_icon_2.jpg");
   background-repeat: no-repeat;
   background-position: 50% 1%;
@@ -103032,7 +103046,7 @@ main .product1 .factory-auto .factory-icon .factory-2 {
   margin: 0 0 0 50px;
 }
 
-main .product1 .factory-auto .factory-icon .factory-3 {
+main #products .product1 .factory-auto .factory-icon .factory-3 {
   background-image: url("./css-img/Factory_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: 70% 1%;
@@ -103042,7 +103056,7 @@ main .product1 .factory-auto .factory-icon .factory-3 {
   text-align: center;
 }
 
-main .product2 {
+main #products .product2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103057,7 +103071,7 @@ main .product2 {
   margin: 30px 20px 0 20px;
 }
 
-main .product2 .E-E-img {
+main #products .product2 .E-E-img {
   background: url("./css-img/E_E_1.jpg") no-repeat center center;
   background-size: cover;
   height: 350px;
@@ -103065,7 +103079,7 @@ main .product2 .E-E-img {
   max-width: 100%;
 }
 
-main .product2 .E-E {
+main #products .product2 .E-E {
   background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103078,16 +103092,19 @@ main .product2 .E-E {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 800px;
-  height: 100%;
+  height: 350px;
   font-size: 16px;
   line-height: 1.3em;
 }
 
-main .product2 .E-E .E-E-para1 {
-  margin: 40px 52px 0 52px;
+main #products .product2 .E-E .E-E-para1 {
+  padding: 40px 30px 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
 }
 
-main .product2 .E-E .E-E-icon {
+main #products .product2 .E-E .E-E-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103106,15 +103123,15 @@ main .product2 .E-E .E-E-icon {
   margin: 0 0 0 0;
 }
 
-main .product2 .E-E .E-E-icon .E-E-1 {
+main #products .product2 .E-E .E-E-icon .E-E-1 {
   background-image: url("./css-img/E_E_icon_1.jpg");
   background-repeat: no-repeat;
   width: 150px;
   padding: 105px 0 0 10px;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 20px;
 }
 
-main .product2 .E-E .E-E-icon .E-E-2 {
+main #products .product2 .E-E .E-E-icon .E-E-2 {
   background-image: url("./css-img/E_E_icon_2.jpg");
   background-repeat: no-repeat;
   background-position: 50% 1%;
@@ -103123,7 +103140,7 @@ main .product2 .E-E .E-E-icon .E-E-2 {
   margin: 0 0 0 50px;
 }
 
-main .product2 .E-E .E-E-icon .E-E-3 {
+main #products .product2 .E-E .E-E-icon .E-E-3 {
   background-image: url("./css-img/E_E_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: 70% 1%;
@@ -103133,7 +103150,7 @@ main .product2 .E-E .E-E-icon .E-E-3 {
   text-align: center;
 }
 
-main .product3 {
+main #products .product3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103148,7 +103165,7 @@ main .product3 {
   margin: 30px 20px 50px 20px;
 }
 
-main .product3 .transport-img {
+main #products .product3 .transport-img {
   background: url("./css-img/transportation_1.jpg") no-repeat center center;
   background-size: cover;
   height: 350px;
@@ -103156,7 +103173,7 @@ main .product3 .transport-img {
   max-width: 100%;
 }
 
-main .product3 .transport {
+main #products .product3 .transport {
   background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103169,16 +103186,19 @@ main .product3 .transport {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 800px;
-  height: 100%;
+  height: 350px;
   font-size: 16px;
   line-height: 1.3em;
 }
 
-main .product3 .transport .transport-para1 {
-  margin: 40px 52px 0 60px;
+main #products .product3 .transport .transport-para1 {
+  padding: 40px 30px 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
 }
 
-main .product3 .transport .transport-icon {
+main #products .product3 .transport .transport-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103195,7 +103215,7 @@ main .product3 .transport .transport-icon {
   margin: 20px 0 0 0;
 }
 
-main .product3 .transport .transport-icon .transport-1 {
+main #products .product3 .transport .transport-icon .transport-1 {
   background-image: url("./css-img/transportation_icon_1.jpg");
   background-repeat: no-repeat;
   background-position: 40% 1%;
@@ -103205,7 +103225,7 @@ main .product3 .transport .transport-icon .transport-1 {
   text-align: center;
 }
 
-main .product3 .transport .transport-icon .transport-2 {
+main #products .product3 .transport .transport-icon .transport-2 {
   background-image: url("./css-img/transportation_icon_2.jpg");
   background-repeat: no-repeat;
   background-position: 50% 1%;
@@ -103214,7 +103234,7 @@ main .product3 .transport .transport-icon .transport-2 {
   margin: 0 0 0 10px;
 }
 
-main .product3 .transport .transport-icon .transport-3 {
+main #products .product3 .transport .transport-icon .transport-3 {
   background-image: url("./css-img/transportation_icon_3.jpg");
   background-repeat: no-repeat;
   background-position: 70% 1%;
@@ -103323,6 +103343,7 @@ main .product3 .transport .transport-icon .transport-3 {
     background: url("./css-img/Factory_1.jpg") no-repeat center center;
     background-size: cover;
     max-width: 100%;
+    width: 100%;
     height: 350px;
   }
   main .product1 .factory-auto {
@@ -103341,6 +103362,7 @@ main .product3 .transport .transport-icon .transport-3 {
     word-wrap: break-word;
     line-height: 1.3em;
     width: 100%;
+    height: auto;
   }
   main .product1 .factory-auto .factory-para1 {
     margin: 20px 20px 0 20px;
@@ -104455,10 +104477,6 @@ main .product3 .transport .transport-icon .transport-3 {
   line-height: 1.3em;
 }
 
-#overview1 .ov1-pic {
-  width: 70%;
-}
-
 @media (max-width: 580px) {
   #overview1 {
     display: -webkit-box;
@@ -104496,10 +104514,6 @@ main .product3 .transport .transport-icon .transport-3 {
         -ms-hyphens: auto;
             hyphens: auto;
     width: auto;
-  }
-  #overview1 .ov1-pic {
-    max-width: 100%;
-    width: 100%;
   }
 }
 
@@ -104734,7 +104748,6 @@ main .product3 .transport .transport-icon .transport-3 {
 
 #overview2 .ov2-pic {
   margin: 0 0 0 35px;
-  width: 100%;
 }
 
 @media (max-width: 580px) {
