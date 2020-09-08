@@ -123,7 +123,7 @@
     font-size: $H5-font;
     justify-content: center;
     align-items: center;
-    width: 210px;
+    max-width: 100%;
     box-sizing: border-box;
 
     >div {
@@ -577,6 +577,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
+
     a {
         color: black;
     }
@@ -663,7 +664,7 @@
     font-size: $H5-font;
     justify-content: center;
     align-items: center;
-    width: 210px;
+    max-width: 100%;
     box-sizing: border-box;
 
     >div {
@@ -810,7 +811,7 @@
     color: white;
     box-sizing: border-box;
     text-align: center;
-padding: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
 
 @mixin discovery-rwd-flex-1 {

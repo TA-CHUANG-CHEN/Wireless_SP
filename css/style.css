@@ -3890,7 +3890,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4510,6 +4510,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-1 {
@@ -4591,6 +4592,13 @@ template {
   overflow-y: hidden;
   overflow-x: hidden;
   height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+#proto-2 .proto-2 .proto-2-flex .proto-overlay {
+  max-width: 100%;
+  width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-2 {
@@ -4611,9 +4619,10 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-2 > div {
@@ -4735,9 +4744,10 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-3 > div {
@@ -4859,7 +4869,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -4983,7 +4993,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5107,7 +5117,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5231,7 +5241,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -5355,7 +5365,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7526,7 +7536,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7650,7 +7660,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7774,7 +7784,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7898,7 +7908,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8022,7 +8032,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8146,7 +8156,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8270,7 +8280,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10434,7 +10444,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10558,7 +10568,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10682,7 +10692,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10806,7 +10816,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -10930,7 +10940,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -11054,7 +11064,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -11178,7 +11188,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12612,7 +12622,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12736,7 +12746,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12860,7 +12870,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12984,7 +12994,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -13108,7 +13118,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -14542,7 +14552,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -14666,7 +14676,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -14790,7 +14800,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -14914,7 +14924,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -15038,7 +15048,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16483,7 +16493,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16607,7 +16617,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16731,7 +16741,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16855,7 +16865,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16979,7 +16989,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -18666,7 +18676,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -18812,7 +18822,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -18958,7 +18968,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -19104,7 +19114,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -19250,7 +19260,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -19396,7 +19406,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -19542,7 +19552,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21119,7 +21129,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21265,7 +21275,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21411,7 +21421,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21557,7 +21567,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21703,7 +21713,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21849,7 +21859,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -21995,7 +22005,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -23572,7 +23582,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -23718,7 +23728,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -23864,7 +23874,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24010,7 +24020,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24156,7 +24166,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24302,7 +24312,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24448,7 +24458,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26025,7 +26035,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26171,7 +26181,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26317,7 +26327,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26557,7 +26567,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26703,7 +26713,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26849,7 +26859,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -26995,7 +27005,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -28572,7 +28582,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -28718,7 +28728,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -28864,7 +28874,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29010,7 +29020,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29156,7 +29166,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29302,7 +29312,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29448,7 +29458,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31025,7 +31035,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31171,7 +31181,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31321,7 +31331,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31467,7 +31477,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31613,7 +31623,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31759,7 +31769,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -31905,7 +31915,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -33482,7 +33492,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -33628,7 +33638,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -33774,7 +33784,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -33920,7 +33930,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -34066,7 +34076,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -34212,7 +34222,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -34358,7 +34368,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -35935,7 +35945,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36081,7 +36091,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36227,7 +36237,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36373,7 +36383,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36519,7 +36529,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36665,7 +36675,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -36811,7 +36821,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -38388,7 +38398,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -38534,7 +38544,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -38680,7 +38690,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -38826,7 +38836,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -38972,7 +38982,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -39118,7 +39128,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -39264,7 +39274,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -40841,7 +40851,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -40987,7 +40997,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41133,7 +41143,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41279,7 +41289,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41425,7 +41435,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41571,7 +41581,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -41717,7 +41727,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -43294,7 +43304,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -43440,7 +43450,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -43586,7 +43596,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -43732,7 +43742,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -43878,7 +43888,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -44024,7 +44034,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -44170,7 +44180,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -45747,7 +45757,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -45893,7 +45903,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46039,7 +46049,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46185,7 +46195,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46331,7 +46341,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46477,7 +46487,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46623,7 +46633,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48200,7 +48210,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48346,7 +48356,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48492,7 +48502,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48638,7 +48648,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48784,7 +48794,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -48930,7 +48940,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -49076,7 +49086,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -50653,7 +50663,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -50799,7 +50809,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -50945,7 +50955,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51091,7 +51101,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51237,7 +51247,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51383,7 +51393,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51529,7 +51539,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53106,7 +53116,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53252,7 +53262,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53398,7 +53408,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53544,7 +53554,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53690,7 +53700,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53836,7 +53846,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -53982,7 +53992,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -55559,7 +55569,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -55705,7 +55715,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -55851,7 +55861,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -55997,7 +56007,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -56143,7 +56153,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -56289,7 +56299,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -56435,7 +56445,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58012,7 +58022,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58158,7 +58168,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58304,7 +58314,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58450,7 +58460,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58596,7 +58606,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58742,7 +58752,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -58888,7 +58898,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -60465,7 +60475,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -60611,7 +60621,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -60757,7 +60767,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -60904,7 +60914,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -61152,7 +61162,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -61298,7 +61308,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -61444,7 +61454,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63031,7 +63041,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63181,7 +63191,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63327,7 +63337,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63473,7 +63483,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63619,7 +63629,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63765,7 +63775,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -63911,7 +63921,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -65496,7 +65506,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -65642,7 +65652,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -65788,7 +65798,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -65935,7 +65945,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -66183,7 +66193,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -66329,7 +66339,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -66475,7 +66485,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68052,7 +68062,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68198,7 +68208,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68344,7 +68354,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68490,7 +68500,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68636,7 +68646,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68782,7 +68792,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -68928,7 +68938,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -70505,7 +70515,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -70651,7 +70661,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -70797,7 +70807,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -70943,7 +70953,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -71089,7 +71099,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -71235,7 +71245,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -71381,7 +71391,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -72958,7 +72968,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73104,7 +73114,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73250,7 +73260,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73396,7 +73406,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73542,7 +73552,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73688,7 +73698,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -73834,7 +73844,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -75411,7 +75421,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -75557,7 +75567,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -75703,7 +75713,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -75849,7 +75859,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -75995,7 +76005,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -76141,7 +76151,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -76287,7 +76297,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -77864,7 +77874,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78010,7 +78020,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78156,7 +78166,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78302,7 +78312,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78448,7 +78458,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78594,7 +78604,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -78740,7 +78750,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -80317,7 +80327,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -80463,7 +80473,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -80609,7 +80619,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -80755,7 +80765,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -80901,7 +80911,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -81047,7 +81057,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -81193,7 +81203,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -82770,7 +82780,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -82916,7 +82926,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83062,7 +83072,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83208,7 +83218,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83354,7 +83364,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83500,7 +83510,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -83646,7 +83656,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85223,7 +85233,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85369,7 +85379,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85515,7 +85525,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85661,7 +85671,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85807,7 +85817,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -85953,7 +85963,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -86099,7 +86109,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -87676,7 +87686,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -87822,7 +87832,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -87968,7 +87978,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -88114,7 +88124,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -88260,7 +88270,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -88406,7 +88416,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -88552,7 +88562,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90129,7 +90139,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90275,7 +90285,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90421,7 +90431,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90567,7 +90577,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90713,7 +90723,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -90859,7 +90869,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -91005,7 +91015,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -92582,7 +92592,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -92728,7 +92738,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -92874,7 +92884,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -93020,7 +93030,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -93166,7 +93176,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -93312,7 +93322,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -93458,7 +93468,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95035,7 +95045,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95181,7 +95191,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95327,7 +95337,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95473,7 +95483,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95619,7 +95629,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95765,7 +95775,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -95911,7 +95921,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -97488,7 +97498,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -97634,7 +97644,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -97780,7 +97790,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -97926,7 +97936,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -98072,7 +98082,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -98218,7 +98228,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -98364,7 +98374,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -99941,7 +99951,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100087,7 +100097,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100233,7 +100243,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100379,7 +100389,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100525,7 +100535,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100671,7 +100681,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -100817,7 +100827,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 210px;
+  max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -104086,13 +104096,14 @@ main .product3 .transport .transport-icon .transport-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: calc(100%);
   text-align: center;
   height: 700px;
   font-weight: bold;
@@ -104264,7 +104275,8 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 2px 0 0 5px;
 }
 
-#product-offer .product-flex .view-buy .view-more-text, #product-offer .product-flex .view-buy .buy-now-text {
+#product-offer .product-flex .view-buy .view-more-text,
+#product-offer .product-flex .view-buy .buy-now-text {
   position: relative;
   z-index: 1;
   color: #FFFFFF;
@@ -104471,7 +104483,8 @@ main .product3 .transport .transport-icon .transport-3 {
     width: 60px;
     margin: 2px 0 0 5px;
   }
-  #product-offer .product-flex .view-buy .view-more-text, #product-offer .product-flex .view-buy .buy-now-text {
+  #product-offer .product-flex .view-buy .view-more-text,
+  #product-offer .product-flex .view-buy .buy-now-text {
     position: relative;
     z-index: 1;
     color: #FFFFFF;
@@ -105014,7 +105027,7 @@ main .product3 .transport .transport-icon .transport-3 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  margin: 100px 0 100px 0;
+  margin: 120px 0 100px 0;
   overflow: hidden;
 }
 
@@ -105155,11 +105168,10 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 40px 0 30px 0;
   color: #005582;
   font-weight: bold;
-}
-
-.res-content .res-item a {
-  color: black;
-  text-decoration: none;
+  -webkit-text-decoration-color: block;
+          text-decoration-color: block;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .res-content .res-item .res-item-1 {
@@ -105310,14 +105322,15 @@ main .product3 .transport .transport-icon .transport-3 {
 }
 
 .right-arrow > img {
-  height: 50x;
+  height: 50px;
   width: 50px;
   margin: 80px 20px 0 0;
   cursor: pointer;
+  visibility: visible;
 }
 
 .left-arrow > img {
-  height: 50x;
+  height: 50px;
   width: 50px;
   margin: 80px 0 0 20px;
   cursor: pointer;
@@ -105494,10 +105507,6 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 40px 0 30px 0;
     color: #005582;
     font-weight: bold;
-  }
-  .res-content .res-item a {
-    color: black;
-    text-decoration: none;
   }
   .res-content .res-item .res-item-1 {
     display: -webkit-box;

@@ -1,22 +1,22 @@
 //import '../scss/sytle.scss';
-const closest_polyfill = function(){
-if (!Element.prototype.matches) {
-  Element.prototype.matches =
-    Element.prototype.msMatchesSelector || 
-    Element.prototype.webkitMatchesSelector;
-}
+const closest_polyfill = function () {
+  if (!Element.prototype.matches) {
+    Element.prototype.matches =
+      Element.prototype.msMatchesSelector ||
+      Element.prototype.webkitMatchesSelector;
+  }
 
-if (!Element.prototype.closest) {
-  Element.prototype.closest = function(s) {
-    var el = this;
+  if (!Element.prototype.closest) {
+    Element.prototype.closest = function (s) {
+      var el = this;
 
-    do {
-      if (Element.prototype.matches.call(el, s)) return el;
-      el = el.parentElement || el.parentNode;
-    } while (el !== null && el.nodeType === 1);
-    return null;
-  };
-}
+      do {
+        if (Element.prototype.matches.call(el, s)) return el;
+        el = el.parentElement || el.parentNode;
+      } while (el !== null && el.nodeType === 1);
+      return null;
+    };
+  }
 }()
 /* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
@@ -57,6 +57,7 @@ const resources_all = (function resources_all() {
   const res_item1 = document.querySelector('.res-item-1');
   const res_item2 = document.querySelector('.res-item-2');
   const res_item3 = document.querySelector('.res-item-3');
+  const res_item_a = document.querySelector('.res-item a');
   const res_item4 = document.querySelector('.res-item-4');
   const res_item5 = document.querySelector('.res-item-5');
   const res_item6 = document.querySelector('.res-item-6');
@@ -87,10 +88,10 @@ const resources_all = (function resources_all() {
   });
   res_all.addEventListener('click', (e) => {
     res_item2.style.cssText = 'display:flex';
-    left_arrow.style = 'visibility:hidden';
-    right_arrow.style = 'visibility:hidden';
-    res_item1.style = 'padding:0 0 0 0;';
-    res_item3.style = 'padding:0 0 0 0;';
+    left_arrow.style.setProperty('visibility', 'hidden');
+    right_arrow.style.setProperty('visibility', 'hidden');
+    res_item1.style.cssText = 'padding:0 0 0 0;';
+    res_item3.style.cssText = 'padding:0 0 0 0;';
     res_button_slide.style.cssText = 'display:block';
     if (e.target === resource_tag_1 && !hastouchscreen) {
       res_para1.innerHTML = 'Advanced Industrial<br>LoRaWAN Wireless I/O Module';
@@ -99,13 +100,13 @@ const resources_all = (function resources_all() {
       res_item1_img.src = 'images/leaflet_1.jpg';
       res_item2_img.src = 'images/leaflet_2.jpg';
       res_item3_img.src = 'images/leaflet_3.jpg';
-      res_item4_img.style = 'margin: 0 0 0 80px';
-      res_item5_img.style = 'margin: 0 0 0 80px';
-      res_item6_img.style = 'margin: 0 0 0 80px';
+      res_item4_img.style.cssText = 'margin: 0 0 0 80px';
+      res_item5_img.style.cssText = 'margin: 0 0 0 80px';
+      res_item6_img.style.cssText = 'margin: 0 0 0 80px';
       // res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
       // res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
       // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
-      right_arrow.style = 'visibility:visible';
+      right_arrow.style.setProperty('visibility', 'visible');
       res_button.textContent = 'Download All';
       res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
       res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
@@ -119,13 +120,13 @@ const resources_all = (function resources_all() {
       res_item4.style.display = 'block';
       res_item5.style.display = 'block';
       res_item6.style.display = 'block';
-      res_item4_img.style = 'margin: 0 0 0 80px';
-      res_item5_img.style = 'margin: 0 0 0 80px';
-      res_item6_img.style = 'margin: 0 0 0 80px';
+      res_item4_img.style.cssText = 'margin: 0 0 0 80px';
+      res_item5_img.style.cssText = 'margin: 0 0 0 80px';
+      res_item6_img.style.cssText = 'margin: 0 0 0 80px';
       // res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
       // res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
       // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
-      right_arrow.style = 'visibility:visible';
+      right_arrow.style.setProperty('visibility', 'visible');
       res_button.textContent = 'Download Leaflet';
       res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
       res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
@@ -146,36 +147,35 @@ const resources_all = (function resources_all() {
       res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
     if (e.target === resource_tag_3) {
+      res_item1.setAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item1.style.cssText = 'padding:30px 0 0 0;cursor:pointer';
+      res_item1_img.src = 'images/video_1.jpg';
       res_item2.style.cssText = 'display:none';
+      res_item3.setAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
+      res_item3.style.cssText = 'padding:30px 0 0 0;cursor:pointer';
+      res_item3_img.src = 'images/video_2.jpg';
+      res_item4.style.display = 'none';
+      res_item5.style.display = 'none';
+      res_item6.style.display = 'none';
       res_para1.innerHTML = 'WISE-4000 IoT Wireless<br> Sensor Node, Advantech (EN)';
       res_para3.innerHTML = 'NB-IoT/LET-M Solutions and Use Cases';
-      res_item1_img.src = 'images/video_1.jpg';
-      res_item3_img.src = 'images/video_2.jpg';
-      res_item1.style = 'padding:30px 0 0 0;cursor:pointer';
-      res_item1.style.removeProperty = 'text-decoration';
-      res_item3.style.removeProperty = 'text-decoration';
-      res_item3.style = 'padding:30px 0 0 0;cursor:pointer';
       res_button.textContent = 'Download Video/Webinar ';
       res_button_slide.style.cssText = 'display:none';
-      res_item4.style.display = 'none';
-      res_item5.style.display = 'none';
-      res_item6.style.display = 'none';
-      res_item1.setAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
-      res_item3.setAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
     }
     if (e.target === resource_tag_4) {
+      res_item1_img.src = 'images/Success Story_1.jpg';
+      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
+      res_item1.style.cssText = 'padding:30px 0 0 0;';
       res_item2.style.cssText = 'display:none';
       res_item3.style.cssText = 'display:none';
+      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
       res_item4.style.display = 'none';
       res_item5.style.display = 'none';
       res_item6.style.display = 'none';
-      // res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
       res_para1.innerHTML = 'Intelligent Connectivity Wireless<br>Success Stories';
-      res_item1_img.src = 'images/Success Story_1.jpg';
-      res_item1.style = 'padding:30px 0 0 0;';
       res_button.innerHTML = 'Download';
-      res_item1.removeAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
-      res_item3.removeAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
+      // res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
+
     }
   });
   res_item.addEventListener('click', (e) => {
@@ -183,21 +183,22 @@ const resources_all = (function resources_all() {
       // res_item1.setAttribute('href','https://www.dropbox.com/sh/rvgpkh0rfytxfsr/AABXMhouixyGg9F2OiVai7gga?dl=0&preview=AdvantechBB_WzzardWirelessSensingProducts_1220.pdf')
       // res_item2.setAttribute('href','https://www.dropbox.com/sh/a8idmft5jdwjddq/AAB_YKtwP3aW1NH8_GOBJOMoa?dl=0&preview=AdvantechBB_WzzardStarterKitsOverview_2120ss.pdf')
       res_item3.removeAttribute('href');
-      left_arrow.style = 'visibility:visible';
-      right_arrow.style = 'visibility:hidden';
+      left_arrow.style.setProperty('visibility', 'visible');
+      right_arrow.style.setProperty('visibility', 'hidden');
       res_para1.innerHTML = 'The Wzzard Intelligent <br>Sensing Platform';
       res_para2.innerHTML = 'Wzzard Edge & IIoT <br> Starter Kits Selection Guide    ';
       res_para3.innerHTML = 'OBD Intelligent <br>  Cellular Gateway';
       res_item1_img.src = 'images/leaflet_4.jpg';
       res_item2_img.src = 'images/leaflet_5.jpg';
       res_item3_img.src = 'images/leaflet_6.jpg';
+
     }
     if (e.target === left_arrow) {
       // res_item1.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170936.pdf')
       // res_item2.setAttribute('href','http://advcloudfiles.advantech.com/ecatalog/2018/09191348.pdf')
       // res_item3.setAttribute('href','https://advcloudfiles.advantech.com/ecatalog/2020/07170935.pdf')
-      left_arrow.style = 'visibility:hidden';
-      right_arrow.style = 'visibility:visible';
+      left_arrow.style.setProperty('visibility', 'hidden');
+      right_arrow.style.setProperty('visibility', 'visible');
       res_para1.textContent = 'Advanced IndustrialLoRaWAN Wireless I/O Module';
       res_para2.innerHTML = 'Industrial NB-IoT/LTE-M <br>Wireless I/O Module';
       res_para3.innerHTML = 'Proprietary LPWAN IoT <br>Wireless I/O Module';
@@ -1124,6 +1125,6 @@ const nav_touch = (function nav_touch() {
 const banner_switch = (function banner_switch() {
   const rowf = document.querySelectorAll('.row-fluid');
   if (hastouchscreen) {
-    rowf[1].style = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
+    rowf[1].style.cssText = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
   }
 }());

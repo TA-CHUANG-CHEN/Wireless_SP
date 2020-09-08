@@ -5,10 +5,16 @@ module.exports = {
   entry: './js/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'js')
+    path: path.resolve(__dirname, 'js'),
+    publicPath: "/js/",
   },
   mode: 'production',
   devtool: 'cheap-module-source-map ',
+  devServer: {
+    port: 9005,
+    compress: true,
+    open: true,
+  },
   module: {
     rules: [
       {
