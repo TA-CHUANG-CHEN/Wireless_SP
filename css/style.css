@@ -18520,6 +18520,7 @@ template {
   opacity: 90%;
   position: absolute;
   background: #4D4D4D;
+  background-color: rgba(77, 77, 77, 0.9);
   z-index: 50;
   display: none;
 }
@@ -102266,7 +102267,7 @@ template {
 #dark-bg-2 {
   opacity: 90%;
   position: absolute;
-  background: #4D4D4D;
+  background: rgba(77, 77, 77, 0.9);
   z-index: 500;
   display: none;
 }
@@ -102274,7 +102275,7 @@ template {
 #dark-bg-3 {
   opacity: 60%;
   position: absolute;
-  background: #4D4D4D;
+  background: rgba(77, 77, 77, 0.9);
   z-index: 50;
   display: none;
 }

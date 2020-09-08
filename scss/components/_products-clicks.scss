@@ -3825,7 +3825,7 @@
 #dark-bg-2 {
   opacity: 90%;
   position: absolute;
-  background: $color-dark-grey;
+  background: rgba(77, 77, 77, 0.9);
   z-index: 500;
   display: none;
 }
@@ -3833,7 +3833,7 @@
 #dark-bg-3 {
   opacity: 60%;
   position: absolute;
-  background: $color-dark-grey;
+  background: rgba(77, 77, 77, 0.9);
   z-index: 50;
   display: none;
 }
