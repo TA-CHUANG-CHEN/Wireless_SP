@@ -75,7 +75,6 @@
 
     .proto-2-flex {
       display: flex;
-      max-width: 100%;
 
       .proto-2-col-1 {
         @include ov-col-1;
@@ -87,23 +86,14 @@
         overflow-y: hidden;
         overflow-x: hidden;
         height: auto;
-        max-width: 100%;
-        width: 100%;
-      }
-
-      .proto-overlay {
-        max-width: 100%;
-        width: 100%;
       }
 
       .proto-2-col-2 {
-        @include ov-col-2;
-        max-width: 100%;
+        @include ov-col-2
       }
 
       .proto-2-col-3 {
-        @include ov-col-2;
-        max-width: 100%;
+        @include ov-col-2
       }
 
       .proto-2-col-4 {

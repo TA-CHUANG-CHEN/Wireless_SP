@@ -4510,7 +4510,6 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-1 {
@@ -4592,13 +4591,6 @@ template {
   overflow-y: hidden;
   overflow-x: hidden;
   height: auto;
-  max-width: 100%;
-  width: 100%;
-}
-
-#proto-2 .proto-2 .proto-2-flex .proto-overlay {
-  max-width: 100%;
-  width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-2 {
@@ -4622,7 +4614,6 @@ template {
   max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-2 > div {
@@ -4747,7 +4738,6 @@ template {
   max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 100%;
 }
 
 #proto-2 .proto-2 .proto-2-flex .proto-2-col-3 > div {
@@ -105027,7 +105017,7 @@ main .product3 .transport .transport-icon .transport-3 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  margin: 120px 0 100px 0;
+  margin: 150px 0 100px 0;
   overflow: hidden;
 }
 
@@ -105168,10 +105158,11 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 40px 0 30px 0;
   color: #005582;
   font-weight: bold;
-  -webkit-text-decoration-color: block;
-          text-decoration-color: block;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+}
+
+.res-content .res-item a {
+  color: black;
+  text-decoration: none;
 }
 
 .res-content .res-item .res-item-1 {

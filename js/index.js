@@ -148,11 +148,11 @@ const resources_all = (function resources_all() {
     }
     if (e.target === resource_tag_3) {
       res_item1.setAttribute('href', 'https://www.youtube.com/watch?v=O4Ez3dmBTe8&feature=youtu.be');
-      res_item1.style.cssText = 'padding:30px 0 0 0;cursor:pointer';
+      res_item1.style.cssText = 'text-decoration:underline;color: #007bff; padding:30px 0 0 0;cursor:pointer';
       res_item1_img.src = 'images/video_1.jpg';
       res_item2.style.cssText = 'display:none';
       res_item3.setAttribute('href', 'https://www.youtube.com/watch?v=5LrEnn6ALdM&feature=youtu.be');
-      res_item3.style.cssText = 'padding:30px 0 0 0;cursor:pointer';
+      res_item3.style.cssText = 'text-decoration:underline;color:#007bff;padding:30px 0 0 0;cursor:pointer';
       res_item3_img.src = 'images/video_2.jpg';
       res_item4.style.display = 'none';
       res_item5.style.display = 'none';

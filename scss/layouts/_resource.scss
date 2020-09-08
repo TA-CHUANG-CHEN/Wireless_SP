@@ -2,7 +2,7 @@
     font-size: $H2-PC-font;
     font-weight: bold;
     text-align: center;
-    margin: 120px 0 100px 0;
+    margin: 150px 0 100px 0;
     overflow: hidden;
 }
 
@@ -113,13 +113,15 @@
     .res-item {
         display: flex;
         align-items: center;
-        
         justify-content: space-around;
         margin: 40px 0 30px 0;
         color: $color-resources-name;
         font-weight: bold;
-        text-decoration-color: block;
-        text-decoration-line: none;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
 
         .res-item-1 {
             display: flex;
@@ -134,7 +136,6 @@
                 margin: 15px 0 0 0;
                 width: 300px;
                 font-size: $H3-font;
-
             }
         }
 
