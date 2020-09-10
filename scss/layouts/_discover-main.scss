@@ -294,6 +294,10 @@ main {
         .discover-img {
             width: 130%;
             height: auto;
+
+            img {
+                max-width: 100%;
+            }
         }
 
         .discover-img:hover img {

@@ -1,67 +1,87 @@
 // banner img
-.banner-text{
+.banner-text {
   box-sizing: border-box;
-  padding: 20px 0 0 50px ;
+  padding: 20px 0 0 50px;
   position: absolute;
-  h1{
+
+  h1 {
     font-size: $H1-PC-font;
-    color:$color-advanblue;
+    color: $color-advanblue;
     overflow: hidden;
-  };
-  h3{
+    margin: 0.67em 0;
+  }
+
+  ;
+
+  h3 {
     font-size: $H3-font;
-    color:$color-advanblue;
+    color: $color-advanblue;
     overflow: hidden;
-line-height: 1.3em;
-  };
+    line-height: 1.3em;
+  }
+
+  ;
 }
+
 // banner img color stretch
-#bg-cover{
+#bg-cover {
   position: absolute;
-  background:$color-banner-bg ;
-  background-size:  410px 410px;
+  background: $color-banner-bg;
+  background-size: 410px 410px;
   height: 430px;
   width: 100%;
   z-index: -1;
 }
+
 //RWD
-@media(max-width:580px){
- *{
-   overflow-x:hidden;
-   #advan-header{
-     padding-bottom: 5px;
-    .row-maxwidth-98pct {
+@media(max-width:580px) {
+  * {
+    overflow-x: hidden;
+
+    #advan-header {
+      padding-bottom: 5px;
+
+      .row-maxwidth-98pct {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+
+    .row-fluid {
+      background-size: contain;
+      padding: 5px 0 0 0;
+    }
+
+    .banner-text {
+      padding: 0;
+
+      h1 {
+        font-size: $H1-MB-font;
+        color: $color-advanblue;
+        overflow: hidden;
+        padding: 10px 8px 0 10px;
+      }
+
+      ;
+
+      h3 {
+        font-size: $H3-font;
+        color: $color-advanblue;
+        line-height: 20px;
+        padding: 0 8px 0 10px;
+        overflow: hidden;
+      }
+
+      ;
+    }
+
+    #bg-cover {
+      position: absolute;
+      background: $color-banner-bg;
+      background-size: cover;
+      height: auto;
       width: 100%;
-      max-width:500px;
+      z-index: -1;
     }
-   }
-   .row-fluid{
-    background-size: contain;
-    padding:5px 0 0 0;
-    }
-   .banner-text{
-     padding:0;
-    h1{
-      font-size: $H1-MB-font;
-      color:$color-advanblue;
-      overflow: hidden;
-      padding: 10px 8px 0 10px;
-    };
-    h3{
-      font-size: $H3-font;
-      color:$color-advanblue;
-      line-height: 20px;
-      padding: 0 8px 0 10px;
-      overflow: hidden;
-    };
-   }
-   #bg-cover{
-  position: absolute;
-  background:$color-banner-bg ;
-  background-size:  cover;
-  height: auto;
-  width: 100%;
-  z-index: -1;
-}
- }
+  }
 }

@@ -1,102 +1,117 @@
 //Learn more Button
-.ov-button{ 
+.ov-button {
     font-size: $H4-font;
     text-align: center;
     margin: 40px 0 0 500px;
     padding: 12px 23px 12px 23px;
     border: #00427F solid 1px;
-    color:$color-dark-bg-white;
-    background-color:$color-offer-icon;
+    color: $color-dark-bg-white;
+    background-color: $color-offer-icon;
     font-weight: bold;
     width: auto;
-    white-space:nowrap;
-    height:42px;
-    a{
-        color:$color-dark-bg-white;
+    white-space: nowrap;
+    height: 42px;
+
+    a {
+        color: $color-dark-bg-white;
         text-decoration: none;
     }
 }
-.ov-button:hover{ 
+
+.ov-button:hover {
     background-color: $color-advanblue;
 }
+
 //Learn more Button RWD
-@media(max-width:580px){
-    .ov-button{ 
+@media(max-width:580px) {
+    .ov-button {
 
         font-size: $H4-font;
         text-align: center;
         padding: 12px 23px 12px 23px;
         border: #00427F solid 1px;
-        color:$color-dark-bg-white;
-        background-color:$color-offer-icon;
+        color: $color-dark-bg-white;
+        background-color: $color-offer-icon;
         font-weight: bold;
-        white-space:nowrap;
-        margin:50px auto 0 auto;
+        white-space: nowrap;
+        margin: 50px auto 0 auto;
         max-width: 100%;
-        height:auto;
-        a{
-            color:$color-dark-bg-white;
+        height: auto;
+
+        a {
+            color: $color-dark-bg-white;
             text-decoration: none;
         }
     }
-    .ov-button:hover{ 
+
+    .ov-button:hover {
         background-color: $color-advanblue;
     }
 }
-.dmp-button{
+
+.dmp-button {
     font-size: $H4-font;
     text-align: center;
     padding: 12px 23px 12px 23px;
     border: #00427F solid 1px;
-    color:$color-dark-bg-white;
+    color: $color-dark-bg-white;
     width: auto;
     height: 42px;
-    background-color:$color-offer-icon;
+    background-color: $color-offer-icon;
     font-weight: bold;
     margin: 40px 0 80px 0;
-    a{
-        color:$color-dark-bg-white;
+
+    a {
+        color: $color-dark-bg-white;
         text-decoration: none;
     }
 }
-@media(max-width:580px){
-    .dmp-button{
+
+@media(max-width:580px) {
+    .dmp-button {
         font-size: $H4-font;
         text-align: center;
         padding: 12px 23px 12px 23px;
         border: #00427F solid 1px;
-        color:$color-dark-bg-white;
+        color: $color-dark-bg-white;
         width: auto;
         height: 42px;
-        background-color:$color-offer-icon;
+        background-color: $color-offer-icon;
         font-weight: bold;
         margin: 30px auto 60px auto;
-        a{
-            color:$color-dark-bg-white;
+        overflow-y: hidden;
+
+        a {
+            color: $color-dark-bg-white;
             text-decoration: none;
         }
     }
 }
-.download-button{ //resources download
-    background: url(./css-img/arrow.png) no-repeat ;
+
+.download-button {
+    //resources download
+    background: url(./css-img/arrow.png) no-repeat;
     background-size: 30px 25px;
     background-position: left 10px top 8px;
     color: $color-dark-bg-white;
     background-color: $color-offer-icon;
     font-size: $H4-font;
-    width:200px;
+    width: 200px;
     height: 42px;
     box-sizing: border-box;
-    text-align: center ;
+    text-align: center;
     border-style: none;
     margin: 0 0 0 500px;
-    [type="text"]{
+
+    [type="text"] {
         margin: 0 0 0 30px;
     }
 }
-@media(max-width:580px){
-    .download-button{ //resources download
-        background: url(./css-img/arrow.png) no-repeat ;
+
+@media(max-width:580px) {
+    .download-button {
+        //resources download
+        background: url(./css-img/arrow.png) no-repeat;
         background-size: 30px 25px;
         background-position: left 10px top 8px;
         color: $color-dark-bg-white;
@@ -105,134 +120,163 @@
         max-width: 100%;
         height: 42px;
         box-sizing: border-box;
-        text-align: center ;
+        text-align: center;
         border-style: none;
         margin: 0 auto 30px auto;
-        [type="text"]{
+
+        [type="text"] {
             margin: 0 0 0 30px;
         }
     }
 }
-.footer-button{//contact via email
+
+.footer-button {
+    //contact via email
     font-size: $H4-font;
     background: url(./css-img/email.png) no-repeat;
     background-size: 40px 25px;
-    background-position: left 20px top 8px ;
+    background-position: left 20px top 8px;
     background-color: $color-offer-icon;
     color: $color-dark-bg-white;
-    width:250px;
+    width: 250px;
     line-height: 40px;
     height: auto;
     text-align: center;
     border-style: none;
-    [type="text-contact"]{
+
+    [type="text-contact"] {
         margin: 0 0 0 30px;
     }
 }
-@media(max-width:580px){
-    .footer-button{
+
+@media(max-width:580px) {
+    .footer-button {
         font-size: $H4-font;
         background: url(./css-img/email.png) no-repeat;
         background-size: 40px 25px;
-        background-position: left 20px top 8px ;
+        background-position: left 20px top 8px;
         background-color: $color-offer-icon;
         color: $color-dark-bg-white;
-        max-width:100%;
+        max-width: 100%;
         line-height: 40px;
         height: auto;
         text-align: center;
         border-style: none;
         margin: 0 auto;
-        [type="text-contact"]{
+
+        [type="text-contact"] {
             margin: 0 0 0 30px;
         }
     }
 }
-.close-icon-1-1{
+
+.close-icon-1-1 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-2{
+
+.close-icon-1-2 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-3{
+
+.close-icon-1-3 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-4{
+
+.close-icon-1-4 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-5{
+
+.close-icon-1-5 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-6{
+
+.close-icon-1-6 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-7{
+
+.close-icon-1-7 {
     display: none;
-    z-index:99999;
+    z-index: 99999;
     position: absolute;
-    right:0;
-    color:white;
+    right: 0;
+    color: white;
     cursor: pointer;
 }
-.close-icon-1-1:hover{
-    color: #90c6ad;;
+
+.close-icon-1-1:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-2:hover{
-    color: #90c6ad;;
+
+.close-icon-1-2:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-3:hover{
-    color: #90c6ad;;
+
+.close-icon-1-3:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-4:hover{
-    color: #90c6ad;;
+
+.close-icon-1-4:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-5:hover{
-    color: #90c6ad;;
+
+.close-icon-1-5:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-6:hover{
-    color: #90c6ad;;
+
+.close-icon-1-6:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-1-7:hover{
-    color: #90c6ad;;
+
+.close-icon-1-7:hover {
+    color: #90c6ad;
+    ;
 }
-.close-icon-2{
+
+.close-icon-2 {
     display: none;
-    z-index:9999;
+    z-index: 9999;
     position: absolute;
     margin: -430px 0 0 980px;
-    color:white;
+    color: white;
     cursor: pointer;
- }
- .close-icon-2:hover{
+}
+
+.close-icon-2:hover {
     color: $color-discovery-hover-title;
- }
+}

@@ -2,9 +2,9 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './js/index.js',
+  entry: './js/main.js',
   output: {
-    filename: 'main.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'js'),
     publicPath: "/js/",
   },
@@ -60,6 +60,10 @@ module.exports = {
         ]
       }
     ],
+  },
+  // refuse to minimize
+  optimization: {
+    minimize: false
   },
   plugins: [new MiniCssExtractPlugin({ filename: '[name][hash:3].css' })],
 };

@@ -3824,15 +3824,27 @@
 
 #dark-bg-2 {
   opacity: 90%;
-  position: absolute;
+  position: fixed;
   background: rgba(77, 77, 77, 0.9);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: 500;
   display: none;
 }
 
 #dark-bg-3 {
   opacity: 60%;
-  position: absolute;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
   background: rgba(77, 77, 77, 0.9);
   z-index: 50;
   display: none;
