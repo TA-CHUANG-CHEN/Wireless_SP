@@ -329,7 +329,7 @@ main {
 
             .factory1-img {
                 background: url('./css-img/Factory_1.jpg') no-repeat center center;
-                background-size: cover;
+                background-size: 100% 100%;
                 max-width: 100%;
                 width: 100%;
                 height: 350px;
@@ -420,7 +420,7 @@ main {
 
             .E-E-img {
                 background: url('./css-img/E_E_1.jpg')no-repeat center center;
-                background-size: cover;
+                background-size:100% 100%;
                 width: 100%;
                 height: 350px;
             }
@@ -507,8 +507,7 @@ main {
 
             .transport-img {
                 background: url('./css-img/transportation_1.jpg')no-repeat center center;
-                ;
-                background-size: cover;
+                background-size: 100% 100%;
                 width: 100%;
                 height: 350px;
             }

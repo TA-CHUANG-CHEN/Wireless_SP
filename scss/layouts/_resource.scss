@@ -385,7 +385,8 @@
                 .resource-para1 {
                     text-align: center;
                     margin: 20px 0 0 0;
-                    width: 300px;
+                    width: 100%;
+                    max-width: 100%;
                     height: auto;
                     font-size: $H3-font;
                     overflow: hidden;
@@ -404,9 +405,10 @@
                 .resource-para2 {
                     text-align: center;
                     margin: 20px 0 0 0;
-                    width: 300px;
                     font-size: $H3-font;
                     overflow: hidden;
+                    width: 100%;
+                    max-width: 100%;
                 }
             }
 
@@ -424,9 +426,10 @@
                     text-align: center;
                     height: auto;
                     margin: 20px 0 0 0;
-                    width: 300px;
                     font-size: $H3-font;
                     overflow: hidden;
+                    width: 100%;
+                    max-width: 100%;
                 }
             }
 
@@ -442,9 +445,10 @@
                 .resource-para4 {
                     text-align: center;
                     margin: 20px 0 0 0;
-                    width: 300px;
                     font-size: $H3-font;
                     overflow: hidden;
+                    width: 100%;
+                    max-width: 100%;
                 }
             }
 
@@ -460,9 +464,10 @@
                 .resource-para5 {
                     text-align: center;
                     margin: 20px 0 0 0;
-                    width: 300px;
                     font-size: $H3-font;
                     overflow: hidden;
+                    width: 100%;
+                    max-width: 100%;
                 }
             }
 
@@ -478,8 +483,9 @@
                 .resource-para6 {
                     text-align: center;
                     margin: 20px 0 0 0;
-                    width: 300px;
                     font-size: $H3-font;
+                    width: 100%;
+                    max-width: 100%;
                     overflow: hidden;
                 }
             }
