@@ -103449,7 +103449,7 @@ main .product3 .transport .transport-icon .transport-3 {
   main .product3 .transport .transport-icon .transport-1 {
     background-image: url("./css-img/transportation_icon_1.jpg");
     background-repeat: no-repeat;
-    background-position: top 10px center;
+    background-position: top 15px center;
     background-size: contain;
     height: 180px;
     width: 33.33%;
@@ -103516,6 +103516,7 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .dmp2 .dmp2-title-logo {
@@ -103533,7 +103534,7 @@ main .product3 .transport .transport-icon .transport-3 {
   max-width: 100%;
 }
 
-.dmp2 s .dmp2-para1 {
+.dmp2 .dmp2-para1 {
   font-size: 18px;
   margin: 5px 0 0 0;
   line-height: 1.3em;
@@ -103833,19 +103834,6 @@ main .product3 .transport .transport-icon .transport-3 {
   }
 }
 
-.view-more {
-  cursor: pointer;
-  font-size: 1.333em;
-  white-space: nowrap;
-}
-
-.buy-now {
-  cursor: pointer;
-  font-size: 1.333em;
-  white-space: nowrap;
-  font-weight: normal;
-}
-
 #product-offer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103857,6 +103845,8 @@ main .product3 .transport .transport-icon .transport-3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 #product-offer .product-title {
@@ -103877,10 +103867,15 @@ main .product3 .transport .transport-icon .transport-3 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: calc(100%);
+  max-width: 100%;
   text-align: center;
   height: 700px;
   font-weight: bold;
   margin: 50px 0 0 0;
+}
+
+#product-offer .product-flex div {
+  max-width: 100%;
 }
 
 #product-offer .product-flex .products-high-flex {
@@ -103901,6 +103896,10 @@ main .product3 .transport .transport-icon .transport-3 {
 #product-offer .product-flex .products-high-flex .products-high-font {
   font-size: 18px;
   margin: 0 0 30px 0;
+}
+
+#product-offer .product-flex .products-high-flex div img {
+  max-width: 100%;
 }
 
 #product-offer .product-flex .products-high-flex:hover {
@@ -103959,6 +103958,10 @@ main .product3 .transport .transport-icon .transport-3 {
 #product-offer .product-flex .products-low-flex .products-low-font {
   font-size: 18px;
   margin: 0 0 20px 0;
+}
+
+#product-offer .product-flex .products-low-flex div img {
+  max-width: 100%;
 }
 
 #product-offer .product-flex .products-low-flex:hover {
@@ -104058,6 +104061,19 @@ main .product3 .transport .transport-icon .transport-3 {
   text-align: center;
   padding-right: 20px;
   line-height: 35px;
+}
+
+.view-more {
+  cursor: pointer;
+  font-size: 1.333em;
+  white-space: nowrap;
+}
+
+.buy-now {
+  cursor: pointer;
+  font-size: 1.333em;
+  white-space: nowrap;
+  font-weight: normal;
 }
 
 @media (max-width: 580px) {
