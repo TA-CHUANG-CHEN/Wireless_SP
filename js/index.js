@@ -100,7 +100,8 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToAr
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-//import '../scss/sytle.scss';
+console.log(window.screen.availWidth); //polyfill for closest
+
 var closest_polyfill = function () {
   if (!Element.prototype.matches) {
     Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
@@ -340,8 +341,6 @@ var over_view = function over_view() {
         var dark_bg = document.getElementById('dark-bg');
         var close_icon = document.querySelector(".close-icon-1-".concat(i));
         var proto_id = document.getElementById("proto-".concat(i));
-        dark_bg.style.height = "".concat(document.documentElement.offsetHeight, "px");
-        dark_bg.style.width = "".concat(document.documentElement.offsetWidth, "px");
 
         if (e.target.closest(".ov2-".concat(i))) {
           proto_all.classList.remove('proto-display');
@@ -370,9 +369,6 @@ var over_view = function over_view() {
         var _close_icon = document.querySelector(".close-icon-1-".concat(_i));
 
         var _proto_id = document.getElementById("proto-".concat(_i, "-rwd"));
-
-        _dark_bg.style.height = "".concat(document.documentElement.offsetHeight, "px");
-        _dark_bg.style.width = "".concat(document.documentElement.offsetWidth, "px");
 
         if (e.target.closest(".ov2-".concat(_i))) {
           _proto_id.classList.remove('proto-display');
@@ -1931,11 +1927,12 @@ var nav_touch = function nav_touch() {
 var banner_switch = function banner_switch() {
   var rowf = document.querySelectorAll('.row-fluid');
 
-  if (hastouchscreen) {
+  if (hastouchscreen && window.screen.availWidth < 580) {
+    console.log(window.screen.availWidth);
     rowf[1].style.cssText = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
   }
 }();
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=index.js.map

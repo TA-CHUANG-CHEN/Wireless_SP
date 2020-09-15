@@ -1,4 +1,4 @@
-
+console.log(window.screen.availWidth)
 //polyfill for closest
 const closest_polyfill = function () {
   if (!Element.prototype.matches) {
@@ -1121,7 +1121,8 @@ const nav_touch = (function nav_touch() {
 // 580px banner
 const banner_switch = (function banner_switch() {
   const rowf = document.querySelectorAll('.row-fluid');
-  if (hastouchscreen) {
+  if (hastouchscreen && window.screen.availWidth < 580) {
+ console.log(window.screen.availWidth)
     rowf[1].style.cssText = 'background:url(./css/css-img/580x410_banner.jpg) no-repeat top ;width:100%;';
   }
 }());
