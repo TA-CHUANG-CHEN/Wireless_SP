@@ -6,6 +6,7 @@
   background-color: $color-nav-bg;
   line-height: 20px;
 
+
   .nav-resources>a {
     border-style: none;
   }
@@ -23,6 +24,11 @@
     border-left: 3px solid white;
   }
 
+  :lang(en) {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+
   a {
     background-color: $color-nav-bg;
     cursor: pointer;
@@ -31,7 +37,6 @@
     text-decoration: none;
     color: $color-dark-bg-white;
     font-size: $H3-font;
-    word-break: break-all;
     hyphens: manual;
     box-sizing: border-box;
   }

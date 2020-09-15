@@ -134,6 +134,26 @@
     }
 }
 
+@media(max-width:1200px) {
+    .download-button {
+        background: url(./css-img/arrow.png) no-repeat;
+        background-size: 30px 25px;
+        background-position: left 10px top 8px;
+        color: $color-dark-bg-white;
+        background-color: $color-offer-icon;
+        font-size: $H4-font;
+        max-width: 100%;
+        height: 42px;
+        box-sizing: border-box;
+        text-align: center;
+        border-style: none;
+        margin: 0 auto 30px auto;
+
+        [type="text"] {
+            margin: 0 0 0 30px;
+        }
+    }
+}
 @media(max-width:580px) {
     .download-button {
         //resources download
@@ -174,7 +194,26 @@
         margin: 0 0 0 30px;
     }
 }
+@media(max-width:1200px) {
+    .footer-button {
+        font-size: $H4-font;
+        background: url(./css-img/email.png) no-repeat;
+        background-size: 40px 25px;
+        background-position: left 20px top 8px;
+        background-color: $color-offer-icon;
+        color: $color-dark-bg-white;
+        max-width: 100%;
+        line-height: 40px;
+        height: auto;
+        text-align: center;
+        border-style: none;
+        margin: 0 auto;
 
+        [type="text-contact"] {
+            margin: 0 0 0 30px;
+        }
+    }
+}
 @media(max-width:580px) {
     .footer-button {
         font-size: $H4-font;

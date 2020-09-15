@@ -128,6 +128,27 @@
   margin: 0 0 0 30px;
 }
 
+@media (max-width: 1200px) {
+  .download-button {
+    background: url(./css-img/arrow.png) no-repeat;
+    background-size: 30px 25px;
+    background-position: left 10px top 8px;
+    color: #FFFFFF;
+    background-color: #055791;
+    font-size: 16px;
+    max-width: 100%;
+    height: 42px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto 30px auto;
+  }
+  .download-button [type="text"] {
+    margin: 0 0 0 30px;
+  }
+}
+
 @media (max-width: 580px) {
   .download-button {
     background: url(./css-img/arrow.png) no-repeat;
@@ -165,6 +186,26 @@
 
 .footer-button [type="text-contact"] {
   margin: 0 0 0 30px;
+}
+
+@media (max-width: 1200px) {
+  .footer-button {
+    font-size: 16px;
+    background: url(./css-img/email.png) no-repeat;
+    background-size: 40px 25px;
+    background-position: left 20px top 8px;
+    background-color: #055791;
+    color: #FFFFFF;
+    max-width: 100%;
+    line-height: 40px;
+    height: auto;
+    text-align: center;
+    border-style: none;
+    margin: 0 auto;
+  }
+  .footer-button [type="text-contact"] {
+    margin: 0 0 0 30px;
+  }
 }
 
 @media (max-width: 580px) {
@@ -296,6 +337,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
   cursor: pointer;
 }
@@ -893,6 +935,7 @@
 #products .product2:hover {
   border: 5px solid #10c5e9;
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
 }
 
@@ -905,6 +948,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
     overflow: visible;
     cursor: pointer;
@@ -1485,6 +1529,7 @@
   #products .product2:hover {
     border: 5px solid #10c5e9;
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
   }
 }
@@ -1494,6 +1539,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
   cursor: pointer;
 }
@@ -2092,6 +2138,7 @@
 #products .product3:hover {
   border: 5px solid #10c5e9;
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
 }
 
@@ -2104,6 +2151,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
     overflow: visible;
     cursor: pointer;
@@ -2672,12 +2720,14 @@
   #products .product3:hover {
     border: 5px solid #10c5e9;
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
   }
 }
 
 #products .product1 {
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
   cursor: pointer;
   border: 5px solid transparent;
@@ -3058,6 +3108,7 @@
 #products .product1:hover {
   border: 5px solid #10c5e9;
   -webkit-transition: border 500ms;
+  -o-transition: border 500ms;
   transition: border 500ms;
 }
 
@@ -3067,6 +3118,7 @@
   }
   #products .product1 {
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
     cursor: pointer;
     border: 5px solid transparent;
@@ -3418,6 +3470,7 @@
   #products .product1:hover {
     border: 5px solid #10c5e9;
     -webkit-transition: border 500ms;
+    -o-transition: border 500ms;
     transition: border 500ms;
   }
 }
@@ -3429,6 +3482,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -3440,6 +3494,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -3677,6 +3732,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -3696,6 +3752,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -3703,6 +3760,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -4134,6 +4192,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -4145,6 +4204,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -5144,6 +5204,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -5163,6 +5224,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -5170,6 +5232,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -7055,6 +7118,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -7066,6 +7130,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -8047,6 +8112,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -8066,6 +8132,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -8073,6 +8140,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -9958,6 +10026,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -9969,6 +10038,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -10950,6 +11020,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -10969,6 +11040,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -10976,6 +11048,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -12131,6 +12204,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -12142,6 +12216,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -12875,6 +12950,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -12894,6 +12970,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -12901,6 +12978,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -14056,6 +14134,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -14067,6 +14146,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -14800,6 +14880,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -14819,6 +14900,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -14826,6 +14908,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -15981,6 +16064,7 @@
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
   display: none;
@@ -15992,6 +16076,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -16743,6 +16828,7 @@
   top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 9999;
   display: -webkit-box;
@@ -16762,6 +16848,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -16769,6 +16856,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -18170,6 +18258,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   overflow: hidden;
   max-width: 100%;
@@ -18186,6 +18275,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -19327,6 +19417,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -19346,6 +19437,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -19353,6 +19445,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -20639,6 +20732,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -21780,6 +21874,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -21799,6 +21894,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -21806,6 +21902,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -23092,6 +23189,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24233,6 +24331,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -24252,6 +24351,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -24259,6 +24359,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -25545,6 +25646,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -26780,6 +26882,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -26799,6 +26902,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -26806,6 +26910,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -28092,6 +28197,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29233,6 +29339,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -29252,6 +29359,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -29259,6 +29367,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -30545,6 +30654,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -31690,6 +31800,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -31709,6 +31820,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -31716,6 +31828,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -33002,6 +33115,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -34143,6 +34257,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -34162,6 +34277,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -34169,6 +34285,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -35455,6 +35572,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -36596,6 +36714,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -36615,6 +36734,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -36622,6 +36742,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -37908,6 +38029,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -39049,6 +39171,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -39068,6 +39191,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -39075,6 +39199,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -40361,6 +40486,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -41502,6 +41628,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -41521,6 +41648,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -41528,6 +41656,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -42814,6 +42943,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -43955,6 +44085,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -43974,6 +44105,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -43981,6 +44113,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -45267,6 +45400,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -46408,6 +46542,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -46427,6 +46562,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -46434,6 +46570,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -47720,6 +47857,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -48861,6 +48999,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -48880,6 +49019,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -48887,6 +49027,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -50173,6 +50314,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -51314,6 +51456,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -51333,6 +51476,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -51340,6 +51484,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -52626,6 +52771,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -53767,6 +53913,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -53786,6 +53933,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -53793,6 +53941,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -55079,6 +55228,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -56220,6 +56370,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -56239,6 +56390,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -56246,6 +56398,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -57532,6 +57685,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -58673,6 +58827,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -58692,6 +58847,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -58699,6 +58855,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -59985,6 +60142,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -61229,6 +61387,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -61248,6 +61407,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -61255,6 +61415,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -62541,6 +62702,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -63704,6 +63866,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -63723,6 +63886,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -63730,6 +63894,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -65016,6 +65181,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -66260,6 +66426,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -66279,6 +66446,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -66286,6 +66454,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -67572,6 +67741,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -68713,6 +68883,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -68732,6 +68903,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -68739,6 +68911,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -70025,6 +70198,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -71166,6 +71340,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -71185,6 +71360,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -71192,6 +71368,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -72478,6 +72655,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -73619,6 +73797,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -73638,6 +73817,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -73645,6 +73825,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -74931,6 +75112,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -76072,6 +76254,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -76091,6 +76274,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -76098,6 +76282,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -77384,6 +77569,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -78525,6 +78711,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -78544,6 +78731,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -78551,6 +78739,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -79837,6 +80026,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -80978,6 +81168,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -80997,6 +81188,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -81004,6 +81196,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -82290,6 +82483,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -83431,6 +83625,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -83450,6 +83645,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -83457,6 +83653,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -84743,6 +84940,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -85884,6 +86082,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -85903,6 +86102,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -85910,6 +86110,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -87196,6 +87397,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -88337,6 +88539,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -88356,6 +88559,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -88363,6 +88567,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -89649,6 +89854,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -90790,6 +90996,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -90809,6 +91016,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -90816,6 +91024,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -92102,6 +92311,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -93243,6 +93453,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -93262,6 +93473,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -93269,6 +93481,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -94555,6 +94768,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -95696,6 +95910,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -95715,6 +95930,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -95722,6 +95938,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -97008,6 +97225,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -98149,6 +98367,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -98168,6 +98387,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -98175,6 +98395,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -99461,6 +99682,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -100602,6 +100824,7 @@
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 9999;
   display: -webkit-box;
@@ -100621,6 +100844,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   margin: 0 0 30px 0;
   word-break: keep-all;
@@ -100628,6 +100852,7 @@
   top: initial;
   left: initial;
   -webkit-transform: initial;
+      -ms-transform: initial;
           transform: initial;
 }
 
@@ -102247,6 +102472,13 @@
   border-left: 3px solid white;
 }
 
+.drop-down-menu :lang(en) {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 .drop-down-menu a {
   background-color: #008CD6;
   cursor: pointer;
@@ -102255,7 +102487,6 @@
   text-decoration: none;
   color: #FFFFFF;
   font-size: 18px;
-  word-break: break-all;
   -webkit-hyphens: manual;
       -ms-hyphens: manual;
           hyphens: manual;
@@ -102289,6 +102520,7 @@
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility 300ms, opacity 300ms linear;
+  -o-transition: visibility 300ms, opacity 300ms linear;
   transition: visibility 300ms, opacity 300ms linear;
   border-style: none;
   list-style: none;
@@ -102340,6 +102572,7 @@
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility 300ms, opacity 300ms linear;
+  -o-transition: visibility 300ms, opacity 300ms linear;
   transition: visibility 300ms, opacity 300ms linear;
   border-style: none;
   list-style: none;
@@ -102436,6 +102669,7 @@
     visibility: hidden;
     opacity: 0;
     -webkit-transition: visibility 300ms, opacity 300ms linear;
+    -o-transition: visibility 300ms, opacity 300ms linear;
     transition: visibility 300ms, opacity 300ms linear;
     border-style: none;
     list-style: none;
@@ -102481,6 +102715,7 @@
     visibility: hidden;
     opacity: 0;
     -webkit-transition: visibility 300ms, opacity 300ms linear;
+    -o-transition: visibility 300ms, opacity 300ms linear;
     transition: visibility 300ms, opacity 300ms linear;
     border-style: none;
     list-style: none;
@@ -102575,6 +102810,7 @@
     visibility: initial;
     opacity: 1;
     -webkit-transition: none;
+    -o-transition: none;
     transition: none;
     border-style: none;
     list-style: none;
@@ -102611,6 +102847,7 @@
     border-style: none;
     list-style: none;
     -webkit-transition: none;
+    -o-transition: none;
     transition: none;
     visibility: initial;
     opacity: 1;
@@ -102641,6 +102878,7 @@
     visibility: initial;
     opacity: 1;
     -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   .drop-down-menu ul li ul ul a {
@@ -103362,7 +103600,6 @@ main .product3 .transport .transport-icon .transport-3 {
   main .product2 .E-E .E-E-icon .E-E-3 {
     background-image: url("./css-img/E_E_icon_3.jpg");
     background-repeat: no-repeat;
-    background-position: top 20px center;
     height: 180px;
     padding: 0;
     margin: 0;
@@ -104532,12 +104769,14 @@ main .product3 .transport .transport-icon .transport-3 {
 #product-offer .product-flex .products-high-flex:hover {
   background-color: #10c5e9;
   -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
   transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-high-flex:hover .products-high-font {
   color: #FFFFFF;
   -webkit-transition: color 100ms;
+  -o-transition: color 100ms;
   transition: color 100ms;
 }
 
@@ -104594,12 +104833,14 @@ main .product3 .transport .transport-icon .transport-3 {
 #product-offer .product-flex .products-low-flex:hover {
   background-color: #10c5e9;
   -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
   transition: background-color 100ms;
 }
 
 #product-offer .product-flex .products-low-flex:hover .products-low-font {
   color: #FFFFFF;
   -webkit-transition: color 100ms;
+  -o-transition: color 100ms;
   transition: color 100ms;
 }
 
@@ -104607,6 +104848,7 @@ main .product3 .transport .transport-icon .transport-3 {
   text-decoration: none;
   background-color: #10c5e9;
   -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
   transition: background-color 100ms;
 }
 
@@ -104621,6 +104863,7 @@ main .product3 .transport .transport-icon .transport-3 {
 #product-offer .product-flex .products-low-flex:hover .buy-now {
   background-color: #10c5e9;
   -webkit-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
   transition: background-color 100ms;
 }
 
@@ -104766,12 +105009,14 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-high-flex:hover {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
     overflow: hidden;
   }
   #product-offer .product-flex .products-high-flex:hover .products-high-font {
     color: #FFFFFF;
     -webkit-transition: color 100ms;
+    -o-transition: color 100ms;
     transition: color 100ms;
   }
   #product-offer .product-flex .products-high-flex:hover .view-more {
@@ -104822,11 +105067,13 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-low-flex:hover {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .products-low-font {
     color: #FFFFFF;
     -webkit-transition: color 100ms;
+    -o-transition: color 100ms;
     transition: color 100ms;
     overflow: hidden;
   }
@@ -104834,6 +105081,7 @@ main .product3 .transport .transport-icon .transport-3 {
     text-decoration: none;
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .view-more .view-more-pic {
@@ -104846,6 +105094,7 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-low-flex:hover .buy-now {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .buy-now .buy-now-pic {
@@ -104976,12 +105225,14 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-high-flex:hover {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
     overflow: hidden;
   }
   #product-offer .product-flex .products-high-flex:hover .products-high-font {
     color: #FFFFFF;
     -webkit-transition: color 100ms;
+    -o-transition: color 100ms;
     transition: color 100ms;
   }
   #product-offer .product-flex .products-high-flex:hover .view-more {
@@ -105032,11 +105283,13 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-low-flex:hover {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .products-low-font {
     color: #FFFFFF;
     -webkit-transition: color 100ms;
+    -o-transition: color 100ms;
     transition: color 100ms;
     overflow: hidden;
   }
@@ -105044,6 +105297,7 @@ main .product3 .transport .transport-icon .transport-3 {
     text-decoration: none;
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .view-more .view-more-pic {
@@ -105056,6 +105310,7 @@ main .product3 .transport .transport-icon .transport-3 {
   #product-offer .product-flex .products-low-flex:hover .buy-now {
     background-color: #10c5e9;
     -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
     transition: background-color 100ms;
   }
   #product-offer .product-flex .products-low-flex:hover .buy-now .buy-now-pic {
@@ -105295,6 +105550,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105305,6 +105561,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105312,6 +105569,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105320,6 +105578,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105330,6 +105589,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105337,6 +105597,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105345,6 +105606,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105355,6 +105617,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105362,6 +105625,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105370,6 +105634,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105380,6 +105645,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105387,6 +105653,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105395,6 +105662,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105405,6 +105673,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105412,6 +105681,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105420,6 +105690,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105430,6 +105701,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105437,6 +105709,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105445,6 +105718,7 @@ main .product3 .transport .transport-icon .transport-3 {
   color: #00c1db;
   border: solid 2px #00c1db;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
   padding: 7px 20px 7px 20px;
   border-radius: 30px;
@@ -105455,6 +105729,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105462,6 +105737,7 @@ main .product3 .transport .transport-icon .transport-3 {
   border: solid 2px #008CD6;
   color: #008CD6;
   -webkit-transition: border 300ms;
+  -o-transition: border 300ms;
   transition: border 300ms;
 }
 
@@ -105536,6 +105812,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105545,12 +105822,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-2 {
@@ -105558,6 +105837,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105567,12 +105847,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-3 {
@@ -105580,6 +105862,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105589,12 +105872,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-4 {
@@ -105602,6 +105887,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105611,12 +105897,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-5 {
@@ -105624,6 +105912,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105633,12 +105922,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-6 {
@@ -105646,6 +105937,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105655,12 +105947,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-7 {
@@ -105668,6 +105962,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105677,12 +105972,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-pic {
@@ -105756,6 +106053,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105765,12 +106063,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-2 {
@@ -105778,6 +106078,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105787,12 +106088,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-3 {
@@ -105800,6 +106103,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105809,12 +106113,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-4 {
@@ -105822,6 +106128,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105831,12 +106138,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-5 {
@@ -105844,6 +106153,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105853,12 +106163,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-6 {
@@ -105866,6 +106178,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105875,12 +106188,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 .ov2-7 {
@@ -105888,6 +106203,7 @@ main .product3 .transport .transport-icon .transport-3 {
     color: #00c1db;
     border: solid 2px #00c1db;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
     padding: 7px 20px 7px 20px;
     border-radius: 30px;
@@ -105897,12 +106213,14 @@ main .product3 .transport .transport-icon .transport-3 {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-title2 .ov2-para4 :hover {
     border: solid 2px #008CD6;
     color: #008CD6;
     -webkit-transition: border 300ms;
+    -o-transition: border 300ms;
     transition: border 300ms;
   }
   #overview2 .ov2-pic {
@@ -105939,6 +106257,7 @@ main .product3 .transport .transport-icon .transport-3 {
   display: inline-block;
   background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -105950,6 +106269,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -105960,6 +106280,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -105971,6 +106292,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -105982,6 +106304,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -105993,6 +106316,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -106004,6 +106328,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #bbbdbe;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -106015,6 +106340,7 @@ main .product3 .transport .transport-icon .transport-3 {
   margin: 0 10px 0 0;
   background-color: #10c5e9;
   -webkit-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
   transition: background-color 300ms;
   color: #FFFFFF;
   width: 155px;
@@ -106249,6 +106575,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106267,6 +106594,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106277,6 +106605,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106296,6 +106625,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106306,6 +106636,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106325,6 +106656,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106335,6 +106667,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 0 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106354,6 +106687,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 0 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106589,6 +106923,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106607,6 +106942,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106617,6 +106953,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106636,6 +106973,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106646,6 +106984,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106665,6 +107004,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 5px 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106675,6 +107015,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 0 0 0;
     background-color: #bbbdbe;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
@@ -106694,6 +107035,7 @@ main .product3 .transport .transport-icon .transport-3 {
     margin: 0 0 0 0;
     background-color: #10c5e9;
     -webkit-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
     transition: background-color 300ms;
     color: #FFFFFF;
     width: 155px;
