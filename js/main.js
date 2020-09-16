@@ -1,4 +1,3 @@
-console.log(window.screen.availWidth)
 //polyfill for closest
 const closest_polyfill = function () {
   if (!Element.prototype.matches) {
