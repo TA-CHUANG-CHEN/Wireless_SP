@@ -12,11 +12,13 @@
     white-space: nowrap;
 
 }
-    a:hover,
-    a:active,
-    a:visited {
-        color: white;
-    }
+
+a:hover,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 
 //Learn more Button RWD
@@ -183,6 +185,7 @@
     [type="text-contact"] {
         margin: 0 0 0 30px;
         color: white;
+        text-decoration: none;
     }
 }
 
