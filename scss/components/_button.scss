@@ -10,17 +10,14 @@
     font-weight: bold;
     width: auto;
     white-space: nowrap;
-    height: 42px;
 
-    a {
-        color: $color-dark-bg-white;
-        text-decoration: none;
+}
+    a:hover,
+    a:active,
+    a:visited {
+        color: white;
     }
-}
 
-.ov-button:hover {
-    background-color: $color-advanblue;
-}
 
 //Learn more Button RWD
 @media(max-width:1200px) {
@@ -37,15 +34,6 @@
         margin: 50px auto 0 auto;
         max-width: 100%;
         height: auto;
-
-        a {
-            color: $color-dark-bg-white;
-            text-decoration: none;
-        }
-    }
-
-    .ov-button:hover {
-        background-color: $color-advanblue;
     }
 }
 
@@ -64,15 +52,8 @@
         max-width: 100%;
         height: auto;
 
-        a {
-            color: $color-dark-bg-white;
-            text-decoration: none;
-        }
     }
 
-    .ov-button:hover {
-        background-color: $color-advanblue;
-    }
 }
 
 .dmp-button {
@@ -116,6 +97,7 @@
 
 .download-button {
     //resources download
+    position: relative;
     background: url(./css-img/arrow.png) no-repeat;
     background-size: 30px 25px;
     background-position: left 10px top 8px;
@@ -130,7 +112,13 @@
     margin: 0 0 0 500px;
 
     [type="text"] {
-        margin: 0 0 0 30px;
+        margin: 0 0 0 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
     }
 }
 
@@ -154,6 +142,7 @@
         }
     }
 }
+
 @media(max-width:580px) {
     .download-button {
         //resources download
@@ -189,11 +178,14 @@
     height: auto;
     text-align: center;
     border-style: none;
+    color: white;
 
     [type="text-contact"] {
         margin: 0 0 0 30px;
+        color: white;
     }
 }
+
 @media(max-width:1200px) {
     .footer-button {
         font-size: $H4-font;
@@ -214,6 +206,7 @@
         }
     }
 }
+
 @media(max-width:580px) {
     .footer-button {
         font-size: $H4-font;
