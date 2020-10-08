@@ -5,9 +5,11 @@
   margin: 20px 0 0 0;
   background-color: $color-nav-bg;
   line-height: 20px;
+
   .nav-resources>a {
     border-style: none;
   }
+
   .nav-products:hover>a {
     background-color: $color-nav-bg;
   }
@@ -15,6 +17,7 @@
   li {
     position: relative;
   }
+
   li+li {
     border-left: 3px solid white;
   }

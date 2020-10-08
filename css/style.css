@@ -12,16 +12,13 @@
   font-weight: bold;
   width: auto;
   white-space: nowrap;
-  height: 42px;
 }
 
-.ov-button a {
-  color: #FFFFFF;
+a:hover,
+a:active,
+a:visited {
+  color: white;
   text-decoration: none;
-}
-
-.ov-button:hover {
-  background-color: #004280;
 }
 
 @media (max-width: 1200px) {
@@ -38,13 +35,6 @@
     max-width: 100%;
     height: auto;
   }
-  .ov-button a {
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  .ov-button:hover {
-    background-color: #004280;
-  }
 }
 
 @media (max-width: 580px) {
@@ -60,13 +50,6 @@
     margin: 50px auto 0 auto;
     max-width: 100%;
     height: auto;
-  }
-  .ov-button a {
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  .ov-button:hover {
-    background-color: #004280;
   }
 }
 
@@ -109,6 +92,7 @@
 }
 
 .download-button {
+  position: relative;
   background: url(./css-img/arrow.png) no-repeat;
   background-size: 30px 25px;
   background-position: left 10px top 8px;
@@ -125,7 +109,14 @@
 }
 
 .download-button [type="text"] {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
 }
 
 @media (max-width: 1200px) {
@@ -182,10 +173,13 @@
   height: auto;
   text-align: center;
   border-style: none;
+  color: white;
 }
 
 .footer-button [type="text-contact"] {
   margin: 0 0 0 30px;
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
@@ -103432,8 +103426,8 @@ main .product3 .transport .transport-icon .transport-3 {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -103550,8 +103544,8 @@ main .product3 .transport .transport-icon .transport-3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -103616,7 +103610,7 @@ main .product3 .transport .transport-icon .transport-3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-size: 100% 80%;
+    background-position: 40% 30%;
   }
   main .product3 {
     display: -webkit-box;
