@@ -332,8 +332,8 @@ a:visited {
 .close-icon-2 {
     display: none;
     z-index: 9999;
-    position: absolute;
-    margin: -430px 0 0 980px;
+    position: fixed;
+    margin-top:-100px!important;
     color: white;
     cursor: pointer;
 }

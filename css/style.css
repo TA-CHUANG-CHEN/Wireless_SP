@@ -316,8 +316,8 @@ a:visited {
 .close-icon-2 {
   display: none;
   z-index: 9999;
-  position: absolute;
-  margin: -430px 0 0 980px;
+  position: fixed;
+  margin-top: -100px !important;
   color: white;
   cursor: pointer;
 }
@@ -3470,10 +3470,10 @@ a:visited {
 }
 
 #proto-1 {
-  position: absolute;
+  position: fixed;
   height: 1050px;
   width: 380px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -4180,10 +4180,10 @@ a:visited {
 }
 
 #proto-2 {
-  position: absolute;
+  position: fixed;
   height: 1060px;
   width: 1100px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -7106,10 +7106,10 @@ a:visited {
 }
 
 #proto-3 {
-  position: absolute;
+  position: fixed;
   height: 1050px;
   width: 1012px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -10014,10 +10014,10 @@ a:visited {
 }
 
 #proto-4 {
-  position: absolute;
+  position: fixed;
   height: 1050px;
   width: 1012px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -12192,10 +12192,10 @@ a:visited {
 }
 
 #proto-5 {
-  position: absolute;
+  position: fixed;
   height: 1050px;
   width: 1012px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -14122,10 +14122,10 @@ a:visited {
 }
 
 #proto-6 {
-  position: absolute;
+  position: fixed;
   height: 1050px;
   width: 1012px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -16052,10 +16052,10 @@ a:visited {
 }
 
 #proto-7 {
-  position: absolute;
+  position: fixed;
   height: 1060px;
   width: 1100px;
-  top: 18%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -18265,7 +18265,7 @@ a:visited {
 .item-1-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -20722,7 +20722,7 @@ a:visited {
 .item-1-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -23179,7 +23179,7 @@ a:visited {
 .item-2-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -25636,7 +25636,7 @@ a:visited {
 .item-2-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -28187,7 +28187,7 @@ a:visited {
 .item-2-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -30644,7 +30644,7 @@ a:visited {
 .item-2-4 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -33105,7 +33105,7 @@ a:visited {
 .item-3-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -35562,7 +35562,7 @@ a:visited {
 .item-3-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -38019,7 +38019,7 @@ a:visited {
 .item-3-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -40476,7 +40476,7 @@ a:visited {
 .item-4-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -42933,7 +42933,7 @@ a:visited {
 .item-4-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -45390,7 +45390,7 @@ a:visited {
 .item-4-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -47847,7 +47847,7 @@ a:visited {
 .item-4-4 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -50304,7 +50304,7 @@ a:visited {
 .item-4-5 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -52761,7 +52761,7 @@ a:visited {
 .item-5-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -55218,7 +55218,7 @@ a:visited {
 .item-6-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -57675,7 +57675,7 @@ a:visited {
 .item-7-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -60132,7 +60132,7 @@ a:visited {
 .item-8-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -62692,7 +62692,7 @@ a:visited {
 .item-8-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -65171,7 +65171,7 @@ a:visited {
 .item-8-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -67731,7 +67731,7 @@ a:visited {
 .item-9-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -70188,7 +70188,7 @@ a:visited {
 .item-9-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -72645,7 +72645,7 @@ a:visited {
 .item-9-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -75102,7 +75102,7 @@ a:visited {
 .item-10-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -77559,7 +77559,7 @@ a:visited {
 .item-10-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -80016,7 +80016,7 @@ a:visited {
 .item-10-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -82473,7 +82473,7 @@ a:visited {
 .item-10-4 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -84930,7 +84930,7 @@ a:visited {
 .item-10-5 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -87387,7 +87387,7 @@ a:visited {
 .item-11-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -89844,7 +89844,7 @@ a:visited {
 .item-11-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -92301,7 +92301,7 @@ a:visited {
 .item-11-3 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -94758,7 +94758,7 @@ a:visited {
 .item-11-4 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -97215,7 +97215,7 @@ a:visited {
 .item-12-1 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -99672,7 +99672,7 @@ a:visited {
 .item-12-2 {
   word-break: keep-all;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
