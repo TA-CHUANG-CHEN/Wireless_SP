@@ -147,7 +147,7 @@ const resources_all = (function resources_all() {
       res_item1.style.cssText = 'text-decoration:underline;color: #007bff; padding:30px 0 0 0;cursor:pointer';
       res_item1_img.src = 'images/video_1.jpg';
       res_item2.style.cssText = 'display:none';
-      res_item3.setAttribute('href', 'https://www.advantech.com/form/8682f2e6-a11a-4caa-92d2-abb6be1b9ac9?callback=dbfa0572-99ad-490b-a08e-2301ba0456c3&utm_campaign=Report&utm_medium=Banner-on-Corp-Site&utm_source=Banner-on-Corp-Sit');
+      res_item3.setAttribute('href', 'https://www.advantech.com/form/8682f2e6-a11a-4caa-92d2-abb6be1b9ac9?callback=dbfa0572-99ad-490b-a08e-2301ba0456c3&utm_campaign=Report&utm_medium=Banner-on-Corp-Site&utm_source=Banner-on-Corp-Site');
       res_item3.style.cssText = 'text-decoration:underline;color:#007bff;padding:30px 0 0 0;cursor:pointer';
       res_item3_img.src = 'images/video_2.jpg';
       res_item4.style.display = 'none';
@@ -170,7 +170,7 @@ const resources_all = (function resources_all() {
       res_item6.style.display = 'none';
       res_para1.innerHTML = 'Intelligent Connectivity Wireless<br>Success Stories';
       res_button.innerHTML = 'Download';
-      res_button_slide.attribute.value('href', 'https://www.advantech.com/form/a7e9ba7b-b30d-4358-8db5-3670ec1f103e?callback=8402b62c-e7f2-423a-80a8-4b5a4ae1d9c7&utm_campaign=Report&utm_medium=Banner-on-Corp-Site&utm_source=Banner-on-Corp-Site')
+      res_button_slide.setAttribute('href', 'https://www.advantech.com/form/a7e9ba7b-b30d-4358-8db5-3670ec1f103e?callback=8402b62c-e7f2-423a-80a8-4b5a4ae1d9c7&utm_campaign=Report&utm_medium=Banner-on-Corp-Site&utm_source=Banner-on-Corp-Site')
 
       // res_item1.setAttribute('href','https://www2.advantech.com/ia/iiot/case-study/Intelligent%20Connectivity_Success%20Stories.pdf')
 
