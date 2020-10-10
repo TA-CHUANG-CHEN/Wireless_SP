@@ -8,8 +8,8 @@ module.exports = {
     path: path.resolve(__dirname, 'js'),
     publicPath: "/js/",
   },
-  mode: 'production',
-  devtool: 'cheap-module-source-map ',
+  mode: 'development',
+  devtool: 'null',
   devServer: {
     port: 9005,
     compress: true,
@@ -63,7 +63,7 @@ module.exports = {
   },
   // refuse to minimize
   optimization: {
-    minimize: false
+    minimize: true
   },
   plugins: [new MiniCssExtractPlugin({ filename: '[name][hash:3].css' })],
 };
