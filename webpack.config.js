@@ -11,7 +11,7 @@ module.exports = {
   mode: 'development',
   devtool: 'null',
   devServer: {
-    port: 9005,
+    port: 9000,
     compress: true,
     open: true,
   },
